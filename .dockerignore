@@ -15,3 +15,5 @@ docs
 .env.*
 backend/openapi.json
 backend/*.db
+deploy/
+runs/
