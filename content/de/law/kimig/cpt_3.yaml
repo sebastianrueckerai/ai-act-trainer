@@ -1,0 +1,18 @@
+node: kimig:cpt_3
+summary: Marktüberwachungsbehörden dürfen technische Kontrollen durchführen, Dritt-Hilfspersonen einsetzen
+  und Fernzugriff nutzen. Außerhalb der Geschäftszeiten ist das nur bei akuter Gefahr für Sicherheit und
+  Ordnung erlaubt. Dabei wird das Grundrecht der Unverletzlichkeit der Wohnung eingeschränkt.
+source_sha: 22f481a861a1560210f5320b995946ce944276d96df46078ad4a9fc73fca4c8b
+children:
+- node: kimig:sec_11
+  summary: Die Marktüberwachungsbehörden dürfen nach den EU-Verordnungen technische Kontrollen durchführen,
+    Dritt-Hilfspersonen einsetzen und Fernzugriff nutzen. Außerhalb der Geschäftszeiten ist das nur bei
+    akuter Gefahr für Sicherheit und Ordnung erlaubt. Das Grundrecht der Unverletzlichkeit der Wohnung
+    wird dabei eingeschränkt.
+  source_sha: 1b0295f0f06d8fc44937a3d80d7fdfa8a50dbf0c34994e458d3f4272c754d5a4
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

@@ -1,0 +1,96 @@
+- name: confirms the pick and asks for the why
+  history:
+    - [tutor, "Eine Kollegin sagt: Kundenmails dürfen wir nicht mehr mit KI schreiben, das ist jetzt verboten. Darf sie die Mail von der KI schreiben lassen?"]
+  message: "Ja."
+  outcome: partial
+  tries: 1
+  met: [1]
+  draft: |
+    Richtig, verboten ist das nicht. Aber damit ist es nicht getan. Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf schreibt. Was sagst du ihr?
+  expect: ship
+- name: the question hands the missing point over
+  history:
+    - [tutor, "Eine Kollegin sagt: Kundenmails dürfen wir nicht mehr mit KI schreiben, das ist jetzt verboten. Darf sie die Mail von der KI schreiben lassen?"]
+  message: "Ja."
+  outcome: partial
+  tries: 1
+  met: [1]
+  draft: |
+    Richtig, das ist erlaubte Nutzung. Wie sorgst du dafür, dass du die Risiken des Werkzeugs kennst und das Ergebnis vor dem Versand prüfst?
+  expect: retry
+  faults: [leak, question]
+- name: the same reply again after a miss on the why
+  history:
+    - [tutor, "Eine Kollegin sagt: Kundenmails dürfen wir nicht mehr mit KI schreiben, das ist jetzt verboten. Darf sie die Mail von der KI schreiben lassen?"]
+    - [student, "Ja."]
+    - [tutor, "Richtig, verboten ist das nicht. Aber damit ist es nicht getan. Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf schreibt. Was sagst du ihr?"]
+    - [student, "Blödsinn!"]
+    - [tutor, "Noch nicht ganz. Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf schreibt. Was sagst du ihr?"]
+  message: "Sagte ich doch! Blödsinn."
+  outcome: wrong
+  tries: 2
+  met: [1]
+  draft: |
+    Richtig, verboten ist das nicht. Aber damit ist es nicht getan. Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf schreibt. Was sagst du ihr?
+  expect: retry
+  faults: [repeat, unhelpful]
+- name: names the concept on the fourth reply on the why
+  history:
+    - [tutor, "Eine Kollegin sagt: Kundenmails dürfen wir nicht mehr mit KI schreiben, das ist jetzt verboten. Darf sie die Mail von der KI schreiben lassen?"]
+    - [student, "Ja."]
+    - [tutor, "Richtig, verboten ist das nicht. Aber damit ist es nicht getan. Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf schreibt. Was sagst du ihr?"]
+    - [student, "keine Ahnung"]
+    - [tutor, "Schau auf den Schritt davor, auf das, was mit dem Entwurf passiert, bevor er rausgeht. Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf schreibt. Was sagst du ihr?"]
+    - [student, "weiß nicht"]
+  message: "echt keine Ahnung"
+  outcome: wrong
+  tries: 4
+  met: [1]
+  draft: |
+    Kein Problem. Die Verordnung hat dafür ein eigenes Wort: KI-Kompetenz. Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf schreibt. Was sagst du ihr?
+  expect: ship
+- name: a right reply confirms and asks nothing
+  history:
+    - [tutor, "Eine Kollegin sagt: Kundenmails dürfen wir nicht mehr mit KI schreiben, das ist jetzt verboten. Darf sie die Mail von der KI schreiben lassen?"]
+    - [student, "Ja."]
+    - [tutor, "Richtig, verboten ist das nicht. Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf schreibt. Was sagst du ihr?"]
+  message: "Am Ende gegenlesen!"
+  outcome: right
+  tries: 2
+  met: [1, 2]
+  draft: |
+    Richtig, du musst den von der KI erstellten Entwurf vor dem Versand noch einmal prüfen. Die Verordnung verlangt keine Genehmigung, sondern KI-Kompetenz – also das Bewusstsein für Risiken wie Halluzinationen und das Gegenlesen des Outputs.
+  expect: ship
+- name: a right reply that still asks
+  history:
+    - [tutor, "Eine Kollegin sagt: Kundenmails dürfen wir nicht mehr mit KI schreiben, das ist jetzt verboten. Darf sie die Mail von der KI schreiben lassen?"]
+    - [student, "Ja."]
+    - [tutor, "Richtig, verboten ist das nicht. Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf schreibt. Was sagst du ihr?"]
+  message: "Am Ende gegenlesen!"
+  outcome: right
+  tries: 2
+  met: [1, 2]
+  draft: |
+    Richtig, du hast alle geforderten Punkte genannt: das Entwerfen einer Kundenmail mit KI ist erlaubte Nutzung, es kommt auf deine KI-Kompetenz an, und ein typisches Risiko sind Halluzinationen.
+
+    Möchtest du die Formulierung noch etwas verfeinern?
+  expect: retry
+  faults: [question]
+- name: a settled reply gives the answer and asks nothing
+  history:
+    - [tutor, "Eine Kollegin sagt: Kundenmails dürfen wir nicht mehr mit KI schreiben, das ist jetzt verboten. Darf sie die Mail von der KI schreiben lassen?"]
+    - [student, "Ja."]
+    - [tutor, "Richtig, verboten ist das nicht. Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf schreibt. Was sagst du ihr?"]
+    - [student, "Weiß nicht."]
+    - [tutor, "Denk an den Moment, bevor die Mail rausgeht. Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf schreibt. Was sagst du ihr?"]
+  message: "Keine Ahnung."
+  outcome: settled
+  tries: 5
+  met: [1]
+  draft: |
+    Du kannst KI zum Entwurf von Kundenmails nutzen, das ist erlaubte Nutzung.
+
+    Die Verordnung verlangt nur, dass du die KI-Kompetenz deines Teams sicherstellst: du musst die Risiken des Werkzeugs kennen (z. B. Halluzinationen) und das Ergebnis vor dem Versand prüfen. Dafür brauchst du keine gesonderte Genehmigung.
+
+    Fundstellen: Art. 4 Abs. 1, Q&A 14
+  expect: ship

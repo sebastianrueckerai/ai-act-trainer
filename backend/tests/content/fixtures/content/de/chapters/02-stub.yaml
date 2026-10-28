@@ -1,0 +1,12 @@
+id: 02-stub
+title: Stubkapitel
+intro: Ein Kapitel, das noch geschrieben wird.
+duration_minutes: 3
+stub: true
+steps:
+  - id: s1
+    text: Dieses Kapitel entsteht noch.
+    citations: ["Art. 4(1)"]
+summary: Dieses Kapitel entsteht noch.
+may: "Das weißt du jetzt: Betreiber sorgen für KI-Kompetenz (Art. 4 Abs. 1)."
+last_change: {date: 2026-09-18, by: human, trigger: initial, summary: fixture}

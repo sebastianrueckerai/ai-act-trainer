@@ -1,0 +1,99 @@
+node: ai_act:cpt_V
+summary: Die Vorschriften legen fest, dass KI-Modelle mit allgemeinem Verwendungszweck, die besonders
+  wirksam sind und entweder messbar bewertet werden oder deren Trainingsrechenleistung zehn Billionen
+  Gleitkommaoperationen übersteigt, als systemisch risikobehaftet eingestuft werden. Anbieter müssen solche
+  Modelle innerhalb von zwei Wochen der Europäischen Kommission melden, technische Dokumentationen erstellen
+  und fortlaufend aktualisieren, Systemintegratoren informieren, Urheberrechts-Strategien entwickeln,
+  Inhalts-Zusammenfassungen veröffentlichen und mit Aufsichtsbehörden kooperieren. Bei systemischem Risiko
+  sind Angriffstests, Risikominimierung, Vorfallsdokumentation und Meldung an das KI-Büro Pflicht. Open-Source-Modelle
+  ohne systemisches Risiko sind ausgenommen. Anbieter aus Drittländern müssen einen Bevollmächtigten benennen,
+  der die Dokumentation prüft und an das KI-Büro weiterleitet. Die Pflichten gelten, sobald die Verordnung
+  anwendbar ist. Das KI-Büro erstellt bis Mai 2025 EU-weite Praxisleitfäden, die die Informations- und
+  Risikomanagement-Pflichten konkretisieren.
+source_sha: cea3fbfa6da03526451b752d1faa094138923065e6d95beb30359a5a0c5b449f
+children:
+- node: ai_act:cpt_V.sct_1
+  summary: Die Vorschriften legen fest, dass KI-Modelle mit allgemeinem Verwendungszweck, die besonders
+    wirksam sind und entweder anhand von Messungen bewertet werden oder deren Trainingsrechenleistung
+    zehn Billionen Gleitkommaoperationen überschreitet, als Modelle mit systemischem Risiko eingestuft
+    werden. Anbieter müssen solche Modelle innerhalb von zwei Wochen der Europäischen Kommission melden
+    und Nachweise beifügen. Die Kommission prüft die Meldungen, kann die Einstufung bestätigen, ändern
+    oder das Modell auf eine veröffentlichte Liste setzen. Schwellenwerte und Bewertungsinstrumente werden
+    durch delegierte Rechtsakte an den Stand der Technik angepasst.
+  source_sha: d0fc47231793488b01033e724be34703ac314e13b7cbcd89daaccb7882c15e01
+  children:
+  - node: ai_act:art_51
+    summary: Das Gesetz stuft KI-Modelle mit allgemeinem Verwendungszweck, die hohe Wirksamkeit zeigen,
+      als Modelle mit systemischem Risiko ein. Relevant sind Modelle, die über Messungen bewertet werden
+      oder deren Trainingsrechenleistung 10 Billionen Gleitkommaoperationen übersteigt. Die Europäische
+      Kommission passt Schwellenwerte und Bewertungsinstrumente per delegierten Rechtsakten an den Stand
+      der Technik an.
+    source_sha: b09657c3333dffaae9ad7801e77e01a5c00c06b2c8739b25990fad0780e97fa1
+    children: []
+  - node: ai_act:art_52
+    summary: Erfüllt ein KI-Modell mit allgemeinem Verwendungszweck die genannte Bedingung, muss der Anbieter
+      dies der Kommission innerhalb von zwei Wochen melden und Nachweise beifügen. Die Kommission kann
+      das Modell als mit systemischen Risiken versehen einstufen, Argumente des Anbieters prüfen, Einstufung
+      ändern und eine Liste veröffentlichen.
+    source_sha: 44ee5e5f98197e87aba9641263d51824e4b29e2fbc11a9812a77f9b3954eb79d
+    children: []
+- node: ai_act:cpt_V.sct_2
+  summary: Anbieter von KI-Modellen mit allgemeinem Verwendungszweck müssen eine technische Dokumentation
+    erstellen und fortlaufend aktualisieren. Sie stellen Systemintegratoren notwendige Informationen bereit,
+    entwickeln eine Urheberrechts-Strategie, veröffentlichen eine Inhalts-Zusammenfassung und kooperieren
+    bei Bedarf mit den Aufsichtsbehörden. Open-Source-Modelle, die keine systemischen Risiken bergen,
+    sind ausgenommen. Anbieter aus Drittländern müssen vor dem Inverkehrbringen einen Bevollmächtigten
+    benennen. Der Bevollmächtigte prüft die Dokumentation, hält sie bereit, liefert Informationen an das
+    Büro für Künstliche Intelligenz und kann den Auftrag beenden. Die Pflichten gelten, sobald die Verordnung
+    anwendbar ist.
+  source_sha: d14bcb2b7a03eef4b0c09919c3d7865d45a0974e80b0c3c7fccab98497d16efb
+  children:
+  - node: ai_act:art_53
+    summary: Anbieter von KI-Modellen mit allgemeinem Verwendungszweck müssen technische Dokumentation
+      erstellen und aktualisieren, Informationen für Systemintegratoren bereitstellen, Urheberrechts-Strategie
+      entwickeln, Inhalts-Zusammenfassung veröffentlichen und bei Bedarf mit Behörden kooperieren. Ausnahmen
+      gelten für Open-Source-Modelle ohne systemische Risiken. Die Pflichten gelten ab Inkrafttreten der
+      Verordnung.
+    source_sha: 052c2c301493a78841b01f2d0ac3cf27663bfa31eefc099e589dbabadfac1fd2
+    children: []
+  - node: ai_act:art_54
+    summary: Anbieter aus Drittländern müssen vor dem Inverkehrbringen eines KI-Modells mit allgemeinem
+      Verwendungszweck einen Bevollmächtigten benennen. Der Bevollmächtigte prüft die Dokumentation, hält
+      sie bereit, liefert Informationen an das Büro für Künstliche Intelligenz und kann den Auftrag beenden.
+      Open-Source-Modelle sind ausgenommen, sofern sie keine systemischen Risiken bergen.
+    source_sha: 3f16f4af73d67c44bb7b3c73ce982fb5f55701d364d1ccc95270d88a84f6e0f7
+    children: []
+- node: ai_act:cpt_V.sct_3
+  summary: Anbieter von KI-Modellen mit allgemeinem Verwendungszweck und systemischem Risiko müssen Angriffstests
+    durchführen, Risiken mindern, Vorfälle dokumentieren und das KI-Büro sowie Behörden informieren. Sie
+    dürfen Praxisleitfäden bis zur harmonisierten Norm nutzen, die Konformitätsvermutung schafft. Bei
+    Nicht-Einhaltung sind Verfahren der Kommission vorzulegen. Daten unterliegen Vertraulichkeitspflichten.
+  source_sha: ba71114e68d10b0e202fe3b9cba133f3905b3cd18843375b5d27c63c2a47d6e7
+  children:
+  - node: ai_act:art_55
+    summary: Anbieter von KI-Modellen mit systemischem Risiko führen Bewertungen mit Angriffstests durch,
+      mindern Risiken, dokumentieren Vorfälle, informieren das KI-Büro und Behörden. Sie können Praxisleitfäden
+      bis zur harmonisierten Norm nutzen; diese Norm schafft die Vermutung der Konformität. Wer nicht
+      folgt, muss Verfahren der Kommission vorlegen. Alle Daten unterliegen Vertraulichkeitspflichten.
+    source_sha: a5deec79575ee4d7294b03ea86bd222a059ed88bdcd0976c9b9b95e99ec324ac
+    children: []
+- node: ai_act:cpt_V.sct_4
+  summary: Das Büro für Künstliche Intelligenz erstellt EU-weite Praxisleitfäden. Sie verpflichten Anbieter
+    allgemeiner KI-Modelle und zuständige Behörden, aktuelle Informations- und Risikomanagement-Pflichten
+    umzusetzen und regelmäßig über Fortschritte zu berichten. Die Leitfäden müssen bis Mai 2025 vorliegen;
+    bei Verzögerung kann die Kommission Durchführungsakte erlassen.
+  source_sha: 9de3886afb30763b2fae930126cbbd298352e29d549da2ad99eb193e9f38485c
+  children:
+  - node: ai_act:art_56
+    summary: Das Büro für Künstliche Intelligenz erstellt EU-weite Praxisleitfäden, die Anbieter allgemeiner
+      KI-Modelle und zuständige Behörden verpflichten, aktuelle Informations- und Risikomanagement-Pflichten
+      umzusetzen und regelmäßig über Fortschritte berichten, sowie die Kommission die Umsetzung prüft.
+      Die Leitfäden müssen bis Mai 2025 vorliegen; bei Verzögerung kann die Kommission Durchführungsakte
+      erlassen.
+    source_sha: bd6ba113fcdbb9aa3f4da3549398a64436c27059f51e15b5f1e454cbda4d9a2f
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

@@ -1,0 +1,98 @@
+node: ai_act:cpt_XIII
+summary: Die Schlussbestimmungen verbinden die EU-Behörden, die Europäische Kommission, die Mitgliedstaaten
+  und die zuständigen Behörden. Sie verpflichten sie, bei allen künftigen Rechtsakten zu KI-Sicherheitsbauteilen
+  die Anforderungen für Hochrisiko-KI-Systeme zu berücksichtigen. Sie legen Übergangsfristen für bereits
+  in Verkehr gebrachte KI-Systeme fest. Sie bestimmen, dass die Kommission alle vier Jahre die Hochrisiko-Listen,
+  Verbote, Transparenzpflichten und Durchsetzungsmechanismen prüft und dem Parlament sowie dem Rat Bericht
+  erstattet. Die Verordnung tritt zwanzig Tage nach Veröffentlichung in Kraft, gilt ab dem 2. August 2026,
+  wobei einzelne Kapitel früher oder später wirksam werden.
+source_sha: eea8fca327136e1b82cb099c99881a5d490762a99d553c72728cbc268c88bce3
+children:
+- node: ai_act:art_102
+  summary: Der Artikel ergänzt die Verordnung (EG) Nr. 300/2008. Er verpflichtet die EU-Behörden, bei
+    der Erlassung detaillierter Maßnahmen zu technischen Spezifikationen und Genehmigungsverfahren für
+    Sicherheitsausrüstung, die KI-Systeme umfasst, die Anforderungen für Hochrisiko-KI-Systeme der KI-Verordnung
+    zu berücksichtigen. Er gilt für alle künftigen Maßnahmen dieser Art.
+  source_sha: 9fabf8532e3097dce902c26d3aedae40bc5adcae315b07732ea5dc91febb1a96
+  children: []
+- node: ai_act:art_103
+  summary: Der Artikel ergänzt die Verordnung (EU) Nr. 167/2013 um einen Unterabschnitt. Er verpflichtet
+    die Europäische Kommission bei delegierten Rechtsakten zu KI-Sicherheitsbauteilen, die unter die Verordnung
+    (EU) 2024/1689 fallen, die dort festgelegten Anforderungen zu berücksichtigen.
+  source_sha: 4fe9724fcb8d211021790a9687ca7c9c08348518243c80b98b63948205c54bf3
+  children: []
+- node: ai_act:art_104
+  summary: Die Vorschrift ergänzt die Verordnung (EU) Nr. 168/2013. Sie verpflichtet die EU, bei delegierten
+    Rechtsakten zu KI-Systemen, die als Sicherheitsbauteile nach der Verordnung (EU) 2024/1689 gelten,
+    die Anforderungen für Hochrisiko-KI-Systeme dieser Verordnung zu berücksichtigen. Sie gilt für alle
+    künftigen delegierten Rechtsakte zu solchen KI-Systemen.
+  source_sha: 2a6ff0fc1ecb15dd59b1a7726e47a868a5228f71b291ca36684deedba64be8bb
+  children: []
+- node: ai_act:art_105
+  summary: Der Text ergänzt die Richtlinie, indem er die Europäische Kommission verpflichtet, bei ihrer
+    Tätigkeit und beim Erlass technischer Spezifikationen und Prüfnormen die Anforderungen für KI-Sicherheitsbauteile
+    aus der Verordnung (EU) 2024/1689 zu berücksichtigen. Gilt für alle KI-Systeme, die als Sicherheitsbauteile
+    definiert sind.
+  source_sha: d6701a166514d1709b2ce9453e3ef5c6d2a410c3762ecc0569591c367dbff584
+  children: []
+- node: ai_act:art_106
+  summary: Der Text fügt der Richtlinie (EU) 2016/797 einen neuen Absatz hinzu. Er verpflichtet die Stellen,
+    die delegierte Rechtsakte und Durchführungsrechtsakte zu KI-Systemen erlassen, die als Sicherheitsbauteile
+    nach der Verordnung (EU) 2024/1689 gelten, die Anforderungen für Hochrisiko-KI-Systeme dieser Verordnung
+    zu berücksichtigen.
+  source_sha: 759825680a10850331b09d242f164278749512127949bbc0d59fa90829c30445
+  children: []
+- node: ai_act:art_107
+  summary: Die Änderung fügt dem Artikel über delegierte Rechtsakte der Verordnung (EU) 2018/858 einen
+    Absatz hinzu. Sie verpflichtet die Kommission, bei delegierten Rechtsakten zu KI-Systemen, die als
+    Sicherheitsbauteile nach Verordnung (EU) 2024/1689 gelten, die dort festgelegten Sicherheitsanforderungen
+    zu berücksichtigen. Der Absatz gilt, sobald ein delegierter Rechtsakt zu solchen KI-Systemen erlassen
+    wird.
+  source_sha: b6071464527c0fed0bca6d7b70708cc4b3d34ae761a021a782cb3a8883bd3c97
+  children: []
+- node: ai_act:art_108
+  summary: Der Text ergänzt die Luftfahrtverordnung, indem er bei der Erlassung von Durchführungs- und
+    delegierten Rechtsakten, die KI-Systeme als Sicherheitsbauteile betreffen, die Anforderungen für Hochrisiko-KI-Systeme
+    der KI-Verordnung berücksichtigt. Er gilt für die EU-Kommission und zuständige Behörden, sobald sie
+    solche Rechtsakte zu KI-Sicherheitsbauteilen erstellen.
+  source_sha: 1471921f5a4659f01049ba8c899924334211a23d861fb1fba9c50775b6cd1b21
+  children: []
+- node: ai_act:art_109
+  summary: Der Text ergänzt die Verordnung (EU) 2019/2144. Er verpflichtet die Kommission, bei der Erlassung
+    von Durchführungsrechtsakten zu KI-Systemen, die als Sicherheitsbauteile nach der Verordnung (EU)
+    2024/1689 gelten, die Anforderungen für Hochrisiko-KI-Systeme dieser Verordnung zu berücksichtigen.
+    Dies gilt für alle künftigen delegierten Rechtsakte, die sich auf solche KI-Systeme beziehen.
+  source_sha: b6150a1ebadb1901c280e8704d0513498589d5d9881c1ec16d2b4be2d3d8fa61
+  children: []
+- node: ai_act:art_110
+  summary: Der Text ergänzt die Richtlinie (EU) 2020/1828 über Verbandsklagen, indem er die KI-Verordnung
+    in deren Verzeichnis der betroffenen Rechtsakte einträgt. Die Änderung gilt für alle Mitgliedstaaten,
+    die die Richtlinie umsetzen, und tritt mit dem Inkrafttreten der Verordnung in Kraft.
+  source_sha: fc1ac77a08a1148941a3a85d65e8e942c89c235cd2ba1da6d43b388df5a7f77f
+  children: []
+- node: ai_act:art_111
+  summary: 'Für KI-Systeme, die vor Stichtagen in Verkehr kamen, gelten gestaffelte Fristen: bis Ende
+    2030 für Komponenten von IT-Großsystemen, bis August 2030 für Hochrisiko-KI-Systeme für Behörden,
+    bis August 2027 für KI-Modelle allgemeinen Verwendungszwecks und bis Dezember 2026 für Systeme, die
+    synthetische Audio-, Bild-, Video- oder Textinhalte erzeugen.'
+  source_sha: 5e5a733557ff690a6d9ee5e6fff8f2a1d843349438d0841f584b8d50e0d2a484
+  children: []
+- node: ai_act:art_112
+  summary: Die Kommission prüft jährlich und danach alle vier Jahre die Listen von Hochrisiko-KI, verbotenen
+    Praktiken und Transparenzpflichten, die Ressourcen der nationalen Behörden, Sanktionen, Normen, Marktteilnehmer
+    und das KI-Büro. Sie berichtet dem Europäischen Parlament und dem Rat und kann Änderungsvorschläge
+    vorlegen.
+  source_sha: 61f5edd3b146555d4965b6ee0c0661ae7053d1517af74d213124d5432456eea6
+  children: []
+- node: ai_act:art_113
+  summary: Regelt das Inkrafttreten und den Geltungsbeginn der Verordnung. Sie tritt zwanzig Tage nach
+    Veröffentlichung in Kraft und gilt ab dem 2. August 2026. Bestimmte Kapitel gelten bereits früher,
+    zum Beispiel ab dem 2. Februar 2025, andere Teile erst ab dem 2. Dezember 2027 bzw. 2. August 2028.
+    Alle, die durch die Verordnung verpflichtet sind, müssen die jeweiligen Termine einhalten.
+  source_sha: 4d78b943eddf1e813a9d4c674f4ffdbe7ed95bf79e77d1a459cfdd153d133667
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

@@ -1,0 +1,56 @@
+question: q-03-02
+cases:
+  - id: clean
+    answer: >-
+      Das geht so nicht. Wer die Aufsicht über so ein System hat, muss es
+      verstehen und dafür geschult sein, sonst kann er den Job gar nicht
+      machen. Er muss auch wirklich eingreifen und eine falsche Ausgabe
+      stoppen dürfen, sonst ist die Aufsicht nur auf dem Papier. Der Betrieb
+      muss ihm dafür auch die nötige Unterstützung geben, aber dem
+      Praktikanten fehlen schon die Schulung und die Befugnis.
+    fair: correct
+    note: >-
+      trifft beide Muss-Punkte: die Aufsicht braucht Verständnis und
+      Schulung, und sie muss eingreifen dürfen. Dazu das Soll, dass der
+      Betrieb die nötige Unterstützung schuldet.
+  - id: bare-minimum
+    answer: >-
+      der muss doch was davon verstehen und auch mal eingreifen dürfen
+    fair: correct
+    note: >-
+      beide Muss-Punkte knapp, aber getragen: "was davon verstehen" ist die
+      Kompetenz, "auch mal eingreifen dürfen" die Befugnis. Die dünnste
+      Antwort im Satz, die noch zählt.
+  - id: meant-right
+    answer: >-
+      Der Neue kennt sich einfach noch nicht aus, und entscheiden darf er ja
+      auch nichts. Genau deshalb passt das nicht: Wer da hinsteht, muss
+      wissen, worauf er achten muss, und im Zweifel auch selbst die
+      Reißleine ziehen können.
+    fair: correct
+    note: >-
+      beide Muss-Punkte getragen statt in Rubrikworten: "kennt sich noch
+      nicht aus" und "muss wissen, worauf er achten muss" trägt Kompetenz und
+      Schulung, "selbst die Reißleine ziehen können" trägt die Befugnis
+      einzugreifen.
+  - id: plausible-miss
+    answer: >-
+      Ein Praktikant hat einfach zu wenig Standing im Haus, um sich notfalls
+      gegen die Chefetage durchzusetzen. Da sollte lieber jemand mit mehr
+      Berufserfahrung ran, der schon länger dabei ist.
+    fair: wrong
+    note: >-
+      kein Muss-Punkt getroffen: Standing und Berufserfahrung sagen nichts
+      darüber, ob die Person für das System geschult sein und es verstehen
+      muss, und nichts über das Recht, einzugreifen.
+  - id: confidently-wrong
+    answer: >-
+      Doch, das passt schon so. Aufsicht ist reine Formsache, dafür muss
+      niemand geschult sein, Hauptsache es steht ein Name auf dem Papier.
+      Eingreifen muss die Person auch nicht, das System läuft ja automatisch
+      weiter.
+    fair: wrong
+    note: >-
+      Gegenteil beider Muss-Punkte: behauptet, dass keine Schulung nötig ist
+      und dass die Person nicht eingreifen muss, genau das Gegenteil dessen,
+      was die menschliche Aufsicht verlangt.

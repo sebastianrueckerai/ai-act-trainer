@@ -1,0 +1,67 @@
+node: betrvg:cpt_8
+summary: Der achte Teil enthält Schlussvorschriften. Er legt die Termine für die ersten Betriebsrats-
+  und Jugend- sowie Auszubildendenvertretungswahlen fest. Er ermächtigt das Bundesministerium für Arbeit
+  und Soziales, mit Zustimmung des Bundesrates Wahlordnungen zu erlassen, die Listen, Fristen, Stimmabgabe
+  und Ergebnisfeststellung regeln. Er sorgt dafür, dass veraltete Verweise automatisch auf die neuen Bestimmungen
+  umgestellt werden. Er lässt bereits bestehende abweichende Tarifverträge unverändert gelten. Er erlaubt
+  wegen der COVID-19-Pandemie virtuelle Versammlungen bis zum 7. April 2023. Er schließt den öffentlichen
+  Dienst von der Anwendung aus. Eine nichtige Berlin-Klausel hat keine Wirkung. Der Teil bestimmt das
+  Inkrafttreten des Gesetzes.
+source_sha: 4ceecb523a4a603fa7f57f146c87a4cea3fce69986c51b90dd9fd5c826d4be49
+children:
+- node: betrvg:sec_125
+  summary: Die Vorschrift legt fest, dass die ersten Betriebsratswahlen 1972 und die ersten Jugend- und
+    Auszubildendenvertretungswahlen 1988 stattfinden. Sie bestimmt, welche Wahlverordnungen für alle Wahlen
+    gelten, die nach dem 28. Juli 2001 eingeleitet werden, und regelt das vereinfachte Wahlverfahren.
+    Sie bindet Arbeitgeber, Betriebsräte und Wahlvorstände.
+  source_sha: 5ec5d0973db1ddef95a18a32f938617a20b4cb3f787f1d00290c3e6db98e32ca
+  children: []
+- node: betrvg:sec_126
+  summary: Das Bundesministerium für Arbeit und Soziales darf mit Zustimmung des Bundesrates Rechtsverordnungen
+    erlassen, die Aufstellung der Wählerlisten, Errechnung der Vertreterzahl, Vorbereitung, Fristen, Vorschlagslisten,
+    Wahlausschreiben, Stimmabgabe, Geschlechterverteilung, Ergebnisfeststellung und Aufbewahrung der Wahlakten
+    bei den in den genannten §§ geregelten Wahlen regeln.
+  source_sha: 480b948fb0d40f6066b2177dca1802b7fb648489af5c8209fcfd32784328df3c
+  children: []
+- node: betrvg:sec_127
+  summary: Wenn andere Rechtsvorschriften auf Bestimmungen verweisen oder Bezeichnungen nutzen, die durch
+    dieses Gesetz aufgehoben oder geändert wurden, gelten stattdessen die entsprechenden Bestimmungen
+    oder Bezeichnungen dieses Gesetzes. Damit soll Rechtsklarheit gewährleistet werden und veraltete Verweise
+    automatisch aktualisiert werden in allen betroffenen Rechtsbereichen.
+  source_sha: 85e686d9fef87a915396e80a96d4fd57ddcf5e3eb34961a0762acd99205d82f9
+  children: []
+- node: betrvg:sec_128
+  summary: Das Gesetz lässt bereits bestehende Tarifverträge, die eine andere Arbeitnehmervertretung für
+    Betriebe mit besonderen Schwierigkeiten bei der Gründung von Betriebsräten regeln, unverändert gelten.
+    Sie bleiben von den neuen Regelungen unberührt.
+  source_sha: 50107981c159c0178cc1cbce1f0ba5f1a79f15bc75a69e85e98926518b419716
+  children: []
+- node: betrvg:sec_129
+  summary: Durch die Pandemie dürfen Versammlungen, die normalerweise persönlich stattfinden, bis zum
+    7. April 2023 per Video- oder Telefonkonferenz abgehalten werden, wenn nur berechtigte Personen den
+    Inhalt sehen können. Aufzeichnungen sind verboten; Teilnehmer bestätigen ihre Anwesenheit schriftlich.
+  source_sha: 2803da8df6b6d27116f5e4dd75c458dc76c039f2fc8217c6ef147b9fd3a5adba
+  children: []
+- node: betrvg:sec_130
+  summary: Das Gesetz schließt Verwaltungen und Betriebe des Bundes, der Länder, der Gemeinden und sonstiger
+    Körperschaften, Anstalten und Stiftungen des öffentlichen Rechts von seiner Anwendung aus. Sie unterliegen
+    nicht den Regelungen dieses Gesetzes. Damit gelten die Bestimmungen nicht für diese öffentlichen Einrichtungen.
+  source_sha: ee8dc793b409813f752a275aceca66d130da7066dcf38dd7c43b787beb305dd2
+  children: []
+- node: betrvg:sec_131
+  summary: Der Paragraph ist gegenstandslos. Er enthält keine Regelungen, schafft keine Pflichten und
+    bindet weder Anbieter noch Nutzer. Da er keine Bestimmungen enthält, findet er in keinem Fall Anwendung,
+    hat keinerlei rechtliche Wirkung und beeinflusst das Gesetz nicht.
+  source_sha: d7c6069f808b827375a8a6715aea629cba90db148df056b4d07ec5cf7cbd780b
+  children: []
+- node: betrvg:sec_132
+  summary: Durch die Vorschrift wird das Gesetz zu einem festgelegten Datum wirksam. Ab diesem Tag gilt
+    es für alle, die durch das Gesetz geregelt werden, also für Unternehmen, Behörden und betroffene Personen.
+    Es bestimmt den Beginn der Rechtswirkung.
+  source_sha: 2469751a3f0763bc2a30c4832984ccda59acd8ce9ca43155ba63c8b55e8588d4
+  children: []
+last_change:
+  date: '2026-09-17'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

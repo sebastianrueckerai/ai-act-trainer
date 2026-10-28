@@ -1,0 +1,40 @@
+id: q-06-04
+chapter: 06-die-kurze-liste-der-verbote
+type: free_text
+difficulty: 2
+question: >-
+  Ein Kollege sagt, die verbotenen Praktiken aus der KI-Verordnung seien graue
+  Theorie, es passiere ja doch nichts. Was hältst du dagegen?
+rubric:
+  must:
+    - point: nennt, dass eine verbotene Praktik sehr teuer wird
+      ask: >-
+        Also, was passiert tatsächlich, wenn ein Haus eine verbotene Praktik
+        einsetzt?
+    - point: nennt, dass die Verbote schon gelten
+      ask: >-
+        Der Kollege winkt ab, bis das greife, sei das Ganze doch längst
+        überholt. Was sagst du ihm?
+  should:
+    - >-
+      nennt die Größenordnung, bis zu 35 Millionen Euro oder bis zu 7 Prozent vom
+      weltweiten Jahresumsatz
+    - nennt, dass die Verbote seit dem 2. Februar 2025 gelten
+    - nennt Art. 99 Abs. 3 für die Geldbuße
+model_answer: >-
+  Die Verbote gelten seit dem 2. Februar 2025, und wer sie missachtet, riskiert
+  bis zu 35 Millionen Euro oder bis zu 7 Prozent des weltweiten Jahresumsatzes, je
+  nachdem, welcher Betrag höher ist.
+explanation: >-
+  Art. 99 Abs. 3 setzt für die Missachtung des Verbots der in Art. 5 genannten
+  Praktiken Geldbußen von bis zu 35 000 000 EUR oder, im Falle von Unternehmen,
+  bis zu 7 Prozent des gesamten weltweiten Jahresumsatzes des vorangegangenen
+  Geschäftsjahres an, je nachdem, welcher Betrag höher ist. Nach Art. 113 gelten
+  die Kapitel I und II der Verordnung, zu denen Art. 5 gehört, seit dem
+  2. Februar 2025.
+citations: ["Art. 99(3)", "Art. 113"]
+last_change:
+  date: 2026-09-29
+  by: ai
+  trigger: D119
+  summary: one fact per point

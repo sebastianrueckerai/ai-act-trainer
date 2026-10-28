@@ -1,0 +1,17 @@
+id: q-01-02
+chapter: 01-test
+type: multiple_choice
+difficulty: 2
+question: Welcher Begriff wird in Art. 3 definiert?
+options:
+  - key: A
+    text: Mitgliedstaat
+  - key: B
+    text: KI-System
+  - key: C
+    text: Vertragspartei
+correct: B
+model_answer: KI-System, definiert in Art. 3.
+explanation: Art. 3 enthält die Begriffsbestimmungen der Verordnung, unter anderem KI-System.
+citations: ["Art. 3"]
+last_change: {date: 2026-09-15, by: human, trigger: initial, summary: fixture}

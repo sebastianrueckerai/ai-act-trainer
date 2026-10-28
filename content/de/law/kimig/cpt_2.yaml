@@ -1,0 +1,109 @@
+node: kimig:cpt_2
+summary: Der Teil regelt, welche deutschen Stellen die Marktüberwachung und Konformitätsbewertung von
+  KI-Systemen durchführen und wie sie zusammenarbeiten. Die Bundesnetzagentur übernimmt die allgemeine
+  Aufsicht, die Finanzaufsichtsbehörde prüft KI-Systeme mit Finanzbezug, das BSI koordiniert vorläufig
+  die Benennung von Konformitätsbewertungsstellen und die Deutsche Akkreditierungsstelle akkreditiert
+  Prüfstellen für Hochrisiko-KI. Eine unabhängige Marktüberwachungskammer überwacht Hochrisiko-KI. Benannte
+  Notifizierungsbehörden und die Marktüberwachungsbehörden teilen Prüfungsdaten, informieren Datenschutz-
+  und Kartellbehörden und kooperieren mit der nach EU-Verordnung benannten europäischen Marktüberwachungsbehörde.
+  Die Regelungen gelten für alle KI-Systeme, die in Deutschland in den Markt gelangen.
+source_sha: 85f3c9b4f58a189dedb0137ae5b967daf86d6ed1befdaac921aa83443cee9625
+children:
+- node: kimig:cpt_2.sct_1
+  summary: Der Abschnitt legt fest, welche Stellen die Marktüberwachung und Konformitätsbewertung von
+    KI-Systemen übernehmen. Die Bundesnetzagentur ist grundsätzlich zuständig, die Finanzaufsichtsbehörde
+    übernimmt bei eng mit Finanztätigkeiten verknüpften Systemen. Für Hochrisiko-KI wird eine unabhängige
+    Marktüberwachungskammer eingerichtet. Benannte Notifizierungsbehörden bestimmen und überwachen Konformitätsbewertungsstellen;
+    das BSI übernimmt vorläufig die Aufgabe, die Deutsche Akkreditierungsstelle prüft Hochrisiko-Bewertungsstellen.
+    Ein zentrales Koordinierungs- und Kompetenzzentrum unterstützt die Zusammenarbeit. Die Bundesnetzagentur
+    fungiert als zentrale Anlauf- und Beschwerdestelle und meldet relevante Informationen an die Europäische
+    Kommission.
+  source_sha: a4922f0ad54cfdcb2eb099ea4a9e342d3678e433093798367db6d32d1546756a
+  children:
+  - node: kimig:sec_2
+    summary: Legt fest, welche Behörde die Marktüberwachung nach der KI-Verordnung übernimmt. Die Bundesnetzagentur
+      ist grundsätzlich zuständig, außer bei KI-Systemen, die eng mit regulierten Finanztätigkeiten verknüpft
+      sind – dort übernimmt die Finanzaufsichtsbehörde. Für bestimmte Hochrisiko-KI-Systeme wird eine
+      unabhängige Kammer eingerichtet.
+    source_sha: 65c0a0b0628014964880ba4d2ddbd5a199d91f8725ed576c78138dede4a00e88
+    children: []
+  - node: kimig:sec_3
+    summary: Die nach Bundes- oder Landesrecht benannten Notifizierungsbehörden benennen und überwachen
+      Konformitätsbewertungsstellen für KI-Systeme, die mit entsprechenden Produkten verbunden sind. Für
+      Hochrisiko-KI ist die Marktüberwachungsbehörde zuständig; bis zu ihrer Benennung übernimmt das BSI
+      die Aufgabe. Die Deutsche Akkreditierungsstelle prüft Hochrisiko-KI-Bewertungsstellen. Behörden
+      können Experten des wissenschaftlichen Gremiums hinzuziehen.
+    source_sha: ca05bb1108f8a2d7701b03088d7bcc639bc5c9a79f656f558a23cee6635b7c6c
+    children: []
+  - node: kimig:sec_4
+    summary: Die KI-Marktüberwachungskammer hat drei Mitglieder, deren Vorsitz vom Präsidenten der Bundesnetzagentur
+      geführt wird. Entscheidungen erfolgen mit Mehrheit, bei Stimmengleichheit entscheidet der Vorsitzende.
+      Sie arbeitet unabhängig, nutzt Ressourcen der Bundesnetzagentur, berichtet dem Bundestag jährlich
+      ab 2026 und prüft nicht die Genehmigungs- und Einsatzvoraussetzungen von Hochrisiko-KI-Systemen.
+    source_sha: 18bd2aa6781c8c7cc89a950c28bddba139f1bac40929649b96162a634e67ebe0
+    children: []
+  - node: kimig:sec_5
+    summary: Die Bundesnetzagentur richtet ein zentrales Koordinierungs- und Kompetenzzentrum für die
+      Verordnung (EU) 2024/1689 ein. Es unterstützt Markt- und Notifizierungsbehörden sowie die Deutsche
+      Akkreditierungsstelle bei komplexen Entscheidungen, koordiniert deren Zusammenarbeit, fördert einheitliche
+      Rechtsauslegung, erstellt Verhaltenskodizes, bindet Zivilgesellschaft und Wirtschaft und bietet
+      Schulungen und Informationen.
+    source_sha: 04d0de37a966780be61ff2f2328769a81f70318f896fadfed8b5f27c5720b646
+    children: []
+  - node: kimig:sec_6
+    summary: Die Bundesnetzagentur ist die Zentrale Anlaufstelle. Behörden übermitteln ihr Aufgabengebiet,
+      elektronische Kontaktadresse und Ansprechpartner und melden Änderungen sofort. Zentrale veröffentlicht
+      die Adressen, informiert die Europäische Kommission, leitet Eingaben an nationale Stellen weiter.
+      Sie stellt Formulare bereit; das Bundesministerium übernimmt die Berichtspflicht, BaFin kann abweichend
+      berichten.
+    source_sha: 2bd55d310958fe4f38ec53508605c4161e09da27a34ccd226217088cabfff65b
+    children: []
+  - node: kimig:sec_7
+    summary: Die Marktüberwachungsbehörde muss die Bundesanstalt für Arbeitsschutz und Arbeitsmedizin
+      sofort informieren, wenn ein KI-System nicht konform ist und die Nichtkonformität über Deutschland
+      hinausgeht oder trotz Konformität Risiken bestehen. Die Bundesanstalt unterstützt die Marktüberwachung
+      von KI-Systemen in EU-Produkten mit evidenzbasiertem Fachwissen für Betreiber, Anbieter und Normungsgremien.
+    source_sha: 2301c65b7d477d5eba373d24e41edd3b97ea51c3b740fa91c787fbfc67193167
+    children: []
+  - node: kimig:sec_8
+    summary: Die Zentrale Beschwerdestelle bei der Bundesnetzagentur nimmt Beschwerden über Verstöße gegen
+      die Verordnung (EU) 2024/1689 entgegen. Sie leitet sie an die zuständige Marktüberwachungsbehörde
+      oder an die zuständige Behörde nach der Verordnung weiter, informiert den Beschwerdeführer und betreibt
+      ein leicht zugängliches Beschwerdemanagementsystem. Marktüberwachungsbehörden müssen Beschwerden,
+      die nicht in ihre Zuständigkeit fallen, an die Bundesnetzagentur weiterleiten.
+    source_sha: 63358cc981d01e886711c6fd50006494d8ae1814fa3f44664ca2a5a7bddf71de
+    children: []
+- node: kimig:cpt_2.sct_2
+  summary: Die Marktüberwachungsbehörden und die benannten Notifizierungsbehörden arbeiten eng zusammen.
+    Sie teilen Beobachtungen, Maßnahmen und Prüfungsinformationen nach der EU-Verordnung. Bei Datenschutzverstößen
+    informieren sie die Aufsichtsbehörden und tauschen notwendige Daten, auch personenbezogene, aus. Sie
+    leiten relevante Informationen an die Datenschutzaufsichtsbehörden und das Bundeskartellamt weiter,
+    wenn dies für ihre Aufgaben nötig ist. Zusätzlich kooperieren die nationalen Marktüberwachungsbehörden
+    mit der Marktüberwachungsbehörde, die nach der EU-Verordnung über die Cybersicherheit digitaler Produkte
+    benannt ist. Sie melden Verdachtsfälle zu Hochrisiko-KI-Systemen, prüfen gemeinsam Cyber-Sicherheitsanforderungen,
+    erstellen gemeinsame Prüfungsleitlinien, unterstützen die Europäische Kommission bei Leitlinien und
+    harmonisierten Normen und informieren einander über Prüfungsergebnisse.
+  source_sha: 637f12789e41e43deb42840c004c3d303f7a67278163a58eecc7858844ce4f6d
+  children:
+  - node: kimig:sec_9
+    summary: Die Marktüberwachungsbehörden und die notifizierenden Behörden arbeiten kooperativ, teilen
+      Beobachtungen und Maßnahmen, informieren einander bei Prüfungen nach der EU-Verordnung. Sie informieren
+      Aufsichtsbehörden bei Datenschutzverstößen und tauschen notwendige Daten, auch personenbezogene,
+      aus. Sie geben die Informationen an die Datenschutzaufsichtsbehörden und das Bundeskartellamt weiter,
+      wenn dies zur Erfüllung ihrer Aufgaben nötig ist.
+    source_sha: b018941f10e125926c2e939679ba66e461526682682016e02c2d1c3b662dc679
+    children: []
+  - node: kimig:sec_10
+    summary: Die nach diesem Gesetz zuständigen Marktüberwachungsbehörden arbeiten eng mit der
+      Marktüberwachungsbehörde zusammen, die nach der EU-Verordnung über die Cybersicherheit digitaler
+      Produkte benannt ist. Sie teilen Beobachtungen, melden Verdachtsfälle zu Hochrisiko-KI-Systemen und
+      prüfen gemeinsam Cyber-Sicherheitsanforderungen. Sie erstellen gemeinsame Vorgaben für Prüfungen,
+      unterstützen die Europäische Kommission bei Leitlinien und harmonisierten Normen und informieren
+      einander über Prüfungsergebnisse.
+    source_sha: fee20b23a821ac558d0716cf633710afb8320638ac256035cc5606d3af888446
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

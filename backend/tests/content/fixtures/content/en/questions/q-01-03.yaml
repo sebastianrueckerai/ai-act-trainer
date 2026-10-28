@@ -1,0 +1,14 @@
+id: q-01-03
+chapter: 01-test
+type: free_text
+difficulty: 3
+question: Why does the Regulation require AI literacy among staff?
+rubric:
+  must:
+    - point: names the purpose from Recital 20
+      ask: And what is that for?
+  should: []
+model_answer: Because staff should use AI systems competently and responsibly.
+explanation: Recital 20 explains the purpose of the AI literacy obligation.
+citations: ["Rec. 20"]
+last_change: {date: 2026-09-15, by: human, trigger: initial, summary: fixture}

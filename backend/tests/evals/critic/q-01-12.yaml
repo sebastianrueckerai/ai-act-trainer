@@ -1,0 +1,21 @@
+- name: the settled reply after a wrong pick gives the answer and asks nothing
+  history:
+    - [tutor, "Der Assistent hat die Kundenmail geschrieben, du hast sie gelesen und freigegeben. Später beschwert sich der Kunde über eine falsche Lieferfrist darin. Wer steht dafür gerade?"]
+  message: "B. Der Anbieter des Werkzeugs: seine Technik, sein Fehler."
+  outcome: settled
+  tries: 1
+  met: []
+  draft: |
+    So ist es: Du stehst dafür gerade, nicht der Anbieter und nicht die KI. Mit der Freigabe wird der Entwurf deine Arbeit, und die Verordnung schiebt den Fehler niemandem sonst zu.
+  expect: ship
+- name: a settled reply that keeps asking
+  history:
+    - [tutor, "Der Assistent hat die Kundenmail geschrieben, du hast sie gelesen und freigegeben. Später beschwert sich der Kunde über eine falsche Lieferfrist darin. Wer steht dafür gerade?"]
+  message: "B. Der Anbieter des Werkzeugs: seine Technik, sein Fehler."
+  outcome: settled
+  tries: 1
+  met: []
+  draft: |
+    So ist es: Du stehst dafür gerade. Also, wer steht für die falsche Lieferfrist gerade?
+  expect: retry
+  faults: [question]

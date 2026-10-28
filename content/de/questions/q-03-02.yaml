@@ -1,0 +1,36 @@
+id: q-03-02
+chapter: 03-was-dein-arbeitgeber-tun-muss
+type: free_text
+difficulty: 2
+question: >-
+  Unser Haus nimmt ein Hochrisiko-KI-System in Betrieb und bestimmt den neuen
+  Praktikanten zur Aufsicht. Was muss die Person, die die Aufsicht macht,
+  mitbringen?
+rubric:
+  must:
+    - point: nennt, dass die Aufsicht jemand macht, der vom System etwas versteht
+      ask: Also, was muss jemand mitbringen, der die Aufsicht übernimmt?
+    - point: nennt, dass er auch eingreifen dürfen muss
+      ask: >-
+        Angenommen, der Praktikant kennt das System gut. Was fehlt ihm dann
+        immer noch?
+  should:
+    - nennt, dass er dafür geschult sein muss
+    - nennt, dass der Betrieb ihm die nötige Unterstützung geben muss
+    - nennt Art. 26 Abs. 2 für die menschliche Aufsicht
+model_answer: >-
+  Die Aufsicht gehört einer Person mit der nötigen Kompetenz, Ausbildung und
+  Befugnis: sie versteht das System und darf eine Ausgabe überstimmen. Ein neuer
+  Praktikant bringt beides in aller Regel nicht mit.
+explanation: >-
+  Art. 26 Abs. 2 verlangt vom Betreiber, die menschliche Aufsicht natürlichen
+  Personen zu übertragen, die über die erforderliche Kompetenz, Ausbildung und
+  Befugnis verfügen, und ihnen die erforderliche Unterstützung zukommen zu lassen.
+  Fehlt die Befugnis, kann die Person das System weder anhalten noch überstimmen,
+  und die Aufsicht bleibt auf dem Papier.
+citations: ["Art. 26(2)"]
+last_change:
+  date: 2026-09-29
+  by: ai
+  trigger: D119
+  summary: one fact per point

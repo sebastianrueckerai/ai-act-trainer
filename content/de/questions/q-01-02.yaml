@@ -1,0 +1,30 @@
+id: q-01-02
+chapter: 01-warum-es-dich-betrifft
+type: yes_no
+difficulty: 1
+question: >-
+  Du hast eine Kundenmail mit einem Chatassistenten entworfen, gelesen und
+  verschickt. Verlangt die KI-Verordnung, dass du in der Mail auf die KI
+  hinweist?
+correct: "no"
+model_answer: >-
+  Nein. Art. 50 zählt die Fälle auf, in denen ein Betreiber offenlegen muss, und
+  eine gewöhnliche Geschäftsmail gehört nicht dazu. Offenlegen musst du zum
+  Beispiel ein Deepfake.
+explanation: >-
+  Art. 50 Abs. 4 verlangt die Offenlegung von Betreibern, deren KI-System ein
+  Deepfake erzeugt oder manipuliert, und von Betreibern, die KI-erzeugten Text
+  veröffentlichen, um die Öffentlichkeit über Angelegenheiten von öffentlichem
+  Interesse zu informieren. Selbst dort entfällt die Pflicht, wenn der Text
+  einem Verfahren der menschlichen Überprüfung oder der redaktionellen Kontrolle
+  unterzogen wurde und eine natürliche oder juristische Person die redaktionelle
+  Verantwortung trägt. Eine Mail an einen Kunden ist keine Veröffentlichung für
+  die Öffentlichkeit. Ein weiterer Fall, Art. 50 Abs. 1, betrifft ein
+  Chatfenster für die direkte Interaktion und richtet sich an den Anbieter. Für
+  deine Mail verlangt die Verordnung keinen Hinweis.
+citations: ["Art. 50(1)", "Art. 50(4)"]
+last_change:
+  date: 2026-09-15
+  by: human
+  trigger: rewrite for application focus
+  summary: "Neufassung: Fragen aus dem Arbeitsalltag"

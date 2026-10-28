@@ -1,0 +1,12 @@
+id: 01-test
+title: Testkapitel
+intro: Ein kurzes Kapitel.
+duration_minutes: 3
+steps:
+  - id: s1
+    text: KI-Kompetenz ist Pflicht für Anbieter und Betreiber.
+    citations: ["Art. 4(1)"]
+    question: q-01-03
+summary: Art. 4 verlangt Maßnahmen zur KI-Kompetenz.
+may: "Das weißt du jetzt: Betreiber sorgen für KI-Kompetenz (Art. 4 Abs. 1)."
+last_change: {date: 2026-09-15, by: human, trigger: initial, summary: fixture}

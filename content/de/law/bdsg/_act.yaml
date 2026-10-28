@@ -1,0 +1,16 @@
+node: bdsg
+summary: Das Bundesdatenschutzgesetz regelt die Verarbeitung personenbezogener Daten durch Bundes- und
+  Landesbehörden sowie Stellen, die öffentliche Aufgaben wahrnehmen. Es gilt, wenn die Verarbeitung in
+  Deutschland stattfindet oder die EU-Datenschutzgrundverordnung anwendbar ist, außer bei unmittelbarem
+  EU-Recht. Das Gesetz definiert öffentliche Stellen, legt Rechtsgrundlagen, Pflichten zur Benennung von
+  Datenschutzbeauftragten und zur Videoüberwachung fest und schafft den Bundesbeauftragten für Datenschutz
+  und Informationsfreiheit. Es regelt Zusammenarbeit der Aufsichtsbehörden, gerichtlichen Rechtsschutz
+  und enthält besondere Vorgaben für Gesundheits-, Straf- und Verteidigungsdaten sowie für Datenübermittlungen
+  in Drittländer bei Verteidigungs- und Krisenaufgaben.
+source_sha: 0b0ab061d63ae9c6b0d59bfe2f9ebdfe89c28274ea050887b4410d677398615a
+children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

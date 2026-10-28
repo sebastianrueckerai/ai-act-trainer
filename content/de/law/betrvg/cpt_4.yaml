@@ -1,0 +1,494 @@
+node: betrvg:cpt_4
+summary: Der vierte Teil regelt die Mitwirkung und Mitbestimmung der Arbeitnehmer im Betrieb. Er verpflichtet
+  Arbeitgeber und Betriebsrat zur Zusammenarbeit in allgemeinen Fragen, zu Mitwirkungs- und Beschwerderechten,
+  zu sozialen Angelegenheiten, zur Gestaltung von Arbeitsplatz und Arbeitsablauf, zu personellen Fragen
+  und zu wirtschaftlichen Belangen. Er gilt in allen Betrieben, in denen ein Betriebsrat besteht, für
+  die gesamte Dauer des Arbeitsverhältnisses. Er schafft Einigungsstellen, Wirtschaftsausschüsse und Vorgaben
+  für Information, Beratung und Zustimmung.
+source_sha: 4a0bd336e1a83a547e154ef9f75673e4c36c5cbea7759ba5b60b9c60a6a246b3
+children:
+- node: betrvg:cpt_4.sct_1
+  summary: Der Abschnitt legt die Grundregeln für die Zusammenarbeit zwischen Arbeitgeber und Betriebsrat
+    fest. Er verpflichtet beide Seiten, monatlich zu verhandeln, Streitigkeiten friedlich zu lösen und
+    Diskriminierung zu vermeiden. Er richtet eine Einigungsstelle ein, regelt deren Kosten und die Umsetzung
+    von Betriebsvereinbarungen. Er schützt Mitglieder von Arbeitnehmervertretungen vor Benachteiligung,
+    verpflichtet zur Geheimhaltung und zum Datenschutz. Er definiert die allgemeinen Aufgaben des Betriebsrats.
+    Die Regeln gelten für jeden Betrieb mit einem Betriebsrat.
+  source_sha: 1c41500d8c1a48226c2a01afc5b2d22347f3faf620d26a7ebb229f6c083df637
+  children:
+  - node: betrvg:sec_74
+    summary: Arbeitgeber und Betriebsrat müssen sich mindestens einmal im Monat treffen, um strittige
+      Fragen in gutem Glauben zu verhandeln und Lösungsvorschläge zu machen. Sie dürfen keine Arbeitskampfmaßnahmen
+      gegeneinander ergreifen, den Betriebsablauf oder den Betriebsfrieden stören und keine parteipolitischen
+      Aktivitäten im Betrieb ausüben. Tarif-, Sozial-, Umwelt- und Wirtschaftsthemen, die den Betrieb
+      betreffen, bleiben davon unberührt. Die gewerkschaftliche Betätigung von Arbeitnehmern, die nach
+      dem Gesetz Aufgaben übernehmen, wird nicht eingeschränkt.
+    source_sha: 421a6bef1542a003c98efdf0b1cf87257f6b0ccaafc8101e80292f77307013ca
+    children: []
+  - node: betrvg:sec_75
+    summary: Arbeitgeber und Betriebsrat müssen sicherstellen, dass alle im Betrieb tätigen Personen gerecht
+      und ohne Benachteiligung behandelt werden. Diskriminierung wegen Rasse, Herkunft, Nationalität,
+      Religion, Behinderung, Alter, politischer oder gewerkschaftlicher Betätigung, Geschlecht oder sexueller
+      Identität ist verboten. Sie fördern die freie Entfaltung der Persönlichkeit sowie Selbständigkeit
+      und Eigeninitiative der Beschäftigten.
+    source_sha: 615577937a103a45aa9dc2e94378ef0a061c7c4d25d7083a38401ded7a978b2b
+    children: []
+  - node: betrvg:sec_76
+    summary: Die Einigungsstelle löst Streitigkeiten zwischen Arbeitgeber und Betriebsrat (oder Gesamt-
+      bzw. Konzernbetriebsrat). Sie wird bei Bedarf gebildet, kann dauerhaft per Betriebsvereinbarung
+      bestehen und entscheidet nach mündlicher Beratung mit Stimmenmehrheit. Ihre Beschlüsse gelten, sobald
+      beide Seiten sie akzeptieren.
+    source_sha: 7ffeea4d840d2bab1e9db590c6b5906a8ac405a5911ab0aee5e0c4c4ef6ae483
+    children: []
+  - node: betrvg:sec_76a
+    summary: Der Arbeitgeber trägt die Kosten der Einigungsstelle. Betriebsangehörige Beisitzer erhalten
+      keine Vergütung; andere Vorsitzende und Beisitzer bekommen eine Vergütung nach festgelegten Grundsätzen,
+      die das Bundesministerium für Arbeit und Soziales durch Verordnung bestimmen kann. Die Beisitzervergütung
+      ist niedriger als die des Vorsitzenden. Tarifverträge oder Betriebsvereinbarungen können abweichen,
+      wenn zulässig.
+    source_sha: 9204c268c7ae106e71b62b473bf474005bda9e1c62d9178a1dd970d42ed926da
+    children: []
+  - node: betrvg:sec_77
+    summary: Der Arbeitgeber setzt Vereinbarungen mit dem Betriebsrat um, sofern nicht anders vereinbart.
+      Beide Parteien beschließen und unterschreiben die Vereinbarung schriftlich (auch elektronisch).
+      Sie gilt unmittelbar, darf nicht durch einseitige Handlungen des Betriebsrats geändert werden und
+      kann mit drei-Monats-Frist gekündigt werden.
+    source_sha: 051692a0dac7c978b90d7b0ca842b6ffb723d67b38541431131209bfc74a6997
+    children: []
+  - node: betrvg:sec_78
+    summary: Schützt Mitglieder von Betriebsrat, Gesamt- und Konzernbetriebsrat, Jugend- und Auszubildendenvertretungen,
+      Wirtschaftsausschuss, Bordvertretung, Seebetriebsrat, Einigungsstelle, tarifischer Schlichtungsstelle,
+      betrieblicher Beschwerdestelle und Auskunftspersonen vor Störung, Behinderung, Benachteiligung oder
+      Begünstigung bei ihrer Tätigkeit und beruflichen Entwicklung. Eine Benachteiligung wegen des Arbeitsentgelts
+      liegt nur vor, wenn die Person die betrieblichen Anforderungen erfüllt und die Festlegung nicht
+      fehlerhaft ist.
+    source_sha: ec8191ea1c1fb1589137a980d689cc15fc39864f6ceae904afb0a1015efde787
+    children: []
+  - node: betrvg:sec_78a
+    summary: Der Arbeitgeber muss einem Auszubildenden, der Mitglied einer Jugend- und Auszubildendenvertretung,
+      eines Betriebsrats, einer Bord- oder Seebetriebsvertretung ist, drei Monate vor Ende der Ausbildung
+      schriftlich mitteilen, wenn er keinen unbefristeten Arbeitsvertrag anbieten will. Fordert der Auszubildende
+      innerhalb der letzten drei Monate schriftlich die Weiterbeschäftigung, entsteht automatisch ein
+      unbefristetes Arbeitsverhältnis zu denselben Bedingungen wie bei regulären unbefristeten Verträgen.
+      Die Regel gilt auch, wenn die Ausbildung kurz nach Ablauf der jeweiligen Vertretungszeit endet.
+      Der Arbeitgeber kann innerhalb von zwei Wochen nach Ausbildungsende beim Arbeitsgericht beantragen,
+      das Arbeitsverhältnis nicht zu begründen oder zu beenden, wenn die Weiterbeschäftigung unzumutbar
+      ist; dabei sind die jeweiligen Vertretungen als Beteiligte zu berücksichtigen.
+    source_sha: 1b49d5c7ae828ad9a8ec5cde2eb6e36d1c3f74b8391d2b270822cf65c9c620a7
+    children: []
+  - node: betrvg:sec_79
+    summary: Die Mitglieder und Ersatzmitglieder des Betriebsrats und ähnlicher Arbeitnehmervertretungen
+      müssen alle Betriebs- und Geschäftsgeheimnisse, die ihnen bekannt werden und vom Arbeitgeber als
+      geheimhaltungsbedürftig gekennzeichnet sind, geheim halten und dürfen sie nicht nutzen. Die Pflicht
+      gilt auch nach dem Ausscheiden und nicht gegenüber anderen Vertretern oder den genannten Gremien.
+    source_sha: 9229885b6c87ff01baa1b7d734d4ee168134b2443d3a1734dff78907672d92e6
+    children: []
+  - node: betrvg:sec_79a
+    summary: Der Betriebsrat muss bei der Verarbeitung personenbezogener Daten die Datenschutzvorschriften
+      einhalten; verarbeitet er Daten, gilt der Arbeitgeber als Verantwortlicher. Arbeitgeber und Betriebsrat
+      kooperieren. Der Datenschutzbeauftragte muss über Informationen, die Rückschlüsse auf den Meinungsbildungsprozess
+      des Betriebsrats zulassen, Stillschweigen bewahren, durch Bestimmungen des Bundesdatenschutzgesetzes
+      geregelt.
+    source_sha: 602f418f140fbb8862ac2a3b22114bc94bdd744c258ad00b5edbc902bdf3834c
+    children: []
+  - node: betrvg:sec_80
+    summary: Der Betriebsrat überwacht die Einhaltung von Gesetzen, Tarifverträgen und Betriebsvereinbarungen,
+      beantragt Maßnahmen für Betrieb und Beschäftigte, fördert Gleichstellung, Familienfreundlichkeit,
+      Integration und Arbeitsschutz. Der Arbeitgeber muss ihn rechtzeitig umfassend informieren und alle
+      erforderlichen Unterlagen bereitstellen; bei KI-Bewertungen ist ein Sachverständiger hinzuzuziehen.
+    source_sha: 3e1c834e2686a23e4a258f2e393093dec18eb3ece95ef976d5d8461c7c9717af
+    children: []
+- node: betrvg:cpt_4.sct_2
+  summary: Der Abschnitt regelt das Mitwirkungs- und Beschwerderecht der Beschäftigten. Der Arbeitgeber
+    informiert über Aufgaben, Gefahren und Änderungen und erläutert Weiterbildungsoptionen. Die Beschäftigten
+    dürfen bei persönlichen Angelegenheiten angehört werden, Vorschläge machen und die Lohnberechnung
+    erklären lassen. Sie können ihre Personalakte einsehen und ein Betriebsratsmitglied hinzuziehen. Sie
+    haben ein Beschwerderecht gegenüber dem Arbeitgeber, ohne Nachteile befürchten zu müssen. Der Betriebsrat
+    nimmt Beschwerden entgegen, wirkt auf Abhilfe hin und kann bei Streit die Einigungsstelle einschalten.
+    Tarif- oder Betriebsvereinbarungen können das Verfahren regeln. Jeder Beschäftigte kann dem Betriebsrat
+    Themen zur Beratung vorschlagen; bei ausreichender Unterstützung muss der Betriebsrat den Vorschlag
+    zeitnah behandeln.
+  source_sha: ac7bda5da3d3cd5790cdfe46587218140e245f252120167bb439a9f04ff4770d
+  children:
+  - node: betrvg:sec_81
+    summary: Der Arbeitgeber informiert den Arbeitnehmer über Aufgaben. Er klärt über Unfall- und Gesundheitsgefahren
+      auf. Änderungen im Arbeitsbereich und Maßnahmen werden erläutert. Fehlt ein Betriebsrat, hört er
+      die Beschäftigten zu Maßnahmen, die Sicherheit betreffen, an. Bei Aufgabenwechsel und fehlenden
+      Kenntnissen bespricht er Weiterbildungs- oder Anpassungsoptionen; der Arbeitnehmer kann ein Betriebsratsmitglied
+      hinzuziehen.
+    source_sha: 676831b95ecdc801cba39d28a9c5c50c4c8a7d5f8c42c376e53fda4e24898b49
+    children: []
+  - node: betrvg:sec_82
+    summary: Der Arbeitnehmer darf in betrieblichen Angelegenheiten, die ihn persönlich betreffen, von
+      den zuständigen Personen angehört werden. Er kann zu Arbeitgebermaßnahmen Stellung nehmen, Vorschläge
+      zum Arbeitsplatz machen, die Lohnberechnung erklären lassen, seine Leistung und Entwicklung besprechen
+      und einen Betriebsratsmitglied hinzuziehen, das vertraulich bleibt.
+    source_sha: 606051c849198d17f02cc6c752fabe9edce9052614326213ec4bcc47c9db08f5
+    children: []
+  - node: betrvg:sec_83
+    summary: Der Arbeitnehmer kann die über ihn geführten Personalakten einsehen. Er darf ein Betriebsratsmitglied
+      hinzuziehen. Das Betriebsratsmitglied muss über den Inhalt Stillschweigen bewahren, es sei denn,
+      der Arbeitnehmer entbindet es. Auf Verlangen des Arbeitnehmers muss das Betriebsratsmitglied seine
+      Erklärungen zum Inhalt beifügen.
+    source_sha: a1e5c8c669a5867542c61880aec5de44072c7be86d96c6a85d96833d41eae79c
+    children: []
+  - node: betrvg:sec_84
+    summary: Das Beschwerderecht gibt jedem Arbeitnehmer das Recht, sich bei den zuständigen Stellen des
+      Betriebs zu beschweren, wenn er sich vom Arbeitgeber oder von Kollegen benachteiligt fühlt.
+      Er kann ein Betriebsratsmitglied hinzuziehen. Der Arbeitgeber informiert über die Bearbeitung und
+      behebt berechtigte Beschwerden. Es darf keine Nachteile wegen der Beschwerde geben.
+    source_sha: 396749c3464dc962873ca9bcfba10a8d28ea68bd3e09ddc9a878182bb18270d0
+    children: []
+  - node: betrvg:sec_85
+    summary: Der Betriebsrat nimmt Arbeitnehmerbeschwerden entgegen und wirkt bei berechtigten Fällen
+      auf Abhilfe hin. Bei Streit über die Berechtigung kann er die Einigungsstelle einschalten; deren
+      Entscheidung ersetzt die Einigung. Rechtsansprüche bleiben ausgenommen. Der Arbeitgeber informiert
+      den Betriebsrat über den Verlauf.
+    source_sha: 2fec4cf37ec36cbe9b194822ca64060d966213ba6d6ed95c81fd621500bdb569
+    children: []
+  - node: betrvg:sec_86
+    summary: Tarif- oder Betriebsvereinbarungen dürfen das Beschwerdeverfahren im Detail festlegen. Sie
+      können bestimmen, dass bei bestimmten Konflikten, die sonst vor einer Einigungsstelle verhandelt
+      würden, stattdessen eine betriebliche Beschwerdestelle eingesetzt wird.
+    source_sha: 8259712efad7099edd909611a7f70a80c9121088a13b6a8467b92738c8896f2c
+    children: []
+  - node: betrvg:sec_86a
+    summary: Jeder Arbeitnehmer kann dem Betriebsrat Themen zur Beratung vorschlagen. Unterstützt mindestens
+      fünf Prozent der Beschäftigten den Vorschlag, muss der Betriebsrat ihn innerhalb von zwei Monaten
+      unverzüglich auf die Tagesordnung einer Betriebsratssitzung setzen.
+    source_sha: e7649af94e70803c9542763b15c81e14c8ce2b9ce8429e10f8149caecc928b76
+    children: []
+- node: betrvg:cpt_4.sct_3
+  summary: Der dritte Abschnitt regelt soziale Angelegenheiten im Betrieb. Er gibt dem Betriebsrat Mitbestimmungsrechte
+    in Bereichen wie Ordnung, Arbeitszeit, Entgelt, Arbeitsschutz, soziale Einrichtungen, Wohnraum, Vorschlagswesen,
+    Gruppenarbeit und mobiler Arbeit, sofern keine gesetzliche oder tarifliche Regelung besteht. Arbeitgeber
+    und Betriebsrat müssen zusammen freiwillige Betriebsvereinbarungen zu Themen wie Arbeitssicherheit,
+    Umweltschutz, firmeneigene Sozialeinrichtungen, Vermögensbildung, Integration ausländischer Beschäftigter,
+    Bekämpfung von Rassismus und Eingliederung schwerbehinderter Personen schließen. Der Betriebsrat unterstützt
+    die Umsetzung von Arbeitsschutz, Unfallverhütung und betrieblichem Umweltschutz, berät Behörden und
+    muss bei Inspektionen, Unfalluntersuchungen und Umweltprüfungen einbezogen werden.
+  source_sha: f24226f66868597dc87aadd401eedad33c7f0af123eb40cc5a54233bd87d532a
+  children:
+  - node: betrvg:sec_87
+    summary: Der Abschnitt legt fest, dass der Betriebsrat in bestimmten Bereichen mitbestimmen muss, wenn
+      keine gesetzliche oder tarifliche Regelung besteht. Er betrifft Ordnung, Arbeitszeit, Entgelt,
+      Arbeitsschutz, soziale Einrichtungen, Wohnraum, Vorschlagswesen, Gruppenarbeit und mobile Arbeit.
+      Arbeitgeber und Betriebsrat sind verpflichtet. Bei keiner Einigung entscheidet die Einigungsstelle.
+    source_sha: 9c97efa182c3cd374c8c6ddd72395cee99e240350354ae35fa65837a8ebe0482
+    children: []
+  - node: betrvg:sec_88
+    summary: Durch eine freiwillige Betriebsvereinbarung können Arbeitgeber und Betriebsrat zusätzliche
+      Maßnahmen vereinbaren. Sie regeln Arbeitssicherheit, betrieblichen Umweltschutz, firmeneigene Sozialeinrichtungen,
+      Vermögensbildung, Integration ausländischer Beschäftigter, Bekämpfung von Rassismus und Eingliederung
+      schwerbehinderter Menschen. Die Regelungen gelten nur im jeweiligen Betrieb, Unternehmen oder Konzern,
+      sobald die Vereinbarung abgeschlossen ist.
+    source_sha: 685376844066ef82fc862dd94572115ee0a48dea326392556a0f224c6bdf8579
+    children: []
+  - node: betrvg:sec_89
+    summary: Der Betriebsrat fördert die Umsetzung von Arbeitsschutz, Unfallverhütung und betrieblichem
+      Umweltschutz. Er berät Behörden und Unfallversicherungsträger. Der Arbeitgeber muss ihn bei Inspektionen,
+      Fragen, Unfalluntersuchungen und Umweltprüfungen einbeziehen und über behördliche Auflagen informieren.
+      Der Betriebsrat erhält Protokolle und Unfallanzeigen.
+    source_sha: 352d6eb0b5aa757a5c8c3a3dd69ce5f881dba2a36544d98fd57380a77996e263
+    children: []
+- node: betrvg:cpt_4.sct_4
+  summary: Der Abschnitt regelt die Mitwirkung des Betriebsrats bei Änderungen am Arbeitsplatz, Arbeitsablauf
+    und Arbeitsumgebung. Der Arbeitgeber muss den Betriebsrat über Neubauten, Umbauten, Erweiterungen,
+    technische Anlagen, Arbeitsverfahren einschließlich KI-Einsatz und Arbeitsplätze informieren und Unterlagen
+    vorlegen. Er muss die Maßnahmen und deren Auswirkungen auf Beschäftigte und Arbeitsbedingungen mit
+    dem Betriebsrat besprechen und dessen Vorschläge berücksichtigen. Der Betriebsrat kann verlangen,
+    dass der Arbeitgeber Belastungen verhindert, mildert oder ausgleicht, wenn die Änderungen den gesicherten
+    arbeitswissenschaftlichen Erkenntnissen zur menschengerechten Gestaltung widersprechen. Bei Uneinigkeit
+    entscheidet die Einigungsstelle, deren Beschluss die Vereinbarung ersetzt.
+  source_sha: 676889b5b8e191df8c3a987c33a590fc50c2d4b1bfb72c1c31ac05c2b28dfaff
+  children:
+  - node: betrvg:sec_90
+    summary: Der Arbeitgeber informiert den Betriebsrat über Neu-, Um- und Erweiterungsbauten, technische
+      Anlagen, Arbeitsverfahren inklusive KI-Einsatz und Arbeitsplätze und legt Unterlagen vor. Er berät
+      mit dem Betriebsrat die Maßnahmen und deren Auswirkungen auf die Beschäftigten, die Arbeitsbedingungen,
+      damit dessen Vorschläge und Bedenken berücksichtigt werden.
+    source_sha: a4d2731401fea2b1abb81b600977f846b1e130879b8c21eef44b27517fe8f636
+    children: []
+  - node: betrvg:sec_91
+    summary: Der Betriebsrat kann verlangen, dass der Arbeitgeber Maßnahmen ergreift, um Belastungen zu
+      verhindern, zu mildern oder auszugleichen, wenn Änderungen am Arbeitsplatz, Arbeitsablauf oder Arbeitsumgebung
+      den gesicherten arbeitswissenschaftlichen Erkenntnissen zur menschengerechten Gestaltung der Arbeit
+      widersprechen. Wird keine Einigung erzielt, entscheidet die Einigungsstelle, und ihr Beschluss ersetzt
+      die Vereinbarung zwischen Arbeitgeber und Betriebsrat.
+    source_sha: 462012468c9aee31d332edfdd810bd2eb4b7a526c31a9b4e88551ded00651e1b
+    children: []
+- node: betrvg:cpt_4.sct_5
+  summary: Der Abschnitt regelt die Mitbestimmung von Arbeitgeber und Betriebsrat bei personalbezogenen
+    Fragen. Er verpflichtet den Arbeitgeber, den Betriebsrat über Personalbedarf, Maßnahmen und Ausbildung
+    zu informieren und dessen Vorschläge zu prüfen. Der Betriebsrat berät zur Personalplanung, Arbeitsplatzsicherung,
+    Stellenausschreibung und Nutzung von Personalfragebögen. Bei Berufsbildung ermitteln beide den Weiterbildungsbedarf,
+    planen Maßnahmen und sichern die Teilnahme aller Beschäftigten. Bei einzelnen Maßnahmen muss der Arbeitgeber
+    vor Einstellung, Eingruppierung, Versetzung usw. die Zustimmung des Betriebsrats einholen. Der Abschnitt
+    gilt in allen Betrieben, sobald ein Betriebsrat besteht.
+  source_sha: 4a478607cf03826aa68175def41ed54eebf70033c441e39b3ca4aaad574fb7e3
+  children:
+  - node: betrvg:cpt_4.sct_5.sct_1
+    summary: Der Abschnitt regelt die Zusammenarbeit von Arbeitgeber und Betriebsrat bei allen allgemeinen
+      personellen Fragen. Der Arbeitgeber informiert den Betriebsrat rechtzeitig über aktuelle und zukünftige
+      Personalbedarfe, Maßnahmen und Ausbildung. Der Betriebsrat berät, gibt Vorschläge zur Personalplanung,
+      Arbeitsplatzsicherung, Ausschreibung von Stellen und zur Nutzung von Personalfragebögen. Der Arbeitgeber
+      muss die Vorschläge prüfen, bei Ablehnung schriftlich begründen und kann bei Bedarf die Bundesagentur
+      für Arbeit hinzuziehen. Bei Uneinigkeit entscheidet die Einigungsstelle. Die Regelungen gelten für
+      alle Betriebe, sobald ein Betriebsrat besteht.
+    source_sha: 9d8dbb3291da99abecf893bd3ba2a4c2307a99bf5d7a52a6d998eeacaa542f82
+    children:
+    - node: betrvg:sec_92
+      summary: Der Arbeitgeber muss den Betriebsrat rechtzeitig und umfassend über die Personalplanung
+        informieren, also über aktuellen und zukünftigen Personalbedarf, personelle Maßnahmen, Beschäftigung
+        von Nicht-Arbeitnehmern und Berufsbildung. Er berät den Betriebsrat über Art, Umfang und Härtevermeidung.
+        Der Betriebsrat kann Vorschläge zur Einführung und Durchführung der Personalplanung machen. Die
+        Regelungen gelten ebenso für Gleichstellungs- und Schwerbehinderten-Förderungsmaßnahmen.
+      source_sha: cf6181555a701276625985b0469765cf52e45958703e638df9f709de67050289
+      children: []
+    - node: betrvg:sec_92a
+      summary: Der Betriebsrat darf dem Arbeitgeber Vorschläge zur Sicherung und Förderung von Arbeitsplätzen
+        machen, etwa flexible Arbeitszeit, Teilzeit, Altersteilzeit, Arbeitsorganisation, Qualifizierung
+        oder Alternativen zur Auslagerung. Der Arbeitgeber muss die Vorschläge beraten und bei Ablehnung
+        schriftlich begründen, bei mehr als hundert Beschäftigten. Beide können einen Vertreter der Bundesagentur
+        für Arbeit hinzuziehen.
+      source_sha: bc6a54d21e023c114ebff237bbcc937610797f36adbaf9438bcc872dd082066f
+      children: []
+    - node: betrvg:sec_93
+      summary: Der Betriebsrat kann die Ausschreibung von Arbeitsplätzen fordern. Er verlangt, dass offene
+        Stellen im Betrieb allgemein oder nach Tätigkeitsart ausgeschrieben werden, bevor sie besetzt
+        werden. Die Ausschreibung gibt allen interessierten Beschäftigten die Möglichkeit, sich zu bewerben.
+      source_sha: 109cd5c1c6340567a404edada143ee55c9e0300a8dee2c6d64039d77f24f26cf
+      children: []
+    - node: betrvg:sec_94
+      summary: Der Personalfragebogen darf nur mit Zustimmung des Betriebsrats verwendet werden. Einigt
+        sich Arbeitgeber und Betriebsrat nicht über den Inhalt, entscheidet die Einigungsstelle. Ihr Beschluss
+        ersetzt die Einigung. Gleiches gilt für persönliche Angaben in allgemeinen Arbeitsverträgen und
+        für allgemeine Beurteilungsgrundsätze.
+      source_sha: e6d11bd99eeb17e427e6556d4d8f0da24c2fd054d40b46c5e1df6c40520dfa91
+      children: []
+    - node: betrvg:sec_95
+      summary: Der Arbeitgeber muss für Auswahlrichtlinien bei Maßnahmen die Zustimmung des Betriebsrats
+        einholen. Ohne Einigung entscheidet die Einigungsstelle auf Antrag des Arbeitgebers. In Betrieben
+        mit über 500 Beschäftigten kann der Betriebsrat Vorgaben zu fachlichen, persönlichen und sozialen
+        Kriterien verlangen. Die Regelungen gelten auch, wenn Künstliche Intelligenz bei ihrer Erstellung
+        eingesetzt wird.
+      source_sha: 53d781f8c28263411e5c8087a83c1381c2e6816dbb06c6731d4d203bd766223e
+      children: []
+  - node: betrvg:cpt_4.sct_5.sct_2
+    summary: Der zweite Unterabschnitt regelt die Förderung der Berufsbildung. Arbeitgeber und Betriebsrat
+      ermitteln den Weiterbildungsbedarf, beraten über Maßnahmen und schalten die Einigungsstelle ein.
+      Sie sichern die Teilnahme von Beschäftigten, auch älterer, Teilzeit- und familienpflichtiger. Der
+      Arbeitgeber bezieht den Betriebsrat bei Einrichtung, Ausstattung und Auswahl von Bildungsmaßnahmen
+      ein; bei Änderungen, die neue Qualifikationen erfordern, entscheidet der Betriebsrat mit. Der Betriebsrat
+      wirkt bei der Durchführung mit, kann ungeeignete Verantwortliche ablehnen und Teilnehmer vorschlagen.
+      Bei Uneinigkeit entscheidet die Einigungsstelle; bleibt keine Einigung, kann der Betriebsrat das
+      Arbeitsgericht anrufen, das Zwangsgelder verhängen kann.
+    source_sha: 4eacdd8a08ba5f64aa7912c5c2cca41ceca25e0452d7c529a7d4eea6faf30441
+    children:
+    - node: betrvg:sec_96
+      summary: Arbeitgeber und Betriebsrat müssen die Berufsbildung der Beschäftigten fördern. Sie ermitteln
+        gemeinsam den Weiterbildungsbedarf, beraten über Maßnahmen und können bei Uneinigkeit die Einigungsstelle
+        einschalten. Dabei sichern sie die Teilnahme an internen und externen Trainings und berücksichtigen
+        ältere, Teilzeit- und familienpflichtige Beschäftigte.
+      source_sha: 47a79e9f3c42f1f14ed30b07b20ca04aa231bd2b862f5878ed05e224ca0cfa2a
+      children: []
+    - node: betrvg:sec_97
+      summary: Der Arbeitgeber muss den Betriebsrat bei Einrichtung und Ausstattung betrieblicher Berufsbildungseinrichtungen,
+        bei Einführung von Berufsbildungsmaßnahmen und bei Teilnahme an außerbetrieblichen Maßnahmen beraten.
+        Ändert der Arbeitgeber die Tätigkeit, sodass die Qualifikationen der Beschäftigten nicht mehr
+        ausreichen, entscheidet der Betriebsrat mit. Bei keiner Einigung entscheidet die Einigungsstelle,
+        deren Beschluss bindend ist.
+      source_sha: 231c81aaa80761485f080ad38c38b427b87eccbbf36057ae43d8627374cfa330
+      children: []
+    - node: betrvg:sec_98
+      summary: Der Betriebsrat beteiligt sich an der Durchführung betrieblicher Berufsbildungsmaßnahmen.
+        Er kann die Bestellung einer verantwortlichen Person ablehnen, wenn sie ungeeignet ist, und Teilnehmer
+        vorschlagen. Bei Uneinigkeit entscheidet die Einigungsstelle; bleibt keine Einigung, kann der
+        Betriebsrat das Arbeitsgericht anrufen, das bei Nichtbefolgung Ordnungsgelder oder Zwangsgelder
+        verhängen kann.
+      source_sha: d9915d46113cc28d2e4df75fd821eeb962b359d793c08fff173ba4ec96f0f81c
+      children: []
+  - node: betrvg:cpt_4.sct_5.sct_3
+    summary: Der Unterabschnitt regelt die Mitbestimmung bei einzelnen personellen Maßnahmen in Betrieben
+      mit mehr als zwanzig wahlberechtigten Beschäftigten. Arbeitgeber müssen den Betriebsrat vor jeder
+      Einstellung, Eingruppierung, Umgruppierung oder Versetzung informieren, Unterlagen vorlegen und
+      dessen Zustimmung einholen. Der Betriebsrat kann aus rechtlichen, tariflichen oder betrieblichen
+      Gründen ablehnen und muss dies innerhalb einer Woche begründen. Bei dringendem Handlungsbedarf darf
+      der Arbeitgeber eine vorläufige Maßnahme sofort durchführen, muss aber den Betriebsrat sofort benachrichtigen.
+      Bei Verstoß kann das Arbeitsgericht ein tägliches Zwangsgeld bis zu 250 Euro anordnen. Der Unterabschnitt
+      enthält zudem besondere Regeln für Kündigungen, außerordentliche Kündigungen von Betriebsratsmitgliedern,
+      die Entfernung betriebsstörender Arbeitnehmer und die Information über geplante Änderungen bei leitenden
+      Angestellten.
+    source_sha: 19716d91ea336d2126e4d5108dd1fc4f5f98b631a3b359f8b30c5dfc1c290322
+    children:
+    - node: betrvg:sec_99
+      summary: Regelt, dass Arbeitgeber in Betrieben mit mehr als zwanzig wahlberechtigten Arbeitnehmern
+        den Betriebsrat vor jeder Einstellung, Eingruppierung, Umgruppierung oder Versetzung informieren,
+        Unterlagen vorlegen und dessen Zustimmung einholen muss. Der Betriebsrat kann aus rechtlichen,
+        tariflichen oder betrieblichen Gründen die Zustimmung verweigern und muss dies innerhalb einer
+        Woche begründen.
+      source_sha: ed1402d930332be2083d35a1916abe66545e5398fae97fbbcba244b8dba02324
+      children: []
+    - node: betrvg:sec_100
+      summary: Der Arbeitgeber darf eine vorläufige personelle Maßnahme sofort durchführen, wenn sie aus
+        sachlichen Gründen dringend nötig ist, bevor der Betriebsrat Stellung nimmt oder seine Zustimmung
+        verweigert. Er muss den Arbeitnehmer über die Sach- und Rechtslage informieren und den Betriebsrat
+        unverzüglich benachrichtigen. Bestreitet der Betriebsrat die Dringlichkeit, muss er dies sofort
+        melden; dann darf die Maßnahme nur weiterbestehen, wenn der Arbeitgeber binnen drei Tagen beim
+        Arbeitsgericht die Ersetzung der Zustimmung und die Feststellung der Dringlichkeit beantragt.
+      source_sha: 5301b71dfca148c4c21b7edfda3f05d6bb0eb40962ab78737df7e9abbdab98fd
+      children: []
+    - node: betrvg:sec_101
+      summary: Der Arbeitgeber muss eine personelle Maßnahme, die ohne Zustimmung des Betriebsrats durchgeführt
+        oder trotz einer vorläufigen Entscheidung fortgeführt wird, aufheben. Der Betriebsrat kann das
+        Arbeitsgericht um eine Anordnung bitten. Ignoriert der Arbeitgeber eine rechtskräftige Entscheidung,
+        kann das Gericht ein Zwangsgeld von bis zu 250 Euro pro Tag verhängen.
+      source_sha: 3d25b4a37c16d309fe69bb15b0486b066637f3200b13a043de3925cd588e1416
+      children: []
+    - node: betrvg:sec_102
+      summary: Die Vorschrift regelt die Mitbestimmung bei Kündigungen. Der Arbeitgeber muss den Betriebsrat
+        vor jeder ordentlichen oder außerordentlichen Kündigung anhören und die Kündigungsgründe mitteilen.
+        Ohne Betriebsratsanhörung ist die Kündigung unwirksam. Der Betriebsrat kann innerhalb festgelegter
+        Fristen Bedenken schriftlich äußern und genau begründen.
+      source_sha: ff21ca46b24bc16821dc18a3505ee34e683ef8304e441ffac5dfbe3c0e18d606
+      children: []
+    - node: betrvg:sec_103
+      summary: Außerordentliche Kündigungen von Vertretern des Betriebsrats und ähnlichen Gremien benötigen
+        die Zustimmung des Betriebsrats; bei Verweigerung kann das Arbeitsgericht auf Antrag des Arbeitgebers
+        die Zustimmung ersetzen, wenn die Kündigung gerechtfertigt ist. Für Versetzungen, die das Amt
+        oder die Wählbarkeit gefährden, gilt dieselbe Regel, außer der Arbeitnehmer stimmt zu.
+      source_sha: 7ca1870d6894724585c4fabfe18746ee579d87477cef35e3085f0345d6efa0d1
+      children: []
+    - node: betrvg:sec_104
+      summary: Bei wiederholter, schweren Störung des Betriebsfriedens durch rechtswidriges oder grob
+        vertragswidriges Verhalten – etwa rassistische oder fremdenfeindliche Handlungen – kann der Betriebsrat
+        die Entlassung oder Versetzung des Arbeitnehmers verlangen. Weigert sich der Arbeitgeber nach
+        gerichtlicher Anordnung, kann das Arbeitsgericht ein tägliches Zwangsgeld von bis zu 250 Euro
+        festsetzen.
+      source_sha: 7ebd0ff86347c22c8ddcefa8e0121114068410806811351986b8f5959499cf7b
+      children: []
+    - node: betrvg:sec_105
+      summary: Der Arbeitgeber muss dem Betriebsrat rechtzeitig mitteilen, wenn er eine beabsichtigte
+        Einstellung oder personelle Veränderung von leitenden Angestellten plant, die in den Regelungen
+        zu den leitenden Angestellten genannt sind.
+      source_sha: e152b7fbcb19b044ce1979224f8bcb1efa8c329c1a368bec6576e129672afffd
+      children: []
+- node: betrvg:cpt_4.sct_6
+  summary: Der Abschnitt verpflichtet Unternehmen mit mehr als hundert Beschäftigten, einen Wirtschaftsausschuss
+    zu bilden. Der Ausschuss berät den Arbeitgeber zu Lage, Investitionen, Rationalisierung, Umweltschutz
+    und Lieferketten-Sorgfaltspflichten und informiert den Betriebsrat. Der Arbeitgeber muss dem Ausschuss
+    relevante Informationen bereitstellen und mit ihm zusammentreffen. Zusätzlich muss der Arbeitgeber
+    in Betrieben mit mehr als zwanzig wahlberechtigten Arbeitnehmern den Betriebsrat rechtzeitig über
+    geplante Schließungen, Verlegungen, Zusammenschlüsse, Spaltungen, grundlegende organisatorische Änderungen
+    und neue Arbeitsmethoden informieren und beraten. Bei fehlender Einigung können Vermittlung oder Einigungsstelle
+    eingeschaltet werden; ein Sozialplan ist bei erheblichem Personalabbau vorzusehen.
+  source_sha: 42635932be5b16d6305854627355550d29d498f14fa7158a583d82b6ec110afb
+  children:
+  - node: betrvg:cpt_4.sct_6.sct_1
+    summary: Unternehmen mit mehr als hundert Beschäftigten müssen einen Wirtschaftsausschuss bilden.
+      Der Ausschuss berät den Arbeitgeber zu wirtschaftlichen Fragen und informiert den Betriebsrat. Der
+      Arbeitgeber liefert dem Ausschuss umfassende Informationen zu Lage, Investitionen, Rationalisierung,
+      Umweltschutz, Lieferketten-Sorgfaltspflichten, Betriebsänderungen und Übernahmen, ohne Betriebsgeheimnisse
+      zu gefährden. Der Ausschuss wird vom Betriebsrat für die Dauer seiner Amtszeit bestimmt, besteht
+      aus drei bis sieben Mitarbeitern, darunter mindestens ein Betriebsratsmitglied, und kann jederzeit
+      abberufen werden. Er trifft sich monatlich, der Arbeitgeber oder sein Vertreter nimmt teil und kann
+      fachkundige Arbeitnehmer hinzuziehen. Mitglieder dürfen Unterlagen einsehen, berichten sofort dem
+      Betriebsrat und erhalten gemeinsam mit ihm die Erläuterung des Jahresabschlusses. Bei fehlender
+      oder unzureichender Auskunft entscheidet die Einigungsstelle, die Experten anhören kann. Bei Unternehmensübernahmen
+      ohne bestehenden Ausschuss muss der Betriebsrat nach den gleichen Regeln beteiligt werden. Der Arbeitgeber
+      informiert die Arbeitnehmer vierteljährlich über die wirtschaftliche Lage; bei mehr als tausend
+      Beschäftigten schriftlich nach Abstimmung mit dem Wirtschaftsausschuss oder Betriebsrat, bei zwanzig
+      bis tausend Beschäftigten mündlich nach Abstimmung mit dem Betriebsrat.
+    source_sha: 1e01adb06cf07760281856ff928bdf7dabbc61d78e61d616ceecea601d1631ce
+    children:
+    - node: betrvg:sec_106
+      summary: In Unternehmen mit über hundert Beschäftigten muss ein Wirtschaftsausschuss gebildet werden.
+        Er berät den Unternehmer zu wirtschaftlichen Fragen und informiert den Betriebsrat. Der Unternehmer
+        muss den Ausschuss rechtzeitig und umfassend über Lage, Investitionen, Rationalisierung, Umweltschutz,
+        Lieferketten-Sorgfaltspflichten, Betriebsänderungen, Übernahmen und Vorgänge informieren, ohne
+        Betriebsgeheimnisse zu gefährden.
+      source_sha: 045ef48559da771b600f9fd815a186faac6b15d89a9fbeafbeed0d7d54bea9e9
+      children: []
+    - node: betrvg:sec_107
+      summary: Der Wirtschaftsausschuss wird vom Betriebsrat oder vom Gesamtbetriebsrat für dessen Amtszeit
+        bestimmt. Er besteht aus drei bis sieben Unternehmensmitarbeitern, mindestens einem Betriebsratsmitglied
+        und Angestellten. Mitglieder müssen fachlich geeignet sein und können jederzeit abberufen werden.
+        Die Regelung gilt für jedes Unternehmen, das einen Wirtschaftsausschuss einrichtet.
+      source_sha: bf17d6f76b0b655c430e51ebe58991685b86d20cae67485b22cf80e45c3f7355
+      children: []
+    - node: betrvg:sec_108
+      summary: Der Wirtschaftsausschuss trifft sich monatlich. Unternehmer oder Vertreter muss teilnehmen
+        und kann fachkundige Arbeitnehmer hinzuziehen. Mitglieder dürfen Unterlagen einsehen, berichten
+        sofort und vollständig dem Betriebsrat und erhalten die Erläuterung des Jahresabschlusses gemeinsam
+        mit ihm. Übernimmt der Betriebsrat die Aufgaben, gelten dieselben Regeln.
+      source_sha: 7e7785b4b1269d2c923290154dbf82757942a942389d78db86ce9eca595cc4d2
+      children: []
+    - node: betrvg:sec_109
+      summary: Wenn das Unternehmen die geforderte Auskunft über wirtschaftliche Angelegenheiten nicht,
+        zu spät oder unzureichend gibt und keine Einigung mit dem Betriebsrat erzielt wird, entscheidet
+        die Einigungsstelle. Ihr Beschluss ersetzt die Einigung. Sie kann Experten anhören; gilt auch,
+        wenn der Betriebsrat andere Aufgaben des Wirtschaftsausschusses übernimmt.
+      source_sha: b6032addbe004a095595d163f456d72704df51107d6ec7b59f8a3f76b2cd8fdd
+      children: []
+    - node: betrvg:sec_109a
+      summary: Bei einer Unternehmensübernahme in Betrieben ohne Wirtschaftsausschuss muss der Betriebsrat
+        nach den gleichen Regeln wie bei sonstigen Übernahmen beteiligt werden. Der Arbeitgeber muss den
+        Betriebsrat informieren und anhören; die Mitbestimmungsrechte gelten wie bei den üblichen Übernahmeverfahren.
+      source_sha: d9f8a3c27498c6cea75ca97a34bb5b54d0464d510558d6a3830e47115ad2f123
+      children: []
+    - node: betrvg:sec_110
+      summary: Der Unternehmer muss die Arbeitnehmer einmal pro Quartal über die wirtschaftliche Lage
+        und Entwicklung des Unternehmens informieren. Bei mehr als 1.000 Beschäftigten erfolgt Unterrichtung
+        schriftlich nach Abstimmung mit Wirtschaftsausschuss oder Betriebsrat. Bei 20 bis 1.000 Beschäftigten
+        kann sie mündlich nach Abstimmung mit dem Betriebsrat erfolgen.
+      source_sha: b3f14721a3acfddb5a371ae1fbf87b8862d2e32a5b22922a1fc873d3e874f6c6
+      children: []
+  - node: betrvg:cpt_4.sct_6.sct_2
+    summary: Der Arbeitgeber muss in Betrieben mit mehr als zwanzig wahlberechtigten Arbeitnehmern den
+      Betriebsrat rechtzeitig und umfassend über geplante Schließungen, Verlegungen, Zusammenschlüsse,
+      Spaltungen, grundlegende organisatorische Änderungen, neue Arbeitsmethoden und Fertigungsverfahren
+      informieren und beraten. Bei über dreihundert Arbeitnehmern darf der Betriebsrat einen Berater hinzuziehen.
+      Arbeitgeber und Betriebsrat schließen einen Interessenausgleich und einen Sozialplan ab; fehlt eine
+      Einigung, können sie Vermittlung bei der Bundesagentur beantragen oder die Einigungsstelle anrufen,
+      die eine Einigung anstrebt und den Sozialplan festlegt. Bei reinem Personalabbau gilt ein Sozialplan,
+      wenn zwischen zehn und zwanzig Prozent der Beschäftigten entlassen werden, ausgenommen Unternehmen
+      in den ersten vier Gründungsjahren, außer bei Umstrukturierungen. Weicht der Arbeitgeber ohne zwingenden
+      Grund vom vereinbarten Interessenausgleich ab, können entlassene Arbeitnehmer beim Arbeitsgericht
+      Abfindung fordern; bei anderen wirtschaftlichen Nachteilen muss der Arbeitgeber bis zu zwölf Monate
+      ausgleichen.
+    source_sha: e5c6351eca59989a4dacfbcba45f08000428632eb0f64f4e9743ded218ab859b
+    children:
+    - node: betrvg:sec_111
+      summary: Der Unternehmer muss in Unternehmen mit mehr als zwanzig wahlberechtigten Arbeitnehmern
+        den Betriebsrat rechtzeitig und umfassend über geplante Betriebsänderungen informieren und mit
+        ihm beraten. Betriebsänderungen umfassen Schließungen, Verlegungen, Zusammenschlüsse, Spaltungen,
+        grundlegende organisatorische Änderungen, neue Arbeitsmethoden und Fertigungsverfahren. Der Betriebsrat
+        kann bei über 300 Arbeitnehmern einen Berater hinzuziehen.
+      source_sha: a93885092474c19b23f9c7e5a903778dc6428f18ed3281769e9b1301ce40f731
+      children: []
+    - node: betrvg:sec_112
+      summary: Der Arbeitgeber und der Betriebsrat schließen einen Interessenausgleich und einen Sozialplan
+        ab. Ohne Einigung können sie Vermittlung bei der Bundesagentur beantragen oder die Einigungsstelle
+        anrufen, die eine Einigung anstrebt und den Sozialplan festlegt, wobei soziale Belange und wirtschaftliche
+        Tragbarkeit für das Unternehmen zu berücksichtigen sind.
+      source_sha: 7e6f88c6648f8bd3a4ba82c1251725c5521bc380610375997e5357076d9c1036
+      children: []
+    - node: betrvg:sec_112a
+      summary: Der Paragraph regelt, dass bei reinem Personalabbau ein Sozialplan gilt, wenn in Betrieben
+        Schwellen von entlassenen Beschäftigten überschritten werden – zwischen zehn und zwanzig Prozent.
+        Unternehmen in den ersten vier Gründungsjahren gelten nicht, außer bei Umstrukturierungen. Der
+        Gründungszeitpunkt ist Beginn der Erwerbstätigkeit, die dem Finanzamt gemeldet wird.
+      source_sha: 0a7c784baa549870fb0db79abd1861b75cce9f87ad7feb5428bc72be5de207fd
+      children: []
+    - node: betrvg:sec_113
+      summary: Weicht der Arbeitgeber ohne zwingenden Grund von einem mit dem Betriebsrat vereinbarten
+        Interessenausgleich bei einer geplanten Betriebsänderung ab, können entlassene Arbeitnehmer beim
+        Arbeitsgericht Klage auf Abfindung nach dem Kündigungsschutzgesetz erheben. Bei anderen wirtschaftlichen
+        Nachteilen ist der Arbeitgeber verpflichtet, bis zu zwölf Monate auszugleichen.
+      source_sha: b39916f7bc952c09fbe52750eb66f79e01c9ed7b2be30dd557423582f5f9ddd1
+      children: []
+last_change:
+  date: '2026-09-17'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

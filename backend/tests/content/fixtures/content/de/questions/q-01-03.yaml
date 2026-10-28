@@ -1,0 +1,14 @@
+id: q-01-03
+chapter: 01-test
+type: free_text
+difficulty: 3
+question: Warum verlangt die Verordnung KI-Kompetenz beim Personal?
+rubric:
+  must:
+    - point: nennt den Zweck aus Erwägungsgrund 20
+      ask: Und wozu soll das gut sein?
+  should: []
+model_answer: Weil Personal KI-Systeme sachkundig und verantwortungsvoll einsetzen soll.
+explanation: Erwägungsgrund 20 erläutert den Zweck der Pflicht zur KI-Kompetenz.
+citations: ["Rec. 20"]
+last_change: {date: 2026-09-15, by: human, trigger: initial, summary: fixture}

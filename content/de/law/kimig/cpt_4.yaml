@@ -1,0 +1,38 @@
+node: kimig:cpt_4
+summary: Der Teil fördert KI-Innovation. Die Bundesnetzagentur berät, schult und vernetzt Unternehmen,
+  Start-ups und öffentliche Stellen und veröffentlicht Ergebnisse. Sie richtet ein KI-Reallabor ein, betreibt
+  es und gewährt Zugang für EU-Forschungseinrichtungen und Hochschulen, die die Kriterien erfüllen. Das
+  Bundesministerium für Digitales erlässt Verordnungen und kann die Befugnisse an die Bundesnetzagentur
+  übertragen. Marktüberwachungsbehörden prüfen Testpläne für Hochrisiko-KI-Systeme, die außerhalb von
+  Reallaboren unter Realbedingungen getestet werden; fehlt eine Rückmeldung innerhalb von 30 Tagen, gilt
+  die Genehmigung als erteilt. Die Regelungen gelten für alle Aktivitäten im Rahmen des EU-KI-Acts.
+source_sha: 617463525af15bae0816cf1a1c5790b4055eab6284583145c78143df2fba51ca
+children:
+- node: kimig:sec_12
+  summary: Die Bundesnetzagentur führt innovationsfördernde Maßnahmen nach der EU-Verordnung 2024/1689
+    durch. Sie informiert und berät Unternehmen, Start-ups und öffentliche Stellen, bietet Schulungen,
+    fördert Studien, Veranstaltungen und Vernetzung. Für Beratungen schließt sie eine Verwaltungsvereinbarung
+    mit dem zuständigen Ministerium ab und veröffentlicht die wesentlichen Ergebnisse.
+  source_sha: 64c2a6d8107ffef0eaa760a4414f53285d40b8c80f322059e81f2974b0102893
+  children: []
+- node: kimig:sec_13
+  summary: Die Bundesnetzagentur richtet mindestens ein KI-Reallabor ein und betreibt es. Sie kooperiert
+    dabei mit anderen Behörden, insbesondere der Datenschutzaufsicht. Forschungseinrichtungen und Hochschulen
+    in der EU erhalten vorrangigen Zugang, wenn sie die festgelegten Kriterien erfüllen. Das Bundesministerium
+    für Digitales und Staatsmodernisierung erlässt Verordnungen zu Details und kann die Befugnis an die
+    Bundesnetzagentur übertragen. Gilt für die Einrichtung und den Betrieb von KI-Reallaboren nach dem
+    EU-KI-Act.
+  source_sha: aae9a347f63f3d206751eaf9d47c4f9360173a0f82f9abee82909acb5b1cd369
+  children: []
+- node: kimig:sec_14
+  summary: Die zuständigen Marktüberwachungsbehörden überwachen Tests von Hochrisiko-KI-Systemen unter
+    Realbedingungen außerhalb von KI-Reallaboren. Anbieter müssen vor Inverkehrbringen einen Testplan
+    einreichen. Die Behörde genehmigt den Test, wenn die Vorgaben des Test-Regelwerks erfüllt sind; bei
+    fehlender Rückmeldung innerhalb von 30 Tagen gilt die Genehmigung als erteilt.
+  source_sha: fede2a869a3c685b411c95bb95ce0454d29c4b6b47b753191f3b83f9827179bf
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

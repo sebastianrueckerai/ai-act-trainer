@@ -1,0 +1,19 @@
+/* The picker's question is a heading by role and a sentence by face, so it follows
+   the text setting the way a bubble does (D79). */
+[data-look="pixel"] h2.pick-lead {
+  font-family: var(--font-prose);
+  font-weight: 400;
+  font-size: var(--size-prose);
+  line-height: var(--line-prose);
+}
+
+/* Tiny5 has no bold weight, so the pixel text marks a closing question by
+   colour instead (D86). The accent is drawn for dark rooms, so in light mode
+   the question keeps its dark bubble (D142). */
+[data-look="pixel"][data-text="pixel"] .ui-bubble--question {
+  color: var(--c-accent);
+}
+
+[data-look="pixel"][data-text="pixel"][data-mode="light"] .ui-bubble--question {
+  background: var(--c-secondary);
+}

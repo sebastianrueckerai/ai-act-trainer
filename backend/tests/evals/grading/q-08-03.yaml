@@ -1,0 +1,61 @@
+question: q-08-03
+cases:
+  - id: clean
+    answer: >-
+      Das sehe ich anders. Die Grenze steht schwarz auf weiß in der
+      Dokumentation, und du weißt genau, dass Vertragsprüfung nicht
+      dazugehört. Wenn du das Werkzeug trotzdem dafür einsetzt, bleibt die
+      Verantwortung für das Ergebnis bei dir, das kannst du nicht auf den
+      Anbieter abwälzen.
+    fair: correct
+    note: >-
+      trifft beide Muss-Punkte: die Grenze steht in der Dokumentation und der
+      Kollege kennt sie, und die Verantwortung für das Ergebnis bleibt bei
+      dem, der das Werkzeug trotzdem dafür einsetzt, statt beim Anbieter.
+  - id: bare-minimum
+    answer: >-
+      steht doch in der doku, dass das nix für recht is, das weißt du. dann is
+      das ergebnis auch dein bier
+    fair: correct
+    note: >-
+      beide Muss-Punkte knapp, aber getragen: "steht doch in der doku... das
+      weißt du" trägt die bekannte Grenze, "dann is das ergebnis auch dein
+      bier" die Verantwortung bei dem, der das Werkzeug einsetzt. Die dünnste
+      Antwort im Satz, die noch zählt.
+  - id: meant-right
+    answer: >-
+      Nö, so läuft das nicht. Du weißt selbst, wo drinsteht, wofür das Ding
+      nicht gemacht ist, und trotzdem nimmst du es für Verträge her. Dann
+      trägst am Ende du das, was dabei rauskommt, nicht der, der es gebaut
+      hat.
+    fair: correct
+    note: >-
+      beide Muss-Punkte getragen statt in Rubrikworten: "du weißt selbst, wo
+      drinsteht, wofür das Ding nicht gemacht ist" trägt die Grenze in der
+      Dokumentation samt Kenntnis, "trägst am Ende du das, was dabei
+      rauskommt" trägt, dass die Verantwortung bei dem bleibt, der das
+      Werkzeug einsetzt.
+  - id: plausible-miss
+    answer: >-
+      Ich würde da an deiner Stelle sicherheitshalber nochmal einen Juristen
+      drüberschauen lassen, bevor irgendwas rausgeht. Verträge sind einfach
+      ein heikles Feld, und lieber einmal zu viel geprüft als hinterher
+      Ärger.
+    fair: wrong
+    note: >-
+      kein Muss-Punkt getroffen: der Rat, einen Juristen drüberschauen zu
+      lassen, sagt nichts darüber, dass die Grenzen in der Dokumentation
+      stehen und der Kollege sie kennt, und nichts darüber, dass die
+      Verantwortung für das Ergebnis bei dem bleibt, der das Werkzeug
+      einsetzt.
+  - id: confidently-wrong
+    answer: >-
+      Doch, da hat er recht. Sobald sowas mal schriftlich in der Doku steht,
+      ist das reine Formsache, in Wirklichkeit haftet immer der Anbieter für
+      das, was am Ende rauskommt, egal wofür du das Ding benutzt.
+    fair: wrong
+    note: >-
+      Gegenteil beider Muss-Punkte: tut die Grenze in der Dokumentation als
+      reine Formsache ab, obwohl der Kollege sie kennt, und behauptet, die
+      Verantwortung für das Ergebnis liege immer beim Anbieter statt bei dem,
+      der das Werkzeug einsetzt.

@@ -1,0 +1,36 @@
+id: q-06-01
+chapter: 06-die-kurze-liste-der-verbote
+type: multiple_choice
+difficulty: 2
+question: >-
+  Drei Vorhaben liegen bei uns auf dem Tisch. Welches steht auf der Liste der
+  verbotenen Praktiken?
+options:
+  - key: A
+    text: >-
+      Ein Werkzeug bewertet Beschäftigte über Monate nach ihrem Verhalten in
+      sozialen Netzwerken und schlägt vor, wem das Haus keine Fortbildung mehr
+      zahlt.
+  - key: B
+    text: Ein Assistent entwirft die Einladung zur Betriebsversammlung.
+  - key: C
+    text: Ein Werkzeug übersetzt die Betriebsanleitung einer Maschine.
+correct: A
+model_answer: >-
+  A. Menschen über einen Zeitraum nach ihrem Sozialverhalten zu bewerten und sie
+  dann in einem ganz anderen Zusammenhang schlechterzustellen, ist die verbotene
+  soziale Bewertung.
+explanation: >-
+  Art. 5 Abs. 1 Buchst. c verbietet KI-Systeme zur Bewertung oder Einstufung
+  natürlicher Personen über einen bestimmten Zeitraum auf der Grundlage ihres
+  sozialen Verhaltens, wenn die Bewertung zu einer Schlechterstellung in sozialen
+  Zusammenhängen führt, die mit den Umständen der Datenerhebung in keinem
+  Zusammenhang stehen. Das Verhalten in sozialen Netzwerken hat mit der
+  Fortbildung im Betrieb nichts zu tun, während Entwerfen und Übersetzen auf
+  keinem Punkt der Liste in Art. 5 Abs. 1 stehen.
+citations: ["Art. 5(1)", "Art. 5(1)(c)"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

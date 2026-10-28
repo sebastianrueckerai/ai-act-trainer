@@ -1,0 +1,15 @@
+name: Feature request
+description: An idea for the trainer.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is missing?
+      description: What you want to do and what stops you today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: How could it work?

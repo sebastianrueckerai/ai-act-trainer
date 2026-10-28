@@ -1,0 +1,39 @@
+id: q-01-04
+chapter: 01-warum-es-dich-betrifft
+type: multiple_choice
+difficulty: 2
+question: >-
+  Drei dieser vier Vorhaben am Arbeitsplatz sind erlaubt. Welches verbietet die
+  Verordnung?
+options:
+  - key: A
+    text: Ein Chatassistent entwirft ein Rundschreiben an alle Beschäftigten.
+  - key: B
+    text: Ein Werkzeug übersetzt das Handbuch für den Arbeitsschutz ins Englische.
+  - key: C
+    text: >-
+      Eine Software wertet im Bewerbungsgespräch die Gesichtsausdrücke aus und
+      schätzt daraus die Begeisterung des Bewerbers.
+  - key: D
+    text: Ein Chatassistent fasst das Protokoll der Teambesprechung zusammen.
+correct: C
+model_answer: >-
+  C. Ein KI-System, das die Emotionen einer Person am Arbeitsplatz ableitet, ist
+  verboten, außer es wird aus medizinischen Gründen oder Sicherheitsgründen
+  eingesetzt. Entwerfen, Übersetzen und Zusammenfassen sind dagegen erlaubt.
+explanation: >-
+  Art. 5 Abs. 1 Buchst. f verbietet das Inverkehrbringen, die Inbetriebnahme für
+  diesen Zweck und die Verwendung von KI-Systemen zur Ableitung von Emotionen
+  einer natürlichen Person am Arbeitsplatz und in Bildungseinrichtungen. Die
+  einzige Ausnahme sind medizinische Gründe oder Sicherheitsgründe. Erwägungsgrund
+  44 begründet das Verbot mit dem Machtungleichgewicht in Arbeit und Bildung und
+  erfasst Situationen, die mit dem Arbeitsplatz in Zusammenhang stehen, also auch
+  das Bewerbungsgespräch. Verboten ist das Ableiten von Emotionen, nicht jedes
+  KI-Werkzeug im Personalbereich, deshalb bleiben die drei anderen Vorhaben
+  zulässig.
+citations: ["Art. 5(1)(f)", "Rec. 44"]
+last_change:
+  date: 2026-09-21
+  by: ai
+  trigger: Jo round 2, defect 22
+  summary: Generisches Maskulinum in Antwortmöglichkeit C

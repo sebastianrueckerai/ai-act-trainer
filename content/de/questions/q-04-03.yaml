@@ -1,0 +1,41 @@
+id: q-04-03
+chapter: 04-hochrisiko-am-arbeitsplatz
+type: free_text
+difficulty: 2
+question: >-
+  Eine Beförderung geht an dir vorbei. Die Vorauswahl hat ein KI-System getroffen, das
+  unser Haus dafür einsetzt. Was kannst du verlangen?
+rubric:
+  must:
+    - point: nennt, dass du eine Erklärung verlangen kannst
+      ask: Also, was kannst du jetzt verlangen?
+    - point: >-
+        nennt, dass die Erklärung sagen muss, welche Rolle das System bei der
+        Entscheidung hatte
+      ask: >-
+        Du bekommst zwei Sätze zurück, die Wahl sei eben auf einen Kollegen gefallen.
+        Was muss in der Antwort stehen, damit sie genügt?
+  should:
+    - >-
+      nennt, dass du sie von unserem Arbeitgeber verlangst, nicht vom Anbieter des
+      Systems
+    - nennt, dass sie auch die wichtigsten Gründe der Entscheidung nennen muss
+    - nennt, dass es dafür auf eine Entscheidung mit erheblichen Folgen ankommt
+    - nennt Art. 86 Abs. 1 für das Recht auf Erläuterung
+model_answer: >-
+  Du kannst vom Betreiber, also von unserem Arbeitgeber, eine klare und
+  aussagekräftige Erläuterung zur Rolle des KI-Systems im Entscheidungsprozess und
+  zu den wichtigsten Elementen der Entscheidung verlangen.
+explanation: >-
+  Art. 86 Abs. 1 gibt Personen, die von einer Entscheidung auf der Grundlage der
+  Ausgaben eines in Anhang III aufgeführten Hochrisiko-KI-Systems betroffen sind,
+  genau dieses Recht, sofern die Entscheidung rechtliche Wirkung hat oder sie
+  ähnlich erheblich beeinträchtigt. Entscheidungen über Beförderungen stehen in
+  Anhang III Nummer 4 Buchstabe b, und die Erläuterung schuldet der Betreiber, der
+  die Entscheidung getroffen hat.
+citations: ["Art. 86(1)", "Annex III pt. 4(b)"]
+last_change:
+  date: 2026-09-29
+  by: ai
+  trigger: D119
+  summary: one fact per point

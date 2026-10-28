@@ -1,0 +1,41 @@
+id: q-07-04
+chapter: 07-wenn-etwas-schiefgeht
+type: yes_no
+difficulty: 3
+question: >-
+  Ein Kollege sagt, für die Pflichten der Betreiber gebe es dieselbe Höchststrafe wie
+  für eine verbotene Praktik. Stimmt das?
+correct: "no"
+rubric:
+  must:
+    - point: nennt, dass die beiden Höchstbeträge nicht gleich sind
+    - point: >-
+        nennt, dass eine verbotene Praktik teurer wird als ein Verstoß gegen die
+        Pflichten der Betreiber
+      ask: >-
+        Der Kollege fragt zurück, welcher der beiden Verstöße dann der
+        schlimmere ist. Was sagst du ihm?
+  should:
+    - >-
+      nennt die Größenordnungen, bis zu 15 Millionen Euro oder 3 Prozent gegen bis
+      zu 35 Millionen oder 7 Prozent vom weltweiten Jahresumsatz
+    - nennt, dass der jeweils höhere der beiden Beträge fällig wird
+    - nennt Art. 99 Abs. 4 für die Pflichten der Betreiber
+model_answer: >-
+  Nein, für Verstöße gegen die Pflichten der Betreiber und die
+  Transparenzpflichten sind es bis zu 15 Millionen Euro oder 3 Prozent des
+  weltweiten Jahresumsatzes, während eine verbotene Praktik bis zu 35 Millionen
+  oder 7 Prozent kostet.
+explanation: >-
+  Art. 99 Abs. 4 setzt für Verstöße gegen die Pflichten der Betreiber nach Art. 26
+  und gegen die Transparenzpflichten nach Art. 50 Geldbußen von bis zu
+  15 000 000 EUR oder, im Falle von Unternehmen, bis zu 3 Prozent des gesamten
+  weltweiten Jahresumsatzes an, je nachdem, welcher Betrag höher ist. Art. 99
+  Abs. 3 nennt für die Missachtung der Verbote aus Art. 5 den höheren Rahmen von
+  bis zu 35 000 000 EUR oder 7 Prozent des gesamten weltweiten Jahresumsatzes.
+citations: ["Art. 99(3)", "Art. 99(4)"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why

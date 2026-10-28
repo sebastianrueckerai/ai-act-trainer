@@ -1,0 +1,186 @@
+@font-face {
+  font-family: "Tiny5";
+  src: url("../assets/fonts/Tiny5-Regular.ttf") format("truetype");
+  font-display: swap;
+}
+
+:root {
+  --face-pixel: "Tiny5", system-ui, sans-serif;
+  --face-plain: system-ui, "Segoe UI", sans-serif;
+
+  /* One art pixel, for every drawn pixel on the screen: sprites, scene, portrait,
+     icons and both pixel faces (D66). Both faces render a font pixel as exactly
+     four device pixels at 32px and two at 16px, and antialias at every size
+     between. */
+  --px: 4px;
+  --font-pixel: 32px;
+  /* What a window height leaves over the grid: the foot stands on the window's
+     bottom edge and hands it back as padding, so an odd window never shifts the
+     portrait or the composer off the grid. */
+  --px-rest: calc(100vh - round(down, 100vh, var(--px)));
+
+  --font-prose: var(--face-plain);
+  --size-prose: 17px;
+  --line-prose: 26px;
+  --size-small: 15px;
+  --line-small: 21px;
+  --weight-strong: 700;
+
+  /* Dark is the default; useTheme overwrites these once the theme is loaded (D42).
+     Values are derivePalette(DEFAULT_COLORS, "dark", "pixel") from the Tiefsee seeds (D55). */
+  --c-primary: #39bffb;
+  --c-on-primary: #081319;
+  --c-primary-soft: #13243c;
+  --c-secondary: #16243c;
+  --c-accent: #fbc031;
+  --c-on-accent: #161107;
+  --c-bg: #0a121f;
+  --c-surface: #101a2d;
+  --c-surface-2: #16243c;
+  --c-border: #283d62;
+  --c-text: #d0d8e5;
+  --c-text-dim: #9199a5;
+  --c-success: #56ae6c;
+  --c-warning: #f6c330;
+  --c-danger: #de3c37;
+  --c-focus: #996300;
+  /* Fixed in both modes, not derived: the cells still ahead in a progress row. */
+  --c-ahead: #45619a;
+}
+
+@media (max-width: 720px) {
+  :root {
+    --px: 2px;
+    --font-pixel: 16px;
+  }
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+/* Prose follows the text setting (D79, D140): the pixel look's default sets it
+   in Tiny5 at the one pixel size; the readable setting and the clean look keep
+   it in the reading font. */
+[data-look] {
+  background: var(--c-bg);
+  color: var(--c-text);
+  color-scheme: dark;
+  font-family: var(--font-prose);
+  font-size: var(--size-prose);
+  line-height: var(--line-prose);
+}
+
+/* Every label the screen carries, the title included, follows the same setting
+   (D66, D140). Prose is not on this list. */
+[data-look] h1,
+[data-look] h2,
+[data-look] h3,
+[data-look] .app-title,
+[data-look] .pick-title,
+[data-look] .app-tool-label,
+[data-look] .ui-button,
+[data-look] .ui-select,
+[data-look] .ui-chip,
+[data-look] .ui-badge,
+[data-look] .course-status,
+[data-look] .stage-name,
+[data-look] .pick-name,
+[data-look] .answer-label,
+[data-look] .ui-avatar-fallback {
+  font-family: var(--font-label);
+  font-weight: var(--weight-label);
+  font-size: var(--size-label);
+  line-height: var(--line-label);
+}
+
+[data-look] h1,
+[data-look] .app-title,
+[data-look] .pick-title {
+  font-size: var(--size-title);
+  line-height: var(--line-title);
+}
+
+/* One face, one pixel (D79): by default the pixel look sets every text in Tiny5
+   at the one size. The readable setting (data-text="plain") and the clean look
+   set every text, labels included, in the reading font (D140). A nested column
+   (the gallery) resets the same variables so it cannot inherit the root's face.
+   The labels key on the look alone: the page shell carries the look before the
+   app writes the text setting, and the gallery never writes it. */
+[data-look="pixel"] {
+  --font-label: var(--face-pixel);
+  --size-label: var(--font-pixel);
+  --line-label: 1;
+  --weight-label: 400;
+  --size-title: var(--font-pixel);
+  --line-title: 1;
+}
+
+[data-look="pixel"][data-text="pixel"] {
+  --font-prose: var(--face-pixel);
+  --size-prose: var(--font-pixel);
+  --line-prose: calc(var(--font-pixel) * 1.25);
+  --size-small: var(--font-pixel);
+  --line-small: calc(var(--font-pixel) * 1.25);
+  --weight-strong: 400;
+}
+
+[data-look="clean"],
+[data-look="pixel"][data-text="plain"] {
+  --font-prose: var(--face-plain);
+  --size-prose: 17px;
+  --line-prose: 26px;
+  --size-small: 15px;
+  --line-small: 21px;
+  --weight-strong: 700;
+  --font-label: var(--face-plain);
+  --size-label: 17px;
+  --line-label: 1.2;
+  --weight-label: 700;
+  --size-title: 28px;
+  --line-title: 1.1;
+}
+
+@media (max-width: 720px) {
+  [data-look="clean"],
+  [data-look="pixel"][data-text="plain"] {
+    --size-title: 20px;
+  }
+}
+
+/* A control holding words, not a bold label. */
+[data-look="clean"] .ui-select,
+[data-look="pixel"][data-text="plain"] .ui-select {
+  font-weight: 400;
+  line-height: 1.55;
+}
+
+/* The accent set as text. It is drawn for dark rooms; on a bright surface it
+   would fade, so it darkens there and keeps its hue. */
+[data-look] {
+  --c-accent-ink: var(--c-accent);
+}
+
+[data-mode="light"] {
+  color-scheme: light;
+  --c-ahead: #94a3b8;
+  --c-accent-ink: color-mix(in oklch, var(--c-accent) 60%, black);
+}
+
+:focus-visible {
+  outline: 3px solid var(--c-focus);
+  outline-offset: 2px;
+}
+
+[data-freeze] *,
+[data-freeze] *::before,
+[data-freeze] *::after {
+  animation: none !important;
+  transition: none !important;
+}

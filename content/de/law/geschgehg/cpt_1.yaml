@@ -1,0 +1,53 @@
+node: geschgehg:cpt_1
+summary: Das Gesetz schützt Geschäftsgeheimnisse vor unerlaubter Erlangung, Nutzung und Offenlegung. Es
+  gilt für Unternehmen und Personen, die mit solchen Informationen umgehen, solange keine höheren Regelungen
+  Anwendung finden. Es definiert ein Geschäftsgeheimnis als nicht allgemein bekannte, wertvolle Information,
+  die vom Inhaber geheim gehalten wird, und bestimmt die Rollen von Inhaber, Rechtsverletzer und rechtsverletzendem
+  Produkt. Erlaubt sind eigenständige Erfindung, Beobachtung öffentlich zugänglicher Produkte und Ausübung
+  von Arbeitnehmer-Informations- und Mitbestimmungsrechten. Verboten sind Zugang, Kopieren und Verstöße
+  gegen Treu- und Glauben. Ausnahmen gelten bei berechtigtem Interesse, Ausübung von Meinungs- und Informationsfreiheit,
+  Aufdeckung illegaler Handlungen und Offenlegung an Arbeitnehmervertretungen.
+source_sha: 948ea6d1507ca3e27cdad2a7ced8c470bbb48aff7a0661281e0707032303e9ad
+children:
+- node: geschgehg:sec_1
+  summary: Das Gesetz schützt Geschäftsgeheimnisse vor unberechtigter Erlangung, Nutzung und Offenlegung.
+    Es gilt für Unternehmen und Personen, die mit solchen Informationen umgehen, solange keine übergeordneten
+    öffentlich-rechtlichen Regelungen gelten. Strafrechtlicher Schutz, Meinungsfreiheit, Kollektivvertragsautonomie
+    und Arbeitsrechte bleiben unberührt.
+  source_sha: e73369ad4ce064cdff313e2b97786503635664ca8187670ea10b9902bf914fb9
+  children: []
+- node: geschgehg:sec_2
+  summary: Der Abschnitt legt die wichtigsten Begriffe fest. Er definiert ein Geschäftsgeheimnis als nicht
+    allgemein bekannte, wirtschaftlich wertvolle Information, die vom rechtmäßigen Inhaber geheim gehalten
+    wird. Es bestimmt, wer als Inhaber, Rechtsverletzer und rechtsverletzendes Produkt gilt, und wann
+    diese Definitionen relevant sind, nämlich bei allen Handlungen im Rahmen des Gesetzes.
+  source_sha: ad1c0f0343698b53dc5dbe9198cd0ce344f789aaf912d5b005d1d8e6fa624731
+  children: []
+- node: geschgehg:sec_3
+  summary: Erlaubt das Erlangen eines Geschäftsgeheimnisses durch eigenständige Erfindung, Beobachtung
+    oder Testen von öffentlich zugänglichen oder rechtmäßig besessenen Produkten sowie durch Ausübung
+    von Arbeitnehmer-Informations- und Mitbestimmungsrechten. Nutzung und Offenlegung sind zulässig, wenn
+    Gesetz, Verordnung oder Vertrag es gestatten. Gilt für alle, die Geschäftsgeheimnisse erwerben, nutzen
+    oder weitergeben.
+  source_sha: c5c042015aef474d544e2b7095c713e2f5390d9801e4a3128fb41272dac8a585
+  children: []
+- node: geschgehg:sec_4
+  summary: Der Text verbietet das Erlangen, Nutzen und Offenlegen von Geschäftsgeheimnissen durch unbefugten
+    Zugang, unrechtmäßiges Kopieren oder jedes Verhalten, das gegen Treu- und Glauben sowie anständige
+    Marktgepflogenheiten verstößt. Er gilt für alle, die Geschäftsgeheimnisse besitzen, erhalten oder
+    weitergeben, insbesondere bei Herstellung, Angebot, Inverkehrbringen, Ein- und Ausfuhr oder Lagerung
+    von rechtsverletzenden Produkten.
+  source_sha: 2e68bb49108395f426d0fdafc76ae025cf7959b05c4303e5137fb547e1e78bb4
+  children: []
+- node: geschgehg:sec_5
+  summary: Die Vorschrift erlaubt das Erlangen, Nutzen oder Offenbaren von Geschäftsgeheimnissen, obwohl
+    sonst verboten, wenn ein berechtigtes Interesse geschützt wird. Das gilt für die Ausübung von Meinungsfreiheit
+    und Informationsfreiheit, für die Aufdeckung illegaler Handlungen zum Schutz des öffentlichen Interesses
+    und für notwendige Offenlegungen an Arbeitnehmervertretungen, damit diese ihre Aufgaben erfüllen können.
+  source_sha: 252cdec2e511cbaaefcf6848b841072aad3e1ab32fe106a7d33c3849f947ae05
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

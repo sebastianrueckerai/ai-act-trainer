@@ -1,0 +1,91 @@
+id: 08-die-werkzeuge-die-du-nutzt
+title: Die Werkzeuge, die du wirklich nutzt
+intro: >-
+  Zum Schluss ein Blick hinter den Chatassistenten. Das letzte Kapitel führt
+  zurück zu dem, womit der Kurs angefangen hat.
+duration_minutes: 4
+steps:
+  - id: s1
+    text: >-
+      Hinter dem Chatassistenten steckt ein KI-Modell mit allgemeinem
+      Verwendungszweck: ein Modell, das ein breites Spektrum unterschiedlicher
+      Aufgaben erfüllt und in viele Anwendungen eingebaut werden kann.
+
+
+      Das Modell ist eine eigene Kategorie mit eigenen Pflichten für seinen
+      Anbieter. Der Assistent, den du bedienst, bleibt daneben ein KI-System, und
+      euer Unternehmen bleibt sein Betreiber. Die Kategorien kommen zusammen, sie
+      ersetzen einander nicht.
+    citations: ["Art. 3(4)", "Art. 3(63)"]
+    question: q-08-01
+  - id: s2
+    text: >-
+      Der Anbieter des Modells erstellt und aktualisiert dessen technische
+      Dokumentation und stellt denen, die das Modell einbauen, Informationen über
+      seine Fähigkeiten und Grenzen bereit.
+
+
+      Dazu bringt er eine Strategie zur Einhaltung des Urheberrechts auf den Weg
+      und veröffentlicht eine hinreichend detaillierte Zusammenfassung der
+      Inhalte, mit denen das Modell trainiert wurde.
+    example: >-
+      Wo die Grenzen eures Assistenten liegen, steht in der Dokumentation des
+      Anbieters, nicht im Gesetz.
+    citations: ["Art. 53"]
+    question: q-08-02
+  - id: s3
+    text: >-
+      Die Dokumentation sagt, was das Modell kann und wo es aufhört. Eine richtige
+      Ausgabe garantiert sie nicht, und die Verordnung verlangt eine solche
+      Garantie auch nirgends.
+
+
+      Auf deiner Seite steht die KI-Kompetenz aus Kapitel 1. Wer die Grenzen
+      seines Werkzeugs kennt, legt die Verantwortung mit ihm nicht ab.
+    citations: ["Art. 3(56)", "Art. 4(1)"]
+    question: q-08-03
+  - id: s4
+    text: >-
+      Ein und dasselbe Werkzeug kann harmlos oder hochriskant sein. Es kommt
+      darauf an, wofür ihr es einsetzt, nicht darauf, wie es heißt.
+
+
+      Setzt ihr ein allgemeines Werkzeug für einen Zweck aus Anhang III ein,
+      gelten die Pflichten für Hochrisiko-Systeme, auch wenn das Werkzeug dafür
+      gar nicht gebaut wurde. Der Satz zum Weitersagen: Das Werkzeug ist erlaubt,
+      der Einsatz entscheidet.
+    example: >-
+      Ein Assistent, der die Prüfungen von Auszubildenden bewertet, landet im
+      Bildungsfeld des Anhangs III.
+    citations: ["Art. 6(2)", "Annex III pt. 4"]
+    question: q-08-04
+summary: >-
+  Hinter den großen Chatassistenten stehen KI-Modelle mit allgemeinem
+  Verwendungszweck, also Modelle mit erheblicher allgemeiner Verwendbarkeit, die
+  ein breites Spektrum von Aufgaben erfüllen und in viele nachgelagerte Systeme
+  eingebaut werden können (Art. 3 Nr. 63). Ein darauf beruhendes System, das
+  vielen Zwecken dient, ist ein KI-System mit allgemeinem Verwendungszweck
+  (Art. 3 Nr. 66). Der Assistent bleibt ein KI-System, und euer Unternehmen bleibt
+  sein Betreiber (Art. 3 Nr. 4). Der Anbieter des Modells erstellt und
+  aktualisiert die technische Dokumentation, stellt den Anbietern
+  nachgelagerter Systeme Informationen über Fähigkeiten und Grenzen bereit, bringt
+  eine Strategie zur Einhaltung des Urheberrechts auf den Weg und veröffentlicht
+  eine hinreichend detaillierte Zusammenfassung der Trainingsinhalte (Art. 53).
+  Eine richtige Ausgabe garantiert niemand. Auf deiner Seite steht KI-Kompetenz,
+  also die Fähigkeiten, die Kenntnisse und das Verständnis, um KI-Systeme
+  sachkundig einzusetzen und sich ihrer Chancen und Risiken bewusst zu werden
+  (Art. 3 Nr. 56), unterstützt durch die Maßnahmen deines Arbeitgebers (Art. 4
+  Abs. 1). Auch der Mensch in der Schleife braucht die Fähigkeiten, die zu seinem
+  System passen (Q&A der Kommission zur KI-Kompetenz, Frage 15). Entscheidend ist
+  der Einsatz, nicht der Name des Werkzeugs: Wird ein allgemeines Werkzeug für
+  einen Zweck aus Anhang III verwendet, gelten die Pflichten für
+  Hochrisiko-Systeme (Art. 6 Abs. 2).
+may: >-
+  Das weißt du jetzt: Entscheidend ist der Einsatz, nicht der Name des
+  Werkzeugs. Wird ein Chatassistent für einen Zweck aus Anhang III verwendet,
+  gelten die Pflichten für Hochrisiko-Systeme (Art. 6 Abs. 2).
+last_change:
+  date: 2026-10-11
+  by: ai
+  trigger: M5.65, das Kapitelende
+  summary: "Die Zeile, was du jetzt darfst oder weißt, aus der Zusammenfassung"

@@ -1,0 +1,26 @@
+id: q-05-01
+chapter: 05-ki-gegenueber-kunden
+type: yes_no
+difficulty: 2
+question: >-
+  Unsere Telefonzentrale wird von einer KI-Stimme beantwortet, die wie ein Mensch
+  klingt und sich mit Vornamen meldet. Muss der Anrufer erfahren, dass eine KI
+  antwortet?
+correct: "yes"
+model_answer: >-
+  Ja, auch am Telefon ist das ein KI-System für die direkte Interaktion mit
+  Menschen, und gerade weil die Stimme menschlich klingt, ist es dem Anrufer nicht
+  offensichtlich.
+explanation: >-
+  Art. 50 Abs. 1 verlangt von Anbietern, KI-Systeme für die direkte Interaktion
+  mit natürlichen Personen so zu konzipieren und zu entwickeln, dass die Person
+  informiert wird, dass sie mit einem KI-System interagiert, und schränkt das auf
+  keinen Kanal ein. Die Ausnahme greift nur, wenn das aus Sicht einer angemessen
+  informierten, aufmerksamen und verständigen natürlichen Person offensichtlich
+  ist, und eine Stimme, die sich mit Vornamen meldet, ist das Gegenteil davon.
+citations: ["Art. 50(1)"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

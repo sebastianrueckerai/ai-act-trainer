@@ -1,0 +1,162 @@
+node: betrvg:cpt_3
+summary: Der dritte Teil des Betriebsverfassungsgesetzes regelt die Jugend- und Auszubildendenvertretung.
+  Er verpflichtet Unternehmen mit mindestens fünf Beschäftigten, die noch nicht volljährig sind oder in
+  Ausbildung, eine Vertretung zu wählen. Er legt fest, wie lokale Vertretungen zu einer Gesamtvertretung
+  zusammenarbeiten, welche Mitglieder entsendet werden und wie das Stimmengewicht berechnet wird. Er ermöglicht
+  zudem die Gründung einer Konzern-Vertretung, wenn mehrere Gesamtvertretungen bestehen und mindestens
+  75 % der Beschäftigten vertreten sind. Arbeitgeber, Betriebsräte und die jeweiligen Vertreter müssen
+  die Regelungen umsetzen.
+source_sha: 92424d4f71b4ff0ab1727e381e5f2e475848d8d6883ca3bed5de7450120dfeac
+children:
+- node: betrvg:cpt_3.sct_1
+  summary: Der erste Abschnitt regelt die Einrichtung einer Jugend- und Auszubildendenvertretung in Betrieben
+    mit mindestens fünf Beschäftigten, die noch nicht volljährig sind oder sich in einer Ausbildung befinden.
+    Er bestimmt, wer wählen und gewählt werden darf, wie viele Vertreter je nach Betriebsgröße zu wählen
+    sind und wie die geheime Wahl abläuft. Die Vertretung hat eine zweijährige Amtszeit, nimmt an Betriebsratssitzungen
+    teil, kann Beschlüsse des Betriebsrats kurz aussetzen und hat das Recht, eigene Versammlungen abzuhalten.
+    Arbeitgeber und Betriebsrat sind verpflichtet, die Regelungen umzusetzen.
+  source_sha: c1fa36b74bf452772cc34d5cf23e6d74d2e64be75fa849fba0d1583ceceab380
+  children:
+  - node: betrvg:sec_60
+    summary: In Betrieben mit mindestens fünf Beschäftigten, die noch nicht 18 Jahre alt sind oder in
+      der Berufsausbildung stehen, wird eine Jugend- und Auszubildendenvertretung gewählt. Diese Vertretung
+      vertritt nach den nachfolgenden Vorschriften die besonderen Interessen dieser jungen und auszubildenden
+      Arbeitnehmer.
+    source_sha: 4a97d1212e78596ff0ac27f1f70ef2ebb9b13351fe25c1d3d622ddca7dbfb107
+    children: []
+  - node: betrvg:sec_61
+    summary: Regelt, wer bei der Wahl von Jugend- und Auszubildendenvertretern im Betrieb wählen darf
+      und wer gewählt werden kann. Wahlberechtigt sind alle im Betrieb beschäftigten Arbeitnehmer. Wahlfähig
+      sind unter 25-Jährigen und Auszubildende, jedoch nicht bereits im Betriebsrat sitzende Mitglieder.
+    source_sha: 0d6b72170d58c247ba1e5962b23927e0f7da0f3b960d35dfe69117041a9f2c82
+    children: []
+  - node: betrvg:sec_62
+    summary: 'Die Jugend- und Auszubildendenvertretung wird nach Betriebsgröße besetzt: bis 20 Beschäftigte
+      ein Mitglied, 21-50 drei, 51-150 fünf, 151-300 sieben, 301-500 neun, 501-700 elf, 701-1000 dreizehn,
+      mehr als 1000 fünfzehn. Sie soll die verschiedenen Beschäftigungsarten und Ausbildungsberufe abbilden.
+      Bei mindestens drei Mitgliedern muss das zahlenmäßig kleinere Geschlecht proportional vertreten
+      sein.'
+    source_sha: 3ab13f8a14f7bf08c0c1e0c4fd71b73ca34b62f86e7394654172541a24e506ff
+    children: []
+  - node: betrvg:sec_63
+    summary: Regelt die geheime, unmittelbare Wahl der Jugend- und Auszubildendenvertretung. Der Betriebsrat
+      bestellt spätestens acht Wochen vor Amtsende den Wahlvorstand und dessen Vorsitzenden. Bei verspäteter
+      Bestellung gelten Ersatzvorschriften, die auch von jugendlichen Arbeitnehmern beim Arbeitsgericht
+      eingereicht werden können. Für Betriebe mit 5-100 bzw. 101-200 Beschäftigten gelten angepasste Fristen
+      und Verfahren.
+    source_sha: a8a62a1f182c586d33850dc168da82ddf949a2108240a846fbce805a8eea919c
+    children: []
+  - node: betrvg:sec_64
+    summary: Die Jugend- und Auszubildendenvertretung wird alle zwei Jahre zwischen dem 1. Oktober und
+      dem 30. November gewählt. Die Amtszeit beträgt zwei Jahre, beginnt mit Bekanntgabe des Wahlergebnisses
+      oder nach Ablauf der vorherigen Amtszeit und endet spätestens am 30. November des Wahljahres. Wer
+      während der Amtszeit 25 Jahre alt wird oder seine Ausbildung beendet, bleibt bis zum Amtsende im
+      Gremium.
+    source_sha: 4298ab1cf055e4749bf41bb252aeeae6d68d94cc6bf0f6e1f1fdce61e581cc71
+    children: []
+  - node: betrvg:sec_65
+    summary: Die Regelung bestimmt die Geschäftsführung der Jugend- und Auszubildendenvertretung. Sie
+      unterliegt denselben Bestimmungen wie der Betriebsrat für Mitbestimmung, Informationsrechte, Wahlverfahren
+      und weitere Pflichten. Sie darf nach Zustimmung des Betriebsrats Sitzungen abhalten, an denen der
+      Betriebsratsvorsitzende oder ein beauftragtes Mitglied teilnehmen kann.
+    source_sha: d702b68064b31a4ab9a543c51dfd209764be31ae308ba1deddfde436d83acb5d
+    children: []
+  - node: betrvg:sec_66
+    summary: Jugend- und Auszubildendenvertreter können mit Mehrheit einen Betriebsratsbeschluss, der
+      wichtige Interessen bestimmter Arbeitnehmer stark beeinträchtigt, für eine Woche aussetzen lassen,
+      um in dieser Zeit eine Verständigung, ggf. mit Gewerkschaften, zu erreichen. Wird der Beschluss
+      bestätigt, ist ein zweiter Aussetzungsantrag ausgeschlossen, selbst bei kleiner Änderung.
+    source_sha: 596208e03a30930a3d783f568e0af91cb78312a0ba857ca71d74163d465fe63d
+    children: []
+  - node: betrvg:sec_67
+    summary: Die Jugend- und Auszubildendenvertretung darf einen Vertreter zu allen Sitzungen des Betriebsrats
+      schicken. Bei Themen, die besonders junge Beschäftigte und Auszubildende betreffen, hat die gesamte
+      Vertretung Teilnahmerecht und Stimmrecht, wenn die Beschlüsse überwiegend diese Gruppe betreffen.
+      Sie kann solche Themen auf die Tagesordnung setzen und der Betriebsrat muss sie zur Beratung weiterleiten.
+    source_sha: e25683cdf9740ad703fb3d7e1e9b3a7c9cca40a8dada156e5f2beda41e608717
+    children: []
+  - node: betrvg:sec_68
+    summary: Der Betriebsrat muss die Jugend- und Auszubildendenvertretung zu gemeinsamen Gesprächen mit
+      dem Arbeitgeber hinzuziehen, wenn Themen behandelt werden, die besonders junge Arbeitnehmer und
+      Auszubildende betreffen. Er soll sicherstellen, dass deren Interessen berücksichtigt werden und
+      dass sie rechtzeitig informiert werden.
+    source_sha: c77738900947247b8f73aebfb43ddd012556e3012a79db44d3833f702c10e90c
+    children: []
+  - node: betrvg:sec_69
+    summary: Erlaubt in Betrieben mit mehr als fünfzig Beschäftigten die Jugend- und Auszubildendenvertretung,
+      während der Arbeitszeit Sprechstunden einzurichten. Ort und Zeit werden zwischen Betriebsrat und
+      Arbeitgeber abgestimmt. Der Betriebsratsvorsitzende oder ein Beauftragter kann beratend teilnehmen.
+    source_sha: 9dfbfe0943c964a7b01e76096788689b3565491a68a78d416deb2e5f10cfbaf3
+    children: []
+  - node: betrvg:sec_70
+    summary: Die Jugend- und Auszubildendenvertretung fordert beim Betriebsrat Maßnahmen für junge Arbeitnehmer
+      und Auszubildende, zur Berufsbildung, Beschäftigungsaufnahme und Gleichstellung. Sie überwacht die
+      Einhaltung von Gesetzen, Sicherheitsvorschriften, Tarif- und Betriebsvereinbarungen, nimmt Anregungen
+      entgegen, informiert Betroffene und fördert die Integration ausländischer Arbeitnehmer. Der Betriebsrat
+      muss sie informieren und ihr Unterlagen bereitstellen.
+    source_sha: e916e1f99e52f39d73c97de59bf95b71b5d2a9179ff969e249b06f7eb638bf44
+    children: []
+  - node: betrvg:sec_71
+    summary: Die Jugend- und Auszubildendenvertretung darf in Abstimmung mit dem Betriebsrat eine eigene
+      Versammlung vor oder nach jeder Betriebsratssitzung einberufen. Mit Zustimmung von Betriebsrat und
+      Arbeitgeber kann sie die Versammlung auch zu anderen Zeitpunkten ansetzen. Die Regelungen zu Informations-
+      und Mitwirkungsrechten gelten entsprechend.
+    source_sha: 9ba2c2e6e68063de4a46f876265e0c6d01aca2842d9049e3e134912f3920f6a4
+    children: []
+- node: betrvg:cpt_3.sct_2
+  summary: Der zweite Abschnitt regelt die Gesamt-Jugend- und Auszubildendenvertretung. Er tritt in Betrieben
+    mit mehreren lokalen Jugend- und Auszubildendenvertretungen in Kraft. Er verpflichtet jede lokale
+    Vertretung, ein Mitglied und mindestens ein Ersatzmitglied zu entsenden, die Nachrückfolge festzulegen
+    und das Stimmengewicht nach der Zahl der wahlberechtigten Arbeitnehmer zu bestimmen. Die Mitgliederzahl
+    kann durch Tarif- oder Betriebsvereinbarung festgelegt werden; fehlt eine solche Regelung bei mehr
+    als zwanzig Mitgliedern, schließen Betriebsrat und Arbeitgeber eine Vereinbarung oder eine Einigungsstelle
+    entscheidet. Die Gesamt-Jugend- und Auszubildendenvertretung darf Sitzungen nur nach Absprache mit
+    dem Gesamtbetriebsrat einberufen; der Vorsitzende oder ein beauftragtes Mitglied des Gesamtbetriebsrats
+    kann teilnehmen. Für die Vertretung gelten dieselben Rechte und Pflichten wie für den Gesamtbetriebsrat.
+  source_sha: b14a92d90d29339d997d563e9d24d363ed9d7e85f3e66c4f13964b1a47a0e15a
+  children:
+  - node: betrvg:sec_72
+    summary: Existieren mehrere Jugend- und Auszubildendenvertretungen im Unternehmen, wird eine Gesamt-Jugend-
+      und Auszubildendenvertretung gegründet. Jede lokale Vertretung entsendet ein Mitglied und mindestens
+      ein Ersatzmitglied, legt die Nachrückfolge fest und bestimmt die Stimmenzahl nach der Zahl der wahlberechtigten
+      Arbeitnehmer im jeweiligen Betrieb. Die Mitgliederzahl kann durch Tarif- oder Betriebsvereinbarung
+      geregelt werden; fehlt eine solche Regelung bei mehr als zwanzig Mitgliedern, schließen Betriebsrat
+      und Arbeitgeber eine Vereinbarung oder eine Einigungsstelle entscheidet.
+    source_sha: b75c9af0b5db74ddd8a3446e184e0d5767377a0855c8936f1ebff720abfbcc94
+    children: []
+  - node: betrvg:sec_73
+    summary: Die Gesamt-Jugend- und Auszubildendenvertretung darf nach Absprache mit dem Gesamtbetriebsrat
+      Sitzungen einberufen. Der Vorsitzende oder ein beauftragtes Mitglied des Gesamtbetriebsrats kann
+      an diesen Sitzungen teilnehmen. Für die Vertretung gelten die gleichen Regelungen wie für den Gesamtbetriebsrat
+      zu Aufgaben, Wahl, Rechte und Pflichten.
+    source_sha: 01aebccc48129fadb022b052c174ad56a7aeeba5d95988f6277a30806f9ba9bb
+    children: []
+- node: betrvg:cpt_3.sct_3
+  summary: Der Abschnitt ermöglicht die Gründung einer Konzern-Jugend- und Auszubildendenvertretung, wenn
+    in einem Konzern mehrere Gesamtvertretungen bestehen und mindestens 75 % der Beschäftigten von den
+    beteiligten Unternehmen vertreten sind. Jede Gesamtvertretung entsendet ein Mitglied mit Ersatz; das
+    Stimmengewicht entspricht der Gesamtzahl der Stimmen der entsendenden Vertretung. Die Vertretung darf
+    nach Absprache mit dem Konzernbetriebsrat Sitzungen abhalten. Der Vorsitzende oder ein beauftragtes
+    Mitglied des Konzernbetriebsrats kann an den Sitzungen teilnehmen. Für die Vertretung gelten dieselben
+    Wahl-, Rechte-, Pflichten- und Mitbestimmungsregeln wie für andere Arbeitnehmervertretungen.
+  source_sha: 8a943897d488d5bb3adecd9a73e3e183da4083f8ae1c33d776e2266fd8ad3b0e
+  children:
+  - node: betrvg:sec_73a
+    summary: Erlaubt die Gründung einer Konzern-Jugend- und Auszubildendenvertretung, wenn in einem Konzern
+      mehrere Gesamtvertretungen existieren und mindestens 75 % der im Konzern beschäftigten Arbeitnehmer
+      von den beteiligten Unternehmen vertreten sind. Jede Gesamtvertretung entsendet ein Mitglied mit
+      Ersatz, das Stimmengewicht entspricht der Gesamtzahl der Stimmen der entsendenden Vertretung.
+    source_sha: 77a44cc9127d47f00e04b7ce66f7e5b3e88b41a0cd8e4d21f03cbbfb27d7cee4
+    children: []
+  - node: betrvg:sec_73b
+    summary: Die Konzern-Jugend- und Auszubildendenvertretung darf nach Absprache mit dem Konzernbetriebsrat
+      Sitzungen abhalten. Der Vorsitzende oder ein beauftragtes Mitglied des Konzernbetriebsrats kann
+      an diesen Sitzungen teilnehmen. Für die Vertretung gelten dieselben Regelungen zu Wahl, Rechten,
+      Pflichten und Mitbestimmung wie für andere Betriebsräte.
+    source_sha: 80b23c108cd145e700cd0ef97b3630ee488055097e2543dc8a58ba62758c4e33
+    children: []
+last_change:
+  date: '2026-09-17'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

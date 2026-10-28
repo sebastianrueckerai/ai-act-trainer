@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Tiny5";
+  src: url("Tiny5-Regular.ttf");
+}
+
+@page {
+  size: A4;
+  margin: 2cm 1.8cm;
+}
+
+body {
+  font-family: sans-serif;
+  font-size: 11pt;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: "Tiny5", sans-serif;
+  font-size: 22pt;
+  border-bottom: 4px solid #1e293b;
+  padding-bottom: 10px;
+  margin-bottom: 18px;
+}
+
+h2 {
+  font-family: "Tiny5", sans-serif;
+  font-size: 16pt;
+  margin-top: 20px;
+}
+
+.meta {
+  color: #475569;
+  font-size: 9pt;
+}
+
+.name {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 24px;
+  border-top: 1px solid #cbd5e1;
+  padding-top: 8px;
+  font-size: 8pt;
+  color: #475569;
+}

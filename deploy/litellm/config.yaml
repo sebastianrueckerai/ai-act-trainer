@@ -1,0 +1,27 @@
+# Development mapping of the model roles. Production maps the roles in the customer's LiteLLM.
+# The rpm caps throttle and the daily budgets cap: a script that gets past the app's
+# turn caps still cannot push the providers at full speed or past the money. Budgets
+# count USD and need the database; without one every budget fails open.
+model_list:
+  - model_name: strong
+    litellm_params:
+      model: groq/openai/gpt-oss-120b
+      api_key: os.environ/GROQ_API_KEY
+      rpm: 30
+      max_budget: 10
+      budget_duration: 1d
+  - model_name: fast
+    litellm_params:
+      model: groq/openai/gpt-oss-20b
+      api_key: os.environ/GROQ_API_KEY
+      rpm: 60
+      max_budget: 2
+      budget_duration: 1d
+
+litellm_settings:
+  drop_params: true
+  request_timeout: 60
+
+general_settings:
+  master_key: os.environ/LITELLM_MASTER_KEY
+  database_url: os.environ/DATABASE_URL

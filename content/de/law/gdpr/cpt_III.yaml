@@ -1,0 +1,150 @@
+node: gdpr:cpt_III
+summary: Das Kapitel Rechte der betroffenen Person legt fest, dass Verantwortliche klare und leicht zugängliche
+  Informationen über jede Datenverarbeitung bereitstellen müssen, insbesondere für Kinder. Es verpflichtet
+  sie, Anfragen zu Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch
+  unverzüglich und kostenfrei zu beantworten. Außerdem schützt es Personen vor automatisierten Entscheidungen
+  mit rechtlicher Wirkung. Die Vorgaben gelten für jede Verarbeitung personenbezogener Daten nach der
+  Verordnung und binden alle Verantwortlichen und Auftragsverarbeiter in der EU. Ausnahmen gelten, wenn
+  gesetzliche Pflichten, öffentliche Sicherheit oder Forschungserfordernisse entgegenstehen.
+source_sha: 4020e87d6fee2a7c49b356278d85ebab4203a7cd3bbef08ac6c7dd7c30cb95f8
+children:
+- node: gdpr:cpt_III.sct_1
+  summary: Der Verantwortliche muss betroffenen Personen klare, verständliche und leicht zugängliche Informationen
+    über die Datenverarbeitung geben, besonders für Kinder. Er beantwortet Anfragen zur Ausübung ihrer
+    Rechte unverzüglich, innerhalb eines Monats, mit möglicher zweimonatiger Fristverlängerung, kostenfrei,
+    außer bei missbräuchlichen Anfragen.
+  source_sha: c335ccd6fab1a636c7be3495fbf1453ab7e0042cd1712fe7b379968e11b38845
+  children:
+  - node: gdpr:art_12
+    summary: Der Verantwortliche muss betroffenen Personen alle Informationen zur Datenverarbeitung klar,
+      verständlich und leicht zugänglich bereitstellen, insbesondere für Kinder. Er muss Anfragen zu Ausübung
+      der Rechte unverzüglich beantworten, innerhalb eines Monats, mit möglicher zweimonatiger Fristverlängerung.
+      Kostenfrei, außer bei missbräuchlichen Anfragen.
+    source_sha: 63e8e802d4ac6fdf78cdbf766fd466e0ead1b26b4b8e965dc68212dcf7236b97
+    children: []
+- node: gdpr:cpt_III.sct_2
+  summary: Der Verantwortliche muss jede betroffene Person informieren, wenn er personenbezogene Daten
+    erhebt. Er nennt Identität, Kontaktdaten, Verarbeitungszweck, Rechtsgrundlage, Empfänger, Drittlandübermittlung,
+    Speicherdauer und Rechte. Er muss dieselben Angaben auch geben, wenn die Daten nicht bei der Person
+    erhoben wurden, und die Mitteilung innerhalb eines Monats senden. Die betroffene Person hat das Recht,
+    eine Bestätigung über die Verarbeitung zu verlangen und Auskunft über Zweck, Kategorien und Empfänger
+    zu erhalten. Sie kann zudem eine Kopie ihrer Daten anfordern; weitere Kopien dürfen kostenpflichtig
+    sein, solange keine Rechte Dritter verletzt werden.
+  source_sha: fc1bf5b6f8981057696790913eee75dc273180b68318ff0b4d2f0204f243fede
+  children:
+  - node: gdpr:art_13
+    summary: Der Verantwortliche muss die betroffene Person bei direkter Erhebung personenbezogener Daten
+      sofort über seine Identität, Kontaktdaten, Zweck, Rechtsgrundlage, Empfänger, mögliche Übermittlung
+      ins Ausland, Speicherdauer und sämtliche Betroffenenrechte informieren. Bei späterer Zweckänderung
+      erfolgt eine erneute Information.
+    source_sha: 81ff41ae67857dd3eb4e0ef0ca659c19237b54175f5d749518cde55abad35e9c
+    children: []
+  - node: gdpr:art_14
+    summary: Die Informationspflicht verpflichtet den Verantwortlichen, wenn er personenbezogene Daten
+      nicht bei der betroffenen Person erhebt, ihr Name, Kontaktdaten, Zweck, Rechtsgrundlage, Datenkategorien,
+      Empfänger, mögliche Drittlandübermittlung, Speicherdauer und Rechte zu nennen. Die Mitteilung muss
+      innerhalb eines Monats oder bei erster Kontaktaufnahme erfolgen.
+    source_sha: f20bcff6b733437e7e172d848787277b66e596fb4c4f70d479415eb4646a2960
+    children: []
+  - node: gdpr:art_15
+    summary: Das Auskunftsrecht der betroffenen Person erlaubt ihr, vom Verantwortlichen eine Bestätigung
+      über die Verarbeitung ihrer personenbezogenen Daten zu verlangen und Informationen zu Zweck, Kategorien
+      und Empfängern zu erhalten. Sie kann zudem eine Kopie anfordern; weitere Kopien dürfen kostenpflichtig
+      sein, solange sie keine Rechte Dritter verletzen.
+    source_sha: 792a6c3c00779c229bbc56f39cc4504e459e281b7f18f110a7893d7fe48c5d00
+    children: []
+- node: gdpr:cpt_III.sct_3
+  summary: Die Bestimmungen geben betroffenen Personen das Recht, ihre personenbezogenen Daten korrigieren,
+    löschen, die Verarbeitung einschränken, über Änderungen informiert werden und in einem strukturierten,
+    maschinenlesbaren Format erhalten zu können. Sie verpflichten Verantwortliche, Anfragen unverzüglich
+    zu bearbeiten, falsche Daten zu berichtigen, Daten zu entfernen, wenn sie nicht mehr benötigt werden
+    oder die Einwilligung widerrufen wurde, und Empfänger über Änderungen zu informieren. Ausnahmen gelten
+    bei Ausübung der Meinungsfreiheit, gesetzlichen Pflichten, öffentlicher Gesundheit, Forschung, Archivierung
+    und Rechtsdurchsetzung. Die Regeln gelten bei jeder Verarbeitung personenbezogener Daten nach der
+    Verordnung.
+  source_sha: 15b38f142e68917b33299c413256afa0cde9c4eb3a29add385afbb9bedbce184
+  children:
+  - node: gdpr:art_16
+    summary: Das Recht auf Berichtigung erlaubt der betroffenen Person, vom Verantwortlichen unverzüglich
+      die Korrektur falscher personenbezogener Daten zu verlangen. Sie kann zudem die Vervollständigung
+      unvollständiger Daten, auch durch ergänzende Erklärungen, fordern, sofern die Verarbeitung dies
+      zulässt und die Daten aktualisiert werden müssen.
+    source_sha: 4a0b771db32facd00decc6d83eb2f974c626fa116056a203ea2de44c5b8f7d59
+    children: []
+  - node: gdpr:art_17
+    summary: Die betroffene Person kann vom Verantwortlichen die sofortige Löschung ihrer personenbezogenen
+      Daten verlangen. Der Verantwortliche muss löschen, wenn die Daten nicht mehr für den Zweck nötig
+      sind, die Einwilligung widerrufen wurde, ein Widerspruch besteht, die Verarbeitung unrechtmäßig
+      war, eine gesetzliche Pflicht zur Löschung besteht oder die Daten im Zusammenhang mit Online-Diensten
+      erhoben wurden. Ausnahmen gelten bei Ausübung der Meinungsfreiheit, gesetzlichen Pflichten, öffentlicher
+      Gesundheit, Forschungs-/Archivzwecken und zur Durchsetzung von Rechtsansprüchen.
+    source_sha: 826208ba29952c468e308275db457e0f0e78848e573238e1028bada8015da083
+    children: []
+  - node: gdpr:art_18
+    summary: Das Recht auf Einschränkung der Verarbeitung erlaubt betroffenen Personen, vom Verantwortlichen
+      die Nutzung ihrer personenbezogenen Daten zu begrenzen, wenn die Richtigkeit bestritten, die Verarbeitung
+      unrechtmäßig, die Daten für Rechtsansprüche benötigt oder ein Widerspruch vorliegt. Der Verantwortliche
+      muss die Person informieren, bevor die Einschränkung endet.
+    source_sha: 4ee20c927c263424307b317144e58635a53f733b8bdd1461cdc53bdff6b327f7
+    children: []
+  - node: gdpr:art_19
+    summary: Der Verantwortliche muss allen Empfängern, denen personenbezogene Daten bereits übermittelt
+      wurden, jede nachträgliche Berichtigung, Löschung oder Einschränkung der Verarbeitung mitteilen,
+      außer dies ist unmöglich oder mit unverhältnismäßigem Aufwand verbunden. Auf Verlangen informiert
+      er die betroffene Person über die Empfänger.
+    source_sha: 2be618173e1b6d1d1c839bf913af62b8c315ad0e719e2f378d38e27247a595ce
+    children: []
+  - node: gdpr:art_20
+    summary: Betroffene Personen erhalten ihre personenbezogenen Daten in einem strukturierten, maschinenlesbaren
+      Format. Sie dürfen die Daten an einen anderen Verantwortlichen übermitteln, wenn die Verarbeitung
+      auf Einwilligung oder Vertrag beruht. Übermittlung ist bei Machbarkeit möglich; das Recht gilt nicht
+      für Daten, die für Aufgaben nötig sind, und berührt das Recht auf Löschung nicht.
+    source_sha: 16043bdbd908aea9583c28163867a30e04fecda22784852770ca9b89eb86354e
+    children: []
+- node: gdpr:cpt_III.sct_4
+  summary: Das Recht auf Widerspruch erlaubt betroffenen Personen jederzeit, gegen die Verarbeitung ihrer
+    personenbezogenen Daten zu protestieren, wenn diese auf öffentlichen oder berechtigten Interessen
+    beruht. Der Verantwortliche muss die Verarbeitung einstellen, es sei denn, er kann schutzwürdige Gründe
+    nachweisen. Zusätzlich schützt das Recht vor automatisierten Entscheidungen mit Wirkung oder Beeinträchtigung.
+    Ausnahmen gelten, wenn die Entscheidung für einen Vertrag nötig ist, gesetzlich erlaubt ist und Schutzmaßnahmen
+    enthält, oder bei Zustimmung. Der Verantwortliche muss Eingriffe, Stellungnahme und Anfechtung ermöglichen.
+    Entscheidungen dürfen nicht auf besonderen Kategorien beruhen, außer engen Voraussetzungen.
+  source_sha: 533d18d6e37e3b680a6aeb27833b595ab2ce3d6019cd2da0d4f8d05e8e475b08
+  children:
+  - node: gdpr:art_21
+    summary: Das Widerspruchsrecht gibt betroffenen Personen das Recht, jederzeit aus Gründen ihrer besonderen
+      Situation gegen die Verarbeitung ihrer personenbezogenen Daten zu protestieren, wenn diese auf öffentlichen
+      oder berechtigten Interessen beruht. Der Verantwortliche muss die Verarbeitung einstellen, außer
+      er kann zwingende schutzwürdige Gründe nachweisen. Der Hinweis erfolgt bei erster Kontaktaufnahme.
+    source_sha: 6c208c747fcb1cb4d71b486e560dfb04048e428584b71e4b67af8383e351ba04
+    children: []
+  - node: gdpr:art_22
+    summary: Das Recht auf Schutz vor ausschließlich automatisierten Entscheidungen, die rechtliche Wirkung
+      haben oder erheblich beeinträchtigen, gilt für jede betroffene Person. Ausnahmen bestehen, wenn
+      die Entscheidung für einen Vertrag nötig ist, durch EU- oder nationales Recht erlaubt ist und Schutzmaßnahmen
+      enthält, oder wenn die betroffene Person ausdrücklich zustimmt. Der Verantwortliche muss in den
+      Ausnahmen menschliche Eingriffe ermöglichen, die Möglichkeit zur Stellungnahme und zur Anfechtung
+      bieten. Entscheidungen dürfen nicht auf besonderen Kategorien personenbezogener Daten beruhen, außer
+      unter engen Voraussetzungen.
+    source_sha: f66efffc1c45615f8d2f40e3296a840068b25accde878d8954043bbf2eb8bd31
+    children: []
+- node: gdpr:cpt_III.sct_5
+  summary: Die Vorschrift erlaubt Union- und Mitgliedstaat-Gesetzen, Rechte und Pflichten aus den Datenschutzvorschriften
+    zu beschränken, wenn Grundrechte gewahrt bleiben und die Maßnahme für Sicherheit, Strafverfolgung
+    oder öffentliche Interessen notwendig und verhältnismäßig ist. Sie verlangt, dass das beschränkende
+    Gesetz Zweck, Datenkategorien, Umfang, Garantien und Informationspflichten festlegt.
+  source_sha: 155d98c29b3f13079b7706b877b1b8422776f163c8ba0ad78fcffe528ea0eff5
+  children:
+  - node: gdpr:art_23
+    summary: Die Bestimmung über Beschränkungen erlaubt Union- oder Mitgliedstaatgesetzen, die Rechte
+      und Pflichten aus den Datenschutzvorschriften zu begrenzen, wenn der Grundrechtsschutz gewahrt bleibt
+      und die Maßnahme notwendig und verhältnismäßig für Sicherheit, Verteidigung, Strafverfolgung oder
+      wichtige öffentliche Interessen ist. Solche Beschränkungen müssen Zweck, Datenkategorien, Umfang,
+      Garantien und Informationspflichten klar festlegen.
+    source_sha: 510a9b0dc9ba629eb345df058c729c94ca979a43240c15229e572e8ba6b4129d
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

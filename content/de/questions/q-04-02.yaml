@@ -1,0 +1,24 @@
+id: q-04-02
+chapter: 04-hochrisiko-am-arbeitsplatz
+type: yes_no
+difficulty: 2
+question: >-
+  Unser Bewerbungsportal legt die Eingänge nach Stelle in Ordner und meldet, wenn
+  ein Zeugnis fehlt. Bewertet wird niemand. Ist das ein Hochrisiko-KI-System?
+correct: "no"
+model_answer: >-
+  Nein, das ist eine eng gefasste Verfahrensaufgabe ohne Profiling, und damit
+  greift die Ausnahme von der Einstufung.
+explanation: >-
+  Art. 6 Abs. 3 nimmt ein in Anhang III genanntes System von der Einstufung aus,
+  wenn es kein erhebliches Risiko für Gesundheit, Sicherheit oder Grundrechte
+  birgt und das Ergebnis der Entscheidungsfindung nicht wesentlich beeinflusst,
+  was unter anderem für eine eng gefasste Verfahrensaufgabe gilt. Einsortieren und
+  das Melden einer fehlenden Anlage bewerten niemanden und nehmen kein Profiling
+  vor, das die Ausnahme nach demselben Absatz in jedem Fall aufheben würde.
+citations: ["Art. 6(3)", "Annex III pt. 4(a)"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

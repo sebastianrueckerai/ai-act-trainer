@@ -1,0 +1,10 @@
+id: q-01-01
+chapter: 01-test
+type: yes_no
+difficulty: 1
+question: Must providers and deployers ensure AI literacy of their staff?
+correct: "yes"
+model_answer: Yes, Art. 4 requires it.
+explanation: Art. 4(1) obliges providers and deployers to take measures for AI literacy.
+citations: ["Art. 4(1)"]
+last_change: {date: 2026-09-15, by: human, trigger: initial, summary: fixture}

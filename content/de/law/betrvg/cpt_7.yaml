@@ -1,0 +1,33 @@
+node: betrvg:cpt_7
+summary: Der siebte Teil enthält formelle Änderungen mehrerer Gesetze, ohne inhaltliche Wirkung. Eine
+  Vorschrift ändert das Bürgerliche Gesetzbuch, wirkt jedoch nur auf die Gesetzesstruktur und gilt für
+  alle Rechtsverhältnisse, die dem BGB unterliegen, ab dem Inkrafttreten. Eine weitere Vorschrift sollte
+  das Kündigungsschutzgesetz ändern, ist aber gegenstandslos und hat keinerlei rechtliche Wirkung für
+  Arbeitgeber oder Arbeitnehmer. Eine dritte Vorschrift ändert das Arbeitsgerichtsgesetz, hat aber ebenfalls
+  keinen inhaltlichen Effekt und gilt für alle, die dem Arbeitsgerichtsgesetz unterliegen, zum festgelegten
+  Zeitpunkt.
+source_sha: 5d1d2cf3164d01bf291e50d81ccd48aae262de9c60a938c81b4831b531c60a0f
+children:
+- node: betrvg:sec_122
+  summary: Die Vorschrift ändert das Bürgerliche Gesetzbuch, hat jedoch keinen inhaltlichen Effekt. Sie
+    gilt für alle Rechtsverhältnisse, die dem BGB unterliegen, ab dem Inkrafttreten der Änderung. Damit
+    entstehen keine neuen Pflichten oder Rechte. Die Regelung ist rein formell und betrifft nur die Gesetzesstruktur.
+  source_sha: ee0c668d2827ba86033a4c0b05eb77557c1b9351a403d47f8841c31f6fb74f11
+  children: []
+- node: betrvg:sec_123
+  summary: Der Text sollte das Kündigungsschutzgesetz ändern, ist jedoch gegenstandslos. Er enthält keine
+    Regelung, hat keine rechtliche Wirkung und bindet weder Arbeitgeber noch Arbeitnehmer. Damit bleibt
+    das bestehende Kündigungsschutzrecht unverändert. Keine Frist, keine Formalität ist zu beachten.
+  source_sha: 588e5d03ed07be9d68a8a4831b388c9b78034dbdc8b61a523f183a5d0d5b25ad
+  children: []
+- node: betrvg:sec_124
+  summary: Der Paragraph ändert das Arbeitsgerichtsgesetz, hat jedoch keinen inhaltlichen Effekt. Er richtet
+    sich an alle, die dem Arbeitsgerichtsgesetz unterliegen, und tritt zu dem im Gesetz vorgesehenen Zeitpunkt
+    in Kraft, bewirkt jedoch keine Änderung und hat daher keine praktischen Folgen.
+  source_sha: 4ec6ae656765e10afb8d6dce36370cca800f8971f56ba40b04c33c0711a6a9c8
+  children: []
+last_change:
+  date: '2026-09-17'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

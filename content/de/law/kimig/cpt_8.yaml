@@ -1,0 +1,20 @@
+node: kimig:cpt_8
+summary: Die Bundesnetzagentur führt ein Register für Hochrisiko-KI-Systeme. Anbieter und Vertreter melden
+  das System vor Inverkehrbringen und geben Angaben; Bundesbehörden melden. Die Bundesnetzagentur leitet
+  die Daten an EU-Kommission und andere vorgesehene Stellen weiter, nicht an Dritte. Personenbezogene
+  Daten werden für das Register verarbeitet.
+source_sha: 1cedc7f0daa93ac9b0b9f5d00c1eca3ee1dafc6cbb08f302699bda8a4a43e9a4
+children:
+- node: kimig:sec_20
+  summary: Die Bundesnetzagentur führt ein nicht-öffentliches Register für Hochrisiko-KI-Systeme. Anbieter
+    und deren Vertreter melden das System vor Inverkehrbringen und geben die geforderten Angaben an; Bundesbehörden
+    als Betreiber melden ebenfalls. Marktüberwachungsbehörden erhalten notwendige Daten, die Bundesnetzagentur
+    an EU-Kommission und andere vorgesehene Stellen weiterleitet, nicht an Dritte. Personenbezogene Daten
+    werden zum Zweck des Registers verarbeitet.
+  source_sha: 6c05cf2f300cf9a08f2cf540506f09fd5ec40c3ea716b47e6c6bf1182bd65ba6
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

@@ -1,0 +1,43 @@
+id: q-02-02
+chapter: 02-was-du-hineingeben-darfst
+type: yes_no
+difficulty: 2
+question: >-
+  Ein Kollege kopiert die Preisliste eines Lieferanten in den Assistenten, um sie mit
+  unseren Preisen zu vergleichen. Geschickt hat der Lieferant sie vertraulich. Ist das
+  ein Geschäftsgeheimnis?
+correct: "yes"
+rubric:
+  must:
+    - point: nennt, dass die Preisliste ein Geschäftsgeheimnis ist
+    - point: >-
+        begründet es damit, dass der Lieferant seine Preise nicht öffentlich macht,
+        sondern vertraulich herausgibt
+      ask: >-
+        Der Kollege fragt zurück, woran du das festmachst, es sei doch nur eine Liste
+        mit Zahlen. Was sagst du ihm?
+  should:
+    - nennt, dass es das Geheimnis des Lieferanten ist, nicht unseres
+    - nennt, dass die Liste deshalb draußen bleibt wie ein eigenes Geheimnis auch
+    - nennt § 2 Nr. 1 GeschGehG für das Geschäftsgeheimnis
+model_answer: >-
+  Ja, ein Geschäftsgeheimnis, und zwar das des Lieferanten: Er hält seine Preise
+  geheim und hat sie uns vertraulich gegeben. Dass es nicht unser eigenes ist,
+  macht die Liste nicht freier, sondern unfreier.
+explanation: >-
+  § 2 Nr. 1 GeschGehG nennt als Geschäftsgeheimnis eine Information, die den
+  Kreisen, die üblicherweise damit umgehen, nicht allgemein bekannt oder ohne
+  Weiteres zugänglich und daher von wirtschaftlichem Wert ist, die Gegenstand
+  angemessener Geheimhaltungsmaßnahmen ist und an deren Geheimhaltung ein
+  berechtigtes Interesse besteht. Inhaber ist nach § 2 Nr. 2 GeschGehG, wer die
+  rechtmäßige Kontrolle darüber hat, hier also der Lieferant. Wer gegen eine
+  Verpflichtung verstößt, ein Geschäftsgeheimnis nicht offenzulegen, darf es nach
+  § 4 Abs. 2 Nr. 3 GeschGehG weder nutzen noch offenlegen, und genau diese
+  Verpflichtung ist der Grund, aus dem der Lieferant die Liste vertraulich
+  geschickt hat.
+citations: ["GeschGehG § 2 Nr. 1", "GeschGehG § 2 Nr. 2", "GeschGehG § 4(2) Nr. 3"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why

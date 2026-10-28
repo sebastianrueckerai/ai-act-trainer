@@ -1,0 +1,96 @@
+id: 04-hochrisiko-am-arbeitsplatz
+title: Hochrisiko-KI am Arbeitsplatz
+intro: >-
+  Hier geht es um die Systeme, bei denen mehr auf dem Spiel steht als bei einem
+  Textentwurf. Danach erkennst du sie und weißt, was du verlangen kannst, wenn
+  dich eine ihrer Entscheidungen trifft.
+duration_minutes: 4
+steps:
+  - id: s1
+    text: >-
+      Hochrisiko ist keine Bewertung deines Werkzeugs, sondern eine Liste. Anhang
+      III zählt die Einsatzfelder auf, und eines davon ist Beschäftigung und
+      Personalmanagement.
+
+
+      Darunter fallen Systeme für die Einstellung und die Auswahl, also für
+      Stellenanzeigen, für das Sichten und Filtern von Bewerbungen und für das
+      Bewerten von Bewerbern. Dazu kommen Systeme für Beförderung, Kündigung,
+      Aufgabenzuweisung und für die Bewertung von Leistung und Verhalten.
+    example: >-
+      Ein System, das aus 200 Bewerbungen eine Rangfolge macht, steht auf dieser
+      Liste.
+    citations: ["Art. 6(2)", "Annex III pt. 4"]
+    question: q-04-01
+  - id: s2
+    text: >-
+      Nicht alles, was in der Personalabteilung läuft, ist damit Hochrisiko. Ein
+      System aus einem Feld des Anhangs III fällt heraus, wenn es kein erhebliches
+      Risiko birgt und das Ergebnis der Entscheidung nicht wesentlich beeinflusst.
+
+
+      Das gilt zum Beispiel für eine eng gefasste Verfahrensaufgabe oder für eine
+      vorbereitende Aufgabe. Eine Grenze bleibt fest: Sobald das System ein
+      Profiling natürlicher Personen vornimmt, ist es immer hochriskant.
+    example: >-
+      Ein Werkzeug, das nur meldet, welche Anlage in einer Bewerbung fehlt,
+      erledigt eine eng gefasste Verfahrensaufgabe.
+    citations: ["Art. 6(3)"]
+    question: q-04-02
+  - id: s3
+    text: >-
+      Trifft dich eine Entscheidung, die auf der Ausgabe eines solchen Systems
+      beruht, kannst du nachfragen, wie sie zustande kam. Zuerst erfährst du
+      überhaupt, dass du der Verwendung des Systems unterliegst.
+
+
+      Hat die Entscheidung rechtliche Wirkung oder beeinträchtigt sie dich ähnlich
+      erheblich, hast du gegenüber dem Betreiber ein Recht auf eine klare und
+      aussagekräftige Erläuterung: welche Rolle das System im Entscheidungsprozess
+      hatte und was die wichtigsten Elemente der Entscheidung waren.
+    example: >-
+      Nach einer abgelehnten Bewerbung, die ein solches System vorsortiert hat,
+      fragst du beim Betreiber nach der Rolle des Systems.
+    citations: ["Art. 26(11)", "Art. 86(1)"]
+    question: q-04-03
+  - id: s4
+    text: >-
+      Die Pflichten für die Systeme aus Anhang III gelten ab dem 2. Dezember 2027.
+      Bis dahin ist ein solches System weder verboten noch von allen Regeln frei.
+
+
+      Die Mitbestimmung des Betriebsrats aus Kapitel 2 greift schon heute, sobald
+      ein System Leistung oder Verhalten überwacht. Der Satz zum Weitersagen:
+      Hochrisiko heißt Pflichten, nicht Verbot.
+    citations: ["Art. 113", "BetrVG § 87(1) Nr. 6"]
+    question: q-04-04
+summary: >-
+  Hochrisiko ist eine Liste, keine Bewertung im Einzelfall: Die in Anhang III
+  genannten KI-Systeme gelten als hochriskant (Art. 6 Abs. 2), und Anhang III
+  Nummer 4 nennt für den Arbeitsplatz Systeme für Einstellung und Auswahl, also
+  für Stellenanzeigen, das Sichten und Filtern von Bewerbungen und das Bewerten
+  von Bewerbern, sowie Systeme für Beförderung, Kündigung, Aufgabenzuweisung und
+  die Bewertung von Leistung und Verhalten. Ein solches System fällt aus der
+  Einstufung heraus, wenn es kein erhebliches Risiko birgt und das Ergebnis der
+  Entscheidungsfindung nicht wesentlich beeinflusst, etwa weil es eine eng
+  gefasste Verfahrensaufgabe oder eine vorbereitende Aufgabe erledigt. Nimmt es
+  ein Profiling natürlicher Personen vor, ist es immer hochriskant (Art. 6
+  Abs. 3). Betreiber eines solchen Systems, das Entscheidungen über natürliche
+  Personen trifft oder unterstützt, informieren die Betroffenen darüber, dass sie
+  der Verwendung unterliegen (Art. 26 Abs. 11). Hat die Entscheidung rechtliche
+  Wirkung oder beeinträchtigt sie dich ähnlich erheblich, hast du gegenüber dem
+  Betreiber ein Recht auf eine klare und aussagekräftige Erläuterung zur Rolle des
+  KI-Systems im Entscheidungsprozess und zu den wichtigsten Elementen der
+  Entscheidung (Art. 86 Abs. 1). Die Pflichten für die Systeme aus Anhang III
+  gelten ab dem 2. Dezember 2027 (Art. 113). Das Mitbestimmungsrecht des
+  Betriebsrats bei technischen Einrichtungen, die Verhalten oder Leistung
+  überwachen sollen, gilt unabhängig davon (§ 87 Abs. 1 Nr. 6 BetrVG).
+may: >-
+  Das darfst du: eine klare Erläuterung verlangen, wenn ein Hochrisiko-KI-System
+  eine Entscheidung über dich getroffen oder unterstützt hat, die rechtlich oder
+  ähnlich erheblich auf dich wirkt (Art. 86 Abs. 1).
+last_change:
+  date: 2026-10-11
+  by: ai
+  trigger: M5.65, das Kapitelende
+  summary: "Die Zeile, was du jetzt darfst oder weißt, aus der Zusammenfassung"

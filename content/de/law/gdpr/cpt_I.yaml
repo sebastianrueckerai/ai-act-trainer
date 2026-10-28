@@ -1,0 +1,46 @@
+node: gdpr:cpt_I
+summary: Die Verordnung definiert Ziel, Geltungsbereich und zentrale Begriffe. Sie schützt personenbezogene
+  Daten natürlicher Personen und ermöglicht deren freien Verkehr im Binnenmarkt. Sie bindet alle Verantwortlichen
+  und Auftragsverarbeiter, die Daten in der Union verarbeiten, unabhängig vom Sektor. Sie gilt für jede
+  automatisierte oder nicht-automatisierte Verarbeitung, die in einem Dateisystem erfolgt, außer rein
+  privaten Tätigkeiten, Strafverfolgung und speziellen EU-Organen. Sie erstreckt sich auf Verarbeitung
+  an Niederlassungen in der Union sowie auf ausländische Akteure, die Waren, Dienstleistungen oder Beobachtungen
+  für Personen in der Union anbieten.
+source_sha: 50f66a1b9655677eaf56fb38ded18eaa27aa425d324b4b3a0f0b5778da6de240
+children:
+- node: gdpr:art_1
+  summary: Die Verordnung legt fest, dass personenbezogene Daten von natürlichen Personen in der EU geschützt
+    werden müssen und gleichzeitig frei innerhalb des Binnenmarktes fließen dürfen. Sie bindet alle Verantwortlichen
+    und Auftragsverarbeiter, sobald sie Daten verarbeiten, und gilt für jede Art von Verarbeitung, unabhängig
+    vom Sektor.
+  source_sha: 794fc468fc3120a896de16c126eb74a32a9e1612cd2e07d397b82990ebde7359
+  children: []
+- node: gdpr:art_2
+  summary: Die Verordnung regelt jede automatisierte oder nicht-automatisierte Verarbeitung personenbezogener
+    Daten, die in einem Dateisystem gespeichert ist. Sie gilt nicht für rein private Tätigkeiten, für
+    staatliche Strafverfolgung, für Tätigkeiten außerhalb des Unionsrechts und für die Verarbeitung durch
+    EU-Organe, die einer gesonderten Regelung unterliegen.
+  source_sha: 278eb4fecec9848a1f5350706c4dd3793fe8e6a4972142bfb04b029575ec2134
+  children: []
+- node: gdpr:art_3
+  summary: Die Verordnung gilt für Verarbeitung personenbezogener Daten, wenn sie bei einer Niederlassung
+    eines Verantwortlichen oder Auftragsverarbeiters in der Union erfolgt. Sie gilt für ausländische Verantwortliche,
+    die Waren, Dienstleistungen oder Beobachtungen für Personen in der Union anbieten, sowie für Verarbeitung
+    an Orten, die dem Recht eines Mitgliedstaats unterliegen.
+  source_sha: fb878309c224e8b5bcb42516d93a2ce8c3456ac434836986f2c578c8f304a941
+  children: []
+- node: gdpr:art_4
+  summary: 'Die Vorschrift definiert zentrale Begriffe der Verordnung: personenbezogene Daten, Verarbeitung,
+    Einschränkung der Verarbeitung, Profiling, Pseudonymisierung, Dateisystem, Verantwortlicher, Auftragsverarbeiter,
+    Empfänger, Dritter, Einwilligung, Verletzung des Schutzes, genetische, biometrische und Gesundheitsdaten,
+    Hauptniederlassung, Vertreter, Unternehmen, Unternehmensgruppe, verbindliche interne Datenschutzvorschriften,
+    Aufsichtsbehörde, betroffene Aufsichtsbehörde, grenzüberschreitende Verarbeitung, maßgeblicher und
+    begründeter Einspruch, Dienst der Informationsgesellschaft und internationale Organisation. Sie gilt
+    für alle Verantwortlichen und Auftragsverarbeiter, die personenbezogene Daten in der Union verarbeiten.'
+  source_sha: 5807163247938a3f173a5c1e32b4d3d3f7969c714956c6076772ccbd0435b405
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

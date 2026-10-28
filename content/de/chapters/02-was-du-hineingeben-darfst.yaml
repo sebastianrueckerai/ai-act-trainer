@@ -1,0 +1,119 @@
+id: 02-was-du-hineingeben-darfst
+title: Was du hineingeben darfst
+intro: >-
+  Eine Frage stellt sich jeden Tag: Was darf in den Chatassistenten hinein?
+  Danach weißt du, was draußen bleibt und wen du im Zweifel fragst.
+duration_minutes: 5
+steps:
+  - id: s1
+    text: >-
+      Bevor du etwas in den Chatassistenten hineinkopierst, legst du drei kurze
+      Fragen über die Eingabe. Sind personenbezogene Daten drin? Ist es ein
+      Geschäftsgeheimnis? Verbietet eine Hausregel es?
+
+
+      Die meisten Eingaben bestehen diese Prüfung, und dass das Werkzeug KI ist,
+      ändert an keiner der Fragen etwas. Eine Erlaubnis verlangt die Verordnung
+      nicht, sondern die KI-Kompetenz aus Kapitel 1: die drei Fragen selbst zu
+      stellen.
+    example: >-
+      Du lässt eine Mail überarbeiten und kopierst deine Notizen hinein: keine
+      Person namentlich genannt, kein Geheimnis drin, keine Hausregel dagegen.
+    citations: ["Art. 4(1)"]
+    question: q-02-01
+  - id: s2
+    text: >-
+      Steht eine Person in deiner Eingabe, mit Namen, Adresse oder Kundennummer,
+      dann sind personenbezogene Daten drin. Verarbeiten darfst du sie, wenn euer
+      Zweck sie trägt.
+
+
+      Ein berechtigtes Interesse deines Arbeitgebers kann die Verarbeitung
+      erlauben, soweit sie dafür erforderlich ist und die Interessen der
+      betroffenen Person nicht überwiegen. Was der Entwurf nicht braucht, lässt du
+      weg.
+    example: >-
+      Für die Antwort an einen Kunden braucht der Assistent dessen Beschwerde,
+      nicht seine Kundennummer und nicht sein Geburtsdatum.
+    citations: ["GDPR Art. 6(1)(f)"]
+    question: q-02-06
+  - id: s3
+    text: >-
+      Daten über Kollegen sind der besondere Fall. Dein Kollege entscheidet nicht
+      selbst mit, ob seine Daten in ein Werkzeug gehen.
+
+
+      Beschäftigtendaten dürfen für Zwecke des Beschäftigungsverhältnisses
+      verarbeitet werden, soweit das dafür erforderlich ist. Kommt eine technische
+      Einrichtung in den Betrieb, die das Verhalten oder die Leistung überwachen
+      soll, hat der Betriebsrat mitzubestimmen.
+    example: >-
+      Die Urlaubsliste des Teams in den Assistenten zu kopieren, damit er einen
+      Plan baut, ist der Fall, in dem du vorher fragst.
+    citations: ["BDSG § 26(1)", "BetrVG § 87(1) Nr. 6"]
+    question: q-02-03
+  - id: s4
+    text: >-
+      Das zweite Kriterium ist das Geschäftsgeheimnis. Gemeint ist eine
+      Information, die in den Kreisen, die üblicherweise damit umgehen, nicht
+      allgemein bekannt und deshalb wirtschaftlich wertvoll ist.
+
+
+      Dazu kommt, dass das Haus sie angemessen geheim hält und ein berechtigtes
+      Interesse an der Geheimhaltung besteht. Der Maßstab ist die Geheimhaltung,
+      nicht ein Stempel auf der Datei.
+    example: >-
+      Die Kundenliste, die Spannentabelle und der unveröffentlichte Plan sind die
+      typischen Kandidaten.
+    citations: ["GeschGehG § 2 Nr. 1"]
+    question: q-02-02
+  - id: s5
+    text: >-
+      Was du hineingibst, verlässt deinen Rechner. Die Bedingungen des Anbieters
+      sagen, ob er aus deinen Eingaben lernen und sie aufheben darf. Den Chat zu
+      löschen holt nichts davon zurück.
+
+
+      Welche Werkzeuge freigegeben sind, entscheidet dein Unternehmen als
+      Betreiber. Also nimmst du die freigegebenen, anonymisierst, was geht, und
+      fragst im Zweifel den Datenschutzbeauftragten.
+    example: >-
+      Ein kostenloses Werkzeug wirbt damit, aus jeder Eingabe zu lernen, also
+      kommt die Angebotskalkulation dort nicht hinein, sondern in den
+      freigegebenen Assistenten.
+    citations: ["Art. 3(4)"]
+    question: q-02-07
+summary: >-
+  Bevor du etwas in einen Chatassistenten hineinkopierst, legst du drei Fragen
+  über die Eingabe: Sind personenbezogene Daten drin, ist es ein
+  Geschäftsgeheimnis, verbietet eine Hausregel es? Die meisten Eingaben bestehen
+  diese Prüfung, und dass das Werkzeug KI ist, ändert an keiner Frage etwas. Eine
+  Erlaubnis verlangt die Verordnung nicht, sie verlangt, dass dein Arbeitgeber
+  dich in den Stand setzt, die Fragen selbst zu stellen (Art. 4 Abs. 1). Sind
+  personenbezogene Daten drin, kann ein berechtigtes Interesse deines Arbeitgebers
+  die Verarbeitung erlauben, soweit sie dafür erforderlich ist und die Interessen
+  der betroffenen Person nicht überwiegen (Art. 6 Abs. 1 Buchst. f DSGVO). Was der
+  Entwurf nicht braucht, lässt du weg. Daten über Kollegen dürfen für Zwecke des
+  Beschäftigungsverhältnisses verarbeitet werden, soweit das dafür erforderlich
+  ist (§ 26 Abs. 1 BDSG), und über die Einführung und Anwendung einer technischen
+  Einrichtung, die Verhalten oder Leistung überwachen soll, hat der Betriebsrat
+  mitzubestimmen (§ 87 Abs. 1 Nr. 6 BetrVG). Ein Geschäftsgeheimnis ist eine
+  Information, die in den Kreisen, die üblicherweise damit umgehen, nicht
+  allgemein bekannt und deshalb wirtschaftlich wertvoll ist, die das Haus
+  angemessen geheim hält und an deren Geheimhaltung ein berechtigtes Interesse
+  besteht (§ 2 Nr. 1 GeschGehG). Der Maßstab ist die Geheimhaltung, nicht ein
+  Stempel auf der Datei. Was du hineingibst, verlässt deinen Rechner, und den Chat
+  zu löschen holt nichts davon zurück. Betreiber ist dein Unternehmen, das die
+  Werkzeuge in eigener Verantwortung einsetzt (Art. 3 Nr. 4), also nimmst du die
+  freigegebenen, anonymisierst, was geht, und fragst im Zweifel den
+  Datenschutzbeauftragten.
+may: >-
+  Das darfst du: hineingeben, was deine Prüfung auf personenbezogene Daten,
+  Geschäftsgeheimnis und Hausregel besteht. Eine Erlaubnis verlangt die
+  Verordnung nicht, sie verlangt, dass dein Arbeitgeber dich zu dieser Prüfung
+  befähigt (Art. 4 Abs. 1).
+last_change:
+  date: 2026-10-11
+  by: ai
+  trigger: M5.65, das Kapitelende
+  summary: "Die Zeile, was du jetzt darfst oder weißt, aus der Zusammenfassung"

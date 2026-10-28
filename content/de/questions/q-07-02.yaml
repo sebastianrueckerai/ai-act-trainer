@@ -1,0 +1,27 @@
+id: q-07-02
+chapter: 07-wenn-etwas-schiefgeht
+type: yes_no
+difficulty: 2
+question: >-
+  Unser Bewerbungssystem sortiert seit dem letzten Update sichtlich willkürlich
+  aus. Muss unser Arbeitgeber die Verwendung aussetzen und den Anbieter
+  informieren?
+correct: "yes"
+model_answer: >-
+  Ja, wer Grund zu der Annahme hat, dass die Verwendung ein Risiko für Grundrechte
+  birgt, informiert unverzüglich den Anbieter und die Marktüberwachungsbehörde und
+  setzt das System aus.
+explanation: >-
+  Art. 26 Abs. 5 verpflichtet Betreiber, den Betrieb eines Hochrisiko-KI-Systems
+  anhand der Betriebsanleitung zu überwachen und bei Grund zur Annahme eines
+  Risikos im Sinne des Art. 79 Abs. 1 unverzüglich den Anbieter oder Händler und
+  die zuständige Marktüberwachungsbehörde zu informieren und die Verwendung
+  auszusetzen. Art. 79 Abs. 1 fasst darunter Risiken für die Gesundheit, die
+  Sicherheit oder die Grundrechte von Personen, und eine willkürliche
+  Aussortierung von Bewerbungen trifft Grundrechte.
+citations: ["Art. 26(5)", "Art. 79(1)"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

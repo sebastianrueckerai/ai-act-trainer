@@ -1,0 +1,67 @@
+node: gdpr:cpt_V
+summary: Das Kapitel regelt die Übermittlung personenbezogener Daten in Drittländer oder an internationale
+  Organisationen. Es verpflichtet Verantwortliche und Auftragsverarbeiter, die Datenschutzgrundsätze einzuhalten
+  und ein angemessenes Schutzniveau zu gewährleisten. Übermittlungen sind zulässig bei einem Angemessenheitsbeschluss,
+  bei geeigneten Garantien wie Standardvertragsklauseln, verbindlichen internen Datenschutzvorschriften
+  oder zertifizierten Mechanismen, sowie in eng definierten Ausnahmefällen wie Einwilligung, Vertragserfüllung
+  oder lebenswichtigen Interessen. Die Aufsichtsbehörden prüfen und genehmigen Garantien und verbieten
+  die Vollstreckung ausländischer Entscheidungen ohne gültige internationale Vereinbarung. Das Kapitel
+  gilt für jede Datenübermittlung aus der EU.
+source_sha: 53bab3e1dd55a52ad0ac0ae61d6a62d5a63210855e2a91af7efd0649b75f648d
+children:
+- node: gdpr:art_44
+  summary: Die Vorschrift legt Grundsätze für die Datenübermittlung fest. Sie erlaubt jede Übermittlung
+    personenbezogener Daten in ein Drittland oder an eine internationale Organisation nur, wenn Verantwortlicher
+    und Auftragsverarbeiter die Bedingungen dieses Kapitels und alle übrigen Datenschutzvorschriften einhalten.
+    Auch Weiterübermittlungen dürfen das Schutzniveau nicht mindern.
+  source_sha: 84090b8f34d1bc29d47898e84f9115a4b93a6ccf8fc8a2133075ac199e66a26b
+  children: []
+- node: gdpr:art_45
+  summary: Erlaubt die Übermittlung personenbezogener Daten in ein Drittland oder zu einer internationalen
+    Organisation, wenn die Europäische Kommission festgestellt hat, dass dort ein angemessenes Datenschutzniveau
+    besteht. Keine gesonderte Genehmigung ist nötig; die Kommission prüft regelmäßig und kann die Entscheidung
+    ändern oder widerrufen.
+  source_sha: 26b7ae21dfcebe3f39ac608fb68fdc0fc47951a353a38d3227fc9031efea7384
+  children: []
+- node: gdpr:art_46
+  summary: Ein Verantwortlicher oder Auftragsverarbeiter darf personenbezogene Daten in ein Drittland
+    oder an eine internationale Organisation übermitteln, wenn kein Angemessenheitsbeschluss vorliegt
+    und er geeignete Garantien bereitstellt. Garantien können Behördenabkommen, interne Datenschutzvorschriften,
+    Standardklauseln, Verhaltensregeln oder zertifizierte Mechanismen sein. Die Aufsichtsbehörde prüft
+    die Einhaltung und kann das Kohärenzverfahren anwenden.
+  source_sha: c7cc9ef63ea6255c226448b7d68e063f611cc3510e2ca3ebd60404cc8fdd85f6
+  children: []
+- node: gdpr:art_47
+  summary: Die Aufsichtsbehörde genehmigt verbindliche interne Datenschutzvorschriften, wenn sie für alle
+    Unternehmen einer Gruppe rechtlich bindend sind, den Betroffenen durchsetzbare Rechte geben und die
+    festgelegten Anforderungen zu Struktur, Datenübermittlungen, Grundsätzen, Haftung, Information, Datenschutzbeauftragten,
+    Prüfungen, Meldungen und Schulungen erfüllen.
+  source_sha: bfee406c9b4405894c2a0ac0d6eaa91e594413af622893dfd77417d7ffcb450f
+  children: []
+- node: gdpr:art_48
+  summary: Im Rahmen von Unionsrecht nicht zulässige Übermittlung oder Offenlegung verbietet die Anerkennung
+    und Vollstreckung von Urteilen oder Verwaltungsentscheidungen eines Drittlands, die die Übermittlung
+    personenbezogener Daten fordern, wenn sie nicht auf einer gültigen internationalen Vereinbarung beruhen.
+    Gilt für Verantwortliche und Auftragsverarbeiter, sobald sie Daten an Drittländer übermitteln wollen.
+  source_sha: 8bab5c094b55215a8b4fb3f0091169a8c8f9947a394dcdaf669f7fdf80b779a8
+  children: []
+- node: gdpr:art_49
+  summary: Die Vorschrift definiert Ausnahmen für bestimmte Fälle bei Datenübermittlungen in Drittländer
+    oder internationale Organisationen, wenn kein Angemessenheitsbeschluss oder geeignete Garantien bestehen.
+    Sie gilt für Verantwortliche und Auftragsverarbeiter und erlaubt Übermittlungen bei ausdrücklicher
+    Einwilligung, Vertragserfüllung, öffentlichem Interesse, Rechtsansprüchen, lebenswichtigen Interessen,
+    öffentlichen Registern oder unter engen Voraussetzungen für zwingende berechtigte Interessen.
+  source_sha: 96758b99c4852033ce8934dc3c184274e88eba1e3b57a611fad4b374eee2471a
+  children: []
+- node: gdpr:art_50
+  summary: Die Kommission und die Aufsichtsbehörden entwickeln internationale Kooperationsmechanismen,
+    leisten gegenseitige Amtshilfe bei der Durchsetzung des Datenschutzrechts gegenüber Drittländern und
+    internationalen Organisationen, binden relevante Interessengruppen ein und fördern den Austausch von
+    Rechtsvorschriften, sofern geeignete Garantien für den Schutz personenbezogener Daten bestehen.
+  source_sha: e0b98b4807153beeff519adeddde9f55e32977d10509c31a6c816fe5aab167e4
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

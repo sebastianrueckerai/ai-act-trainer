@@ -1,0 +1,87 @@
+id: 03-was-dein-arbeitgeber-tun-muss
+title: Was dein Arbeitgeber tun muss
+intro: >-
+  Jetzt andersherum: nicht was du schuldest, sondern was dein Arbeitgeber dir
+  schuldet. Und was er nicht schuldet.
+duration_minutes: 4
+steps:
+  - id: s1
+    text: >-
+      Dein Unternehmen ist der Betreiber und schuldet dir dafür die Maßnahmen
+      aus Kapitel 1. Welche das sind, schreibt die Verordnung nicht vor.
+
+
+      Sie richten sich nach den Vorkenntnissen der Leute, nach ihrer Ausbildung
+      und nach dem Zusammenhang, in dem die Werkzeuge eingesetzt werden. Eine
+      Maßnahme, nach der niemand mehr kann als vorher, ist keine.
+    example: >-
+      Wer das System selbst baut, braucht eine andere Maßnahme als jemand, der es
+      zehn Minuten am Tag bedient.
+    citations: ["Art. 3(4)", "Art. 4(1)", "Q&A 10"]
+    question: q-03-01
+  - id: s2
+    text: >-
+      Setzt dein Arbeitgeber ein Hochrisiko-KI-System ein, kommen Pflichten dazu.
+      Er verwendet es entsprechend der Betriebsanleitung des Anbieters.
+
+
+      Und er überträgt die menschliche Aufsicht einer Person, die die nötige
+      Kompetenz, Ausbildung und Befugnis hat, und lässt ihr die nötige
+      Unterstützung zukommen. Aufsicht ohne Befugnis zum Eingreifen ist keine.
+    example: >-
+      Die Kollegin, die das Bewerbungssystem beaufsichtigt, kann dessen Vorauswahl
+      auch überstimmen.
+    citations: ["Art. 26(1)", "Art. 26(2)"]
+    question: q-03-02
+  - id: s3
+    text: >-
+      Bevor ein Hochrisiko-KI-System am Arbeitsplatz in Betrieb geht, informiert
+      dein Arbeitgeber die Arbeitnehmervertreter und die betroffenen Arbeitnehmer
+      darüber, dass sie seiner Verwendung unterliegen werden.
+
+
+      Daneben steht die Mitbestimmung des Betriebsrats aus Kapitel 2. Zwei Wege,
+      die nebeneinander laufen.
+    example: >-
+      Ein System, das die Schichten nach Leistungsdaten verteilt, geht vor dem
+      Start durch beide Wege.
+    citations: ["Art. 26(7)", "BetrVG § 87(1) Nr. 6"]
+    question: q-03-03
+  - id: s4
+    text: >-
+      Dein Kenntnisstand muss nicht gemessen werden. Die Verordnung verpflichtet
+      niemanden, für dich ein bestimmtes Niveau an KI-Kompetenz zu garantieren.
+
+
+      Interne Aufzeichnungen über Schulungen sind möglich, vorgeschrieben sind sie
+      nicht. Was dein Arbeitgeber schuldet, sind Maßnahmen, keine Nachweise über
+      dich.
+    citations: ["Art. 4(1)", "Q&A 5", "Q&A 18"]
+    question: q-03-04
+summary: >-
+  Dein Unternehmen setzt KI-Werkzeuge in eigener Verantwortung ein und ist damit
+  ihr Betreiber (Art. 3 Nr. 4). Seine erste Pflicht sind Maßnahmen, die die
+  KI-Kompetenz des Personals unterstützen, zugeschnitten auf dessen Kenntnisse,
+  Erfahrung und Ausbildung und auf den Zusammenhang, in dem die Systeme eingesetzt
+  werden (Art. 4 Abs. 1). Bei einem Hochrisiko-KI-System kommt dazu, dass der
+  Betreiber es entsprechend der Betriebsanleitung verwendet (Art. 26 Abs. 1) und
+  die menschliche Aufsicht einer Person mit der erforderlichen Kompetenz,
+  Ausbildung und Befugnis überträgt, der er die nötige Unterstützung zukommen
+  lässt (Art. 26 Abs. 2). Vor der Inbetriebnahme eines Hochrisiko-KI-Systems am
+  Arbeitsplatz informiert der Arbeitgeber die Arbeitnehmervertreter und die
+  betroffenen Arbeitnehmer darüber, dass sie der Verwendung unterliegen werden
+  (Art. 26 Abs. 7). Daneben hat der Betriebsrat bei der Einführung und Anwendung
+  technischer Einrichtungen, die das Verhalten oder die Leistung der Arbeitnehmer
+  überwachen sollen, mitzubestimmen (§ 87 Abs. 1 Nr. 6 BetrVG). Nicht geschuldet
+  sind eine Messung deines Kenntnisstands und die Garantie eines bestimmten
+  Niveaus an KI-Kompetenz (Q&A der Kommission zur KI-Kompetenz, Frage 5) sowie ein
+  Zertifikat. Interne Aufzeichnungen über Schulungen sind möglich, vorgeschrieben
+  sind sie nicht (Q&A der Kommission zur KI-Kompetenz, Frage 18).
+may: >-
+  Das darfst du: erwarten, dass dein Arbeitgeber deine KI-Kompetenz unterstützt,
+  passend zu deinen Kenntnissen und deiner Arbeit (Art. 4 Abs. 1).
+last_change:
+  date: 2026-10-11
+  by: ai
+  trigger: M5.65, das Kapitelende
+  summary: "Die Zeile, was du jetzt darfst oder weißt, aus der Zusammenfassung"

@@ -1,0 +1,321 @@
+/* Every sprite the pixel look paints, and the one number that scales them.
+   A desktop draws one art pixel as four device pixels; below 720px the whole
+   screen switches to the grid-2 set and draws it as two (D66). --px lives in
+   theme/base.css, because the clean look shares the geometry. */
+/* The document element carries the look, so every rule below would paint through
+   a nested clean subtree (the gallery's columns) too. The scope ends where such a
+   subtree starts, so one boundary replaces a cancelling rule per sprite. */
+@scope ([data-look="pixel"]) to ([data-look="clean"]) {
+  :scope {
+    --art-frame: url("./art/frame.png");
+    --art-card: url("./art/card.png");
+    --art-bubble: url("./art/bubble.png");
+    --art-bubble-user: url("./art/bubble-user.png");
+    --art-button: url("./art/button.png");
+    --art-button-pressed: url("./art/button-pressed.png");
+    --art-button-disabled: url("./art/button-disabled.png");
+    --art-chip: url("./art/chip.png");
+    --art-chip-selected: url("./art/chip-selected.png");
+    --art-badge: url("./art/badge.png");
+    --art-cursor: url("./art/cursor.png");
+    --art-slice: 12;
+    --art-border: 12px;
+    --art-slice-small: 4;
+    --art-border-small: 4px;
+    /* 320x240 art pixels at the one scale, never stepped by a viewport
+       threshold: past it the page colour shows (D68). */
+    --scene-size: 1280px 960px;
+
+    image-rendering: pixelated;
+    cursor: var(--art-cursor) 0 0, auto;
+    background-color: var(--c-bg);
+    background-image: var(--scene-image, url("./art/scene.png"));
+    background-position: round(down, calc((100vw - 1280px) / 2), var(--px)) 64px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: var(--scene-size);
+  }
+
+  /* A flat layer, not a gradient: Skia dithers a gradient even between two equal
+     stops, and a one-step shiver across a wall is the grid breaking. */
+  :scope body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background-color: rgb(0 0 0 / 0.62);
+  }
+
+  /* Light mode has rooms of its own, drawn bright and feathered into white at the edge,
+     so nothing is laid over them (D98). */
+  [data-mode="light"]:scope {
+    background-image: var(--scene-image-light, url("./art/scene-light.png"));
+  }
+
+  [data-mode="light"]:scope body::before {
+    background-color: transparent;
+  }
+
+  /* Nothing is laid over the bright rooms (D98), so text that floats directly
+     on the art carries its own separation: a hard outline in the page colour,
+     one whole art pixel wide like every drawn edge (D66). In dark mode the
+     scrim does this job instead. */
+  [data-mode="light"]:scope .pick-title,
+  [data-mode="light"]:scope .pick-subtitle,
+  [data-mode="light"]:scope .pick-lead,
+  [data-mode="light"]:scope .pick-note,
+  [data-mode="light"]:scope .pick-error,
+  [data-mode="light"]:scope .course-status,
+  [data-mode="light"]:scope .citations-line {
+    --halo: var(--c-bg);
+    text-shadow:
+      calc(-1 * var(--px)) 0 0 var(--halo),
+      var(--px) 0 0 var(--halo),
+      0 calc(-1 * var(--px)) 0 var(--halo),
+      0 var(--px) 0 var(--halo),
+      calc(-1 * var(--px)) calc(-1 * var(--px)) 0 var(--halo),
+      var(--px) calc(-1 * var(--px)) 0 var(--halo),
+      calc(-1 * var(--px)) var(--px) 0 var(--halo),
+      var(--px) var(--px) 0 var(--halo);
+  }
+
+  @media (max-width: 720px) {
+    :scope {
+      --art-frame: url("./art/g2/frame.png");
+      --art-card: url("./art/g2/card.png");
+      --art-bubble: url("./art/g2/bubble.png");
+      --art-bubble-user: url("./art/g2/bubble-user.png");
+      --art-button: url("./art/g2/button.png");
+      --art-button-pressed: url("./art/g2/button-pressed.png");
+      --art-button-disabled: url("./art/g2/button-disabled.png");
+      --art-chip: url("./art/g2/chip.png");
+      --art-chip-selected: url("./art/g2/chip-selected.png");
+      --art-badge: url("./art/g2/badge.png");
+      --art-cursor: url("./art/g2/cursor.png");
+      --art-slice: 6;
+      --art-border: 6px;
+      --art-slice-small: 2;
+      --art-border-small: 2px;
+      --scene-size: 640px 480px;
+      background-position: round(down, calc((100vw - 640px) / 2), var(--px)) 64px;
+    }
+  }
+
+  :scope :focus-visible {
+    outline: var(--px) solid var(--c-focus);
+    outline-offset: 0;
+  }
+
+  :scope .ui-frame {
+    border: var(--art-border) solid transparent;
+    border-image: var(--art-frame) var(--art-slice) fill;
+    border-radius: 0;
+  }
+
+  :scope .ui-card {
+    border: var(--art-border) solid transparent;
+    border-image: var(--art-card) var(--art-slice) fill;
+    border-radius: 0;
+  }
+
+  :scope .ui-notice {
+    border: var(--art-border) solid transparent;
+    border-image: var(--art-card) var(--art-slice) fill;
+    border-radius: 0;
+  }
+
+  :scope .ui-notice-title,
+  :scope .ui-notice > .ui-icon {
+    color: var(--c-accent-ink);
+  }
+
+  :scope .ui-input,
+  :scope .ui-select,
+  :scope .ui-textarea {
+    border: var(--art-border) solid transparent;
+    border-image: var(--art-frame) var(--art-slice) fill;
+    border-radius: 0;
+  }
+
+  :scope .ui-textarea {
+    resize: none;
+  }
+
+  :scope .pick-card {
+    border: var(--art-border) solid transparent;
+    border-image: var(--art-card) var(--art-slice) fill;
+    border-radius: 0;
+  }
+
+  :scope .app-bar {
+    border-bottom: var(--px) solid var(--c-border);
+  }
+
+  :scope .chat-foot {
+    border-top: var(--px) solid var(--c-border);
+  }
+
+  :scope .ui-bubble {
+    border-radius: 0;
+  }
+
+  :scope .ui-bubble--assistant {
+    border: var(--art-border) solid transparent;
+    border-image: var(--art-bubble) var(--art-slice) fill;
+  }
+
+  :scope .chat-wait-bubble {
+    border: var(--art-border) solid transparent;
+    border-image: var(--art-bubble) var(--art-slice) fill;
+    border-radius: 0;
+  }
+
+  /* Outlined in the primary colour, read in the plain text colour: the
+     student's own words, and nothing in the thread that looks pressable. */
+  :scope .ui-bubble--user {
+    border: var(--art-border) solid transparent;
+    border-image: var(--art-bubble-user) var(--art-slice) fill;
+    background: var(--c-surface);
+    color: var(--c-text);
+  }
+
+  :scope .ui-button {
+    border: var(--art-border) solid transparent;
+    border-image: var(--art-button) var(--art-slice);
+    border-radius: 0;
+  }
+
+  :scope .ui-button:active:not(:disabled) {
+    border-image-source: var(--art-button-pressed);
+    transform: translateY(var(--px));
+  }
+
+  :scope .ui-button:disabled {
+    border-image-source: var(--art-button-disabled);
+    opacity: 1;
+    background: var(--c-surface);
+    color: var(--c-text-dim);
+  }
+
+  :scope .ui-button--ghost {
+    border: none;
+    border-image: none;
+  }
+
+  /* The plain frame, not the raised button face: the secondary action reads as
+     a box around text, next to the one primary action that keeps the accent. */
+  :scope .ui-button--secondary {
+    border-image-source: var(--art-frame);
+  }
+
+  :scope .ui-button--secondary:active:not(:disabled) {
+    border-image-source: var(--art-frame);
+  }
+
+  :scope .ui-button--secondary:disabled {
+    border-image-source: var(--art-frame);
+  }
+
+  :scope .ui-chip {
+    border: var(--art-border-small) solid transparent;
+    border-image: var(--art-chip) var(--art-slice-small);
+    border-radius: 0;
+  }
+
+  :scope .ui-chip[data-selected="true"] {
+    border-image: var(--art-chip-selected) var(--art-slice-small) fill;
+  }
+
+  :scope .ui-badge {
+    border: var(--art-border-small) solid transparent;
+    border-image: var(--art-badge) var(--art-slice-small);
+    border-radius: 0;
+  }
+
+  /* Four by five art pixels in em of the Tiny5 label beside them, one apart. */
+  :scope .ui-cells {
+    font-size: var(--font-pixel);
+    gap: 0.125em;
+  }
+
+  :scope .ui-cell {
+    width: 0.5em;
+    height: 0.625em;
+    border-radius: 0;
+  }
+
+  :scope .ui-cell[data-state="now"] {
+    background: var(--c-primary-soft);
+    box-shadow: inset 0 0 0 0.125em var(--c-primary);
+  }
+
+  :scope .ui-flag {
+    width: 0.625em;
+    height: 0.875em;
+    margin-left: 0.125em;
+  }
+
+  :scope .ui-flag rect {
+    rx: 0;
+  }
+
+  :scope .ui-avatar {
+    animation: ui-bob 1.2s steps(1, end) infinite alternate;
+  }
+
+  :scope .ui-avatar-fallback {
+    border-radius: 0;
+  }
+
+  :scope .ui-avatar[data-mood="happy"] {
+    animation-duration: 0.5s;
+  }
+
+  :scope .ui-avatar[data-mood="disappointed"] {
+    animation: none;
+    filter: saturate(0.5);
+  }
+
+  /* A finished chapter: the portrait hops three times. */
+  :scope .chat-portrait[data-hop] .ui-frame {
+    animation: ui-hop 0.4s steps(2, end) 3;
+  }
+
+  :scope .chapter-route i,
+  :scope .chapter-divider-line,
+  :scope .level-card-title::before,
+  :scope .level-card-title::after {
+    border-radius: 0;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    :scope .ui-avatar,
+    :scope .chat-portrait[data-hop] .ui-frame {
+      animation: none;
+    }
+  }
+}
+
+/* The three properties that inherit or paint into a clean subtree from the
+   document element itself, which stands outside the scope above. */
+[data-look="pixel"] [data-look="clean"] {
+  image-rendering: auto;
+  cursor: auto;
+  background: none;
+}
+
+@keyframes ui-bob {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(calc(-1 * var(--px)));
+  }
+}
+
+@keyframes ui-hop {
+  50% {
+    transform: translateY(calc(-3 * var(--px)));
+  }
+}

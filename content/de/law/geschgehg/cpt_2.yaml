@@ -1,0 +1,78 @@
+node: geschgehg:cpt_2
+summary: Der Abschnitt regelt, welche Ansprüche ein Inhaber eines Geschäftsgeheimnisses gegen einen Rechtsverletzer
+  hat. Er kann die Beseitigung der Beeinträchtigung und bei Wiederholungsgefahr ein Unterlassungsgebot
+  verlangen. Er kann Vernichtung, Herausgabe, Rückruf oder Marktrücknahme von Produkten fordern. Er kann
+  Auskunft über Hersteller, Lieferanten und Mengen verlangen und bei vorsätzlicher oder grob fahrlässiger
+  Verweigerung Schadensersatz fordern. Schadensersatz, fiktive Lizenzgebühren und Geldabfindungen stehen
+  zur Verfügung, solange die Durchsetzung nicht unverhältnismäßig ist. Der Inhaber kann Ansprüche auch
+  gegen den Unternehmensinhaber richten, wenn Angestellte das Geheimnis verletzen. Ein Rückgabeanspruch
+  besteht trotz Verjährung, und missbräuchliche Geltendmachungen sind verboten.
+source_sha: 85ad5093e6baaadbe1d4385f94695601c224d5c5aebf78dea7c94c8c177d17f1
+children:
+- node: geschgehg:sec_6
+  summary: Der Inhaber eines Geschäftsgeheimnisses kann den Rechtsverletzer zur Beseitigung der Beeinträchtigung
+    verpflichten. Bei Gefahr einer Wiederholung kann er zusätzlich Unterlassung verlangen. Der Unterlassungsanspruch
+    besteht bereits, wenn die Verletzung nur droht, und schützt das wirtschaftliche Interesse des Unternehmens.
+  source_sha: 3d9aa22832c509675c17bb0272bc0ac2836af25161bda0b0565a243fd2f09d80
+  children: []
+- node: geschgehg:sec_7
+  summary: Der Inhaber eines Geschäftsgeheimnisses kann vom Rechtsverletzer die Vernichtung oder Herausgabe
+    von Dokumenten, Gegenständen, Materialien oder Stoffen, die das Geheimnis enthalten, verlangen. Er
+    kann zudem den Rückruf, die Entfernung aus dem Vertrieb, die Vernichtung oder die Marktrücknahme des
+    rechtsverletzenden Produkts fordern, solange der Schutz des Geheimnisses nicht beeinträchtigt wird.
+  source_sha: 60f9bc6a21c659187c616427c984d31af8988388af2b05e7f0d5d744813a3ac0
+  children: []
+- node: geschgehg:sec_8
+  summary: Der Inhaber eines Geschäftsgeheimnisses kann vom Verletzer Namen, Adressen und Verkaufsstellen
+    der Hersteller, Lieferanten und Vorbesitzer, Mengen und Preise der rechtsverletzenden Produkte sowie
+    alle Dokumente und Quellen, aus denen das Geheimnis stammt, verlangen. Unterlässt der Verletzer diese
+    Auskunft vorsätzlich oder grob fahrlässig, muss er den entstandenen Schaden ersetzen.
+  source_sha: 4866d1308098ef3e5eecc4edfeaeea73c2591285ec550e86bdc986cd3520bbb6
+  children: []
+- node: geschgehg:sec_9
+  summary: Der Anspruch auf Schadensersatz und Unterlassung wird verworfen, wenn die Durchsetzung im Einzelfall
+    unverhältnismäßig wäre. Dabei werden Wert des Geheimnisses, getroffene Schutzmaßnahmen, Verhalten
+    des Verletzers, Folgen der Nutzung, berechtigte Interessen beider Parteien, Interessen Dritter und
+    öffentliches Interesse berücksichtigt.
+  source_sha: d54887f4a34f7b9e7e7a2e65fe3213f823b8a6eb4140afb2b1a2bcd8bb534edc
+  children: []
+- node: geschgehg:sec_10
+  summary: Wer ein Geschäftsgeheimnis vorsätzlich oder fahrlässig verletzt, muss dem Inhaber den entstandenen
+    Schaden ersetzen. Der Ersatz kann den durch die Verletzung erzielten Gewinn oder eine fiktive Lizenzgebühr
+    umfassen. Auch nicht-vermögliche Schäden können nach Billigkeit entschädigt werden. Das BGB-Regelwerk
+    zu Schadensersatz bleibt unberührt.
+  source_sha: 3517f6f524009aed7923a1b1943b14fed2253ff893132995606927d7636e55c0
+  children: []
+- node: geschgehg:sec_11
+  summary: Ein nicht vorsätzlich oder fahrlässig handelnder Rechtsverletzer kann den Inhaber des Geschäftsgeheimnisses
+    in Geld entschädigen, um Unterlassungsansprüche zu vermeiden, wenn die Erfüllung der Ansprüche unverhältnismäßig
+    nachteilig wäre und eine Geldabfindung angemessen erscheint. Die Höhe richtet sich nach der Vergütung,
+    die bei einer vertraglichen Lizenzierung üblich wäre, und darf den Betrag nicht überschreiten, der
+    für die Dauer des Unterlassungsrechts angemessen ist.
+  source_sha: 4e13e119bea41fb2a74ccff25b62d18265725277648ca3e0df27a5a04d81d8ab
+  children: []
+- node: geschgehg:sec_12
+  summary: Verletzt ein Angestellter oder beauftragter Dienstleister ein Geschäftsgeheimnis, kann der
+    Geheimnisinhaber seine Ansprüche auch gegen den Unternehmensinhaber richten. Er kann Schadenersatz,
+    Unterlassung und Rückgabe unrechtmäßig erhaltener Daten fordern. Für Schadensersatz wegen fehlerhafter
+    Auskunft gilt dies nur, wenn der Inhaber vorsätzlich oder grob fahrlässig die Auskunft nicht, zu spät,
+    falsch oder unvollständig erteilt hat.
+  source_sha: 7ff767fb20c7ac7cdf9862e92392955be01b582e70da3377d38525815ff91530
+  children: []
+- node: geschgehg:sec_13
+  summary: Wer ein Geschäftsgeheimnis vorsätzlich oder fahrlässig erlangt, offenlegt oder nutzt und dadurch
+    auf Kosten des Inhabers etwas erlangt, muss das Erlangte zurückgeben, selbst wenn die Verjährungsfrist
+    für Schadensersatz bereits abgelaufen ist. Der Rückgabeanspruch verjährt nach sechs Jahren.
+  source_sha: 6a61688627a8863b228b3bc8b066f04a0d1f3203bffbc31c7d2903937b09512d
+  children: []
+- node: geschgehg:sec_14
+  summary: Das Missbrauchsverbot untersagt die Geltendmachung von Ansprüchen nach diesem Gesetz, wenn
+    sie unter Berücksichtigung aller Umstände missbräuchlich ist. Der Anspruchsgegner kann dann die Kosten
+    seiner Rechtsverteidigung erstattet bekommen; weitere Ersatzansprüche bleiben unberührt.
+  source_sha: 603d0f82b0f4c858b529ab64ec67104ecfe380b11979766504c733a7864646d8
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

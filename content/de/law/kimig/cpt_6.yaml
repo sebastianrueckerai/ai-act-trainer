@@ -1,0 +1,19 @@
+node: kimig:cpt_6
+summary: Der Anbieter oder ein in Deutschland ansässiger Bevollmächtigter muss bei Einstellung seiner
+  Geschäftstätigkeit die festgelegten Aufbewahrungspflichten erfüllen. Die für Liquidation oder Auflösung
+  zuständige Person sichert die Unterlagen für die vorgeschriebene Frist. Die Pflicht beginnt mit der
+  Geschäftsaufgabe.
+source_sha: 5abfb2db25c4819b6f5d9712c57f06111fd5d969fe74f60ef1087441f5674cb4
+children:
+- node: kimig:sec_18
+  summary: Wenn ein Anbieter oder ein in Deutschland ansässiger Bevollmächtigter seine Geschäftstätigkeit
+    einstellt, muss die für die Liquidation oder Auflösung zuständige Person die festgelegten Aufbewahrungspflichten
+    erfüllen und die entsprechenden Unterlagen für die vorgeschriebene Frist zu sichern. Die Pflicht gilt
+    ab dem Zeitpunkt der Geschäftsaufgabe.
+  source_sha: 90bcace3b03ce030a27843ffba07e8add099026a1d90b681cd5cfa394f4bcdc4
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

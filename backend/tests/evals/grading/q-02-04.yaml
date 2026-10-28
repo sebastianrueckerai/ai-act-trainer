@@ -1,0 +1,58 @@
+question: q-02-04
+cases:
+  - id: clean
+    answer: >-
+      Vorher prüfe ich die personenbezogenen Daten, also ob unser Zweck gedeckt
+      ist, etwa durch ein berechtigtes Interesse. Dann prüfe ich, ob die Liste
+      ein Geschäftsgeheimnis ist, ob das Haus sie also geheim hält. Im Zweifel
+      anonymisiere ich, was geht, oder frage den Datenschutzbeauftragten.
+    fair: correct
+    note: >-
+      trifft beide Muss-Punkte: die Prüfung auf personenbezogene Daten mit der
+      Frage, ob der Zweck etwa durch ein berechtigtes Interesse gedeckt ist,
+      und die Prüfung auf Geschäftsgeheimnisse mit dem Geheimhalten des Hauses.
+      Dazu das Soll mit Anonymisieren und Datenschutzbeauftragtem.
+  - id: bare-minimum
+    answer: >-
+      ob namen drin sind und ob wir die überhaupt brauchen. und ob das was
+      geheimes von uns is
+    fair: correct
+    note: >-
+      beide Muss-Punkte knapp, aber getragen: "ob namen drin sind und ob wir
+      die überhaupt brauchen" ist die Prüfung auf Daten über Personen samt
+      Zweck, "ob das was geheimes von uns is" die Prüfung auf das, was das Haus
+      geheim hält. Die dünnste Antwort im Satz, die noch zählt.
+  - id: meant-right
+    answer: >-
+      Ich schaue, ob für die Kundendaten eine Rechtsgrundlage trägt, ob also
+      unser berechtigtes Interesse reicht. Und was das Haus intern unter
+      Verschluss hält, kopiere ich gleich gar nicht erst hinein. Im Zweifel
+      frage ich lieber einmal zu viel.
+    fair: correct
+    note: >-
+      beide Muss-Punkte, einer getragen: die Prüfung auf personenbezogene Daten
+      mit berechtigtem Interesse ausdrücklich, die Prüfung auf
+      Geschäftsgeheimnisse getragen durch "was das Haus intern unter Verschluss
+      hält" statt des Worts Geschäftsgeheimnis.
+  - id: plausible-miss
+    answer: >-
+      Ich bin bei so neuen Tools grundsätzlich vorsichtig. Man sollte
+      sichergehen, dass die Verbindung verschlüsselt ist und die Daten nicht zum
+      Training benutzt werden. Am besten vorher den Kollegen fragen, der das
+      Tool eingeführt hat.
+    fair: wrong
+    note: >-
+      kein Muss-Punkt getroffen: Verschlüsselung, Trainingsnutzung und der
+      Kollege sagen nichts zur Prüfung, ob der Zweck bei personenbezogenen
+      Daten gedeckt ist, und nichts zur Prüfung auf Geschäftsgeheimnisse.
+  - id: confidently-wrong
+    answer: >-
+      Prüfen muss ich da nichts. Der Chatassistent ist vom Unternehmen
+      freigegeben, damit ist alles abgedeckt, Kundendaten gehören genau da
+      hinein, dafür ist das Werkzeug ja da. Wer trotzdem noch prüft, vergeudet
+      nur Zeit.
+    fair: wrong
+    note: >-
+      Gegenteil beider Muss-Punkte: behauptet mit Sicherheit, wegen der
+      Freigabe sei keine Prüfung nötig, weder auf personenbezogene Daten noch
+      auf Geschäftsgeheimnisse.

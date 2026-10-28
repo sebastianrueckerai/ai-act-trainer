@@ -1,0 +1,43 @@
+id: q-02-05
+chapter: 02-was-du-hineingeben-darfst
+type: free_text
+difficulty: 2
+question: Warum sind Daten über Kollegen der besondere Fall?
+rubric:
+  must:
+    - point: >-
+        nennt, dass Daten über Kollegen nur für das Arbeitsverhältnis genutzt
+        werden dürfen
+      ask: Also, wofür dürfen wir Daten über Kollegen überhaupt nutzen?
+    - point: >-
+        nennt, dass ein Werkzeug, das Verhalten oder Leistung überwacht, den
+        Betriebsrat einbezieht
+      ask: >-
+        Jetzt soll ein Werkzeug dazukommen, das auswertet, wie schnell jeder
+        Kollege seine Tickets schließt. Wer redet da mit?
+  should:
+    - >-
+      nennt, dass die betroffenen Kollegen nicht selbst darüber
+      entscheiden, ob ihre Daten genutzt werden
+    - nennt § 26 Abs. 1 BDSG oder § 87 Abs. 1 Nr. 6 BetrVG
+model_answer: >-
+  Daten über Kollegen dürfen nur für Zwecke des
+  Beschäftigungsverhältnisses verarbeitet werden, wenn das dafür erforderlich
+  ist. Kommt ein Werkzeug dazu, das Verhalten oder Leistung überwacht, hat der
+  Betriebsrat mitzubestimmen. Und die Kollegen entscheiden nicht selbst mit,
+  ob ihre Daten in das Werkzeug gehen.
+explanation: >-
+  § 26 Abs. 1 BDSG erlaubt die Verarbeitung personenbezogener Daten von
+  Beschäftigten für Zwecke des Beschäftigungsverhältnisses, wenn sie dafür
+  erforderlich ist, und der Zweck ist damit enger gesteckt als bei Kundendaten.
+  § 87 Abs. 1 Nr. 6 BetrVG gibt dem Betriebsrat ein Mitbestimmungsrecht bei der
+  Einführung und Anwendung technischer Einrichtungen, die dazu bestimmt sind,
+  das Verhalten oder die Leistung der Arbeitnehmer zu überwachen. Dazu kommt,
+  dass die Kollegen nicht selbst darüber entscheiden, ob ihre Daten genutzt
+  werden. Darum ist dieser Fall der besondere.
+citations: ["BDSG § 26(1)", "BetrVG § 87(1) Nr. 6"]
+last_change:
+  date: 2026-09-29
+  by: ai
+  trigger: D118
+  summary: every must point carries its ask

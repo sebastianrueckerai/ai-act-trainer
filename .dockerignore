@@ -1,0 +1,17 @@
+.git
+.claude
+.venv
+**/.venv
+**/node_modules
+**/dist
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+docs
+*.md
+!content/**/*.md
+!personas/**/*.md
+.env
+.env.*
+backend/openapi.json
+backend/*.db

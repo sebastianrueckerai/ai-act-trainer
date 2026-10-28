@@ -1,0 +1,29 @@
+id: q-01-01
+chapter: 01-warum-es-dich-betrifft
+type: yes_no
+difficulty: 1
+question: >-
+  Ein Chatassistent hat deine Antwort an einen Kunden entworfen. Du hast sie
+  gelesen, eine falsche Zahl korrigiert und sie unter deinem Namen verschickt.
+  War das erlaubt?
+correct: "yes"
+model_answer: >-
+  Ja. Die Verordnung verbietet es nicht, einen Entwurf von einem KI-System
+  schreiben zu lassen. Sie verlangt von unserem Arbeitgeber, dass er die
+  KI-Kompetenz seines Personals unterstützt, und du hast sie hier angewandt:
+  gelesen, geprüft, korrigiert.
+explanation: >-
+  Entwerfen, übersetzen und zusammenfassen sind gewöhnliche erlaubte Nutzung.
+  Eine Genehmigung oder eine Meldung knüpft die Verordnung daran nicht. Was sie
+  verlangt, steht in Art. 4 Abs. 1: Anbieter und Betreiber ergreifen Maßnahmen,
+  die die KI-Kompetenz ihres Personals unterstützen. Das Q&A der Kommission zur
+  KI-Kompetenz, Frage 14, nennt den gleichen Fall für Werbetexte und
+  Übersetzungen und antwortet, dass das Personal über die spezifischen Risiken
+  informiert sein soll, zum Beispiel über Halluzinationen. Weil du gelesen und
+  korrigiert hast, war der Versand in Ordnung.
+citations: ["Art. 4(1)", "Q&A 14"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

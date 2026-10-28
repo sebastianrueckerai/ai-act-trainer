@@ -1,0 +1,28 @@
+id: q-01-09
+chapter: 01-warum-es-dich-betrifft
+type: yes_no
+difficulty: 2
+question: >-
+  Im Januar 2028 will unser Arbeitgeber ein KI-Tool einführen, das eingehende
+  Bewerbungen automatisch vorsortiert. Niemand hat vor, die Arbeitnehmervertretung
+  einzubeziehen. Muss sie vor dem Einsatz informiert werden?
+correct: "yes"
+model_answer: >-
+  Ja. Wer als Arbeitgeber ein Hochrisiko-KI-System am Arbeitsplatz einsetzt, muss
+  die Arbeitnehmervertreter und die betroffenen Arbeitnehmer vorher darüber
+  informieren, dass sie der Verwendung unterliegen werden.
+explanation: >-
+  Nach Art. 26 Abs. 7 informieren Betreiber, die Arbeitgeber sind, vor der
+  Inbetriebnahme oder Verwendung eines Hochrisiko-KI-Systems am Arbeitsplatz die
+  Arbeitnehmervertreter und die betroffenen Arbeitnehmer. Das automatische
+  Vorsortieren von Bewerbungen ist ein Hochrisiko-Einsatz nach Anhang III
+  Nummer 4 Buchstabe a. Für Systeme nach Anhang III gilt die Pflicht ab dem
+  2. Dezember 2027 (Art. 113), im Januar 2028 also längst. Die Unterrichtung
+  bezieht sich darauf, dass die Beschäftigten der Verwendung des Systems
+  unterliegen werden.
+citations: ["Art. 26(7)", "Annex III pt. 4(a)", "Art. 113"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

@@ -1,0 +1,56 @@
+question: q-05-03
+cases:
+  - id: clean
+    answer: >-
+      Offenlegen müsst ihr trotzdem, dass das Bild von einer KI erzeugt
+      wurde, ein kleiner Hinweis darauf gehört auf die Karte. Weil das Ganze
+      klar als Spaß erkennbar ist, reicht dafür ein schlichter Vermerk, der
+      die Karte nicht kaputtmacht, keine ellenlange Erklärung.
+    fair: correct
+    note: >-
+      trifft beide Muss-Punkte: die Pflicht, dazuzuschreiben, dass das Bild
+      erzeugt ist, und dass bei einem erkennbar spaßigen Werk ein schlichter
+      Hinweis genügt. Dazu das Soll, dass der Hinweis die Postkarte nicht
+      kaputtmachen muss.
+  - id: bare-minimum
+    answer: >-
+      muss dranstehen dass das ki is, aber bei so nem spaßbild reicht ein
+      kleiner hinweis
+    fair: correct
+    note: >-
+      beide Muss-Punkte knapp, aber getragen: "muss dranstehen dass das ki is"
+      trägt die Offenlegung, "bei so nem spaßbild reicht ein kleiner hinweis"
+      die Erleichterung beim erkennbar spaßigen Werk. Die dünnste Antwort im
+      Satz, die noch zählt.
+  - id: meant-right
+    answer: >-
+      Ein Wort dazu sollte schon irgendwo draufstehen, dass das kein echtes
+      Foto ist. Weil aber jeder sofort sieht, dass das ein Scherz ist, reicht
+      dafür eine ganz kleine Notiz in der Ecke.
+    fair: correct
+    note: >-
+      beide Muss-Punkte getragen statt in Rubrikworten: "ein Wort dazu
+      sollte draufstehen" trägt die Pflicht zur Kennzeichnung, "eine ganz
+      kleine Notiz in der Ecke" trägt den schlichten Hinweis, der bei einem
+      erkennbar spaßigen Werk genügt.
+  - id: plausible-miss
+    answer: >-
+      Am besten fragen wir den Chef vorher, ob er mit dem Bild überhaupt
+      einverstanden ist, bevor wir es an alle Kunden rausschicken. Sowas
+      kann ja auch peinlich für ihn werden.
+    fair: wrong
+    note: >-
+      kein Muss-Punkt getroffen: die Zustimmung des Chefs sagt nichts
+      darüber, dass das erzeugte Bild gekennzeichnet werden muss, und nichts
+      darüber, dass bei einem erkennbar spaßigen Werk ein schlichter Hinweis
+      reicht.
+  - id: confidently-wrong
+    answer: >-
+      Nein, sowas müsst ihr nicht kennzeichnen, das gilt nur für ernste
+      Sachen wie Nachrichten. Bei einem lustigen Bild für Karneval ist
+      überhaupt keine Kennzeichnung nötig.
+    fair: wrong
+    note: >-
+      Gegenteil des ersten Muss-Punkts: behauptet, ein erkennbar spaßiges
+      Bild müsse gar nicht gekennzeichnet werden, dabei entfällt nur die
+      aufwendige Form des Hinweises, nicht die Kennzeichnung selbst.

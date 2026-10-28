@@ -1,0 +1,10 @@
+id: q-01-01
+chapter: 01-test
+type: yes_no
+difficulty: 1
+question: Müssen Anbieter und Betreiber für KI-Kompetenz ihres Personals sorgen?
+correct: "yes"
+model_answer: Ja, das schreibt Art. 4 vor.
+explanation: Art. 4(1) verpflichtet Anbieter und Betreiber zu Maßnahmen für KI-Kompetenz.
+citations: ["Art. 4(1)"]
+last_change: {date: 2026-09-15, by: human, trigger: initial, summary: fixture}

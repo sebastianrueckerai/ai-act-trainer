@@ -1,0 +1,99 @@
+id: 06-die-kurze-liste-der-verbote
+title: Die kurze Liste der Verbote
+intro: >-
+  Hier kommt die Liste der verbotenen Praktiken, von der Manipulation bis zur
+  Biometrie. Danach weißt du, was die Verordnung wirklich verbietet und was sie
+  nur regelt.
+duration_minutes: 4
+steps:
+  - id: s1
+    text: >-
+      Die Verordnung verbietet einzelne Praktiken, keine Werkzeuge. Verboten sind
+      unter anderem Systeme, die Menschen mit unterschwelligen oder täuschenden
+      Techniken zu ihrem Schaden manipulieren, und Systeme, die eine
+      Schutzbedürftigkeit wegen Alter, Behinderung oder wirtschaftlicher Lage
+      ausnutzen.
+
+
+      Dazu kommen die soziale Bewertung von Menschen über die Zeit und, seit dem
+      2. Dezember 2026, erzeugte intime Bilder einer bestimmbaren Person. Was
+      nicht auf der Liste steht, ist nicht verboten.
+    example: >-
+      Der Chatassistent, der ein Angebot formuliert, steht auf keinem Punkt dieser
+      Liste.
+    citations: ["Art. 5(1)", "Art. 5(1)(ba)"]
+    question: q-06-01
+  - id: s2
+    text: >-
+      Das Verbot der Emotionserkennung am Arbeitsplatz kennst du aus Kapitel 1.
+      Dahinter steht das Machtungleichgewicht in Arbeit und Bildung, zusammen mit
+      der geringen Zuverlässigkeit solcher Systeme.
+
+
+      Außerhalb von Arbeit und Bildung ist Emotionserkennung nicht verboten, aber
+      auch nicht frei: Wer einem solchen System ausgesetzt ist, muss davon
+      erfahren.
+    example: >-
+      Eine Müdigkeitserkennung im Gabelstapler dient der Sicherheit und ist
+      deshalb erlaubt.
+    citations: ["Art. 5(1)(f)", "Rec. 44", "Art. 50(3)"]
+    question: q-06-02
+  - id: s3
+    text: >-
+      Zwei weitere Verbote betreffen Gesichter. Datenbanken zur Gesichtserkennung
+      durch ungezieltes Auslesen von Bildern aus dem Internet oder aus
+      Überwachungsaufnahmen aufzubauen, ist verboten.
+
+
+      Verboten ist auch die biometrische Kategorisierung, die aus biometrischen
+      Daten auf Rasse, politische Einstellung, Gewerkschaftszugehörigkeit,
+      Religion, Weltanschauung, Sexualleben oder sexuelle Ausrichtung schließt.
+      Andere biometrische Anwendungen fallen nicht unter dieses Verbot.
+    example: >-
+      Ein Werkzeug, das Gesichter aus öffentlich zugänglichen Bildern sammelt, um
+      eine Erkennungsdatenbank zu füllen, ist verboten.
+    citations: ["Art. 5(1)(e)", "Art. 5(1)(g)"]
+    question: q-06-03
+  - id: s4
+    text: >-
+      Die Verbote gelten seit dem 2. Februar 2025 und damit früher als fast alles
+      andere in der Verordnung.
+
+
+      Wer sie missachtet, riskiert eine Geldbuße von bis zu 35 Millionen Euro oder,
+      bei Unternehmen, bis zu 7 Prozent des weltweiten Jahresumsatzes des
+      vorangegangenen Geschäftsjahres, je nachdem, welcher Betrag höher ist. Der
+      Satz zum Weitersagen: Die Liste ist kurz, das meiste steht nicht darauf.
+    example: >-
+      Ein Haus mit 200 Millionen Euro Umsatz zahlt im schlimmsten Fall nicht 14
+      Millionen, sondern 35.
+    citations: ["Art. 5(1)", "Art. 99(3)", "Art. 113"]
+    question: q-06-04
+summary: >-
+  Verboten sind einzelne Praktiken, keine Werkzeuge. Art. 5 Abs. 1 nennt unter
+  anderem die Manipulation durch unterschwellige oder täuschende Techniken, das
+  Ausnutzen einer Schutzbedürftigkeit wegen Alter, Behinderung oder sozialer oder
+  wirtschaftlicher Situation, die soziale Bewertung natürlicher Personen über
+  einen bestimmten Zeitraum (Art. 5 Abs. 1 Buchst. c), den Aufbau von
+  Gesichtserkennungsdatenbanken durch ungezieltes Auslesen von Gesichtsbildern
+  (Art. 5 Abs. 1 Buchst. e), die Ableitung von Emotionen am Arbeitsplatz und in
+  Bildungseinrichtungen (Art. 5 Abs. 1 Buchst. f) und die biometrische
+  Kategorisierung, die auf Rasse, politische Einstellungen,
+  Gewerkschaftszugehörigkeit, religiöse oder weltanschauliche Überzeugungen, das
+  Sexualleben oder die sexuelle Ausrichtung schließt (Art. 5 Abs. 1 Buchst. g).
+  Beim Verbot der Emotionserkennung ist der Einsatz aus medizinischen Gründen oder
+  Sicherheitsgründen die einzige Ausnahme, und begründet wird es mit dem
+  Machtungleichgewicht in Arbeit und Bildung und der geringen Zuverlässigkeit
+  solcher Systeme (Erwägungsgrund 44). Wer ein Verbot missachtet, riskiert eine
+  Geldbuße von bis zu 35 000 000 Euro oder, bei Unternehmen, bis zu 7 Prozent des
+  gesamten weltweiten Jahresumsatzes des vorangegangenen Geschäftsjahres, je
+  nachdem, welcher Betrag höher ist (Art. 99 Abs. 3). Die Verbote gelten seit dem
+  2. Februar 2025 (Art. 113). Was nicht auf der Liste steht, ist nicht verboten.
+may: >-
+  Das weißt du jetzt: Verboten sind einzelne Praktiken, keine Werkzeuge, zum
+  Beispiel das Ableiten von Emotionen am Arbeitsplatz (Art. 5 Abs. 1 Buchst. f).
+last_change:
+  date: 2026-10-11
+  by: ai
+  trigger: M5.65, das Kapitelende
+  summary: "Die Zeile, was du jetzt darfst oder weißt, aus der Zusammenfassung"

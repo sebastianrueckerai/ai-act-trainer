@@ -1,0 +1,15 @@
+node: kimig
+summary: Das Gesetz setzt die EU-Verordnung zur Künstlichen Intelligenz in nationales Recht um. Es gilt
+  für alle KI-Systeme, die in Deutschland in den Markt kommen. Es bestimmt, welche Bundesbehörden die
+  Marktüberwachung und Konformitätsbewertung übernehmen und regelt deren Zusammenarbeit. Die Behörden
+  dürfen Kontrollen durchführen, Daten austauschen und bei Verstößen Geldbußen bis zu fünfzigtausend Euro
+  verhängen. Das Gesetz fördert Innovation durch Beratung, Schulungen und ein KI-Reallabor. Es verpflichtet
+  Anbieter zur Dokumentation, Aufbewahrung von Unterlagen und Meldung in ein zentrales Register. Es tritt
+  in Kraft, sobald die EU-KI-Verordnung anwendbar wird.
+source_sha: 886bab0232ac51a15edfe98725282db6cd620e04fbba82387f2a4279969acf8c
+children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

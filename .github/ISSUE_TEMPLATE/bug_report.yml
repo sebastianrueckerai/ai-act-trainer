@@ -1,0 +1,29 @@
+name: Bug report
+description: Something behaves wrong or breaks.
+labels: [bug]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Log lines, stack traces, browser console. No student data, no API keys.
+      render: shell
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Commit SHA or release tag you run.
+    validations:
+      required: true
+  - type: textarea
+    id: setup
+    attributes:
+      label: Setup
+      description: Browser, OS, how you deployed (compose, dev servers).

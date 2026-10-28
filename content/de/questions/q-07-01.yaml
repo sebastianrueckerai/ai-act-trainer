@@ -1,0 +1,39 @@
+id: q-07-01
+chapter: 07-wenn-etwas-schiefgeht
+type: multiple_choice
+difficulty: 2
+question: >-
+  Der Assistent hat in einem Angebot eine erfundene Norm genannt, und das Angebot
+  ist schon beim Kunden. Was verlangt die Verordnung jetzt von dir?
+options:
+  - key: A
+    text: "Nichts: Für gewöhnliche Werkzeuge regelt die Verordnung keine Pflichten."
+  - key: B
+    text: >-
+      Den Fehler im Haus melden und das Angebot richtigstellen, denn das gehört
+      zur KI-Kompetenz.
+  - key: C
+    text: >-
+      Die Bundesnetzagentur als Marktüberwachungsbehörde über den Fehler
+      informieren.
+correct: B
+model_answer: >-
+  B. Die Verordnung verlangt von unserem Arbeitgeber Maßnahmen, die die
+  KI-Kompetenz des Personals unterstützen, und dazu gehört, die Risiken des
+  Werkzeugs zu kennen: den Fehler melden und das Angebot richtigstellen. Eine
+  Behörde ist bei einem gewöhnlichen Werkzeug nicht im Spiel.
+explanation: >-
+  Art. 4 Abs. 1 gilt für jeden Betreiber, nicht nur für Hochrisiko-Systeme, und
+  verlangt Maßnahmen, die die KI-Kompetenz des Personals unterstützen. KI-Kompetenz
+  sind nach Art. 3 Nr. 56 die Fähigkeiten, die Kenntnisse und das Verständnis, um
+  KI-Systeme sachkundig einzusetzen und sich ihrer Risiken bewusst zu sein, und
+  einen bekannten Fehler liegen zu lassen widerspricht dem. Die Aussetzungs- und
+  Informationspflicht des Art. 26 Abs. 5 betrifft Hochrisiko-Systeme, und das
+  Beschwerderecht aus Art. 85 richtet sich an Personen, die einen Verstoß annehmen,
+  nicht an den Verursacher einer falschen Angabe.
+citations: ["Art. 3(56)", "Art. 4(1)", "Art. 26(5)", "Art. 85"]
+last_change:
+  date: 2026-10-02
+  by: human
+  trigger: "review: a question asks the law, not the people (D129)"
+  summary: the law decides the answer, not professional common sense

@@ -1,0 +1,94 @@
+id: 05-ki-gegenueber-kunden
+title: KI gegenüber Kunden
+intro: >-
+  Wann muss ein Kunde erfahren, dass eine KI im Spiel war? Dieses Kapitel geht
+  die Fälle einzeln durch und sagt, wen die Pflicht jeweils trifft.
+duration_minutes: 4
+steps:
+  - id: s1
+    text: >-
+      Die Pflicht aus Kapitel 1, ein Chatfenster als KI erkennbar zu machen,
+      trifft den Anbieter und gilt für jede direkte Interaktion mit Menschen.
+
+
+      Der Hinweis entfällt, wenn es aus Sicht einer angemessen informierten,
+      aufmerksamen und verständigen Person ohnehin offensichtlich ist. Sonst
+      kommt er spätestens bei der ersten Interaktion, klar, eindeutig und
+      barrierefrei.
+    example: >-
+      Euer Support-Chat begrüßt den Kunden mit dem Satz, dass hier ein
+      KI-Assistent antwortet.
+    citations: ["Art. 50(1)", "Art. 50(5)"]
+    question: q-05-01
+  - id: s2
+    text: >-
+      Erzeugt ein KI-System Text, Bild, Ton oder Video, kennzeichnet der Anbieter
+      die Ausgabe maschinenlesbar als künstlich erzeugt oder manipuliert.
+
+
+      Das ist eine Sache der Technik und liegt beim Anbieter des Systems, nicht
+      bei eurem Haus. Die Pflicht entfällt, wenn das System nur bei der
+      Standardbearbeitung hilft und die Eingabe oder ihren Sinn nicht wesentlich
+      verändert.
+    example: >-
+      Eine Rechtschreibhilfe, die einen Tippfehler anstreicht, verändert den Sinn
+      nicht und braucht keine Kennzeichnung.
+    citations: ["Art. 50(2)"]
+    question: q-05-02
+  - id: s3
+    text: >-
+      Einen Deepfake legt der Betreiber offen, das kennst du aus Kapitel 1. Ist
+      der Inhalt erkennbar künstlerisch, kreativ, satirisch oder fiktional,
+      schrumpft die Pflicht.
+
+
+      Dann genügt es, das Vorhandensein in geeigneter Weise offenzulegen, ohne
+      die Darstellung oder den Genuss des Werks zu beeinträchtigen.
+    citations: ["Art. 50(4)"]
+    question: q-05-03
+  - id: s4
+    text: >-
+      Veröffentlicht euer Haus einen KI-erzeugten Text, um die Öffentlichkeit über
+      Angelegenheiten von öffentlichem Interesse zu informieren, legt der Betreiber
+      auch das offen.
+
+
+      Die Pflicht entfällt, wenn der Text einer menschlichen Überprüfung oder
+      redaktionellen Kontrolle unterzogen wurde und eine Person die redaktionelle
+      Verantwortung für die Veröffentlichung trägt.
+    example: >-
+      Die Terminbestätigung an einen Kunden informiert die Öffentlichkeit über
+      nichts und fällt deshalb nicht darunter.
+    citations: ["Art. 50(4)"]
+    question: q-05-04
+summary: >-
+  KI gegenüber Kunden offenzulegen ist in wenigen, klar benannten Fällen Pflicht.
+  Ein KI-System für die direkte Interaktion mit natürlichen Personen gestaltet der
+  Anbieter so, dass die Person informiert wird, dass sie mit einem KI-System
+  interagiert, außer das ist aus Sicht einer angemessen informierten,
+  aufmerksamen und verständigen Person offensichtlich (Art. 50 Abs. 1). Die
+  Information kommt spätestens zum Zeitpunkt der ersten Interaktion, klar,
+  eindeutig und barrierefrei (Art. 50 Abs. 5). Erzeugt ein KI-System synthetische
+  Audio-, Bild-, Video- oder Textinhalte, sorgt der Anbieter für eine
+  maschinenlesbare Kennzeichnung als künstlich erzeugt oder manipuliert. Die
+  Pflicht entfällt, soweit das System nur eine unterstützende Funktion für die
+  Standardbearbeitung ausführt oder die Eingabedaten und deren Semantik nicht
+  wesentlich verändert (Art. 50 Abs. 2). Einen Deepfake legt der Betreiber offen,
+  und bei einem offensichtlich künstlerischen, kreativen, satirischen oder
+  fiktionalen Werk beschränkt sich die Pflicht darauf, das Vorhandensein in
+  geeigneter Weise offenzulegen, ohne die Darstellung oder den Genuss des Werks zu
+  beeinträchtigen. KI-erzeugten Text, der veröffentlicht wird, um die
+  Öffentlichkeit über Angelegenheiten von öffentlichem Interesse zu informieren,
+  legt der Betreiber ebenfalls offen, es sei denn, der Text wurde einer
+  menschlichen Überprüfung oder redaktionellen Kontrolle unterzogen und eine
+  natürliche oder juristische Person trägt die redaktionelle Verantwortung
+  (Art. 50 Abs. 4). Eine gewöhnliche Geschäftsmail steht auf keiner dieser Listen.
+may: >-
+  Das darfst du: eine gewöhnliche Geschäftsmail mit KI schreiben und ohne
+  KI-Hinweis verschicken. Sie steht auf keiner Liste der Offenlegungspflichten
+  (Art. 50).
+last_change:
+  date: 2026-10-11
+  by: ai
+  trigger: M5.65, das Kapitelende
+  summary: "Die Zeile, was du jetzt darfst oder weißt, aus der Zusammenfassung"

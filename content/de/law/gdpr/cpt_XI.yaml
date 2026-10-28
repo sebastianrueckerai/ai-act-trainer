@@ -1,0 +1,56 @@
+node: gdpr:cpt_XI
+summary: Die Schlussbestimmungen heben die alte Datenschutzrichtlinie auf. Verweise auf die alte Richtlinie
+  gelten nun für diese Verordnung. Sie leiten Verweise auf die alte Aufsichtsbehörde zum Europäischen
+  Datenschutzausschuss um. Sie stellen klar, dass für öffentlich zugängliche elektronische Kommunikationsdienste
+  keine zusätzlichen Pflichten entstehen, solange die e-Privacy-Regeln erfüllt sind. Geschlossene Datenübermittlungsabkommen
+  bleiben gültig, solange sie nicht geändert werden. Die Kommission erstattet Berichte über Datenübermittlungen
+  und kann Änderungen anderer EU-Datenschutzvorschriften vorschlagen. Die Verordnung tritt 20 Tage nach
+  Veröffentlichung in Kraft und gilt seit dem 25. Mai 2018 für alle Verantwortlichen und Auftragsverarbeiter
+  in der EU.
+source_sha: 8bdb487190f004ad8523f96b2d4f178d6a2e3b47c4910a08f8933efb6fb07433
+children:
+- node: gdpr:art_94
+  summary: Die Richtlinie 95/46/EG endet am 25. Mai 2018; ab dann gelten alle Verweise auf die alte Richtlinie
+    als Verweise auf diese Verordnung. Verweise auf die nach der alten Richtlinie eingesetzte Gruppe für
+    den Schutz von Personen bei der Verarbeitung personenbezogener Daten werden auf den durch diese Verordnung
+    geschaffenen Europäischen Datenschutzausschuss umgelenkt. Sie bindet alle, die dem Datenschutzrecht
+    unterliegen.
+  source_sha: 98501023828ff6abe7eaa8d3c5cfe18fd2390e7a83618e69001bfdcd27396b61
+  children: []
+- node: gdpr:art_95
+  summary: Die Verordnung legt keine zusätzlichen Pflichten für Unternehmen oder Personen auf, die personenbezogene
+    Daten im Zusammenhang mit öffentlich zugänglichen elektronischen Kommunikationsdiensten in öffentlichen
+    Netzen verarbeiten, solange sie bereits die speziellen Pflichten der e-Privacy-Richtlinie erfüllen,
+    die das gleiche Ziel verfolgen.
+  source_sha: 3b157c1c97a8da1ddd8f09d209360433f933bbb80033e78d56edefb36d6f1c51
+  children: []
+- node: gdpr:art_96
+  summary: Internationale Übereinkünfte, die vor dem 24. Mai 2016 von den Mitgliedstaaten abgeschlossen
+    wurden und die Datenübermittlung an Drittländer oder internationale Organisationen regeln, gelten
+    weiter, solange sie nicht geändert, ersetzt oder gekündigt werden.
+  source_sha: cbdb75cdaac81e008cd4e68bef1181e9e30363a5c7dbcad72ab2a5a829241894
+  children: []
+- node: gdpr:art_97
+  summary: Die Kommission erstellt bis 25. Mai 2020 und danach alle vier Jahre einen öffentlichen Bericht
+    für das Europäische Parlament und den Rat. Sie prüft die Anwendung von Datenübermittlungen an Drittländer
+    und die Zusammenarbeit, fordert Informationen von Mitgliedstaaten an und kann Änderungsvorschläge
+    vorlegen.
+  source_sha: f68b6859bb5d192b6711a1972641f060bcbf3b341b9bcc549750b4ca4061268b
+  children: []
+- node: gdpr:art_98
+  summary: Die Kommission kann Gesetzesvorschläge zur Änderung anderer EU-Rechtsakte zum Datenschutz vorlegen,
+    um einen einheitlichen und kohärenten Schutz natürlicher Personen bei der Datenverarbeitung sicherzustellen.
+    Besonders betrifft das die Regeln für Organe, Einrichtungen, Ämter und Agenturen der Union sowie den
+    freien Datenverkehr.
+  source_sha: 4c46ac1eab1ab15fbdd26e58b6555b5ae2326ff5663802023e27a509b3ad6412
+  children: []
+- node: gdpr:art_99
+  summary: Die Verordnung wird 20 Tage nach Veröffentlichung im Amtsblatt wirksam und gilt seit dem 25.
+    Mai 2018 für alle Verantwortlichen und Auftragsverarbeiter, die personenbezogene Daten in der EU verarbeiten.
+  source_sha: 4f6629a5f947033fb8110f8b461de9ce99b4e212b8e1f3be8257df127f682c99
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

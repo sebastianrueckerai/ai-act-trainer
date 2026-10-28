@@ -1,0 +1,114 @@
+downloaded: 2026-09-15
+acts:
+  - id: ai_act
+    kind: regulation
+    jurisdiction: eu
+    short_name: KI-VO
+    title: >-
+      Verordnung (EU) 2024/1689 zur Festlegung harmonisierter Vorschriften für künstliche
+      Intelligenz (Verordnung über künstliche Intelligenz)
+    lang: de
+    version: 02024R1689-20260727
+    source_url: https://eur-lex.europa.eu/eli/reg/2024/1689/2026-07-27/deu
+    attribution: >-
+      © European Union, 2024-2026, eur-lex.europa.eu, reused under Commission Decision
+      2011/833/EU. Only the Official Journal is authentic.
+    files:
+      - path: raw/02024R1689-20260727/de.xhtml
+        url: http://publications.europa.eu/resource/celex/02024R1689-20260727
+        sha256: d9a8d76b2d874d9d54e1e807badc2ecb5ad9005d84b6f8e990ca22c1bcebc8a0
+      - path: raw/32024R1689/formex-de.zip
+        url: http://publications.europa.eu/resource/celex/32024R1689
+        sha256: 8140ec42324d2a2d0061fb82d945412de5908422162183a52364b9fa9afc25c7
+  - id: kimig
+    kind: statute
+    jurisdiction: de
+    short_name: KI-MIG
+    title: >-
+      Gesetz zur Marktüberwachung und Innovationsförderung von künstlicher Intelligenz
+    lang: de
+    version: "20260729215513"
+    source_url: https://www.gesetze-im-internet.de/ki-mig/
+    attribution: >-
+      § 5 UrhG (amtliches Werk, gemeinfrei). Maßgeblich ist die Verkündung im
+      Bundesgesetzblatt.
+    files:
+      - path: raw/kimig/BJNR0DF0B0026.xml
+        url: https://www.gesetze-im-internet.de/ki-mig/xml.zip
+        sha256: 08695865b920ad1886bb282a6dbdc78108381e9357878aecc15e230058d1c1d5
+  - id: bdsg
+    kind: statute
+    jurisdiction: de
+    short_name: BDSG
+    title: Bundesdatenschutzgesetz
+    lang: de
+    version: "20260713215512"
+    source_url: https://www.gesetze-im-internet.de/bdsg_2018/
+    attribution: >-
+      § 5 UrhG (amtliches Werk, gemeinfrei). Maßgeblich ist die Verkündung im
+      Bundesgesetzblatt.
+    files:
+      - path: raw/bdsg/BJNR209710017.xml
+        url: https://www.gesetze-im-internet.de/bdsg_2018/xml.zip
+        sha256: 444722e79997741b67ec4bd0641dd223893a26731e0d79914ca4f64045793410
+  - id: betrvg
+    kind: statute
+    jurisdiction: de
+    short_name: BetrVG
+    title: Betriebsverfassungsgesetz
+    lang: de
+    version: "20260713215501"
+    source_url: https://www.gesetze-im-internet.de/betrvg/
+    attribution: >-
+      § 5 UrhG (amtliches Werk, gemeinfrei). Maßgeblich ist die Verkündung im
+      Bundesgesetzblatt.
+    files:
+      - path: raw/betrvg/BJNR000130972.xml
+        url: https://www.gesetze-im-internet.de/betrvg/xml.zip
+        sha256: 5fdf7c393c9a7b7dc2c1bd21580c760d18e795c2134b1b179d098c80f017e43a
+  - id: geschgehg
+    kind: statute
+    jurisdiction: de
+    short_name: GeschGehG
+    title: Gesetz zum Schutz von Geschäftsgeheimnissen
+    lang: de
+    version: "20210128212006"
+    source_url: https://www.gesetze-im-internet.de/geschgehg/
+    attribution: >-
+      § 5 UrhG (amtliches Werk, gemeinfrei). Maßgeblich ist die Verkündung im
+      Bundesgesetzblatt.
+    files:
+      - path: raw/geschgehg/BJNR046610019.xml
+        url: https://www.gesetze-im-internet.de/geschgehg/xml.zip
+        sha256: 6240774b2b6787d487db0f04d8a244a06bf81930e6dd5d8527a89d9ab6f35aae
+  - id: gdpr
+    kind: regulation
+    jurisdiction: eu
+    short_name: DSGVO
+    title: >-
+      Verordnung (EU) 2016/679 zum Schutz natürlicher Personen bei der Verarbeitung
+      personenbezogener Daten und zum freien Datenverkehr
+    lang: de
+    version: 02016R0679-20160504
+    source_url: https://eur-lex.europa.eu/eli/reg/2016/679/2016-05-04/deu   # dated, the citation resolver appends the anchor
+    attribution: >-
+      © European Union, 2024-2026, eur-lex.europa.eu, reused under Commission Decision
+      2011/833/EU. Only the Official Journal is authentic.
+    files:
+      - path: raw/02016R0679-20160504/de.xhtml
+        url: http://publications.europa.eu/resource/celex/02016R0679-20160504
+        sha256: ad895d90dc35be2f12371af880380af2282c68f370b3d207e5a7e8186cc094a1
+  - id: qa
+    kind: guidance
+    jurisdiction: eu
+    short_name: Q&A der Kommission
+    title: "KI-Kompetenz: Fragen und Antworten (Europäische Kommission)"
+    lang: de
+    version: "2026-09-15"
+    source_url: https://digital-strategy.ec.europa.eu/de/faqs/ai-literacy-questions-answers
+    attribution: >-
+      © European Union, 2024-2026, digital-strategy.ec.europa.eu, reused under CC BY 4.0.
+    files:
+      - path: raw/qa/de.html
+        url: https://digital-strategy.ec.europa.eu/de/faqs/ai-literacy-questions-answers
+        sha256: 4df354de442c44a883a9201d979af7ab0697892c9a3a25f400bfc287db5f9486

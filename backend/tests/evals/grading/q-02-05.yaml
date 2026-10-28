@@ -1,0 +1,69 @@
+question: q-02-05
+cases:
+  - id: clean
+    answer: >-
+      Bei Kolleginnen und Kollegen gilt: Ihre Daten dürfen nur für Zwecke des
+      Beschäftigungsverhältnisses verarbeitet werden, der Zweck ist enger
+      gesteckt als bei Kundendaten. Kommt ein Werkzeug dazu, das Verhalten oder
+      Leistung überwacht, hat der Betriebsrat mitzubestimmen. Und die
+      Betroffenen selbst entscheiden nicht mit, ob ihre Daten in das Werkzeug
+      gehen.
+    fair: correct
+    note: >-
+      trifft beide Muss-Punkte: die Verarbeitung von Daten von Beschäftigten
+      nur für Zwecke des Beschäftigungsverhältnisses und die Einbeziehung des
+      Betriebsrats bei Werkzeugen, die Verhalten oder Leistung überwachen. Dazu
+      das Soll, dass die Kolleginnen nicht selbst entscheiden.
+  - id: bare-minimum
+    answer: >-
+      die daten gehen nur soweit es um die arbeit geht, und wenn das tool die
+      leute überwacht muss der betriebsrat ran
+    fair: correct
+    note: >-
+      beide Muss-Punkte knapp, aber getragen: "nur soweit es um die arbeit
+      geht" ist die Zweckgrenze, "muss der betriebsrat ran" die Einbeziehung
+      bei Überwachung. Die dünnste Antwort im Satz, die noch zählt.
+  - id: meant-right
+    answer: >-
+      Weil es um Beschäftigte geht. Ihre Daten dürfen nur soweit verarbeitet
+      werden, wie es um das Arbeitsverhältnis geht, nicht für beliebige andere
+      Zwecke. Und ein Werkzeug, das mitschneidet, wer wann wie viel leistet,
+      kommt am Betriebsrat nicht vorbei.
+    fair: correct
+    note: >-
+      beide Muss-Punkte, einer getragen: die Grenze auf das
+      Beschäftigungsverhältnis ausdrücklich in eigenen Worten, der Betriebsrat
+      ausdrücklich, die Verhaltens- und Leistungsüberwachung getragen durch
+      "mitschneidet, wer wann wie viel leistet".
+  - id: plausible-miss
+    answer: >-
+      Kollegendaten sind eben besonders sensibel, das ist Vertrauenssache im
+      Team. Wenn da etwas durchsickert, ist das Betriebsklima kaputt. Und jeder
+      will in Ruhe gelassen werden mit seinen privaten Dingen.
+    fair: wrong
+    note: >-
+      kein Muss-Punkt getroffen: Sensibilität und Vertrauen sagen nichts dazu,
+      dass Daten von Beschäftigten nur für Zwecke des
+      Beschäftigungsverhältnisses verarbeitet werden dürfen, und nichts zum
+      Betriebsrat.
+  - id: confidently-wrong
+    answer: >-
+      Der einzige besondere Punkt ist, dass man vorher höflich fragen sollte.
+      Ansonsten dürfen Kollegendaten frei verarbeitet werden, das Unternehmen
+      kann damit machen, was es will, auch Überwachung. Der Betriebsrat hat da
+      überhaupt nichts zu melden.
+    fair: wrong
+    note: >-
+      Gegenteil beider Muss-Punkte: behauptet freie Verarbeitung von
+      Kollegendaten gegen die Grenze des Beschäftigungsverhältnisses und lehnt
+      die Einbeziehung des Betriebsrats bei Überwachung rundweg ab.
+  - id: citations-only
+    answer: >-
+      Art. 5 Abs. 1 a DSGVO, § 26 Abs. 1 BDSG, Anhang III Pt. 4 a, § 87 BetrVG
+      Abs. 1 Nr. 6
+    fair: wrong
+    note: >-
+      nur vier Fundstellen, kein Satz sagt, was eine von ihnen verlangt: weder
+      die Zweckgrenze des Beschäftigungsverhältnisses noch die Einbeziehung des
+      Betriebsrats wird in Worten behauptet, nur benannt, wo sie stehen
+      könnten.

@@ -1,0 +1,31 @@
+id: q-04-01
+chapter: 04-hochrisiko-am-arbeitsplatz
+type: multiple_choice
+difficulty: 2
+question: >-
+  Drei Werkzeuge laufen in unserer Personalabteilung. Welches davon steht auf der
+  Hochrisiko-Liste?
+options:
+  - key: A
+    text: Ein Assistent, der das Protokoll der Teambesprechung zusammenfasst.
+  - key: B
+    text: Ein System, das eingehende Bewerbungen bewertet und eine Rangfolge bildet.
+  - key: C
+    text: Ein Werkzeug, das das Handbuch für den Arbeitsschutz ins Englische übersetzt.
+correct: B
+model_answer: >-
+  B. Bewerbungen zu sichten und Bewerber zu bewerten steht in Anhang III,
+  Zusammenfassen und Übersetzen stehen dort nicht.
+explanation: >-
+  Anhang III Nummer 4 Buchstabe a nennt KI-Systeme, die bestimmungsgemäß für die
+  Einstellung oder Auswahl natürlicher Personen verwendet werden sollen,
+  insbesondere um Bewerbungen zu sichten oder zu filtern und Bewerber zu bewerten.
+  Nach Art. 6 Abs. 2 gelten die in Anhang III genannten Systeme als hochriskant,
+  und das Zusammenfassen eines Protokolls oder das Übersetzen eines Handbuchs
+  fällt unter keinen Punkt dieser Liste.
+citations: ["Art. 6(2)", "Annex III pt. 4(a)"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

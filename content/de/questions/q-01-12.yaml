@@ -1,0 +1,44 @@
+id: q-01-12
+chapter: 01-warum-es-dich-betrifft
+type: multiple_choice
+difficulty: 2
+question: >-
+  Der Assistent hat die Kundenmail geschrieben, du hast sie gelesen und freigegeben.
+  Später beschwert sich der Kunde über eine falsche Lieferfrist darin. Wer steht dafür
+  gerade?
+options:
+  - key: A
+    text: "Ich selbst: was ich freigebe, ist meine Verantwortung."
+  - key: B
+    text: "Der Anbieter des Werkzeugs: seine Technik, sein Fehler."
+  - key: C
+    text: "Niemand: die KI hat den Satz geschrieben."
+correct: A
+rubric:
+  must:
+    - point: nennt, dass du dafür geradestehst, nicht der Anbieter des Werkzeugs und nicht die KI
+  should:
+    - >-
+      begründet es damit, dass die Prüfung einer KI-Ausgabe die Aufgabe des Menschen
+      ist, der sie absegnen lässt — etwa weil du die Mail gelesen und freigegeben
+      hast
+    - >-
+      nennt, dass die Verordnung von dir verlangt, das Werkzeug einzuschätzen und
+      seine Ausgabe zu prüfen
+    - nennt Art. 4 Abs. 1 oder Art. 3 Nr. 56 für die KI-Kompetenz
+model_answer: >-
+  Du stehst dafür gerade. Mit der Freigabe wird der Entwurf deine Arbeit, und die
+  Verordnung schiebt den Fehler niemandem sonst zu.
+explanation: >-
+  Die Verordnung kennt keine Vorschrift, die einen Fehler in einer Mail, die du
+  freigegeben und verschickt hast, dem Anbieter des Werkzeugs zuschiebt. Was sie
+  auf deiner Seite verlangt, ist KI-Kompetenz, nach Art. 3 Nr. 56 die Fähigkeiten,
+  die Kenntnisse und das Verständnis, um KI-Systeme sachkundig einzusetzen und
+  sich ihrer Risiken bewusst zu sein, und Art. 4 Abs. 1 macht daraus die Pflicht
+  unseres Arbeitgebers, das mit Maßnahmen zu unterstützen.
+citations: ["Art. 3(56)", "Art. 4(1)", "Q&A 15"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why

@@ -1,0 +1,120 @@
+id: 01-warum-es-dich-betrifft
+title: Was du mit KI am Arbeitsplatz darfst
+intro: >-
+  Der Rahmen zuerst: dein Werkzeug, dein Unternehmen und du. Die sieben Kapitel
+  danach füllen ihn aus.
+duration_minutes: 8
+steps:
+  - id: s1
+    text: >-
+      Ein KI-System ist ein Werkzeug, das aus seinen Eingaben ableitet, wie es
+      seine Ausgaben erzeugt: Texte, Vorhersagen, Empfehlungen. Der
+      Chatassistent auf deinem Rechner ist eins.
+
+
+      Dein Unternehmen setzt ihn in eigener Verantwortung ein und ist damit sein
+      Betreiber. Du bist die Person, die ihn bedient. Die Pflichten der
+      Verordnung treffen damit dein Unternehmen, nicht dich persönlich.
+    citations: ["Art. 3(1)", "Art. 3(4)"]
+    question: q-01-11
+  - id: s2
+    text: >-
+      Entwürfe schreiben, übersetzen, zusammenfassen, Ideen sammeln: Das ist
+      gewöhnliche erlaubte Nutzung. Eine Genehmigung oder eine Meldung verlangt
+      die Verordnung dafür nicht.
+
+
+      Verlangt ist etwas anderes: dass dein Arbeitgeber Maßnahmen ergreift,
+      damit du dein Werkzeug einschätzen kannst.
+    example: >-
+      Dein Team lässt eine Produktbeschreibung ins Englische übersetzen:
+      erlaubt, solange jemand sie vor dem Versand auf Halluzinationen durchsieht.
+    citations: ["Art. 4(1)", "Q&A 14"]
+    question: q-01-05
+  - id: s3
+    text: >-
+      Für das, was du verschickst, stehst du gerade, nicht das Modell. Lies die
+      Ausgabe ganz, prüfe Zahlen, Namen und Zitate nach, und gib nichts hinein,
+      was das Haus nicht verlassen darf.
+
+
+      Was du da tust, nennt die Verordnung KI-Kompetenz: KI sachkundig einsetzen
+      und ihre Chancen, ihre Risiken und mögliche Schäden sehen. Auch wer als
+      Mensch in der Schleife prüft, braucht die Fähigkeiten, die zu seinem
+      System passen.
+    example: >-
+      Der Assistent nennt dir eine Norm und einen Preis für ein Angebot, und du
+      schlägst beides in der Quelle nach, bevor das Angebot hinausgeht.
+    citations: ["Art. 3(56)", "Art. 4(1)", "Q&A 15"]
+    question: q-01-12
+  - id: s4
+    text: >-
+      Offenlegen musst du KI nur in wenigen, klar benannten Fällen. Ein
+      Chatfenster, das für das Gespräch mit Menschen gedacht ist, muss der
+      Anbieter so gestalten, dass die Person merkt, dass eine KI antwortet.
+
+
+      Ein Deepfake, also ein erzeugtes oder manipuliertes Bild, Video oder
+      Tonstück, legt der Betreiber offen. Eine Mail, die du gelesen, korrigiert
+      und unter deinem Namen verschickt hast, steht auf keiner dieser Listen.
+    citations: ["Art. 50(1)", "Art. 50(4)"]
+    question: q-01-13
+  - id: s5
+    text: >-
+      Die Liste der verbotenen Praktiken ist kurz, und eine davon trifft den
+      Arbeitsplatz: Ein KI-System, das die Emotionen einer Person am
+      Arbeitsplatz oder in einer Bildungseinrichtung ableitet, ist verboten.
+      Ausgenommen ist allein der Einsatz aus medizinischen Gründen oder
+      Sicherheitsgründen.
+
+
+      Verboten ist das Ableiten von Emotionen, nicht jedes KI-Werkzeug im
+      Personalbereich.
+    example: >-
+      Ein Werkzeug, das Bewerbungen nach Stichworten vorsortiert, leitet keine
+      Emotionen ab und fällt nicht unter das Verbot.
+    citations: ["Art. 5(1)(f)", "Rec. 44"]
+    question: q-01-08
+  - id: s6
+    text: >-
+      Was die Verordnung erlaubt, kann dein Unternehmen trotzdem enger regeln,
+      etwa welche Werkzeuge freigegeben sind. Frag im Zweifel zuerst im Haus
+      nach, nicht bei einer Behörde.
+
+
+      Ein Zertifikat über KI-Kompetenz verlangt die Verordnung von dir nicht.
+      Der eine Satz zum Weitersagen: Das meiste ist erlaubt, und du stehst für
+      das gerade, was du verschickst.
+    example: >-
+      Euer Haus gibt drei Assistenten frei und lässt den vierten draußen, obwohl
+      die Verordnung ihn nirgends verbietet.
+    citations: ["Q&A 18"]
+    question: q-01-14
+summary: >-
+  Dein Unternehmen setzt KI-Systeme ein und ist damit ihr Betreiber, und du bist
+  die Person, die sie bedient (Art. 3 Nr. 1, Art. 3 Nr. 4). Entwerfen,
+  übersetzen, zusammenfassen und Ideen sammeln sind erlaubte Nutzung, und die
+  Verordnung verlangt dafür weder eine Genehmigung noch eine Meldung. Verlangt
+  ist, dass dein Arbeitgeber die KI-Kompetenz seines Personals unterstützt,
+  damit du die Risiken deines Werkzeugs kennst, zum Beispiel Halluzinationen
+  (Art. 3 Nr. 56, Art. 4 Abs. 1, Q&A der Kommission zur KI-Kompetenz, Frage 14).
+  Vor dem Absenden liest du die Ausgabe ganz, prüfst Zahlen, Namen und Zitate
+  nach und gibst nichts hinein, was das Haus nicht verlassen darf.
+  Offenlegen muss man KI in wenigen
+  Fällen: Ein Chatfenster für das Gespräch mit Menschen muss als KI erkennbar
+  sein (Art. 50 Abs. 1), und ein Deepfake legt der Betreiber offen (Art. 50
+  Abs. 4). Eine Mail, die du gelesen und unter deinem Namen verschickt hast,
+  braucht keinen Hinweis. Verboten ist das Ableiten von Emotionen am
+  Arbeitsplatz und in Bildungseinrichtungen, außer aus medizinischen Gründen
+  oder Sicherheitsgründen (Art. 5 Abs. 1 Buchst. f). Ein Zertifikat verlangt die
+  Verordnung nicht (Q&A der Kommission zur KI-Kompetenz, Frage 18), und was sie
+  erlaubt, darf dein Haus trotzdem enger regeln.
+may: >-
+  Das darfst du: entwerfen, übersetzen, zusammenfassen, Ideen sammeln. Eine
+  Genehmigung verlangt die Verordnung dafür nicht, sie verlangt, dass dein
+  Arbeitgeber deine KI-Kompetenz unterstützt (Art. 4 Abs. 1).
+last_change:
+  date: 2026-10-11
+  by: ai
+  trigger: M5.65, das Kapitelende
+  summary: "Die Zeile, was du jetzt darfst oder weißt, aus der Zusammenfassung"

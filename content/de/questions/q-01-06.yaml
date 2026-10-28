@@ -1,0 +1,41 @@
+id: q-01-06
+chapter: 01-warum-es-dich-betrifft
+type: free_text
+difficulty: 2
+question: >-
+  Was prüfst du zum Beispiel, bevor du etwas verschickst, das ein KI-System für dich
+  geschrieben hat?
+rubric:
+  must:
+    - point: >-
+        nennt eine dieser Prüfungen: Zahlen und Fakten nachgeprüft, Zitate und Quellen
+        geprüft, den Text ganz gelesen, keine vertraulichen Daten hineingegeben
+      ask: Also, was prüfst du, bevor der Text von der KI rausgeht?
+  should:
+    - nennt eine zweite dieser Prüfungen
+    - >-
+      begründet die Prüfungen damit, dass die Verantwortung für die Ausgabe bei der
+      Person bleibt
+model_answer: >-
+  Verschicken darfst du es, du prüfst vorher. Zum Beispiel: Ich
+  prüfe Zahlen und Fakten in der Quelle nach, und ich lese den Text ganz statt
+  nur den Anfang. Weitere Punkte sind, Zitate
+  und Quellenangaben zu prüfen und keine vertraulichen Daten in ein Werkzeug zu
+  geben, das sie nicht bekommen darf.
+explanation: >-
+  KI-Kompetenz sind nach Art. 3 Nr. 56 die Fähigkeiten, die Kenntnisse und das
+  Verständnis, um KI-Systeme sachkundig einzusetzen und sich ihrer Chancen,
+  ihrer Risiken und möglicher Schäden bewusst zu sein. Art. 4 Abs. 1 macht
+  daraus die Pflicht unseres Arbeitgebers, Maßnahmen dafür zu ergreifen. Das Q&A
+  der Kommission zur KI-Kompetenz, Frage 15, hält fest, dass auch der Mensch in
+  der Schleife die Fähigkeiten braucht, die zu dem System passen, mit dem er
+  arbeitet. Die Verordnung verlangt nicht, deinen Kenntnisstand zu messen, und
+  sie verpflichtet niemanden, für dich ein bestimmtes Niveau an KI-Kompetenz zu
+  garantieren. Das Prüfen vor dem Absenden ist diese Fähigkeit in der Praxis,
+  und es ist das, was aus einem Entwurf deine Arbeit macht.
+citations: ["Art. 3(56)", "Art. 4(1)", "Q&A 5", "Q&A 15"]
+last_change:
+  date: 2026-10-10
+  by: ai
+  trigger: D131
+  summary: asks with a question mark

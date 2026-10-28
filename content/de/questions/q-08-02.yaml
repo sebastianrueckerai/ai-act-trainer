@@ -1,0 +1,31 @@
+id: q-08-02
+chapter: 08-die-werkzeuge-die-du-nutzt
+type: multiple_choice
+difficulty: 1
+question: >-
+  Drei Aufgaben rund um unseren Assistenten. Welche davon schuldet der Anbieter des
+  Modells und nicht unser Haus?
+options:
+  - key: A
+    text: Die technische Dokumentation des Modells.
+  - key: B
+    text: Das Prüfen der Ausgabe, bevor sie hinausgeht.
+  - key: C
+    text: Die Hausregel, welche Werkzeuge freigegeben sind.
+correct: A
+model_answer: >-
+  A. Die technische Dokumentation des Modells steht auf der Liste der
+  Anbieterpflichten, das Prüfen und die Hausregel bleiben bei uns.
+explanation: >-
+  Art. 53 Abs. 1 Buchst. a verpflichtet Anbieter von KI-Modellen mit allgemeinem
+  Verwendungszweck, die technische Dokumentation des Modells einschließlich seines
+  Trainings- und Testverfahrens zu erstellen und zu aktualisieren. Das Prüfen
+  einer Ausgabe vor dem Absenden gehört zur KI-Kompetenz, die nach Art. 4 Abs. 1
+  unser Arbeitgeber mit Maßnahmen unterstützt, und eine Hausregel gibt sich der
+  Betrieb selbst.
+citations: ["Art. 4(1)", "Art. 53(1)"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

@@ -1,0 +1,23 @@
+id: q-03-03
+chapter: 03-was-dein-arbeitgeber-tun-muss
+type: yes_no
+difficulty: 2
+question: >-
+  Unser Betriebsrat hat dem neuen Personalsystem zugestimmt. Die Beschäftigten, die
+  es bewerten wird, hat niemand unterrichtet. Fehlt da noch etwas?
+correct: "yes"
+model_answer: >-
+  Ja, neben den Arbeitnehmervertretern sind auch die betroffenen Arbeitnehmer
+  selbst vor der Inbetriebnahme zu informieren.
+explanation: >-
+  Art. 26 Abs. 7 verlangt vom Arbeitgeber, vor der Inbetriebnahme oder Verwendung
+  eines Hochrisiko-KI-Systems am Arbeitsplatz die Arbeitnehmervertreter und die
+  betroffenen Arbeitnehmer darüber zu informieren, dass sie der Verwendung
+  unterliegen werden. Die Mitbestimmung des Betriebsrats nach § 87 Abs. 1 Nr. 6
+  BetrVG steht daneben und ersetzt diese Unterrichtung nicht.
+citations: ["Art. 26(7)", "BetrVG § 87(1) Nr. 6"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

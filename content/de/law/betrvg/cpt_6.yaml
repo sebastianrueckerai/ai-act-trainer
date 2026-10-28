@@ -1,0 +1,39 @@
+node: betrvg:cpt_6
+summary: Der sechste Teil regelt straf- und bußgeldrechtliche Sanktionen für Verstöße gegen die Mitbestimmung.
+  Er verbietet die Behinderung, Beeinflussung oder Benachteiligung von Wahl und Tätigkeit der Betriebsräte
+  und anderen Arbeitnehmervertretungen. Er schützt Betriebs- und Geschäftsgeheimnisse, die dem Betriebsrat
+  oder dessen Beauftragten anvertraut sind, ebenso persönliche Geheimnisse von Beschäftigten. Wer Aufklärungs-
+  oder Auskunftspflichten nicht wahrheitsgemäß, vollständig oder rechtzeitig erfüllt, begeht eine Ordnungswidrigkeit.
+  Gilt für Mitglieder von Betriebsräten, deren Beauftragte, Arbeitgebervertreter und weitere Personen,
+  die nach dem Gesetz Auskunftspflichten haben. Anwendung erfolgt bei jeder entsprechenden Tat.
+source_sha: 8f9fccae833bf3435a60c58c4efcd56fcea19ca6d0c3dba7e54b65452d86c98d
+children:
+- node: betrvg:sec_119
+  summary: Verboten ist, Wahl oder Tätigkeit von Betriebsrat und Arbeitnehmervertretungen zu behindern,
+    zu beeinflussen oder deren Mitglieder zu benachteiligen bzw. zu begünstigen. Wer das tut, wird mit
+    bis zu einem Jahr Haft oder Geldstrafe bestraft; Verfolgung erfolgt nur auf Antrag von Vertretungen,
+    Wahlvorstand oder Arbeitgeber.
+  source_sha: 96b72e881df9ef4b51195e81ad9b48c666ab39a1303949725bda5fcb34f38a8e
+  children: []
+- node: betrvg:sec_120
+  summary: Der Paragraph kriminalisiert das unbefugte Offenbaren oder Verwenden von Betriebs- oder Geschäftsgeheimnissen,
+    die einer Person aus dem Betriebsrat, einer mit dem Betriebsrat verbundenen Stelle, einem Gewerkschafts-
+    oder Arbeitgebervertreter, einem vom Betriebsrat beauftragten Sachverständigen, Berater, Auskunftsperson
+    oder einem vom Betriebsrat bzw. Wirtschaftsausschuss hinzugezogenen Arbeitnehmer bekannt geworden
+    sind und vom Arbeitgeber als geheimhaltungsbedürftig gekennzeichnet wurden. Auch persönliche Geheimnisse
+    von Arbeitnehmern, die dem Betriebsrat bekannt sind, sind geschützt. Strafen reichen bis zu einem
+    Jahr Freiheitsstrafe oder Geldstrafe, bei Bereicherungsabsicht bis zu zwei Jahren. Die Tat wird nur
+    auf Antrag des Verletzten bzw. seiner Erben verfolgt und gilt auch nach dem Tod des Betroffenen.
+  source_sha: b1a751756dc15643c4e30780aa9f765bf331a89201ef064a123befd977cf5f2c
+  children: []
+- node: betrvg:sec_121
+  summary: Wer die in anderen Vorschriften festgelegten Aufklärungs- oder Auskunftspflichten nicht wahrheitsgemäß,
+    vollständig oder rechtzeitig erfüllt, begeht eine Ordnungswidrigkeit. Die Vorschrift gilt für alle,
+    die diesen Pflichten unterliegen, und sieht eine Geldbuße von bis zu zehntausend Euro vor.
+  source_sha: 7a1acc9959bd47a1d00bdfe0881505ae5806831112f84aa9c29cfe5f9c2b487e
+  children: []
+last_change:
+  date: '2026-09-17'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

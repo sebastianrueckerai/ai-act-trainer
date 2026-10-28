@@ -1,0 +1,42 @@
+id: q-01-05
+chapter: 01-warum-es-dich-betrifft
+type: yes_no
+difficulty: 2
+question: >-
+  Eine Kollegin sagt: Kundenmails dürfen wir nicht mehr mit KI schreiben, das
+  ist jetzt verboten. Darf sie die Mail von der KI schreiben lassen?
+correct: "yes"
+rubric:
+  must:
+    - point: >-
+        nennt, dass das Entwerfen einer Kundenmail mit einem KI-System erlaubte
+        Nutzung ist
+    - point: >-
+        nennt, dass es stattdessen auf KI-Kompetenz ankommt: die Risiken des
+        Werkzeugs kennen oder sein Ergebnis prüfen
+      ask: >-
+        Sie fragt zurück, worauf sie dann achten muss, wenn die KI den Entwurf
+        schreibt. Was sagst du ihr?
+  should:
+    - nennt, dass es dafür keine Genehmigung braucht
+    - nennt ein typisches Risiko des Werkzeugs, etwa Halluzinationen
+model_answer: >-
+  Ja. Die Verordnung verbietet das nicht. Einen Entwurf von einem KI-System
+  schreiben zu lassen ist erlaubte Nutzung. Dafür braucht es keine Genehmigung,
+  sondern KI-Kompetenz und das Prüfen des Ergebnisses, zum Beispiel auf
+  Halluzinationen.
+explanation: >-
+  Die Verordnung enthält keine Vorschrift, die das Entwerfen einer Kundenmail
+  mit einem KI-System verbietet. Was sie verlangt, steht in Art. 4 Abs. 1:
+  Anbieter und Betreiber ergreifen Maßnahmen, die die KI-Kompetenz ihres
+  Personals unterstützen. Das Q&A der Kommission zur KI-Kompetenz, Frage 14,
+  antwortet für das Verfassen von Werbetexten und das Übersetzen, dass das
+  Personal über die spezifischen Risiken informiert sein soll, zum Beispiel über
+  Halluzinationen. Eine Genehmigung verlangt die Verordnung nicht, die Regeln
+  unseres Unternehmens können trotzdem etwas anderes vorsehen.
+citations: ["Art. 4(1)", "Q&A 14"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why

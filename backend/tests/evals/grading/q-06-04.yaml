@@ -1,0 +1,60 @@
+question: q-06-04
+cases:
+  - id: clean
+    answer: >-
+      Das stimmt so nicht. Die Verbote gelten schon seit Februar 2025, das ist
+      keine Ankündigung für später, sondern längst geltendes Recht. Wer
+      trotzdem eine verbotene Praktik einsetzt, riskiert nach Artikel 99
+      Absatz 3 eine Geldbuße von bis zu 35 Millionen Euro oder bis zu 7 Prozent
+      des weltweiten Jahresumsatzes, je nachdem, welcher der beiden Beträge
+      höher ist.
+    fair: correct
+    note: >-
+      trifft beide Muss-Punkte: die Geldbuße von bis zu 35 Millionen Euro oder
+      7 Prozent des weltweiten Jahresumsatzes, und die Geltung der Verbote seit
+      Februar 2025. Dazu beide Soll-Punkte, der höhere der beiden Beträge und
+      die Fundstelle für die Geldbuße.
+  - id: bare-minimum
+    answer: >-
+      die gelten längst und das wird richtig teuer, wenn du erwischt wirst
+    fair: correct
+    note: >-
+      beide Muss-Punkte knapp, aber getragen: "die gelten längst" trägt, dass
+      die Verbote schon gelten, "das wird richtig teuer" die Geldbuße ohne
+      Zahl. Die dünnste Antwort im Satz, die noch zählt.
+  - id: meant-right
+    answer: >-
+      Nein, weit gefehlt. Das ist schon länger in Kraft, nämlich seit Februar
+      letzten Jahres, keine Zukunftsmusik. Und wer sich trotzdem eine
+      verbotene Praktik leistet, landet schnell bei 35 Millionen Euro oder bei
+      7 Prozent des weltweiten Jahresumsatzes, je nachdem was mehr reinhaut.
+    fair: correct
+    note: >-
+      beide Muss-Punkte getragen statt in Rubrikworten: "schon länger in
+      Kraft, seit Februar letzten Jahres" trägt die Geltung seit Februar 2025,
+      und "35 Millionen Euro oder 7 Prozent des weltweiten Jahresumsatzes"
+      benennt die Geldbuße direkt. "je nachdem was mehr reinhaut" trägt
+      nebenbei das Soll, der höhere Betrag zählt.
+  - id: plausible-miss
+    answer: >-
+      Kollege, das ist alles andere als Theorie. Die Aufsichtsbehörden schauen
+      sich das inzwischen wirklich genau an, und kein Geschäftsführer will als
+      erstes Negativbeispiel in der Zeitung landen. Da steht für die Firma
+      richtig viel auf dem Spiel.
+    fair: wrong
+    note: >-
+      kein Muss-Punkt getroffen: die Aufmerksamkeit der Aufsichtsbehörden und
+      der Ruf in der Presse sagen nichts über die konkrete Höhe der Geldbuße
+      von bis zu 35 Millionen Euro oder 7 Prozent des Jahresumsatzes, und
+      nichts darüber, dass die Verbote schon seit Februar 2025 gelten.
+  - id: confidently-wrong
+    answer: >-
+      Doch, da hat er recht. Die Verbote sind bislang nur eine Ankündigung,
+      richtig scharf wird das erst in ein paar Jahren, und selbst dann bleibt
+      es bei einer überschaubaren Verwarnung statt einer echten Geldbuße.
+    fair: wrong
+    note: >-
+      Gegenteil beider Muss-Punkte: behauptet, die Verbote seien noch nicht in
+      Kraft, dabei gelten sie schon seit Februar 2025, und behauptet eine
+      überschaubare Verwarnung statt der Geldbuße von bis zu 35 Millionen Euro
+      oder 7 Prozent des weltweiten Jahresumsatzes.

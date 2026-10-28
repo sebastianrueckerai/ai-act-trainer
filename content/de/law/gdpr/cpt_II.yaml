@@ -1,0 +1,63 @@
+node: gdpr:cpt_II
+summary: Das Kapitel legt die Grundsätze für die Verarbeitung personenbezogener Daten fest. Es verpflichtet
+  alle Verantwortlichen, die Daten in der EU verarbeiten, die Verarbeitung rechtmäßig, transparent und
+  zweckgebunden zu gestalten. Es verlangt Datenminimierung, Richtigkeit, begrenzte Speicherfrist und Sicherheit.
+  Es definiert die Bedingungen für wirksame Einwilligungen, einschließlich spezieller Regeln für Kinder.
+  Es regelt den Umgang mit besonderen Datenkategorien und Daten über Straftaten sowie Fälle, in denen
+  keine Identifizierung nötig ist. Die Vorgaben gelten bei jeder Datenverarbeitung.
+source_sha: 0a587cad92f7a2ec406325ea84dafe641ec6c12108036296a2fe6378b8bf2b57
+children:
+- node: gdpr:art_5
+  summary: Der Text legt Grundsätze für die Verarbeitung personenbezogener Daten fest. Er bindet Verantwortliche,
+    die Daten verarbeiten. Er gilt bei jeder Verarbeitung und verlangt Rechtmäßigkeit, Transparenz, Zweckbindung,
+    Datenminimierung, Richtigkeit, Speicherbegrenzung, Sicherheit und Nachweis der Einhaltung.
+  source_sha: 10c9a5e77629ae78c198f2998937f213e8f0af232020f9d9b79e9a15a1d5628c
+  children: []
+- node: gdpr:art_6
+  summary: 'Die Vorschrift legt fest, wann die Verarbeitung personenbezogener Daten rechtmäßig ist. Sie
+    bindet Verantwortliche. Rechtmäßig ist die Verarbeitung, wenn mindestens einer dieser Gründe vorliegt:
+    Einwilligung, Vertrag, gesetzliche Pflicht, lebenswichtige Interessen, öffentliche Aufgabe oder berechtigte
+    Interessen, sofern die Rechte der betroffenen Person nicht überwiegen.'
+  source_sha: 6f24d3515bbe16f642b1fc926fc39e3e2107574747526bb3be22969ff4a8651a
+  children: []
+- node: gdpr:art_7
+  summary: Der Verantwortliche muss nachweisen, dass die betroffene Person freiwillig in die Verarbeitung
+    ihrer personenbezogenen Daten eingewilligt hat. Die Einwilligung muss klar, verständlich und getrennt
+    von anderen Inhalten erklärt werden. Sie kann jederzeit einfach widerrufen werden; der Widerruf ändert
+    die Rechtmäßigkeit der bisherigen Verarbeitung nicht.
+  source_sha: bbd58100e9cc6e360ca5172fd3e9ca2a59f4edf2641f439a09a541c0686a461f
+  children: []
+- node: gdpr:art_8
+  summary: Verarbeitet ein Dienst der Informationsgesellschaft personenbezogene Daten eines Kindes, ist
+    die Verarbeitung rechtmäßig, wenn das Kind 16 Jahre alt ist; darunter ist die Einwilligung der Eltern
+    nötig. Mitgliedstaaten dürfen das Mindestalter auf mindestens 13 Jahre senken. Der Verantwortliche
+    prüft, dass die elterliche Einwilligung vorliegt.
+  source_sha: 2d69910550f3028e2705411fb922308741c5bb49e52397f7e7e6507bbc6af540
+  children: []
+- node: gdpr:art_9
+  summary: Das Gesetz verbietet die Verarbeitung besonderer Kategorien personenbezogener Daten, wie Herkunft,
+    politische Meinung, Religion, Gewerkschaftszugehörigkeit, genetische, biometrische, Gesundheits- und
+    Sexualdaten, außer in engen Ausnahmen wie ausdrücklicher Einwilligung, lebenswichtigen Interessen,
+    Arbeits- und Sozialrecht, rechtlichen Ansprüchen, öffentlichem Interesse, Gesundheitsvorsorge, Forschung
+    und Archivierung. Es bindet alle Verantwortlichen, die solche Daten in der EU verarbeiten.
+  source_sha: 24b4edd686221af946756ad0b7d2e959a90a8f249a7112d287e96e40e62cbf0a
+  children: []
+- node: gdpr:art_10
+  summary: Regelt, dass die Verarbeitung personenbezogener Daten über strafrechtliche Verurteilungen und
+    Straftaten nur unter behördlicher Aufsicht oder wenn das Unionsrecht bzw. das Recht der Mitgliedstaaten
+    geeignete Garantien bietet, zulässig ist. Ein umfassendes Register darf ebenfalls nur unter Aufsicht
+    geführt werden.
+  source_sha: fba96d5839e38eb0ad43781d0c5ea99a9b6c38b2ffbb71d9232ffaea10ac3a77
+  children: []
+- node: gdpr:art_11
+  summary: Wenn ein Verantwortlicher Daten verarbeitet, ohne die betroffene Person identifizieren zu müssen,
+    muss er keine zusätzlichen Informationen zur Identifizierung aufbewahren, einholen oder verarbeiten.
+    Er kann die Person informieren, dass sie nicht identifiziert werden kann. Die Rechte auf Auskunft,
+    Berichtigung, Löschung usw. gelten nur, wenn die Person freiwillig Identifikationsdaten bereitstellt.
+  source_sha: f05e93578a28e16916b2913f5b972f965dccb1830f6d46d7fbb36019b7a0b525
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

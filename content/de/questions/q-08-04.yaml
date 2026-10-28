@@ -1,0 +1,23 @@
+id: q-08-04
+chapter: 08-die-werkzeuge-die-du-nutzt
+type: yes_no
+difficulty: 2
+question: >-
+  Unser Team lässt den gewöhnlichen Chatassistenten die eingegangenen Bewerbungen
+  bewerten und eine Rangfolge bilden. Bleibt das gewöhnliche Nutzung?
+correct: "no"
+model_answer: >-
+  Nein, mit diesem Zweck landet der Assistent im Beschäftigungsfeld des Anhangs
+  III und gilt damit als Hochrisiko-System.
+explanation: >-
+  Anhang III Nummer 4 Buchstabe a nennt KI-Systeme, die bestimmungsgemäß für die
+  Einstellung oder Auswahl natürlicher Personen verwendet werden sollen,
+  insbesondere um Bewerbungen zu sichten oder zu filtern und Bewerber zu bewerten.
+  Nach Art. 6 Abs. 2 gelten die in Anhang III genannten Systeme als hochriskant,
+  und der Name des Werkzeugs ändert daran nichts.
+citations: ["Art. 6(2)", "Annex III pt. 4(a)"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

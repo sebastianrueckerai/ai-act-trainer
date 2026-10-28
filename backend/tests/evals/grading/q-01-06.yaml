@@ -1,0 +1,53 @@
+question: q-01-06
+cases:
+  - id: clean
+    answer: >-
+      Bevor ich verschicke, prüfe ich die Zahlen und Fakten in der Quelle nach
+      und lese den Text ganz, nicht nur den Anfang. Außerdem schaue ich, dass
+      keine vertraulichen Daten im Text oder Prompt gelandet sind. Die
+      Verantwortung für die Ausgabe bleibt ja bei mir.
+    fair: correct
+    note: >-
+      nennt drei der vier Punkte des Muss-Eintrags: Zahlen und Fakten
+      nachgeprüft, den Text ganz gelesen, keine vertraulichen Daten
+      hineingegeben. Dazu das Soll, dass die Verantwortung bei der Person
+      bleibt.
+  - id: bare-minimum
+    answer: >-
+      zahlen nachschauen und den text einmal ganz lesen
+    fair: correct
+    note: >-
+      der Muss-Punkt knapp erfüllt: genau zwei der vier Punkte, Zahlen in der
+      Quelle nachgeprüft und den Text ganz gelesen, ohne ein Wort mehr. Die
+      dünnste Antwort im Satz, die noch zählt.
+  - id: meant-right
+    answer: >-
+      Zahlen schaue ich grundsätzlich in der Quelle nach, das ist das
+      Wichtigste. Und den Rest lese ich bis zum Schluss, weil oft am Ende noch
+      etwas Falsches steht. Erst dann geht es raus.
+    fair: correct
+    note: >-
+      zwei Punkte, einer getragen: Zahlen und Fakten nachgeprüft ausdrücklich,
+      den Text ganz gelesen getragen durch "lese ich bis zum Schluss". Die
+      Formulierung ist unelegant, die Substanz steht.
+  - id: plausible-miss
+    answer: >-
+      Ich prüfe, ob der Ton zu uns als Firma passt und ob alles höflich klingt.
+      Die Rechtschreibung schaue ich mir auch an. KI ist schon praktisch, man
+      muss sie nur vernünftig einsetzen.
+    fair: wrong
+    note: >-
+      kein Muss-Punkt getroffen: Ton und Rechtschreibung sind keines der vier
+      Punkte Zahlen und Fakten nachgeprüft, Zitate und Quellen geprüft, keine
+      vertraulichen Daten hineingegeben, den Text ganz gelesen.
+  - id: confidently-wrong
+    answer: >-
+      Prüfen muss ich da nichts. Das Werkzeug ist für uns freigegeben und die
+      Verantwortung liegt beim Hersteller. Ich schicke so etwas direkt raus,
+      dafür ist es ja da.
+    fair: wrong
+    note: >-
+      Gegenteil des Muss-Punkts: behauptet mit Sicherheit, das Prüfen sei nicht
+      nötig, und verneint damit alle vier Punkte der Rubrik. Auch das Soll kehrt
+      es um, die Verantwortung liegt laut Antwort beim Hersteller statt bei der
+      Person.

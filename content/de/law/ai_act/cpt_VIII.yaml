@@ -1,0 +1,23 @@
+node: ai_act:cpt_VIII
+summary: Die Kommission richtet zusammen mit den Mitgliedstaaten eine EU-Datenbank für Hochrisiko-KI-Systeme
+  ein und betreibt sie. Anbieter, deren Bevollmächtigte und Betreiber öffentlicher Stellen müssen dort
+  die geforderten Daten eintragen. Die meisten Angaben werden öffentlich, benutzer- und maschinenfreundlich
+  bereitgestellt. Marktüberwachungsdaten bleiben beschränkt. Die Pflicht gilt für alle meldepflichtigen
+  KI-Systeme und bindet Anbieter, Bevollmächtigte, öffentliche Betreiber, Marktüberwachungsbehörden und
+  die Kommission.
+source_sha: e19e3db2f1c66bbee9eeb841fc92949cddee4ead3cbb0c719f118c1085224977
+children:
+- node: ai_act:art_71
+  summary: Die Kommission richtet gemeinsam mit den Mitgliedstaaten eine EU-Datenbank ein und betreibt
+    sie. Anbieter und ggf. Bevollmächtigte tragen dort Daten zu Hochrisiko-KI-Systemen ein, Betreiber
+    öffentlicher Stellen tragen weitere Daten ein. Die meisten Informationen werden benutzerfreundlich
+    und maschinenlesbar öffentlich zugänglich gemacht; nur bestimmte Marktüberwachungsdaten bleiben beschränkt.
+    Die Regelung gilt für alle KI-Systeme, die nach den Registrierungs-Pflichten des AI-Acts gemeldet
+    werden, und bindet Anbieter, Betreiber, Marktüberwachungsbehörden und die Kommission.
+  source_sha: dfd04ee702b81205f95cc438349fe3208963a0c7a828d580310b02bda7180b3e
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

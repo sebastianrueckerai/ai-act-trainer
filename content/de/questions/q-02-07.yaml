@@ -1,0 +1,40 @@
+id: q-02-07
+chapter: 02-was-du-hineingeben-darfst
+type: multiple_choice
+difficulty: 2
+question: >-
+  Ein Kollege hat die Bedingungen eines kostenlosen Werkzeugs gelesen und hält es für
+  unbedenklich. Im Haus freigegeben ist es nicht. Wer entscheidet, ob wir damit
+  arbeiten?
+options:
+  - key: A
+    text: Unser Unternehmen entscheidet, nicht der Kollege allein.
+  - key: B
+    text: "Der Kollege: er hat die Bedingungen gelesen."
+  - key: C
+    text: "Der Anbieter des Werkzeugs: sein Tool, seine Regeln."
+correct: A
+rubric:
+  must:
+    - point: nennt, dass unser Unternehmen das entscheidet und nicht der Kollege
+  should:
+    - >-
+      begründet es damit, dass die Freigabe eines Werkzeugs beim Haus liegt und
+      nicht bei dem, der die Bedingungen gelesen hat
+    - nennt, dass das Unternehmen das Werkzeug in eigener Verantwortung einsetzt
+    - nennt Art. 3 Nr. 4 für den Betreiber
+model_answer: >-
+  Unser Unternehmen entscheidet das. Betreiber ist, wer ein KI-System in eigener
+  Verantwortung verwendet, und das ist weder der Kollege noch der Anbieter.
+explanation: >-
+  Art. 3 Nr. 4 nennt als Betreiber, wer ein KI-System in eigener Verantwortung
+  verwendet, und diese Verantwortung trägt im Betrieb das Unternehmen, nicht die
+  Person am Rechner. Art. 4 Abs. 1 legt demselben Unternehmen auf, Maßnahmen für
+  die KI-Kompetenz seines Personals zu ergreifen, weshalb die Freigabe eines
+  Werkzeugs keine private Entscheidung eines Kollegen ist.
+citations: ["Art. 3(4)", "Art. 4(1)"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why

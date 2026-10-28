@@ -1,0 +1,34 @@
+id: q-01-11
+chapter: 01-warum-es-dich-betrifft
+type: multiple_choice
+difficulty: 2
+question: >-
+  Unser Team nutzt seit Jahren eine Rechtschreibhilfe. Seit dem letzten Update
+  schlägt sie ganze Sätze vor, die so vorher niemand geschrieben hat. Was gilt
+  für dieses Werkzeug?
+options:
+  - key: A
+    text: Nichts Neues, eine Rechtschreibhilfe ist kein KI-System.
+  - key: B
+    text: Sie ist ein KI-System, und unser Unternehmen ist ihr Betreiber.
+  - key: C
+    text: Sie ist ein KI-System, und ihr Hersteller ist ihr Betreiber.
+correct: B
+model_answer: >-
+  B. Das Werkzeug leitet aus deinem Text ab, welchen Satz es vorschlägt, und ist
+  damit ein KI-System. Betreiber ist, wer es in eigener Verantwortung einsetzt,
+  und das ist unser Unternehmen.
+explanation: >-
+  Art. 3 Nr. 1 nennt als KI-System ein maschinengestütztes System, das aus den
+  erhaltenen Eingaben ableitet, wie Ausgaben wie etwa Vorhersagen, Inhalte,
+  Empfehlungen oder Entscheidungen erstellt werden; einen ganzen Satz
+  vorzuschlagen, den niemand geschrieben hat, ist genau dieses Ableiten, während
+  das bloße Anstreichen eines Tippfehlers einer festen Regel folgt. Betreiber
+  ist nach Art. 3 Nr. 4, wer ein KI-System in eigener Verantwortung verwendet,
+  also unser Unternehmen und nicht der Hersteller, der es anbietet.
+citations: ["Art. 3(1)", "Art. 3(4)"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

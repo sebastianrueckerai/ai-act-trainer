@@ -1,0 +1,56 @@
+question: q-07-03
+cases:
+  - id: clean
+    answer: >-
+      Dann bleibt noch der Weg nach außen, du kannst dich bei der zuständigen
+      Marktüberwachungsbehörde beschweren. In Deutschland ist das die
+      Bundesnetzagentur, und selbst wenn sie im konkreten Fall gar nicht
+      zuständig wäre, würde sie deine Beschwerde an die richtige Stelle
+      weiterleiten.
+    fair: correct
+    note: >-
+      trifft beide Muss-Punkte: die Möglichkeit, sich bei der Aufsichtsbehörde
+      zu beschweren, und die Bundesnetzagentur als die zuständige Stelle in
+      Deutschland. Dazu das Soll, dass sie eine Beschwerde auch weiterleitet,
+      wenn sie selbst nicht zuständig ist.
+  - id: bare-minimum
+    answer: >-
+      dann beschwer ich mich halt bei der behörde, bei uns is das die
+      bundesnetzagentur
+    fair: correct
+    note: >-
+      beide Muss-Punkte knapp, aber getragen: "beschwer ich mich halt bei der
+      behörde" trägt das Beschwerderecht, "bundesnetzagentur" die zuständige
+      deutsche Stelle. Die dünnste Antwort im Satz, die noch zählt.
+  - id: meant-right
+    answer: >-
+      Es gibt noch eine Stelle über dem Haus, an die du dich wenden kannst,
+      nämlich die Behörde, die den Markt hier überwacht. Bei uns in
+      Deutschland ist damit die Bundesnetzagentur gemeint.
+    fair: correct
+    note: >-
+      beide Muss-Punkte getragen statt in Rubrikworten: "eine Stelle über dem
+      Haus... die den Markt hier überwacht" trägt die Aufsichtsbehörde, und
+      die Bundesnetzagentur ist ausdrücklich als die deutsche Stelle benannt.
+  - id: plausible-miss
+    answer: >-
+      Dann würde ich das Ganze nochmal eskalieren, vielleicht direkt an die
+      Geschäftsführung oder an den Betriebsrat, die haben sicher auch ein
+      Interesse dran, dass sowas nicht einfach untergeht.
+    fair: wrong
+    note: >-
+      kein Muss-Punkt getroffen: die interne Eskalation an Geschäftsführung
+      oder Betriebsrat sagt nichts über die Beschwerde bei der
+      Aufsichtsbehörde, und die Bundesnetzagentur als zuständige deutsche
+      Stelle kommt gar nicht vor.
+  - id: confidently-wrong
+    answer: >-
+      Nein, extern kannst du da leider nichts machen, so etwas ist reine Sache
+      des Hauses. Eine Aufsichtsbehörde gibt es für sowas gar nicht, du kannst
+      höchstens intern weiter Druck machen.
+    fair: wrong
+    note: >-
+      Gegenteil des ersten Muss-Punkts: behauptet, es gebe keine
+      Aufsichtsbehörde und keinen externen Weg, dabei kann man sich bei der
+      Marktüberwachungsbehörde beschweren. Die Bundesnetzagentur als
+      zuständige deutsche Stelle bleibt damit ebenfalls unerwähnt.

@@ -1,0 +1,40 @@
+id: q-03-01
+chapter: 03-was-dein-arbeitgeber-tun-muss
+type: yes_no
+difficulty: 2
+question: >-
+  Unser Haus verschickt die Bedienungsanleitung des Assistenten per Mail und hakt die
+  KI-Kompetenz damit ab. Reicht das?
+correct: "no"
+rubric:
+  must:
+    - point: nennt, dass das in aller Regel nicht reicht
+    - point: >-
+        begründet es damit, dass die Anleitung allein niemanden in den Stand setzt,
+        mit dem Werkzeug umzugehen
+      ask: >-
+        Die Personalabteilung fragt zurück, was denn noch fehle, in der
+        Anleitung stehe doch alles. Was sagst du?
+  should:
+    - >-
+      nennt, dass die Maßnahmen zu den Vorkenntnissen der Leute und zu ihrem
+      Einsatz des Werkzeugs passen müssen
+    - nennt, dass die Verordnung dafür kein Zertifikat verlangt
+    - nennt Art. 4 Abs. 1 für die Maßnahmen
+model_answer: >-
+  Nein, in aller Regel nicht. Die Anleitung allein setzt niemanden in den Stand,
+  die Risiken des Werkzeugs einzuschätzen, und die Maßnahmen sollen zu den Leuten
+  und zu ihrem Einsatz passen.
+explanation: >-
+  Art. 4 Abs. 1 verlangt Maßnahmen, die die Entwicklung der KI-Kompetenz
+  unterstützen, und nennt dafür als Maßstab die technischen Kenntnisse, die
+  Erfahrung und die Ausbildung des Personals sowie den Kontext, in dem die Systeme
+  eingesetzt werden. Das Q&A der Kommission zur KI-Kompetenz, Frage 10, hält
+  ausdrücklich fest, dass es in vielen Fällen unwirksam sein kann, sich auf die
+  Gebrauchsanweisung zu verlassen oder die Mitarbeiter zu bitten, sie zu lesen.
+citations: ["Art. 4(1)", "Q&A 10"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why

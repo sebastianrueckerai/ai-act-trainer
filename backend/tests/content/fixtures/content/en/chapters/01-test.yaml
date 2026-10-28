@@ -1,0 +1,12 @@
+id: 01-test
+title: Test chapter
+intro: A short chapter.
+duration_minutes: 3
+steps:
+  - id: s1
+    text: AI literacy is mandatory for providers and deployers.
+    citations: ["Art. 4(1)"]
+    question: q-01-03
+summary: Art. 4 requires measures to ensure AI literacy.
+may: "Now you know: deployers take measures for AI literacy (Art. 4(1))."
+last_change: {date: 2026-09-15, by: human, trigger: initial, summary: fixture}

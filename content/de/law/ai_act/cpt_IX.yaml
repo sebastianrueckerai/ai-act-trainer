@@ -1,0 +1,257 @@
+node: ai_act:cpt_IX
+summary: Der Abschnitt verpflichtet Anbieter von Hochrisiko-KI-Systemen, ein fortlaufendes Beobachtungs-nach-dem-Inverkehrbringen-System
+  zu betreiben und Leistungsdaten über die gesamte Lebensdauer zu dokumentieren. Sie müssen schwere Vorfälle
+  unverzüglich den Marktüberwachungsbehörden melden. Die Marktüberwachungsbehörden und das Büro für Künstliche
+  Intelligenz erhalten Befugnisse zur Inspektion, Informationsanforderung, Sanktionierung und Geldbußen.
+  Grundrechtsbehörden dürfen Unterlagen einsehen. Betroffene können Beschwerden einlegen und Auskünfte
+  zu Entscheidungen verlangen. Nationale Prüfverfahren unterstützen die Überwachung und können bei Bedarf
+  Risikominderungsmaßnahmen anordnen. Die Regelungen gelten für alle KI-Systeme im Anwendungsbereich,
+  sobald die Verordnung in Kraft tritt.
+source_sha: d3908db571be6618435b4bfeaef975ce73c6dd8edf4b455fe66b6afe2abebde4
+children:
+- node: ai_act:cpt_IX.sct_1
+  summary: Anbieter von Hochrisiko-KI-Systemen müssen ein Beobachtungs-nach-dem-Inverkehrbringen-System
+    einrichten und dokumentieren. Sie erfassen, dokumentieren und analysieren über die gesamte Lebensdauer
+    Leistungsdaten, um die Einhaltung der KI-Vorschriften fortlaufend zu prüfen. Der Plan ist Teil der
+    technischen Dokumentation.
+  source_sha: 50b77c6f0c0c88469a2e1a273a3ebf00f891d77363d8c185afe4a01735b38ddb
+  children:
+  - node: ai_act:art_72
+    summary: Anbieter von Hochrisiko-KI-Systemen müssen ein Beobachtungs-nach-dem-Inverkehrbringen-System
+      einrichten und dokumentieren. Sie erheben, dokumentieren und analysieren über die gesamte Lebensdauer
+      Leistungsdaten, um fortlaufend die Einhaltung der KI-Vorschriften zu prüfen. Ein zugehöriger Plan
+      ist Teil der technischen Dokumentation.
+    source_sha: 3b03d6554bcbf223eae3b7cb93b6b77ca5479fca27ea8ae805df88b2eef7a4e0
+    children: []
+- node: ai_act:cpt_IX.sct_2
+  summary: Anbieter von Hochrisiko-KI-Systemen, die in der EU in Verkehr gebracht werden, müssen schwere
+    Vorfälle den Marktüberwachungsbehörden des Mitgliedstaats melden. Die Meldung erfolgt sofort nach
+    Feststellung eines kausalen Zusammenhangs, spätestens innerhalb der jeweiligen Fristen, die je nach
+    Art des Vorfalls (allgemein, weitverbreitet, Todesfall) unterschiedlich sind.
+  source_sha: 875aa7f583901d74c5150f0e977f61330132f074f7a0a9282cd211b9b77cab7c
+  children:
+  - node: ai_act:art_73
+    summary: Anbieter von Hochrisiko-KI-Systemen, die in der EU in Verkehr gebracht werden, müssen schwere
+      Vorfälle den Marktüberwachungsbehörden des Mitgliedstaats melden. Die Meldung erfolgt sofort nach
+      Feststellung eines kausalen Zusammenhangs, spätestens innerhalb der Fristen, die je nach Vorfallsart
+      (allgemein, weitverbreitet, Todesfall) variieren.
+    source_sha: 1157d9ae887f0733a1d109024c66af39dcc24ce503311e677453480a349ca84c
+    children: []
+- node: ai_act:cpt_IX.sct_3
+  summary: Der Abschnitt regelt die Durchsetzung des KI-Gesetzes. Er verpflichtet Marktüberwachungsbehörden,
+    das Büro für Künstliche Intelligenz und Anbieter, KI-Systeme zu überwachen, Meldungen zu machen und
+    Kontrollen durchzuführen. Das Büro erhält alle Befugnisse einer Marktüberwachungsbehörde, kann Inspektionen,
+    Informationsanforderungen, Sanktionen und Geldbußen anordnen und Verpflichtungszusagen prüfen. Grundrechtsbehörden
+    erhalten Zugriff auf Unterlagen. Vertrauliche Daten werden geschützt. Nationale Prüfverfahren für
+    risikobehaftete Systeme werden festgelegt, ebenso Verfahren für nicht-hochriskante Systeme, die als
+    hochriskant eingestuft werden könnten. Die Regelungen gelten für alle KI-Systeme im Anwendungsbereich,
+    sobald die Verordnung in Kraft tritt.
+  source_sha: bc2d1b9000ff5f8f6a593ac1744230fad168ec7a13ceabdacc195fd7c8f531ea
+  children:
+  - node: ai_act:art_74
+    summary: Die Vorschrift regelt die Marktüberwachung von KI-Systemen im Unionsmarkt. Sie verpflichtet
+      die zuständigen Marktüberwachungsbehörden und Anbieter, jährlich Informationen zu melden, Dokumente
+      und Daten offenzulegen und Fernkontrollen durchzuführen. Sie gilt für alle KI-Systeme, die in den
+      Anwendungsbereich des Gesetzes fallen, und tritt in Kraft.
+    source_sha: f5d28fe29f579ad120283e18092dcd7d405f59427807b9b578b502afe32aa7dc
+    children: []
+  - node: ai_act:art_75
+    summary: Das Büro für Künstliche Intelligenz überwacht und kontrolliert KI-Systeme mit allgemeinem
+      Verwendungszweck und solche großer Online-Plattformen. Es ist für Anbieter und deren verbundene
+      Betreiber zuständig, verlangt Meldungen schwerwiegender Vorfälle, führt Konformitätsprüfungen durch
+      und arbeitet eng mit den nationalen Marktüberwachungsbehörden zusammen.
+    source_sha: d51fa34854b830673020f45cf11f75b0d70da4de2c91c41a9a29b0e34d22374c
+    children: []
+  - node: ai_act:art_75a
+    summary: Das Büro für Künstliche Intelligenz erhält alle Befugnisse einer Marktüberwachungsbehörde.
+      Es kann Untersuchungen, Vor-Ort-Inspektionen und Informationsersuchen bei Anbietern und Betreibern
+      von KI-Systemen durchführen, Kosten zurückfordern und Sanktionen anordnen. Die Befugnisse gelten,
+      sobald das Büro begründeten Verdacht auf Verstöße gegen die Verordnung hat.
+    source_sha: 2d304231b4f34ea619d25ae2ee71e37e922fb671c6872e83114fc15e35b523db
+    children: []
+  - node: ai_act:art_75b
+    summary: Das Büro für Künstliche Intelligenz kann Verpflichtungszusagen, die ein Akteur im Verfahren
+      anbietet, machen, bei gesicherter Einhaltung, und das Verfahren wieder aufnehmen, wenn sich der
+      Sachverhalt wesentlich ändert, der Akteur die Zusagen bricht oder der Beschluss auf falschen Angaben
+      beruhte. Unzureichende Zusagen werden abgelehnt.
+    source_sha: 78a526e09d18d18ce214a17afc1ef0dec08d5c6ee1d0d3fcbd676e111d1f91af
+    children: []
+  - node: ai_act:art_75c
+    summary: Das Büro für Künstliche Intelligenz prüft, ob ein betroffener Akteur gegen die Verordnung
+      oder verbindliche Verpflichtungszusagen verstößt. Es erteilt einen Beschluss, fordert Maßnahmen
+      zur Nachbesserung, kann Geldbußen und Zwangsgelder verhängen und verlangt Bericht über die Umsetzung.
+      Die Regel gilt für alle Akteure, die in den Anwendungsbereich fallen, sobald ein Verstoß festgestellt
+      wird.
+    source_sha: 470c52633da43b66a2cdfb020360373b0266548b6c642f75bcbac58e08916511
+    children: []
+  - node: ai_act:art_75d
+    summary: Die Vorschrift erweitert die Verfahrensrechte nach einer EU-Verordnung auf Akteure, die in
+      die Zuständigkeit des Büros für Künstliche Intelligenz fallen. Sie garantiert volle Verteidigungsrechte
+      und Akteneinsicht, erlaubt einvernehmliche Einsicht unter Schutz von Geschäftsgeheimnissen, lässt
+      das Büro Bedingungen festlegen, schließt vertrauliche interne Unterlagen aus und erlaubt der Kommission,
+      Durchführungsrechtsakte zu erlassen. Das Büro veröffentlicht Entscheidungen mit Namen der Unternehmen
+      und wesentlichem Inhalt, wobei vertrauliche Informationen geschützt werden.
+    source_sha: d9d3b81f5048f4dc5c6f95784e25a693f76d1a4202c6d1367d97411616da2f57
+    children: []
+  - node: ai_act:art_76
+    summary: Marktüberwachungsbehörden müssen befugt sein, reale KI-Tests zu überwachen. Sie können Abweichungen
+      zulassen, Tests bei schwerwiegenden Vorfällen aussetzen oder abbrechen und Änderungen anordnen.
+      Entscheidungen müssen begründet, mit Hinweis auf Rechtsmittel versehen und ggf. anderen Behörden
+      mitgeteilt werden.
+    source_sha: 53272fd0f1ed015ac95a753c4713bb1c160fc27d9b52d342f52f6b861051c96d
+    children: []
+  - node: ai_act:art_77
+    summary: Grundrechtsbehörden können von der Marktüberwachungsbehörde alle von dieser Verordnung erstellten
+      Unterlagen anfordern und einsehen; die Behörde muss den Zugang gewähren, ggf. Unterlagen vom Anbieter
+      holen und technische Prüfungen von Hochrisiko-KI-Systemen durchführen. Bis 2 Nov 2024 muss jeder
+      Mitgliedstaat die zuständigen Stellen öffentlich listen; erhaltene Daten sind vertraulich.
+    source_sha: 3e02adaed797fe156eb6b20e393c0cc31269c6a00ad8522e20edc3254be77d83
+    children: []
+  - node: ai_act:art_78
+    summary: Die Kommission, Marktüberwachungsbehörden, benannte Stellen und an der Verordnung beteiligte
+      Personen schützen Vertrauliches, dürfen nur Daten anfordern, die für die Risikobewertung von KI-Systemen
+      nötig sind, und löschen sie nach Bedarf. Der Austausch zwischen Behörden erfolgt nur nach Rücksprache
+      und darf Sicherheitsinteressen nicht gefährden.
+    source_sha: 38de8c0238e325b216890f1374a23003fb9fcaf2f89638e05232da6798138b39
+    children: []
+  - node: ai_act:art_79
+    summary: Die Vorschrift legt ein nationales Prüfverfahren für KI-Systeme mit Risiko für Gesundheit,
+      Sicherheit oder Grundrechte fest. Sie verpflichtet Marktüberwachungsbehörden, Anbieter und benannte
+      Stellen zur Prüfung, Korrektur, Rücknahme und sofortigen Meldung an Kommission und andere Mitgliedstaaten,
+      sobald ein Verdacht besteht.
+    source_sha: 0aca9d3c9b92d1b7e67bd94fda3a71b840ec9118df8b19ec235ea3631aa25acc
+    children: []
+  - node: ai_act:art_80
+    summary: Die Marktüberwachungsbehörde prüft ein als nicht hochriskant eingestuftes KI-System, wenn
+      sie Grund zur Annahme hat, dass es hochriskant ist. Erkennt sie das Risiko, fordert sie den Anbieter
+      zur Konformität und Korrektur innerhalb einer Frist. Bei Nicht-Erfüllung drohen Geldbußen und die
+      Behörde informiert Kommission und andere Mitgliedstaaten.
+    source_sha: bd19393541855db22735185e4bd008fe9bb08ead131eaef9f3117ef458d736c0
+    children: []
+  - node: ai_act:art_81
+    summary: Das Schutzklauselverfahren der Union verpflichtet die Europäische Kommission, zu prüfen,
+      ob eine von einer nationalen Marktüberwachungsbehörde ergriffene Maßnahme gegen ein KI-System gerechtfertigt
+      ist, nachdem ein Mitgliedstaat nach Meldung oder bei Verstoß gegen das KI-Verbot Einwände erhoben
+      hat. Bei Bejahung ergreifen alle Mitgliedstaaten einschränkende Maßnahmen, bei Ablehnung wird die
+      Maßnahme zurückgenommen.
+    source_sha: 0d2fbba9947f5a30c48ee81582ce921f8a6d3b5b50273c37fb5723e61690e897
+    children: []
+  - node: ai_act:art_82
+    summary: Eine Marktüberwachungsbehörde eines Mitgliedstaats kann nach Prüfung feststellen, dass ein
+      Hochrisiko-KI-System zwar konform, aber riskant ist. Sie verlangt vom Anbieter, innerhalb einer
+      Frist Korrekturen vorzunehmen, damit das Risiko für Gesundheit, Sicherheit, Grundrechte oder Interessen
+      entfällt. Der Mitgliedstaat informiert die Kommission und die Mitgliedstaaten.
+    source_sha: c71989ce37c585e07d987f195dbeaa4e37af04ce39986632db1c32f18fdc28bf
+    children: []
+  - node: ai_act:art_83
+    summary: Die Marktüberwachungsbehörde eines Mitgliedstaats fordert den Anbieter auf, formale Mängel
+      wie fehlende CE-Kennzeichnung, fehlende EU-Konformitätserklärung, fehlende Registrierung in der
+      EU-Datenbank, fehlenden Bevollmächtigten oder fehlende technische Dokumentation zu beheben. Bleiben
+      die Mängel, kann die Behörde das Hochrisiko-KI-System vom Markt nehmen, zurückrufen oder den Vertrieb
+      beschränken.
+    source_sha: 932cb00e821946dd5fdd1667bac1c0a8cdbcb0afb84f33191c524ddd3e1b71a9
+    children: []
+  - node: ai_act:art_84
+    summary: Die Kommission ernennt ein oder mehrere Union-Strukturen zur Unterstützung der Prüfung von
+      KI. Sie übernehmen Aufgaben der Marktüberwachung im KI-Bereich und geben auf Anfrage des KI-Gremiums,
+      der Kommission oder der Marktüberwachungsbehörden unabhängige technische oder wissenschaftliche
+      Beratung. Dies gilt für alle KI-Systeme, die einer Konformitätsbewertung unterliegen.
+    source_sha: b39a8b4939ee3d65febb082a51d319606920326645c7f25db38fe66d99efeba6
+    children: []
+- node: ai_act:cpt_IX.sct_4
+  summary: Das Kapitel regelt drei Rechtsbehelfe. Jede natürliche oder juristische Person, die Grund zur
+    Annahme hat, dass die Verordnung verletzt wurde, kann bei der zuständigen Marktüberwachungsbehörde
+    Beschwerde einlegen. Betroffene Personen können vom Betreiber einer Entscheidung, die auf einem Hochrisiko-KI-System
+    beruht und rechtliche Folgen oder erhebliche Beeinträchtigungen von Gesundheit, Sicherheit oder Grundrechten
+    hat, eine Erläuterung zur Rolle des KI-Systems und zu den wichtigsten Entscheidungselementen verlangen.
+    Betroffene Akteure müssen Verstöße melden und Hinweisgeber schützen, indem sie sichere Kanäle einrichten,
+    die Identität wahren und Benachteiligung verhindern.
+  source_sha: b809fb139d8236a2793a7bccfbea407584768b3cb7168bdd928e4b2ae60ce394
+  children:
+  - node: ai_act:art_85
+    summary: Jede natürliche oder juristische Person, die Grund zu der Annahme hat, dass die Verordnung
+      verletzt wurde, kann bei der zuständigen Marktüberwachungsbehörde Beschwerde einreichen. Die Behörde
+      berücksichtigt die Beschwerde im Rahmen ihrer Marktüberwachung und behandelt sie nach ihren eigenen
+      festgelegten Verfahren, ungeachtet anderer Verwaltungs- oder Gerichtsbehelfe.
+    source_sha: 4f1692a528b7da7d1d1c387fc30c2daeae35799496aaa252c00549f8c6b9231d
+    children: []
+  - node: ai_act:art_86
+    summary: Betroffene Personen erhalten das Recht, eine klare Erläuterung zur Rolle des KI-Systems und
+      zu den wichtigsten Entscheidungselementen zu verlangen, wenn eine Entscheidung auf einem Hochrisiko-KI-System
+      beruht, das nicht der kritischen Infrastruktur dient, und rechtliche Folgen oder erhebliche Beeinträchtigungen
+      von Gesundheit, Sicherheit oder Grundrechten hat. Der Betreiber muss diese Auskunft geben, sofern
+      das Unions- oder nationale Recht keine Ausnahme vorsieht.
+    source_sha: d4fb2455b4819c0daa3c6466dfcaba3b8b799f4ab8c29fa0ebd12515131a0ae8
+    children: []
+  - node: ai_act:art_87
+    summary: Die Meldung von Verstößen gegen die Verordnung und der Schutz von Hinweisgebern richten sich
+      nach der EU-Whistleblower-Richtlinie. Sie verpflichtet alle von der Verordnung betroffenen Akteure,
+      sichere Meldekanäle einzurichten, die Identität zu wahren und Schutz vor Benachteiligung zu gewährleisten.
+    source_sha: 3de7955ab1a86b9b33bde849c445c556dae2308e6cc21eaf36d5a3e1e13ef0cc
+    children: []
+- node: ai_act:cpt_IX.sct_5
+  summary: Die Kommission überwacht und setzt die Pflichten von Anbietern allgemeiner KI-Modelle durch
+    und delegiert die Aufgabe an das Büro für Künstliche Intelligenz. Marktüberwachungsbehörden können
+    die Kommission um Nutzung ihrer Befugnisse bitten. Das Büro ergreift Überwachungsmaßnahmen und nimmt
+    Beschwerden von Anbietern entgegen. Das wissenschaftliche Gremium kann Warnungen vor systemischen
+    Risiken senden, worauf die Kommission Bewertungen vornimmt. Sie fordert Dokumentation, verlangt Zugang
+    zu API, Quellcode und Daten und kann Risikominderungsmaßnahmen oder Marktrückzug anordnen. Anbieter
+    erhalten die gleichen Verfahrensrechte wie nach der EU-Marktüberwachungsregelung. Gilt für alle Anbieter
+    allgemeiner KI-Modelle.
+  source_sha: 9c3041f6a2c6d74447d5a4e97b28df231650075a84bf670e2726f451c19fdfb0
+  children:
+  - node: ai_act:art_88
+    summary: Die Kommission überwacht und setzt die Pflichten von Anbietern allgemeiner KI-Modelle durch,
+      nutzt dafür Befugnisse. Sie überträgt die Aufgabe an das Büro für Künstliche Intelligenz. Marktüberwachungsbehörden
+      können die Kommission bitten, diese Befugnisse auszuüben, wenn das zur Unterstützung ihrer Aufgaben
+      nötig und verhältnismäßig ist.
+    source_sha: 13c6c498de11ecc5bea16f7812c22912c25f774b02c55135c86b0795dfdfd9c2
+    children: []
+  - node: ai_act:art_89
+    summary: Das Büro für Künstliche Intelligenz darf Maßnahmen ergreifen, um die Umsetzung und Einhaltung
+      der Verordnung durch Anbieter von KI-Modellen mit allgemeinem Verwendungszweck zu überwachen. Nachgelagerte
+      Anbieter können bei vermuteten Verstößen eine begründete Beschwerde einreichen, die Kontaktstelle,
+      Fakten, betroffene Bestimmungen und Begründung enthalten muss.
+    source_sha: 2810272dbf263e33a8986f00e7268305e8bea85815541790473577a119c1468e
+    children: []
+  - node: ai_act:art_90
+    summary: Das wissenschaftliche Gremium kann dem Büro für Künstliche Intelligenz eine qualifizierte
+      Warnung senden, wenn es ein identifizierbares Risiko eines allgemeinen KI-Modells auf Unionsebene
+      sieht oder das Modell bestimmte Risikokriterien erfüllt. Daraufhin darf die Kommission über das
+      Büro die Bewertungsbefugnisse ausüben und das KI-Gremium über alle daraus resultierenden Maßnahmen
+      informieren.
+    source_sha: ed17839fa49ae4a6837b08e30818a314189b8d6cdb55b0df8c2e6e0e87bde7a5
+    children: []
+  - node: ai_act:art_91
+    summary: Die Kommission darf Anbieter von KI-Modellen mit allgemeinem Verwendungszweck auffordern,
+      die nach den Vorgaben erstellte Dokumentation und weitere Informationen vorzulegen, um die Einhaltung
+      der Verordnung zu prüfen. Bei begründetem Antrag des wissenschaftlichen Gremiums kann sie zusätzlich
+      ein Informationsersuchen stellen. Der Anbieter muss die Auskünfte fristgerecht und vollständig liefern.
+    source_sha: 3539dcfa6ea5ae5d0c0eb4d77c1fade3ee90653dbfed1f14706a30c079dad797
+    children: []
+  - node: ai_act:art_92
+    summary: Das Büro für Künstliche Intelligenz prüft KI-Modelle mit allgemeinem Verwendungszweck, um
+      Pflichterfüllung zu bewerten oder Risiken zu erkennen. Die Kommission kann Sachverständige benennen,
+      die im Namen der Kommission Zugang zu API, Quellcode und Daten verlangen. Anbieter und Vertreter
+      müssen die Informationen und den Zugang bereitstellen.
+    source_sha: f8134498fddb66436549666f6da1e6443ec54d9e5b48c4c8cd7e8528883e418a
+    children: []
+  - node: ai_act:art_93
+    summary: Die Kommission kann Anbieter auffordern, geeignete Maßnahmen zur Erfüllung ihrer Pflichten
+      zu ergreifen, Risikominderungsmaßnahmen bei ernsthaften systemischen Risiken umzusetzen oder das
+      Modell vom Markt zu nehmen. Vorher kann ein strukturierter Dialog stattfinden; zugesagte Maßnahmen
+      können durch Beschluss verbindlich werden.
+    source_sha: aacbc360befcadbd89a2ec54315f8580f88bb4732be2c5267ba60be9d744acbc
+    children: []
+  - node: ai_act:art_94
+    summary: Anbieter von KI-Modellen mit allgemeinem Verwendungszweck erhalten die gleichen Verfahrensrechte
+      wie Wirtschaftsteilnehmer nach der EU-Marktüberwachungsregelung, etwa das Recht, angehört zu werden,
+      Beweisanträge zu stellen und Entscheidungen anzufechten. Diese Regel gilt bei allen Verfahrensschritten
+      des KI-Gesetzes.
+    source_sha: 4c71acadb7860a0bcc11da16b2fa7a771b3e0b0e2297e96ed42e55d218517926
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

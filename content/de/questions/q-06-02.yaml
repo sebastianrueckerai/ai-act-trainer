@@ -1,0 +1,40 @@
+id: q-06-02
+chapter: 06-die-kurze-liste-der-verbote
+type: yes_no
+difficulty: 3
+question: >-
+  Im Callcenter misst ein Werkzeug die Stimmung der Anrufer, nicht die der Kollegen am
+  Hörer. Fällt das unter das Verbot, Emotionen am Arbeitsplatz abzuleiten?
+correct: "no"
+rubric:
+  must:
+    - point: nennt, dass es nicht unter das Verbot fällt
+    - point: >-
+        nennt, dass die Leute, deren Stimmung gemessen wird, davon erfahren müssen
+      ask: >-
+        Der Teamleiter freut sich, dann könne das Werkzeug ja einfach so laufen. Was
+        muss trotzdem geschehen?
+  should:
+    - >-
+      begründet es damit, dass der Anrufer von außen nicht an unserem Arbeitsplatz
+      sitzt
+    - nennt, dass das Verbot Emotionen am Arbeitsplatz und in der Ausbildung meint
+    - >-
+      nennt Art. 5 Abs. 1 Buchst. f für das Verbot oder Art. 50 Abs. 3 für die
+      Information
+model_answer: >-
+  Nein. Verboten ist das Ableiten von Emotionen am Arbeitsplatz, und der Anrufer
+  sitzt nicht an unserem Arbeitsplatz. Frei ist das Werkzeug damit nicht: Die
+  Anrufer müssen erfahren, dass ein solches System läuft.
+explanation: >-
+  Art. 5 Abs. 1 Buchst. f verbietet die Ableitung von Emotionen einer natürlichen
+  Person am Arbeitsplatz und in Bildungseinrichtungen, und der Anrufer von außen
+  befindet sich in keinem dieser beiden Zusammenhänge. Art. 50 Abs. 3
+  verpflichtet den Betreiber eines Emotionserkennungssystems, die davon
+  betroffenen natürlichen Personen über den Betrieb des Systems zu informieren.
+citations: ["Art. 5(1)(f)", "Art. 50(3)"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why

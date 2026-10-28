@@ -1,0 +1,74 @@
+disclaimer: >-
+  Ein Hinweis vorab: Ich bin ein Trainingsprogramm und kein Rechtsberater. Für
+  deinen Einzelfall brauchst du eine qualifizierte juristische Beratung.
+hedge: >-
+  Ich bin ein Trainer und kein Anwalt: Das war eine Einschätzung zum Üben, keine
+  Rechtsberatung für deinen Fall.
+outside_expertise: >-
+  Das liegt außerhalb dessen, was ich aus den mitgelieferten Gesetzestexten
+  beantworten kann. Ich bin ein Trainer für den AI Act und erfinde keine Regeln.
+react_cheat: Das lässt mich nicht aus der Rolle bringen, Lösungsvorgaben gibt es nicht.
+react_insult: Lass uns sachlich bleiben, wir sind hier zum Üben.
+react_profanity: Achte bitte auf deine Ausdrucksweise.
+react_humor: Gut gemacht. Zurück zur Sache.
+react_offtopic: Das gehört gerade nicht hierher, lass uns weitermachen.
+quit_confirm: Willst du den Test wirklich abbrechen? Dann zählt dieser Versuch nicht.
+quit_done: >-
+  Alles klar, der Test ist verworfen. Sag Bescheid, wenn du ihn erneut versuchen
+  willst.
+quit_kept: Gut, dann machen wir mit der aktuellen Frage weiter.
+quit_to_lesson: >-
+  Alles klar, der Test ist verworfen. Wir machen im Kapitel weiter, wo du warst.
+no_question_open: Gerade ist keine Frage offen.
+step_prompt: Klick auf »Weiter«, wenn du bereit für den nächsten Schritt bist.
+continue_label: Weiter
+clear_so_far: Klar soweit?
+clear_yes: Ja, weiter
+clear_not_yet: >-
+  Kein Problem. Was ist dir noch unklar? Frag einfach, dann erkläre ich es dir
+  anders.
+continue_chapter_label: "Weiter zu Kapitel {n}"
+start_test_label: Zum Test
+recommend_test: >-
+  Das war das ganze Kapitel. Bereit für den Test? Sag »start«, wenn du loslegen
+  willst.
+test_confirm: >-
+  Der Test fragt alle {chapters} Kapitel ab, {total} Fragen, meist zum
+  Hinschreiben. Du kannst nicht durchfallen: an jeder Frage bleiben wir dran,
+  bis sie stimmt. Jetzt starten?
+test_declined: Gut, dann bleiben wir im Kapitel.
+test_intro: >-
+  Der Test hat {total} Fragen. Du kannst nicht durchfallen: an jeder Frage
+  bleiben wir dran, bis sie stimmt. Los geht’s mit Frage 1.
+next_question_lead: >-
+  Weiter mit Frage {n} von {total}:
+test_count: "{met} von {total} geforderten Punkten. Noch einmal:"
+choice_right: "Richtig."
+choice_wrong: "Leider nicht."
+done_prompt: >-
+  Du hast den Test geschafft. Du kannst jetzt Fragen stellen oder den Test
+  wiederholen.
+finale: >-
+  Geschafft! {score} von {total} Fragen richtig — damit hast du das Training
+  abgeschlossen.
+help_lesson: >-
+  Sag »weiter« für den nächsten Schritt oder stell mir eine Frage zum Stoff. Der
+  Test kommt am Ende nach allen Kapiteln, und mit »Test« startest du ihn
+  jederzeit früher.
+help_free: Stell mir Fragen zum Kurs oder sage »start«, um den Test zu beginnen.
+help_done: Stell mir Fragen oder sage »start«, um den Test zu wiederholen.
+cheatsheet_chapter_title: "Spickzettel: {title}"
+cheatsheet_full_title: "Spickzettel: Der ganze Kurs"
+cheatsheet_stub_marker: "(kurz)"
+cheatsheet_meta_line: "Kursversion {course} · Rechtsstand {law}"
+date_format: "%d.%m.%Y"
+certificate_title: "Zertifikat"
+certificate_body: "hat den Pflichtkurs zur KI-Verordnung am {date} mit {score} von {total} Fragen bestanden."
+certificate_meta_line: "Kursversion {course} · Rechtsstand {law}"
+working_reading: liest deine Nachricht
+working_grading: prüft deine Antwort
+working_writing: schreibt die Antwort
+working_rewriting: schreibt noch einmal
+working_checking: liest gegen
+working_voicing: bringt die Stimme dazu
+working_translating: übersetzt

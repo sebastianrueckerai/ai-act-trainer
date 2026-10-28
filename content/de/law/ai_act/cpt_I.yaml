@@ -1,0 +1,50 @@
+node: ai_act:cpt_I
+summary: Die Verordnung stärkt den Binnenmarkt und fördert vertrauenswürdige, menschenzentrierte KI. Sie
+  verpflichtet alle Anbieter, Betreiber, Importeure und Nutzer von KI-Systemen in der EU, einschließlich
+  ausländischer Akteure, die Systeme in der Union anbieten oder nutzen. Sie legt fest, welche KI-Systeme
+  zulässig sind, welche verboten werden und welche hohen Risikokriterien erfüllen müssen. Sie definiert
+  zentrale Begriffe, verlangt Kompetenzmaßnahmen für Personal und unterstützt KMU mit Praxisbeispielen.
+  Die Vorschriften gelten, sobald die Verordnung anwendbar ist.
+source_sha: 9c53da705bee8621346bee522f882cd3b447835dc975db0b569c6cae9735ff4a
+children:
+- node: ai_act:art_1
+  summary: Die Verordnung verbessert das Funktionieren des Binnenmarkts und fördert eine menschenzentrierte,
+    vertrauenswürdige KI. Sie gilt für alle Anbieter, Nutzer und Betreiber von KI-Systemen in der Union.
+    Sie regelt Markteinführung, Nutzung, Verbote, Hochrisiko-Anforderungen, Transparenz, Marktüberwachung
+    und Innovationsförderung.
+  source_sha: b5b54a59498cb59128672c13f827d885b40d863e5736a46182eab3f28ec2112c
+  children: []
+- node: ai_act:art_2
+  summary: Die Verordnung regelt, wer KI-Systeme anbieten, betreiben, importieren, vertreiben oder herstellen
+    darf und wer als betroffene Person gilt. Sie gilt für Anbieter und Betreiber in der EU sowie für ausländische
+    Akteure, wenn die Ausgabe in der EU genutzt wird, ausgenommen militärische, rein wissenschaftliche
+    und rein private Anwendungen.
+  source_sha: e656f8d740b129e4824e941f455a7c86d70cb9f17f7cb9d24584d680cb5f9bc2
+  children: []
+- node: ai_act:art_3
+  summary: Die Vorschrift definiert zentrale Begriffe des KI-Acts, wie KI-System, Anbieter, Betreiber,
+    Risiko usw. Sie gilt für alle Akteure, die KI-Systeme in der Union entwickeln, bereitstellen, betreiben
+    oder importieren, und tritt mit Inkrafttreten der Verordnung in Kraft.
+  source_sha: 43cad59d589493a863c0efce715b763882c5e8a1ea8728055599d8c877b88e1c
+  children: []
+- node: ai_act:art_4
+  summary: Anbieter und Betreiber von KI-Systemen müssen Maßnahmen ergreifen, um die KI-Kompetenz ihres
+    Personals und anderer Beteiligter zu fördern. Sie berücksichtigen technische Kenntnisse, Erfahrung,
+    Ausbildung, Einsatzkontext und Zielgruppen. Kommission und Mitgliedstaaten unterstützen KMU, veröffentlichen
+    Praxisbeispiele auf der zentralen Informationsplattform, und das KI-Gremium gibt Empfehlungen zur
+    Zielsetzung.
+  source_sha: b7d00ecb760e2a2078bec2527d2600a3c2486efe05de83d75fd7c4ca3e731aae
+  children: []
+- node: ai_act:art_4a
+  summary: Anbieter und Betreiber von Hochrisiko-KI-Systemen dürfen besondere Kategorien personenbezogener
+    Daten verarbeiten, wenn das unbedingt nötig ist, um Verzerrungen zu erkennen und zu korrigieren. Sie
+    müssen technische Beschränkungen, Pseudonymisierung, strenge Zugriffs- und Dokumentationskontrollen,
+    keine Weitergabe an Dritte, sofortige Löschung nach Korrektur oder Ablauf der Speicherfrist sowie
+    eine nachvollziehbare Begründung der Notwendigkeit sicherstellen.
+  source_sha: 1a04d8c26bf83781c121cdb3266f5f4440d8e7f1c2df45eb5108dfc60ecebb49
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

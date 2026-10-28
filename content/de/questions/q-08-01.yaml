@@ -1,0 +1,36 @@
+id: q-08-01
+chapter: 08-die-werkzeuge-die-du-nutzt
+type: free_text
+difficulty: 2
+question: >-
+  Ein Kollege sagt: Das Modell hinter unserem Chatassistenten ist eine eigene
+  Kategorie mit eigenen Pflichten, also gilt für den Assistenten nichts mehr von dem,
+  was wir gelernt haben. Welche Rolle hat unser Haus beim Assistenten dann noch?
+rubric:
+  must:
+    - point: nennt, dass unser Haus der Betreiber des Assistenten bleibt
+      ask: Also, welche Rolle hat unser Haus beim Assistenten jetzt noch?
+    - point: >-
+        nennt, dass die Pflichten des Modellanbieters dazukommen und unsere nicht
+        ersetzen
+      ask: >-
+        Der Kollege hakt nach, wie die Pflichten des Modellanbieters dann zu
+        unseren passen. Was sagst du ihm?
+  should:
+    - nennt, dass der Assistent ein KI-System bleibt
+    - nennt Art. 3 Nr. 4 für den Betreiber oder Art. 3 Nr. 63 für das Modell
+model_answer: >-
+  Der Assistent bleibt ein KI-System und unser Haus sein Betreiber. Die
+  Pflichten des Modellanbieters kommen obendrauf, statt unsere zu ersetzen.
+explanation: >-
+  Art. 3 Nr. 63 beschreibt das KI-Modell mit allgemeinem Verwendungszweck als
+  eigene Kategorie, und Art. 3 Nr. 66 nennt das darauf beruhende KI-System mit
+  allgemeinem Verwendungszweck. Betreiber ist nach Art. 3 Nr. 4 weiterhin, wer ein
+  KI-System in eigener Verantwortung verwendet, und diese Rolle verschwindet
+  nicht, weil hinter dem System ein solches Modell steht.
+citations: ["Art. 3(4)", "Art. 3(63)", "Art. 3(66)"]
+last_change:
+  date: 2026-09-29
+  by: ai
+  trigger: D119
+  summary: one fact per point

@@ -1,0 +1,225 @@
+node: gdpr:cpt_IV
+summary: Der Abschnitt legt Pflichten für Verantwortliche, gemeinsam Verantwortliche, Vertreter außerhalb
+  der Union, Auftragsverarbeiter und deren Personal fest. Er verlangt technische und organisatorische
+  Schutzmaßnahmen, Datenschutz durch Technikgestaltung und datenschutzfreundliche Voreinstellungen. Er
+  schreibt Verträge bei gemeinsamer Verantwortung, Benennung eines EU-Vertreters, schriftliche Weisungen
+  und Verzeichnisse über Verarbeitungstätigkeiten vor. Er fordert aktive Zusammenarbeit mit Aufsichtsbehörden.
+  Die Regeln gelten für jede Verarbeitung personenbezogener Daten, sofern keine Ausnahmen bestehen, und
+  müssen regelmäßig geprüft und dokumentiert werden. Er umfasst zudem Vorgaben zu Datensicherheit, Meldung
+  von Verletzungen, Folgenabschätzungen, Benennung eines Datenschutzbeauftragten sowie zu Verhaltensregeln
+  und Zertifizierungen.
+source_sha: 2c9c919526091cd257944745e5e12601bddda7df6ed4e855b3c0c66ad54ffc74
+children:
+- node: gdpr:cpt_IV.sct_1
+  summary: Der Text legt allgemeine Pflichten für Verantwortliche, gemeinsam Verantwortliche, Vertreter
+    von nicht in der Union niedergelassenen Verantwortlichen oder Auftragsverarbeitern, Auftragsverarbeiter
+    und deren Personal fest. Er verlangt geeignete technische und organisatorische Maßnahmen, Datenschutz
+    durch Technikgestaltung und datenschutzfreundliche Voreinstellungen, vertragliche Regelungen bei gemeinsamer
+    Verantwortung, Benennung eines EU-Vertreters, schriftliche Weisungen für Auftragsverarbeiter, Führung
+    von Verzeichnissen über Verarbeitungstätigkeiten und aktive Zusammenarbeit mit Aufsichtsbehörden.
+    Diese Pflichten gelten für jede Verarbeitung personenbezogener Daten, soweit keine spezifischen Ausnahmen
+    zutreffen, und müssen regelmäßig überprüft und dokumentiert werden, um die Wirksamkeit sicherzustellen.
+  source_sha: 7e9b4140fae3e02419c755c964b14a061cf3e8383c03ddbbbf70b8aeda0ba47d
+  children:
+  - node: gdpr:art_24
+    summary: Der Verantwortliche muss geeignete technische und organisatorische Maßnahmen ergreifen, die
+      Art, Umfang, Umstände und Zwecke der Verarbeitung sowie Risiko für Rechte und Freiheiten berücksichtigen.
+      Er muss die Maßnahmen prüfen, aktualisieren und deren Wirksamkeit nachweisen, zum Beispiel durch
+      anerkannte Verhaltensregeln oder Zertifizierungen.
+    source_sha: 8aab2645849926bf7678f891a5c9dc3efdd69cc54e7f5d1802c93574cdcaad3c
+    children: []
+  - node: gdpr:art_25
+    summary: Der Verantwortliche muss bei Festlegung und Durchführung von Datenverarbeitungen technische
+      und organisatorische Maßnahmen ergreifen, die Datenschutzgrundsätze wirksam umsetzen. Er muss Voreinstellungen
+      so wählen, dass nur für den jeweiligen Zweck notwendige personenbezogene Daten verarbeitet werden.
+      Zertifizierungen können Nachweis erbringen.
+    source_sha: 612ac0391208a2c3ac1a90740ef9c2e106b4794bf8118d3bce99edb329d39fc5
+    children: []
+  - node: gdpr:art_26
+    summary: Wenn mehrere Verantwortliche gemeinsam Zweck und Mittel der Verarbeitung bestimmen, gelten
+      sie als gemeinsam Verantwortliche. Sie schließen eine Vereinbarung, die Pflichten, Rechte und Informationspflichten
+      der betroffenen Personen regelt, Anlaufstelle benennt und Wesentliche der betroffenen Person bereitstellt.
+      Die betroffene Person kann ihre Rechte gegenüber jedem Verantwortlichen geltend machen.
+    source_sha: 818c319cbec8c1587cd384d6969a472d53946fde5954fbf46a1a8bc39999b155
+    children: []
+  - node: gdpr:art_27
+    summary: Ein Vertreter von nicht in der Union niedergelassenen Verantwortlichen oder Auftragsverarbeitern
+      muss schriftlich benannt werden, wenn die Verarbeitung nicht gelegentlich, nicht groß-flächig von
+      besonderen Kategorien oder strafrechtlichen Daten ist und kein Risiko für die Rechte der Betroffenen
+      besteht. Der Vertreter muss in einem Mitgliedstaat ansässig sein, in dem die betroffenen Personen
+      leben, und dient als Ansprechpartner für Aufsichtsbehörden und Betroffene. Die Benennung ändert
+      nichts an der Haftung des Verantwortlichen oder Auftragsverarbeiters.
+    source_sha: b4b0be924ce4182b67292cb651123b05cd56eb84586eea38baff35aeaa8d2198
+    children: []
+  - node: gdpr:art_28
+    summary: Regelt die Beziehung zwischen Verantwortlichen und Auftragsverarbeitern. Verantwortliche
+      dürfen nur Auftragsverarbeiter einsetzen, die ausreichende Garantien für technische und organisatorische
+      Maßnahmen bieten. Der Auftragsverarbeiter verarbeitet nur nach schriftlicher Weisung, sichert Vertraulichkeit,
+      unterstützt Rechte, gibt Daten zurück oder löscht sie, und haftet für Sub-Auftragsverarbeiter.
+    source_sha: 8c10458f6036cee3688cda876e996ee5c1e71f491c17e2478a9134154e38a147
+    children: []
+  - node: gdpr:art_29
+    summary: Der Auftragsverarbeiter und alle Personen, die ihm unterstehen und Zugriff auf personenbezogene
+      Daten haben, dürfen Daten nur nach Anweisung des Verantwortlichen verarbeiten. Eine abweichende
+      Verarbeitung ist nur zulässig, wenn EU-Recht oder nationales Recht sie zwingend vorschreibt.
+    source_sha: 6cde0fd2fa9193b4efa91b1bda335a5eb73b979cf2bd5f3c45ba8a5f9fc23072
+    children: []
+  - node: gdpr:art_30
+    summary: Verantwortliche und ggf. deren Vertreter führen ein schriftliches oder elektronisches Verzeichnis
+      aller Verarbeitungstätigkeiten, das Name, Kontaktdaten, Verarbeitungszwecke, betroffene Personen-
+      und Datenkategorien, Empfänger, Datenübermittlungen, Löschfristen und Sicherheitsmaßnahmen enthält.
+      Auftragsverarbeiter führen ein ähnliches Verzeichnis für die im Auftrag erledigten Verarbeitungen.
+      Beide stellen das Verzeichnis auf Anfrage der Aufsichtsbehörde bereit. Unternehmen mit weniger als
+      250 Mitarbeitern sind nur ausgenommen, wenn die Verarbeitung kein Risiko birgt, nicht regelmäßig
+      erfolgt, keine besonderen Datenkategorien betrifft und keine strafrechtlichen Daten verarbeitet
+      werden.
+    source_sha: 065cdf992d16f9806b0f546a8ccb28c4eb00ee73648f35a96af13e419bc47124
+    children: []
+  - node: gdpr:art_31
+    summary: Der Verantwortliche, der Auftragsverarbeiter und ggf. deren Vertreter müssen auf Anfrage
+      der Aufsichtsbehörde bei deren Aufgaben mitwirken. Dies gilt, sobald die Behörde Informationen,
+      Unterlagen oder Zugang zu Räumlichkeiten verlangt. Sie müssen unverzüglich und vollständig Auskünfte
+      geben, Dokumente bereitstellen und erforderliche Prüfungen zulassen.
+    source_sha: 717c1959b31bbc4f8cbbb93ddbf1d241e65cc73aca601f6e1ab072628a390f2c
+    children: []
+- node: gdpr:cpt_IV.sct_2
+  summary: Die Regelungen verlangen von Verantwortlichen und Auftragsverarbeitern, bei jeder Verarbeitung
+    personenbezogener Daten geeignete technische und organisatorische Maßnahmen zu ergreifen, die dem
+    Risiko entsprechen. Dazu gehören Pseudonymisierung, Verschlüsselung, Gewährleistung von Vertraulichkeit,
+    Integrität und Verfügbarkeit sowie regelmäßige Prüfung. Bei einer Datenschutzverletzung muss der Verantwortliche
+    die Aufsichtsbehörde innerhalb von 72 Stunden informieren, wenn ein Risiko für die Rechte natürlicher
+    Personen besteht, und den Vorfall dokumentieren. Ist das Risiko hoch, muss er die betroffene Person
+    unverzüglich über Art, Folgen und Gegenmaßnahmen informieren, außer bei wirksamen Schutzmaßnahmen
+    oder unverhältnismäßigem Aufwand, dann genügt eine öffentliche Bekanntmachung.
+  source_sha: 3d8c05d7d818bf1ae5b134e4456c8c13073ef4cde481357fb03c9d1f43f5342a
+  children:
+  - node: gdpr:art_32
+    summary: Der Verantwortliche und der Auftragsverarbeiter müssen bei jeder Verarbeitung personenbezogener
+      Daten geeignete technische und organisatorische Maßnahmen ergreifen, die dem Risiko angemessen sind.
+      Dazu gehören Pseudonymisierung, Verschlüsselung, Sicherstellung von Vertraulichkeit, Integrität,
+      Verfügbarkeit und regelmäßige Prüfung und Bewertung der Maßnahmen.
+    source_sha: 95448e1ed830307276ed36d49af8cb5876875af4c60e07b96729224cd34d0b27
+    children: []
+  - node: gdpr:art_33
+    summary: Bei einer Verletzung des Schutzes personenbezogener Daten muss der Verantwortliche unverzüglich,
+      spätestens innerhalb von 72 Stunden nach Kenntnis, die zuständige Aufsichtsbehörde informieren,
+      sofern ein Risiko für die Rechte natürlicher Personen besteht. Der Bericht enthält Art und Umfang
+      des Vorfalls, Kontaktdaten des Datenschutzbeauftragten, mögliche Folgen und ergriffene Gegenmaßnahmen.
+      Der Verantwortliche dokumentiert den Vorfall und stellt die Unterlagen der Aufsichtsbehörde zur
+      Prüfung bereit.
+    source_sha: 8a71dfdfb3f0b714bf49d4be7ab27a8f0cae3af9cf04f367b0982679dd12a296
+    children: []
+  - node: gdpr:art_34
+    summary: 'Der Verantwortliche muss die betroffene Person unverzüglich informieren, wenn eine Datenpanne
+      ein hohes Risiko für deren Rechte und Freiheiten darstellt. Die Mitteilung muss klar die Art der
+      Panne und Schutzmaßnahmen beschreiben. Ausnahme: bei wirksamen Sicherheitsvorkehrungen, Risikobeseitigung
+      oder unverhältnismäßigem Aufwand, dann genügt eine öffentliche Bekanntmachung. Die Aufsichtsbehörde
+      kann nachfordern.'
+    source_sha: c9a400137e59afe2bba2a859c221a125b1d030dbb4d73f5a75c522ccca8bef57
+    children: []
+- node: gdpr:cpt_IV.sct_3
+  summary: Der Verantwortliche führt eine Datenschutz-Folgenabschätzung durch, bevor er eine Verarbeitung
+    startet, die ein hohes Risiko für die Grundrechte natürlicher Personen birgt. Dabei bezieht er den
+    Datenschutzbeauftragten ein, bewertet Risiken und plant Gegenmaßnahmen, insbesondere bei systematischer
+    Überwachung, automatisierten Entscheidungen oder sensiblen Daten. Zeigt die Abschätzung ein verbleibendes
+    hohes Risiko, muss der Verantwortliche die zuständige Aufsichtsbehörde konsultieren. Die Behörde prüft
+    das Vorhaben, gibt innerhalb von bis zu acht Wochen Empfehlungen und kann die Frist bei komplexen
+    Vorgängen verlängern.
+  source_sha: 9b302ee55b48dec98c403689ea51d45ae84e12d7d632f0dcbc3ea21f18db29ae
+  children:
+  - node: gdpr:art_35
+    summary: Der Verantwortliche muss vor einer Verarbeitung, die ein hohes Risiko für die Rechte natürlicher
+      Personen darstellt, eine Datenschutz-Folgenabschätzung durchführen. Er bezieht den Datenschutzbeauftragten
+      ein, bewertet Risiken und Gegenmaßnahmen und kann bei systematischer Überwachung, automatisierten
+      Entscheidungen oder besonderen Datenkategorien verpflichtet sein.
+    source_sha: 1c40d56bf62206b715842e2e77a04d0459af2a7ea4127c717d0c163852b05c95
+    children: []
+  - node: gdpr:art_36
+    summary: 'Vorherige Konsultation: Der Verantwortliche muss die Aufsichtsbehörde konsultieren, wenn
+      eine Datenschutz-Folgenabschätzung ein hohes Risiko zeigt und keine Risikomaßnahmen getroffen wurden.
+      Die Behörde prüft das Vorhaben, gibt innerhalb von bis zu acht Wochen Empfehlungen und kann bei
+      komplexer Verarbeitung die Frist um sechs Wochen verlängern.'
+    source_sha: 1b7b641d2184c82b31f99ca386d84a7f8a0edfa6c2a35f0adb3634ce6d3508bd
+    children: []
+- node: gdpr:cpt_IV.sct_4
+  summary: Verantwortliche und Auftragsverarbeiter müssen einen Datenschutzbeauftragten benennen, wenn
+    sie als Behörde handeln, wenn ihre Kerntätigkeit regelmäßige und systematische Personenüberwachung
+    erfordert oder wenn sie besondere Daten, etwa strafrechtliche Verurteilungen, verarbeiten. Mehrere
+    Behörden können einen gemeinsamen DPO einsetzen. Der DPO wird wegen seiner Fachkunde ausgewählt, seine
+    Kontaktdaten werden veröffentlicht. Er ist in alle Datenschutzfragen einzubeziehen, erhält Ressourcen,
+    Zugang zu Daten und berichtet direkt an die oberste Leitung. Er arbeitet unabhängig, darf keine Weisungen
+    erhalten, wahrt Geheimhaltung und berät, überwacht, schult, unterstützt bei Folgenabschätzungen und
+    kooperiert mit Aufsichtsbehörden.
+  source_sha: cae45045534b5c5fcc85f058774bbdedd9a609251e963de8d4909beffad11458
+  children:
+  - node: gdpr:art_37
+    summary: Der Verantwortliche und der Auftragsverarbeiter müssen einen Datenschutzbeauftragten benennen,
+      wenn sie als Behörde handeln, wenn ihre Kerntätigkeit regelmäßige und systematische Personenüberwachung
+      erfordert, oder wenn sie besondere Daten einschließlich strafrechtlicher Verurteilungen verarbeiten.
+      Gruppen oder mehrere Behörden können einen gemeinsamen DPO haben; er wird auf Basis von Fachwissen
+      ausgewählt und seine Kontaktdaten veröffentlicht.
+    source_sha: 4f9909607ea3858300d11980189f5c0b594091b28a9046423341a057e7c57316
+    children: []
+  - node: gdpr:art_38
+    summary: Der Verantwortliche und der Auftragsverarbeiter müssen den Datenschutzbeauftragten frühzeitig
+      in alle Fragen des Datenschutzes einbinden, ihm Ressourcen und Zugang zu Daten gewähren, seine Unabhängigkeit
+      sichern, ihn vor Abberufung schützen und ihn direkt an die höchste Managementebene berichten lassen.
+      Er darf keine Weisungen zu seiner Aufgabenerfüllung erhalten und ist zur Geheimhaltung verpflichtet.
+    source_sha: f6d7d3954bd8e2fe4b18db30d8c29548855fa515bf47521604c0aaa562ac4e49
+    children: []
+  - node: gdpr:art_39
+    summary: Der Datenschutzbeauftragte berät und informiert den Verantwortlichen, Auftragsverarbeiter
+      und deren Beschäftigte über ihre Pflichten nach der Verordnung und anderen EU-Datenschutzvorschriften.
+      Er überwacht die Einhaltung, koordiniert Schutzmaßnahmen, schult Mitarbeiter, unterstützt bei
+      Folgenabschätzungen, arbeitet mit Aufsichtsbehörden zusammen und dient als Ansprechpartner für diese.
+    source_sha: 969db5c1a6a287ff862fe4ba51dca941af6d62983a883408fbc52e01c5675c5c
+    children: []
+- node: gdpr:cpt_IV.sct_5
+  summary: Der Abschnitt regelt die Erstellung, Genehmigung und Überwachung von Verhaltensregeln sowie
+    die freiwillige Zertifizierung von Datenschutzmaßnahmen. Verbände, Aufsichtsbehörden und der Europäische
+    Datenschutzausschuss können Muster-Verhaltensregeln für kleine Unternehmen ausarbeiten. Genehmigte
+    Regeln sind für Verantwortliche und Auftragsverarbeiter verbindlich und können bei Datenübermittlungen
+    in Drittländer von Unternehmen außerhalb der Verordnung genutzt werden. Eine von der Aufsichtsbehörde
+    akkreditierte Stelle überwacht die Einhaltung. Zertifizierungen, Siegel und Prüfzeichen zeigen die
+    Konformität, gelten bis zu drei Jahre, können verlängert und bei Verstößen widerrufen werden. Zertifizierungsstellen
+    benötigen Akkreditierung, Unabhängigkeit und transparente Verfahren.
+  source_sha: f1f6ad661c7004059c66dbb962b6864190f7eef879bbaa6a3228bc533e703feb
+  children:
+  - node: gdpr:art_40
+    summary: Der Artikel fördert die Erstellung von Verhaltensregeln. Verbände, Aufsichtsbehörden und
+      Ausschuss können Regeln für kleine Unternehmen ausarbeiten. Genehmigte Regeln sind für Verantwortliche
+      und Auftragsverarbeiter verbindlich und dürfen von nicht-GDPR-Unternehmen bei Datenübermittlungen
+      in Drittländer genutzt werden. Die Aufsichtsbehörde prüft und genehmigt die Entwürfe; der Ausschuss
+      kann EU-weite Gültigkeit verleihen.
+    source_sha: ca31499cef9a4af43eff0e976bcba761a2fa9a29db61d061a688e4f5cbe52163
+    children: []
+  - node: gdpr:art_41
+    summary: Die zuständige Aufsichtsbehörde kann eine fachkundige Stelle akkreditieren, die die Einhaltung
+      genehmigter Verhaltensregeln überwacht. Die Stelle muss Unabhängigkeit, Prüf- und Beschwerdeverfahren
+      sowie Transparenz nachweisen und kann bei Verstößen Ausschlüsse verhängen. Die Akkreditierung wird
+      bei Nichteinhaltung widerrufen. Öffentliche Stellen sind ausgenommen.
+    source_sha: 7da909819d9fb1db9e714a307059f1552b4b8b145918b46932cc29a8c46869cd
+    children: []
+  - node: gdpr:art_42
+    summary: Die EU fördert freiwillige, transparente Datenschutz-Zertifizierungen, Siegel und Prüfzeichen.
+      Sie zeigen, dass Verantwortliche und Auftragsverarbeiter die Verordnung einhalten, und können auch
+      für nicht unter die Verordnung fallende Unternehmen bei Datenübermittlungen an Drittländer genutzt
+      werden. Zertifizierungen werden von anerkannten Stellen für maximal drei Jahre erteilt, können verlängert
+      und bei Nichteinhaltung widerrufen werden. Sie mindern nicht die gesetzliche Verantwortung und werden
+      in einem EU-Register veröffentlicht.
+    source_sha: 2a15f6f994af0d0eb3666e2c87ae3bde17064e5848293286d6764e9a4b11e3e2
+    children: []
+  - node: gdpr:art_43
+    summary: Zertifizierungsstellen mit Datenschutz-Fachwissen erteilen und verlängern Zertifizierungen,
+      nachdem sie die Aufsichtsbehörde informiert haben. Die Aufsichtsbehörde oder die nationale Akkreditierungsstelle
+      akkreditiert sie nach festgelegten Standards. Sie müssen Unabhängigkeit, Verfahren, Beschwerde-
+      und Transparenzregeln nachweisen. Die Akkreditierung gilt bis zu fünf Jahre und kann bei Verstößen
+      widerrufen werden. Die Kommission erlässt delegierte und Durchführungsakte für Anforderungen und
+      technische Standards.
+    source_sha: 8ab8be86fa5fd79139b2469a7a07f88fefc35a691896bcd533cc5090fb408211
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

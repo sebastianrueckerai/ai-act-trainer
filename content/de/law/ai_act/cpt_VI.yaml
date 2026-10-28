@@ -1,0 +1,74 @@
+node: ai_act:cpt_VI
+summary: Der Abschnitt fördert KI-Innovation. Die Mitgliedstaaten richten bis zum 2. August 2027 mindestens
+  ein nationales KI-Reallabor ein, ggf. gemeinsam mit anderen Staaten, unterstützt von der EU-Kommission.
+  Die Kommission erlässt Durchführungsakte mit Regeln für Auswahl, Antrag, Aufsicht und Zusammenarbeit.
+  Behörden dürfen bereits erhobene personenbezogene Daten im Reallabor für KI-Entwicklung nutzen, wenn
+  strenge Schutz- und Dokumentationspflichten gelten. Anbieter von Hochrisiko-KI-Systemen dürfen reale
+  Tests außerhalb von Reallaboren nach Genehmigung der Marktüberwachungsbehörde durchführen, wobei eine
+  informierte Einwilligung der Teilnehmer erforderlich ist. Kleine Unternehmen und Start-ups erhalten
+  bevorzugten Zugang, vereinfachte Qualitätsmanagement-Pflichten und unterstützende Informationsangebote.
+source_sha: b91a56c8c558a63edc1edbbd6dd577b47b14c81b4f68abcc1ce4a621622da5cf
+children:
+- node: ai_act:art_57
+  summary: Die Mitgliedstaaten müssen dafür sorgen, dass ihre zuständigen Behörden bis zum 2. August 2027
+    mindestens ein KI-Reallabor auf nationaler Ebene einrichten. Sie können das Labor gemeinsam mit anderen
+    Staaten betreiben. Die EU-Kommission unterstützt technisch und finanziell. Sie stellen zudem ausreichende
+    Mittel bereit.
+  source_sha: 1aad7c06fe952851c52d7c4811e4edd128ff4f0a4e3875bb01ee3b57c69e22aa
+  children: []
+- node: ai_act:art_58
+  summary: Die Kommission erlässt Durchführungsakte, die detaillierte Regeln für KI-Reallabore festlegen.
+    Sie bestimmen Auswahlkriterien, Antragsverfahren, Aufsicht und Zusammenarbeit. Die Regeln gelten für
+    nationale Behörden, Anbieter und zukünftige Anbieter von KI-Systemen und treten in Kraft, sobald die
+    Durchführungsakte nach dem Prüfverfahren beschlossen sind.
+  source_sha: 1ca3dd2d3f1683e2035e31afdd550592573833b8fcd606086f3bb4f3078711a8
+  children: []
+- node: ai_act:art_59
+  summary: Erlaubt die Nutzung bereits erhobener personenbezogener Daten im KI-Reallabor zur Entwicklung,
+    zum Training und zum Testen von KI-Systemen, die ein erhebliches öffentliches Interesse wahren. Gilt
+    für Behörden und andere Akteure, wenn alle genannten unter strengen Schutz- und Dokumentationsbedingungen
+    erfüllt sind.
+  source_sha: 6095ec1795613bfd2c0303ab8157f991a78e9e1a3efec7a90d5bcee24ca4e5b8
+  children: []
+- node: ai_act:art_60
+  summary: Der Text erlaubt Anbietern und zukünftigen Anbietern von Hochrisiko-KI-Systemen, die in den
+    genannten Anhängen aufgeführt sind, reale Tests außerhalb von KI-Reallaboren durchzuführen. Voraussetzung
+    ist ein von der Marktüberwachungsbehörde genehmigter Testplan, Registrierung, Einhaltung von Schutz-
+    und Informationspflichten sowie eine maximale Testdauer von sechs Monaten, die bei Bedarf um weitere
+    sechs Monate verlängert werden kann.
+  source_sha: d511d8149b039f1f8edeef80fab01eaeccb32832dd6a4c8dfa3de2129baf547a
+  children: []
+- node: ai_act:art_60a
+  summary: Die Mitgliedstaaten können außerhalb von KI-Reallaboren reale Tests von Hochrisiko-KI-Systemen,
+    die unter die EU-Harmonisierungsregeln fallen, zulassen. Sie müssen dafür Rahmenbedingungen festlegen,
+    die Kommission informieren und die Zusammenarbeit nationaler Behörden sicherstellen, um die Konformität
+    mit den Sicherheits- und Grundrechtsanforderungen zu prüfen.
+  source_sha: 7683131781a25fcfd2ecf9147f4e2719c3c1cd0c50a015cbc6ed3b0cb98f0a4b
+  children: []
+- node: ai_act:art_61
+  summary: Der Anbieter muss vor jedem Test unter Realbedingungen außerhalb von KI-Reallaboren die freiwillige,
+    informierte Einwilligung der Teilnehmer einholen. Er muss sie klar über Ziel, Dauer, mögliche Unannehmlichkeiten,
+    Rechte zum Widerruf und Kontaktinformationen informieren. Die Einwilligung wird datiert, dokumentiert
+    und ausgehändigt.
+  source_sha: acf2e6199b7313053932dd01031b7c0de686b6fb050946d27aa8945c165053e0
+  children: []
+- node: ai_act:art_62
+  summary: Die Mitgliedstaaten ermöglichen kleinen und mittleren Unternehmen sowie Start-ups mit Sitz
+    in der Union vorrangigen Zugang zu KI-Reallaboren, bieten Aufklärungs- und Schulungsangebote, richten
+    Kommunikationskanäle ein, passen Konformitätsbewertungsgebühren an Unternehmensgröße an. Das Büro
+    für Künstliche Intelligenz stellt Muster bereit, betreibt eine Informationsplattform, führt Informationskampagnen
+    durch und fördert den Austausch bewährter Verfahren.
+  source_sha: 048b264c5639cb1b72e36f122f45308884e3b31e3064507cf3150c44f3a15996
+  children: []
+- node: ai_act:art_63
+  summary: Erlaubt kleinen und mittleren Unternehmen sowie Start-ups, das Qualitätsmanagementsystem in
+    vereinfachter Form zu erfüllen, wenn sie keine Partner- oder verbundenen Unternehmen haben. Die Kommission
+    erstellt Leitlinien dafür. Die Erleichterung befreit nicht von allen übrigen Pflichten der Verordnung,
+    etwa Transparenz- und Risikomanagement-Vorgaben.
+  source_sha: 0bcfed87bb23c30aa9e0901bb529654d2a00d6f4e495a0fa2fa51e766a72de1d
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

@@ -1,0 +1,28 @@
+id: q-01-14
+chapter: 01-warum-es-dich-betrifft
+type: yes_no
+difficulty: 1
+question: >-
+  Die Personalabteilung will zum Jahreswechsel ein Zertifikat vorlegen, das die
+  KI-Kompetenz aller Mitarbeiter nachweist. Verlangt die Verordnung so ein Zertifikat?
+correct: "no"
+rubric:
+  must:
+    - point: nennt, dass die Verordnung kein Zertifikat verlangt
+  should:
+    - nennt, dass interne Aufzeichnungen über Schulungen genügen
+model_answer: >-
+  Nein. Die Verordnung verlangt kein Zertifikat, und ihr müsst eure Maßnahmen
+  nicht auf diese Weise nachweisen.
+explanation: >-
+  Art. 4 Abs. 1 verlangt Maßnahmen, die die KI-Kompetenz des Personals
+  unterstützen, und nennt dafür weder eine Form noch ein Zertifikat. Das Q&A der
+  Kommission zur KI-Kompetenz, Frage 18, hält fest, dass ein Zertifikat nicht
+  erforderlich ist und Organisationen interne Aufzeichnungen über Schulungen
+  führen können.
+citations: ["Art. 4(1)", "Q&A 18"]
+last_change:
+  date: 2026-10-02
+  by: human
+  trigger: "review: kill the boss-trick question"
+  summary: asks the law, not the boss

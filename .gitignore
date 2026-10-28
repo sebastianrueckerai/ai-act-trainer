@@ -1,0 +1,46 @@
+# secrets and local config
+.env
+.env.*
+!.env.example
+.claude/settings.local.json
+.claude/worktrees/
+
+# python
+.venv/
+trainer.db
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+backend/openapi.json
+
+# node
+node_modules/
+dist/
+.vite/
+*.local
+*.log
+frontend/test-results/
+
+# os / editor
+.DS_Store
+*.swp
+
+# Toolchains, never committed: a worktree may link them to the main checkout.
+backend/.venv
+frontend/node_modules
+
+# Internal material, never published. The private copies live in the sibling
+# internal archive (ai-act-trainer-internal), not in this repo.
+docs/superpowers/
+docs/claude/
+docs/evals/
+docs/design/
+docs/TASKS.md
+.superpowers/
+deploy/oci/
+deploy/ansible/
+
+# AI-student run artifacts
+runs/

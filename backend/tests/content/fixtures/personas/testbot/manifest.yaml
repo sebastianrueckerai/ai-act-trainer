@@ -1,0 +1,8 @@
+id: testbot
+name: {de: Testbot, en: Testbot}
+tagline: {de: Nur zum Testen, en: Only for tests}
+voice: Neutral test persona.
+style_rules: ["Say little."]
+reactions: {cheat: "No.", insult: "Hm.", profanity: "Ok.", humor: "Ha.", offtopic: "Back."}
+verdicts: {right: ["Stimmt."], wrong: ["Leider nicht."]}
+milestones: {chapter: ["Kapitel {n} fertig.", "Kapitel {n} geschafft.", "Kapitel {n} erledigt."], course: ["Alles fertig."]}

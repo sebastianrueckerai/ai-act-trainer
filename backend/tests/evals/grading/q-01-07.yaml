@@ -1,0 +1,52 @@
+question: q-01-07
+cases:
+  - id: clean
+    answer: >-
+      Das Chatfenster selbst ist erlaubt. Verlangt ist, dass die Person
+      erkennen kann, dass sie mit einem KI-System spricht. Wenn das aus den
+      Umständen offensichtlich ist, kann der zusätzliche Hinweis entfallen.
+    fair: correct
+    note: >-
+      Muss-Punkt getroffen: die Person muss erkennen können, dass sie mit einem
+      KI-System spricht. Dazu beide Soll-Punkte, das Chatfenster selbst ist
+      erlaubt und der Hinweis entfällt, wenn es offensichtlich ist.
+  - id: bare-minimum
+    answer: >-
+      muss halt dranstehen, dass da kein mensch antwortet sondern die ki
+    fair: correct
+    note: >-
+      der Muss-Punkt knapp erfüllt: "dass da kein mensch antwortet sondern die
+      ki" ist genau das Erkennen des KI-Systems, ohne ein Wort mehr. Die
+      dünnste Antwort im Satz, die noch zählt.
+  - id: meant-right
+    answer: >-
+      Klar, das können wir machen. Wir gestalten es nur so, dass am Ende
+      niemand glaubt, da tippt ein Mensch die Antwort selbst. Wenn ohnehin
+      klar ist, was da antwortet, braucht es auch keinen extra Banner.
+    fair: correct
+    note: >-
+      Muss-Punkt jetzt wörtlich getroffen: "niemand glaubt, da tippt ein
+      Mensch die Antwort selbst" trifft direkt die zweite, gleichwertige
+      Fassung des Muss-Punkts, dass niemand denken darf, es antworte ein
+      Mensch. Vor der Ergänzung vom 21.09.2026 zählte das nur über Implikation
+      und fiel beim Grader durch.
+  - id: plausible-miss
+    answer: >-
+      Da müssen wir einiges beachten, Stichwort Transparenz. Wir sollten den
+      Ablauf sauber dokumentieren und den Datenschutz nicht vergessen. Und das
+      Werkzeug vorher ausgiebig testen, bevor es live geht.
+    fair: wrong
+    note: >-
+      kein Muss-Punkt getroffen: Transparenz als Schlagwort, Dokumentation und
+      Testen sagen nicht, dass die Person erkennen können muss, dass sie mit
+      einem KI-System spricht.
+  - id: confidently-wrong
+    answer: >-
+      Die Verordnung verlangt dafür gar nichts, ein Chatfenster ist einfache
+      Technik, die geht die KI-Verordnung nichts an. Die Nutzer dürfen ruhig im
+      Glauben bleiben, dass ein Mensch antwortet, das wirkt sogar persönlicher.
+      Ehrlich gesagt verkauft sich das besser.
+    fair: wrong
+    note: >-
+      Gegenteil des Muss-Punkts: behauptet, es bestehe keine Pflicht, und will
+      die Person bewusst im Glauben lassen, ein Mensch antworte.

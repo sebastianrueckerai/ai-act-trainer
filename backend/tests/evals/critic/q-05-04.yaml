@@ -1,0 +1,23 @@
+- name: the confirmation carries the reason
+  history:
+    - [tutor, "Unsere Pressestelle veröffentlicht eine KI-geschriebene Mitteilung über die Folgen des neuen Gesetzes für die Region. Eine Redakteurin hat sie geprüft, geändert und zeichnet dafür verantwortlich. Muss dabeistehen, dass KI den Text geschrieben hat?"]
+  message: "Nein."
+  outcome: partial
+  tries: 1
+  met: [1]
+  draft: |
+    Richtig, die Offenlegungspflicht entfällt, wenn der Text einer menschlichen Prüfung unterzogen wurde.
+
+    Ein Kollege aus der Pressestelle fragt, warum der Hinweis hier fehlen darf. Was sagst du ihm?
+  expect: retry
+  faults: [leak]
+- name: confirms bare and asks for the why
+  history:
+    - [tutor, "Unsere Pressestelle veröffentlicht eine KI-geschriebene Mitteilung über die Folgen des neuen Gesetzes für die Region. Eine Redakteurin hat sie geprüft, geändert und zeichnet dafür verantwortlich. Muss dabeistehen, dass KI den Text geschrieben hat?"]
+  message: "Nein."
+  outcome: partial
+  tries: 1
+  met: [1]
+  draft: |
+    Richtig, hier muss es nicht dabeistehen. Ein Kollege aus der Pressestelle fragt, warum der Hinweis hier fehlen darf. Was sagst du ihm?
+  expect: ship

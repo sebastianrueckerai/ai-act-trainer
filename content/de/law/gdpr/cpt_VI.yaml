@@ -1,0 +1,104 @@
+node: gdpr:cpt_VI
+summary: Der Abschnitt verpflichtet jeden Mitgliedstaat, eine unabhängige Aufsichtsbehörde einzurichten,
+  die die Verordnung überwacht, Grundrechte bei Datenverarbeitung schützt und den freien Datenverkehr
+  fördert. Die Behörde muss frei von direkter und indirekter Einflussnahme arbeiten, darf keine Weisungen
+  erhalten und keine Nebentätigkeiten ausüben. Der Staat stellt ihr ausreichende technische und finanzielle
+  Mittel, ein transparentes Ernennungsverfahren, qualifizierte Mitglieder und einen eigenständigen Jahreshaushalt
+  bereit. Sie wirkt nur im Hoheitsgebiet ihres Staates, ist bei öffentlich-interessierter Verarbeitung
+  zuständig und übernimmt bei grenzüberschreitender Verarbeitung die federführende Rolle nach Sitz der
+  Hauptniederlassung. Zu ihren Aufgaben gehören Überwachung, Durchsetzung, Öffentlichkeitsarbeit, Beratung
+  von Parlamenten und Regierungen, Beschwerdebearbeitung und Standardentwicklung. Sie kann Auskünfte verlangen,
+  Prüfungen durchführen, Anordnungen erteilen, Bußen verhängen und Zertifizierungen widerrufen. Jährlich
+  veröffentlicht sie einen Tätigkeitsbericht.
+source_sha: 0bb4498d03af25f66f8c3b93c942136df4d25058a4ce66d31fdf49e6a30a7e37
+children:
+- node: gdpr:cpt_VI.sct_1
+  summary: Der Abschnitt legt fest, dass jeder Mitgliedstaat eine Aufsichtsbehörde einrichtet, die die
+    Verordnung überwacht, Grundrechte bei Datenverarbeitung schützt und den freien Datenverkehr fördert.
+    Die Behörde muss ihre Aufgaben unabhängig ausüben; Mitglieder dürfen weder direkte noch indirekte
+    Einflussnahme erhalten, keine Weisungen annehmen und keine Nebentätigkeiten ausüben. Der Staat muss
+    ausreichende technische und finanzielle Mittel, transparente Ernennungsverfahren, qualifizierte und
+    fachlich geeignete Mitglieder sowie einen unabhängigen Jahreshaushalt bereitstellen. Vertraulichkeitspflichten
+    gelten während und nach der Amtszeit.
+  source_sha: cdf80253cb6677fa52b299362cf69b9d30d00430823cd7937baab4aa06cfba65
+  children:
+  - node: gdpr:art_51
+    summary: Jeder Mitgliedstaat richtet Aufsichtsbehörden ein, die die Verordnung überwachen, Grundrechte
+      bei Datenverarbeitung schützen und den freien Datenverkehr erleichtern. Sie arbeiten mit der Kommission
+      zusammen. Bei mehreren Behörden bestimmt der Staat eine Vertretungsbehörde für den Ausschuss und
+      gewährleistet das Kohärenzverfahren. Der Staat meldet der Kommission seine nationalen Rechtsvorschriften
+      und Änderungen.
+    source_sha: 0220a880f01b96ba769ee141ec23e7f2f36140423a26c1f8183166ccfff58494
+    children: []
+  - node: gdpr:art_52
+    summary: Die Aufsichtsbehörde muss ihre Aufgaben unabhängig ausüben. Mitglieder dürfen weder direkte
+      noch indirekte Einflussnahme erhalten und keine Weisungen annehmen. Sie dürfen keine Nebentätigkeiten
+      ausüben. Der Staat muss ausreichende technische und finanzielle Ressourcen, Personalwahl, Finanzkontrolle
+      ohne Beeinträchtigung der Unabhängigkeit und einen Jahreshaushalt bereitstellen.
+    source_sha: c6502f8be38aee089b9df622174fef9dbf6fdb5f275c403605947784cf5ca36f
+    children: []
+  - node: gdpr:art_53
+    summary: Regelt die Ernennung, Qualifikation, Amtsdauer und Abberufung der Mitglieder der Aufsichtsbehörde.
+      Sie müssen transparent von Parlament, Regierung, Staatsoberhaupt oder unabhängiger Stelle ernannt
+      werden, fachlich geeignet sein und können nur bei schwerer Verfehlung entlassen werden. Gilt während
+      ihrer Amtszeit.
+    source_sha: e4f0d41ec8d960f5fcf623a91d77a7f57b7b0ea90f79495a2c8e8bf25ebaf82a
+    children: []
+  - node: gdpr:art_54
+    summary: Der Text verpflichtet jeden Mitgliedstaat, durch nationale Rechtsvorschriften die Einrichtung
+      einer Aufsichtsbehörde zu regeln. Er legt Qualifikationen, Ernennungsverfahren, Mindestamtsdauer
+      von vier Jahren, Wiederernennungsmodalitäten und Verhaltensverbote für Mitglieder und Beschäftigte
+      fest. Vertraulichkeitspflicht gilt während und nach der Amtszeit, besonders bei gemeldeten Verstößen.
+    source_sha: 0734ceedc101451fa4762621739c7ef790d244f0d94c0eb6acb660c0c9d4eef5
+    children: []
+- node: gdpr:cpt_VI.sct_2
+  summary: Die Regelung legt fest, dass jede Aufsichtsbehörde nur im Hoheitsgebiet ihres Mitgliedstaats
+    tätig wird. Bei Verarbeitung aus öffentlichem Interesse ist die Behörde des betroffenen Staates zuständig.
+    Für grenzüberschreitende Verarbeitung bestimmt sie die federführende Behörde nach Sitz der Hauptniederlassung.
+    Die Behörden überwachen die Verordnung, setzen sie durch, informieren die Öffentlichkeit, beraten
+    Parlamente und Regierungen, bearbeiten Beschwerden und entwickeln Standards. Sie dürfen Auskünfte
+    verlangen, Prüfungen durchführen, Anordnungen erteilen, Bußen verhängen und Zertifizierungen widerrufen.
+    Jährlich erstellen sie einen Tätigkeitsbericht, der veröffentlicht wird.
+  source_sha: 703b651538e522f7a63ee5ac528952e12f90be196685702489acd80a52eb2727
+  children:
+  - node: gdpr:art_55
+    summary: Jede Aufsichtsbehörde übernimmt die ihr übertragenen Aufgaben und Befugnisse nur im Hoheitsgebiet
+      ihres Mitgliedstaats. Bei Verarbeitung aus öffentlichem Interesse oder gesetzlicher Ermächtigung
+      ist die Behörde des betroffenen Staates zuständig, das Kooperationsverfahren entfällt. Gerichtsentscheidungen
+      im Rahmen der justiziellen Tätigkeit bleiben von der Aufsicht ausgenommen.
+    source_sha: 1cec3e27d3a1fb80ebf20193044ea4259e3fb028e743188f0aa87a053f4c0382
+    children: []
+  - node: gdpr:art_56
+    summary: Bestimmt die federführende Aufsichtsbehörde für grenzüberschreitende Verarbeitung nach dem
+      Sitz der Haupt- oder einzigen Niederlassung des Verantwortlichen oder Auftragsverarbeiters. Andere
+      Aufsichtsbehörden bearbeiten Beschwerden, die nur ihre Niederlassung betreffen, und informieren
+      die federführende Behörde, die dann über das weitere Verfahren entscheidet.
+    source_sha: 984ccac92776855adbe26a7306add8a854d92bd68ef6f5223e7893d3ad269d00
+    children: []
+  - node: gdpr:art_57
+    summary: Jede Aufsichtsbehörde im Hoheitsgebiet muss die DSGVO überwachen, durchsetzen und die Öffentlichkeit
+      über Risiken und Rechte informieren, besonders für Kinder. Sie berät Parlament und Regierung, sensibilisiert
+      Verantwortliche, bearbeitet Beschwerden, kooperiert mit anderen Behörden und entwickelt Standards,
+      Zertifizierungen und Verhaltensregeln.
+    source_sha: a4f3970817c9ca1c687d4975efd4f23162d350bc548bcd7cb0337833016d483d
+    children: []
+  - node: gdpr:art_58
+    summary: Die Aufsichtsbehörde kann von Verantwortlichen und Auftragsverarbeitern alle für die Durchsetzung
+      der Verordnung erforderlichen Informationen verlangen, Prüfungen durchführen, Anordnungen erteilen,
+      Verstöße ahnden, Zertifizierungen widerrufen und Geldbußen verhängen. Sie kann zudem den Zugang
+      zu Räumlichkeiten und Datenverarbeitungssystemen verlangen. Diese Befugnisse gelten bei jeder Anwendung
+      der Datenschutz-Verordnung.
+    source_sha: 5d85994785f3f229b0ec76ac5c301c48c7133f6b9e0d12cf010a77fd01a818af
+    children: []
+  - node: gdpr:art_59
+    summary: Die Aufsichtsbehörde erstellt jährlich einen Tätigkeitsbericht. Der Bericht listet gemeldete
+      Verstöße und ergriffene Maßnahmen. Er wird an Parlament, Regierung und zuständige Behörden übermittelt
+      und öffentlich, der Kommission und dem Ausschuss zugänglich gemacht. Die Veröffentlichung erfolgt
+      regelmäßig und dient der Transparenz.
+    source_sha: 041280bf88612afd504947178c2971e9c226f0a97799a56ca677c29c4cd0389d
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

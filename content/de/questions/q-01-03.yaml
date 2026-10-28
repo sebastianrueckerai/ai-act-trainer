@@ -1,0 +1,37 @@
+id: q-01-03
+chapter: 01-warum-es-dich-betrifft
+type: multiple_choice
+difficulty: 2
+question: >-
+  In welcher dieser vier Situationen verlangt die Verordnung, dass die andere
+  Person erfährt, dass eine KI im Spiel ist?
+options:
+  - key: A
+    text: Du lässt dir eine interne Besprechungsnotiz von einem Chatassistenten zusammenfassen.
+  - key: B
+    text: Auf unserer Website beantwortet ein KI-Chatfenster die Fragen von Kunden.
+  - key: C
+    text: >-
+      Du lässt eine Produktbeschreibung ins Englische übersetzen und schickst
+      sie an einen Kunden.
+  - key: D
+    text: Du sammelst mit einem Chatassistenten Ideen für den Namen eines neuen Produkts.
+correct: B
+model_answer: >-
+  B. Ein KI-System, das für die direkte Interaktion mit Menschen bestimmt ist,
+  muss so gestaltet sein, dass die Person merkt, dass sie mit einer KI spricht.
+  Die drei anderen Situationen sind erlaubte Nutzung ohne Hinweispflicht.
+explanation: >-
+  Nach Art. 50 Abs. 1 stellen Anbieter sicher, dass KI-Systeme für die direkte
+  Interaktion mit natürlichen Personen so konzipiert und entwickelt werden, dass
+  die Person informiert wird, dass sie mit einem KI-System interagiert. Das gilt
+  nicht, wenn das aus Sicht einer angemessen informierten, aufmerksamen und
+  verständigen natürlichen Person aufgrund der Umstände und des Kontexts der
+  Nutzung offensichtlich ist. Zusammenfassen, Übersetzen und Ideen sammeln
+  fallen nicht darunter, dafür verlangt die Verordnung keinen Hinweis.
+citations: ["Art. 50(1)"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

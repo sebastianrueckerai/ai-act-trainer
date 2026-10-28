@@ -1,0 +1,403 @@
+node: ai_act:cpt_III
+summary: Der Teil definiert, wann ein KI-System als Hochrisiko-KI gilt, und bindet Hersteller, Anbieter,
+  Betreiber und Akteure der Wertschöpfungskette. Er verlangt Risikomanagement, qualitätsgesicherte Daten-Governance,
+  technische Dokumentation, Aufzeichnung von Ereignissen und ein digitales Handbuch. Alle Beteiligten
+  müssen Sicherheits- und Transparenzanforderungen erfüllen, ein Konformitätsbewertungsverfahren durchlaufen,
+  sich im EU-Register eintragen und bei Mängeln sofort korrigieren. Mitgliedstaaten benennen notifizierende
+  Behörden und notifizierte Stellen, die Prüfungen durchführen, Bescheinigungen ausstellen und das EU-Verzeichnis
+  pflegen. Die Vorgaben gelten, sobald ein Hochrisiko-KI-System in der EU in Verkehr gebracht oder betrieben
+  wird.
+source_sha: cc8dce1cf65833dab189bb469aa4f4aabe893684b6e730e332fe13cc45160647
+children:
+- node: ai_act:cpt_III.sct_1
+  summary: Die Vorschrift definiert, wann ein KI-System als Hochrisiko-KI gilt, und bindet Hersteller
+    und Anbieter, die KI in sicherheitsrelevanten Produkten einsetzen oder einer Dritt-Konformitätsbewertung
+    unterliegen. Sie gilt, sobald die Verordnung anwendbar ist. Die Kommission kann die Liste der Hochrisiko-Systeme
+    ändern, wenn neue Systeme ein vergleichbares oder höheres Risiko für Gesundheit, Sicherheit oder Grundrechte
+    darstellen.
+  source_sha: d35ca29357af5b0db9dc3134b88de2839740179875110779cf135613994b3b9d
+  children:
+  - node: ai_act:art_6
+    summary: Die Vorschrift definiert, wann ein KI-System als Hochrisiko-KI gilt. Sie bindet Hersteller
+      und Anbieter, die KI-Systeme in sicherheitsrelevanten Produkten einsetzen oder die einer Dritt-Konformitätsbewertung
+      unterliegen. Sie tritt mit dem Inkrafttreten der Verordnung in Kraft und gilt für alle Mitgliedstaaten.
+    source_sha: 6ada78ef148ca1628e68406daa98da248659dd9129ede0e8805a63dd7df4e5d9
+    children: []
+  - node: ai_act:art_7
+    summary: Die Kommission kann delegierte Rechtsakte erlassen, um die Liste der Hochrisiko-KI-Systeme
+      zu ändern. Sie fügt KI-Systeme hinzu oder streicht sie, wenn diese in den dort genannten Bereichen
+      eingesetzt werden und ein Risiko für Gesundheit, Sicherheit oder Grundrechte darstellen, das dem
+      bereits gelisteter Hochrisiko-KI entspricht oder es übersteigt. Die Änderungen gelten, sobald die
+      festgelegten Bewertungskriterien erfüllt sind.
+    source_sha: 4f30214b06ccef39e2fb5dc30266604978b6d41d8a077d173b242ad61cf34d4b
+    children: []
+- node: ai_act:cpt_III.sct_2
+  summary: Der Abschnitt legt verbindliche Pflichten für Anbieter, Hersteller und Betreiber von Hochrisiko-KI-Systemen
+    fest. Er verlangt ein fortlaufendes Risikomanagement, qualitätsgesicherte Daten-Governance, technische
+    Dokumentation und lückenlose Aufzeichnung aller Systemereignisse. Anbieter müssen ein digitales Handbuch
+    mit vollständigen Informationen bereitstellen und die Systeme so gestalten, dass Menschen sie wirksam
+    überwachen können. Außerdem sind Genauigkeit, Robustheit und Cybersicherheit über den gesamten Lebenszyklus
+    sicherzustellen. Die Vorgaben gelten, sobald ein Hochrisiko-KI-System in der EU in Verkehr gebracht
+    oder betrieben wird.
+  source_sha: 98d41631eb42819523431e430c56c58260a5186d09e9a7e8c1c89c58495c9775
+  children:
+  - node: ai_act:art_8
+    summary: Hochrisiko-KI-Systeme müssen die in diesem Abschnitt festgelegten Anforderungen erfüllen,
+      Zweckbestimmung und aktueller Stand der Technik berücksichtigen. Anbieter sichern die Einhaltung
+      durch das Risikomanagementsystem und stellen sicher, dass ihr Produkt alle einschlägigen EU-Harmonisierungsvorschriften
+      erfüllt. Sie dürfen Prüf- und Berichtspflichten in bestehende Dokumentationen einbinden, um Doppelarbeit
+      zu vermeiden.
+    source_sha: 205c2249d128af2553dba6e770182c62e528fe2cbcf7e9d55e897fbd54acb848
+    children: []
+  - node: ai_act:art_9
+    summary: Anbieter von Hochrisiko-KI-Systemen müssen ein fortlaufendes Risikomanagementsystem einrichten,
+      anwenden, dokumentieren und pflegen. Es deckt die Identifikation, Bewertung und Kontrolle aller
+      vorhersehbaren Risiken im gesamten Lebenszyklus ab und verlangt Tests vor Inverkehrbringen.
+    source_sha: 3d7139676a8c7ba7daa1183db569d086153c5ed4e5b540471581adb07c6a80ac
+    children: []
+  - node: ai_act:art_10
+    summary: Hersteller von Hochrisiko-KI-Systemen, die Modelle trainieren, müssen Trainings-, Validierungs-
+      und Testdatensätze nutzen, die festgelegte Qualitätskriterien erfüllen. Sie führen Daten-Governance-Verfahren
+      für Herkunft, Aufbereitung, Bias-Prüfung, Lückenanalyse und Bias-Minderung ein. Die Datensätze müssen
+      relevant, repräsentativ, möglichst fehlerfrei und den statistischen Merkmalen des Einsatzes entsprechen.
+      Ohne Training gelten die Vorgaben nur für Testdatensätze.
+    source_sha: c0a21115d289f5d62ec350bb9b4073b858fd8eaf1fec844da8205270a14b8ba5
+    children: []
+  - node: ai_act:art_11
+    summary: Erfordert die Erstellung und Aktualisierung einer technischen Dokumentation, bevor ein Hochrisiko-KI-System
+      in Verkehr gebracht oder in Betrieb genommen wird. Sie muss Erfüllung der Anforderungen nachweisen
+      und den nationalen Behörden sowie den notifizierten Stellen klare Informationen liefern. Kleine
+      Unternehmen dürfen ein von der Kommission bereitgestelltes vereinfachtes Formular nutzen, das von
+      den notifizierten Stellen akzeptiert wird.
+    source_sha: 50139288d0a81e1e695f3141bf04b0d6e42018eb01c8be7e4804aa199c294f97
+    children: []
+  - node: ai_act:art_12
+    summary: Hersteller und Anbieter von Hochrisiko-KI-Systemen müssen die Technik so ausstatten, dass
+      sie automatisch alle relevanten Ereignisse während des gesamten Lebenszyklus protokolliert. Die
+      Protokolle müssen Nutzung, abgefragte Referenzdatenbank, Eingabedaten, die zu einer Übereinstimmung
+      führen, und die Personen, die Ergebnisse prüfen, enthalten. Sie dienen der Risiko-Erkennung, der
+      Marktbeobachtung und der Betriebsüberwachung.
+    source_sha: 12b2929d4a54489ecc5b80a1b7eb30289acf9e182245ff352e1a89824cde4281
+    children: []
+  - node: ai_act:art_13
+    summary: Der Text verpflichtet Anbieter und Betreiber von Hochrisiko-KI-Systemen, das System transparent
+      zu gestalten und den Betreibern ein digitales Handbuch zu liefern. Das Handbuch muss klare, vollständige
+      und barrierefreie Angaben zum Anbieter, zur Zweckbestimmung, zu Genauigkeit, Robustheit, Cybersicherheit,
+      bekannten Risiken, Daten- und Leistungsmerkmalen, Änderungen, menschlicher Aufsicht, erforderlichen
+      Ressourcen, Lebensdauer, Wartung und Protokollierung enthalten. Es gilt für alle Hochrisiko-KI-Systeme,
+      die in der EU bereitgestellt oder betrieben werden.
+    source_sha: 980f59d9c8b2838e92016bda5d9d51ce33203535b52f6dcd2771830112c7f5e8
+    children: []
+  - node: ai_act:art_14
+    summary: Hochrisiko-KI-Systeme müssen so gebaut sein, dass natürliche Personen sie während des Betriebs
+      wirksam überwachen können. Die Aufsicht soll Risiken für Gesundheit, Sicherheit und Grundrechte
+      mindern. Sie erfolgt durch eingebaute oder vom Anbieter festgelegte Maßnahmen, die der Betreiber
+      umsetzt, und umfasst das Verstehen, Erkennen von Anomalien, Vermeiden von Automatisierungsbias,
+      richtige Interpretation, das Recht zum Abschalten und, bei bestimmten Systemen, die doppelte Prüfung
+      von Identifizierungsergebnissen.
+    source_sha: b678be75eaaf263296d35b83db3308b25eeb32890889894fcb0157d868768d4b
+    children: []
+  - node: ai_act:art_15
+    summary: Der Text verlangt, dass Hochrisiko-KI-Systeme über die gesamte Lebensdauer hinweg ein angemessenes
+      Maß an Genauigkeit, Robustheit und Cybersicherheit erreichen. Hersteller müssen Messmethoden, Benchmarks
+      und Betriebsanleitungen bereitstellen und technische sowie organisatorische Schutzmaßnahmen implementieren,
+      insbesondere bei lernenden Systemen.
+    source_sha: b733ab6f7d1da3729fd438089bd11ed51cf31de1ba185e0adc11939ac3e2aed5
+    children: []
+- node: ai_act:cpt_III.sct_3
+  summary: Es legt Pflichten für Anbieter, Einführer, Händler, Betreiber und bevollmächtigte Vertreter
+    von Hochrisiko-KI-Systemen sowie für weitere Akteure der Wertschöpfungskette fest. Sie müssen festgelegte
+    Sicherheits- und Transparenzanforderungen erfüllen, ein Qualitäts- und Risikomanagement führen, technische
+    Unterlagen zehn Jahre aufbewahren, ein Konformitätsbewertungsverfahren durchlaufen, sich im EU-Register
+    eintragen und bei festgestellten Mängeln sofort korrigierende Maßnahmen ergreifen. Außerdem sind sie
+    verpflichtet, mit Behörden zusammenzuarbeiten, Barrierefreiheitsstandards zu beachten und bei öffentlichen
+    Einrichtungen eine Grundrechte-Folgenabschätzung vorzunehmen. Die Vorgaben gelten ab dem Inverkehrbringen
+    oder der Inbetriebnahme des Systems.
+  source_sha: 170d3ae79ac8dc93a23c4d37a4ebd4e086fe416e2e134a9cf677584365817b0a
+  children:
+  - node: ai_act:art_16
+    summary: Anbieter von Hochrisiko-KI-Systemen müssen die festgelegten Sicherheits- und Transparenzanforderungen
+      erfüllen, Name und Kontakt auf dem System oder der Dokumentation angeben, ein Qualitätsmanagement
+      führen, Dokumentation und Protokolle aufbewahren, ein Konformitätsbewertungsverfahren durchlaufen,
+      die erforderlichen Konformitätsnachweise bereitstellen, sich im EU-Register eintragen, Korrekturmaßnahmen
+      ergreifen, Nachweise erbringen und Barrierefreiheitsstandards einhalten.
+    source_sha: 3884f61843228b2785698932ee17dfc5466ea08f97d322cbdab6d136a445ab51
+    children: []
+  - node: ai_act:art_17
+    summary: Anbieter von Hochrisiko-KI-Systemen müssen ein Qualitätsmanagementsystem einrichten, das
+      die Einhaltung regulatorischer Vorgaben sicherstellt. Es umfasst Konzepte zur Regelkonformität,
+      Design- und Entwicklungs-Kontrollen, Tests, Daten- und Risikomanagement, Marktüberwachung, Meldungen,
+      Kommunikation, Dokumentation, Ressourcen und Verantwortlichkeiten. Die Ausgestaltung richtet sich
+      nach der Unternehmensgröße; sektorspezifische Systeme können integriert werden.
+    source_sha: 3828a35ad999356c464965b6b9ba5279d0609519f7475d9693b4ed7580d983be
+    children: []
+  - node: ai_act:art_18
+    summary: Der Anbieter muss zehn Jahre lang nach Inverkehrbringen oder Inbetriebnahme eines Hochrisiko-KI-Systems
+      die technische Dokumentation, das Qualitätsmanagement-System, Änderungen, die von einer benannten
+      Stelle genehmigt wurden, Entscheidungen dieser Stelle und die EU-Konformitätserklärung für die nationalen
+      Behörden bereithalten. Die Mitgliedstaaten bestimmen, wie die Unterlagen bei Insolvenz oder Aufgabe
+      der Tätigkeit bereitgestellt werden. Finanzinstitute fügen die technische Dokumentation ihrer regulativen
+      Finanzunterlagen hinzu.
+    source_sha: 8cf6535f3065e8aaf00ddee5bf7e5da430edb713b100c5efba3bfd0ccb1cd46c
+    children: []
+  - node: ai_act:art_19
+    summary: Anbieter von Hochrisiko-KI-Systemen müssen automatisch erzeugte Protokolle, die sie kontrollieren,
+      mindestens sechs Monate aufbewahren, sofern kein anderes EU- oder nationales Recht etwas anderes
+      vorsieht. Finanzinstitute speichern die Protokolle zusätzlich als Teil ihrer regulatorischen Dokumentation.
+    source_sha: 3ec748b415364da70f0d447530b7f57fc4185011576fe474d027bd5cf9572a23
+    children: []
+  - node: ai_act:art_20
+    summary: Anbieter von Hochrisiko-KI-Systemen müssen sofort Korrekturmaßnahmen ergreifen, das System
+      ggf. zurückziehen, Händler, Betreiber, Bevollmächtigte und Einführer informieren. Bei erkannten
+      Risiken untersuchen sie Ursachen, melden Marktüberwachungsbehörden und die benannte Stelle und geben
+      Details zur Art der Nichtkonformität sowie zu bereits ergriffenen Maßnahmen an.
+    source_sha: bbad16f2af0db12388e92fffb1120d3e90335cb96de8ff5e27b2141385a669e0
+    children: []
+  - node: ai_act:art_21
+    summary: Anbieter von Hochrisiko-KI-Systemen müssen auf begründete Anfrage einer zuständigen Behörde
+      alle Unterlagen zur Nachweisführung der Konformität mit den Anforderungen für Hochrisiko-KI-Systeme
+      bereitstellen. Sie gewähren Zugriff auf automatisch erzeugte Protokolle, soweit diese ihrer Kontrolle
+      unterliegen, und behandeln alle erhaltenen Informationen vertraulich nach den festgelegten Vertraulichkeitspflichten.
+    source_sha: 579ea8d89946903a54a5a5e9d8937830ea4c22dd81cc5ba160abcc2363fbc939
+    children: []
+  - node: ai_act:art_22
+    summary: Anbieter mit Sitz außerhalb der Union müssen vor dem Inverkehrbringen von Hochrisiko-KI-Systemen
+      einen in der Union niedergelassenen Bevollmächtigten schriftlich benennen. Der Bevollmächtigte prüft
+      Konformitätserklärungen und technische Unterlagen, hält sie zehn Jahre bereit, liefert sie Behörden,
+      kooperiert bei Risikominderungsmaßnahmen und kann den Auftrag bei Verstößen kündigen.
+    source_sha: c2b1ab82b5b732102cce724082628ae1fdcc4e6cc561b863e3e78642ce2a4d55
+    children: []
+  - node: ai_act:art_23
+    summary: Einführer prüfen vor dem Inverkehrbringen, ob das KI-System die Konformitätsbewertung, CE-Kennzeichnung,
+      EU-Konformitätserklärung und einen benannten Bevollmächtigten hat. Bei Zweifel dürfen sie erst nach
+      Nachweis der Konformität verkaufen, informieren bei Risiken die Behörden, geben Kontaktdaten an,
+      bewahren zehn Jahre Bescheinigung und stellen sie auf Anfrage bereit.
+    source_sha: f891f1414d125ed33db1f03f7905ffdc5e4292f244774d37e7f10fa5b2c3f344
+    children: []
+  - node: ai_act:art_24
+    summary: Händler müssen vor dem Inverkehrbringen eines Hochrisiko-KI-Systems prüfen, ob es CE-gekennzeichnet
+      ist, die EU-Konformitätserklärung und Bedienungsanleitungen enthält und die Pflichten des Anbieters
+      und Einführers erfüllt sind. Bei Zweifel an der Konformität müssen sie das System zurückhalten,
+      korrigieren oder zurückrufen und bei Risiko die Behörden informieren.
+    source_sha: 890231be7d12c19c87fd58d204d60f3a62cd7a3f4cec57a98bb5b28dc021774d
+    children: []
+  - node: ai_act:art_25
+    summary: Handelnde, einführende oder betreibende Dritte werden Anbieter eines Hochrisiko-KI-Systems,
+      wenn sie das System mit eigenem Namen versehen, wesentlich verändern oder die Zweckbestimmung zu
+      einem Hochrisiko-System umstellen. Sie müssen die Anbieterpflichten erfüllen, technische Unterlagen
+      liefern, den ursprünglichen Anbieter informieren und technischen Zugang gewähren.
+    source_sha: fabfff90b6185191a253a77b61a40540c3b28f86df886820a551e1d36923750a
+    children: []
+  - node: ai_act:art_26
+    summary: Betreiber von Hochrisiko-KI-Systemen müssen geeignete technische und organisatorische Maßnahmen
+      ergreifen, die Anleitung befolgen, Personen für die menschliche Aufsicht einsetzen, Eingabedaten
+      prüfen, den Betrieb überwachen, Protokolle mindestens sechs Monate aufbewahren, bei Risiken oder
+      Vorfällen Anbieter und Marktüberwachungsbehörde informieren und die Registrierungspflichten erfüllen.
+    source_sha: 37cbaf845acb42c9f82df71f9addaf29320b6b42fd22c9e9e3fd038f566481d5
+    children: []
+  - node: ai_act:art_27
+    summary: Betreiber von Hochrisiko-KI-Systemen, die öffentliche Einrichtungen oder private Anbieter
+      öffentlicher Dienste sind, müssen vor dem ersten Einsatz eine Grundrechte-Folgenabschätzung durchführen.
+      Sie beschreiben Einsatz, Zeitraum, betroffene Personen, Risiken, Aufsichts- und Beschwerde-maßnahmen
+      und melden das Ergebnis der Marktüberwachungsbehörde. Änderungen erfordern eine Aktualisierung.
+    source_sha: e76b6ffb7eb68f626cac691a6a31b2e0f873f04a7d1cfa262ca35169dc146f6a
+    children: []
+- node: ai_act:cpt_III.sct_4
+  summary: Jeder Mitgliedstaat benennt mindestens eine notifizierende Behörde, die Verfahren zur Benennung,
+    Bewertung und Überwachung von notifizierten Stellen einrichtet. Notifizierte Stellen müssen eigenständig,
+    kompetent und ressourcengerecht sein, ein Qualitäts- und Sicherheitsmanagement besitzen und dürfen
+    nur unter Aufsicht Unterauftragnehmer einsetzen. Sie erhalten eine Identifizierungsnummer, werden
+    im EU-Verzeichnis veröffentlicht und müssen Unterlagen fünf Jahre aufbewahren. Die Europäische Kommission
+    vergibt die Nummern, führt das Verzeichnis, koordiniert eine sektorale Gruppe und kann bei Zweifeln
+    die Benennung prüfen, einschränken oder widerrufen. Die Regelungen gelten für Hochrisiko-KI-Systeme,
+    sobald die Verordnung anwendbar ist.
+  source_sha: d365bdb5cd5496ecf0ef6e4fdc0fd7478afc7c3cb7df4c55521cb9faea5523a1
+  children:
+  - node: ai_act:art_28
+    summary: Jeder Mitgliedstaat muss mindestens eine notifizierende Behörde benennen, die Verfahren zur
+      Bewertung, Benennung und Überwachung von Konformitätsbewertungsstellen einrichtet und durchführt.
+      Sie muss unabhängig, unparteiisch, vertraulich und mit ausreichend fachkundigem Personal arbeiten.
+      Die Regel gilt für KI-Systeme, die unter EU-Harmonisierungsrechtsvorschriften fallen, sobald die
+      Verordnung anwendbar ist.
+    source_sha: 74b931ba3655f8e1c8d02f8c5f653aae87f7f174c2590ad35ffd843515bf3e2b
+    children: []
+  - node: ai_act:art_29
+    summary: Konformitätsbewertungsstellen beantragen bei ihrer nationalen Behörde die Notifizierung.
+      Sie übermitteln Tätigkeitsbeschreibung, Modulangaben, KI-Systemarten und, falls vorhanden, eine
+      Akkreditierungsurkunde. Ohne Urkunde reichen sie Nachweise zu den geforderten Anforderungen ein.
+      Änderungen führen zur Aktualisierung der Unterlagen, damit die Behörde die fortlaufende Erfüllung
+      prüfen kann. Vorhandene Bescheinigungen aus anderen EU-Harmonisierungsrechtsvorschriften beschleunigen
+      das Verfahren.
+    source_sha: 62ec2d8476deadad1a9dec65e4386aaacb70bf38b86cfd0a5e4036b4e384f387
+    children: []
+  - node: ai_act:art_30
+    summary: Die Regelung legt ein Notifizierungsverfahren fest. Benannte Behörden dürfen nur Konformitätsbewertungsstellen
+      benennen, die die festgelegten Anforderungen erfüllen. Sie informieren die Europäische Kommission
+      und die anderen Mitgliedstaaten über ein elektronisches Instrument und ein Verzeichnis von KI-System-Codes.
+      Die Kommission kann das Verzeichnis durch delegierte Rechtsakte anpassen. Die Benachrichtigung muss
+      vollständige Angaben zu den Bewertungsaktivitäten und der Kompetenz enthalten. Bei fehlender Akkreditierungsurkunde
+      werden Nachweise vorgelegt. Einwände können innerhalb von zwei Wochen bzw. zwei Monaten erhoben
+      werden; die Kommission entscheidet dann über die Genehmigung.
+    source_sha: 7b66efddba15032c675d2fe32e953cc38f6c69dc85d03a251c325c40e2115a75
+    children: []
+  - node: ai_act:art_31
+    summary: Die Verordnung legt Anforderungen an notifizierte Stellen fest, die Konformitätsbewertungen
+      für Hochrisiko-KI-Systeme durchführen. Sie müssen rechtlich eigenständig sein, über geeignete Organisation,
+      Qualitäts- und Sicherheitsmanagement, ausreichende Ressourcen und Unabhängigkeit von Anbietern und
+      Wettbewerbern verfügen. Sie gelten während aller Bewertungs- und Zertifizierungs-tätigkeiten.
+    source_sha: ba651591a6efe8488c27f61cd6217446295f9783fc18cc0d11ad609c12585aca
+    children: []
+  - node: ai_act:art_32
+    summary: Eine Konformitätsbewertungsstelle, die nachweist, dass sie die Kriterien der relevanten harmonisierten
+      Normen erfüllt, gilt als konform mit den Anforderungen an notifizierte Stellen, soweit diese Normen
+      die Anforderungen abdecken. Das gilt, sobald der Nachweis erbracht ist, und wird von den Aufsichtsbehörden
+      anerkannt.
+    source_sha: c32cffe3457a86509fc213173fef930abd22d94b8f47edaec6cf636a38830a5c
+    children: []
+  - node: ai_act:art_33
+    summary: Notifizierte Stellen müssen bei Vergabe von Aufgaben an Unterauftragnehmer oder Zweigstellen
+      sicherstellen, dass diese die Anforderungen an die Konformitätsbewertung erfüllen, die Behörde informieren,
+      volle Verantwortung übernehmen, nur mit Zustimmung des Anbieters handeln, ein Verzeichnis veröffentlichen
+      und Unterlagen fünf Jahre aufbewahren.
+    source_sha: 100402eeb4191ada111b518084b0bba5f0493e6a4dadfda836a8d2759320aea7
+    children: []
+  - node: ai_act:art_34
+    summary: Die notifizierten Stellen prüfen die Konformität von Hochrisiko-KI-Systemen nach den festgelegten
+      Bewertungsverfahren. Sie reduzieren unnötige Belastungen, berücksichtigen Größe, Sektor, Struktur
+      und Komplexität des Anbieters, besonders für Kleinst- und kleine Unternehmen. Sie stellen der benannten
+      Behörde alle relevanten Unterlagen zur Verfügung.
+    source_sha: 9737f5ba85b7a404b28aea6098a50171d67fe14cf75164c33d1470cd7ac5eed1
+    children: []
+  - node: ai_act:art_35
+    summary: Die Kommission vergibt jeder notifizierten Stelle eine eindeutige Identifizierungsnummer,
+      veröffentlicht ein Verzeichnis aller nach dieser Verordnung notifizierten Stellen mit deren Nummern
+      und den jeweiligen Tätigkeiten für die Aufsicht und Durchsetzung der Verordnung und hält das Verzeichnis
+      fortlaufend aktuell.
+    source_sha: cf0ac23aebf32f0ed8df63948fe8f2ae4b5d842f6e74796abc5eca02228fe19a
+    children: []
+  - node: ai_act:art_36
+    summary: Sie verpflichtet die benannte Behörde, Kommission und Mitgliedstaaten über Änderung einer
+      Notifizierung zu informieren und legt Verfahren für Erweiterungen, sonstige Änderungen, Einstellung
+      der Konformitätsbewertung sowie Aussetzung, Einschränkung oder Widerruf der Benennung fest. Sie
+      gilt bei jeder angekündigten oder vollzogenen Änderung.
+    source_sha: dff2c3a35eb382f75275e00f049265deae11e5459cfb58b9e5968a9780566c30
+    children: []
+  - node: ai_act:art_37
+    summary: Die Kommission prüft bei begründeten Zweifeln, ob eine notifizierte Stelle die festgelegten
+      Anforderungen weiterhin erfüllt. Sie fordert von der benennenden Behörde alle relevanten Informationen
+      an, behandelt sie vertraulich und informiert den betroffenen Mitgliedstaat, wenn die Stelle nicht
+      mehr kompetent ist. Der Mitgliedstaat muss Abhilfemaßnahmen ergreifen; bei Untätigkeit kann die
+      Kommission die Benennung durch einen Durchführungsrechtsakt aussetzen, einschränken oder widerrufen.
+    source_sha: 15da957aec8a9ff98eb85718cd3460ac31332d5adc1b3e59e74931bd2150f39d
+    children: []
+  - node: ai_act:art_38
+    summary: Die Kommission richtet für Hochrisiko-KI-Systeme eine sektorale Gruppe notifizierter Stellen
+      ein und leitet deren Zusammenarbeit. Jede notifizierende Behörde muss sicherstellen, dass ihre Stellen
+      oder deren Vertreter an dieser Gruppe teilnehmen. Sie fördert den Wissensaustausch und unterstützt
+      die Anwendung einheitlicher Verfahren.
+    source_sha: 3e2c7103ad880674a73f7bb1fb68562a82192f5385fd3caa60fc6f04cdffd6ba
+    children: []
+  - node: ai_act:art_39
+    summary: Ermöglicht es Konformitätsbewertungsstellen aus Drittländern, mit denen die Union ein Abkommen
+      hat, die Aufgaben von notifizierten Stellen nach dieser Verordnung zu übernehmen, sofern sie die
+      festgelegten Anforderungen erfüllen oder gleichwertige Konformität sicherstellen und die gleichen
+      Qualitätsstandards wie EU-Stellen einhalten.
+    source_sha: 47b0ba9a480fcd66ce5c7a65b48252af5f09373b0bee19aa0e22f3edb6348e57
+    children: []
+- node: ai_act:cpt_III.sct_5
+  summary: Der Abschnitt regelt, wie Hochrisiko-KI-Systeme und KI-Modelle mit allgemeinem Verwendungszweck
+    nach europäischen Standards geprüft werden. Er legt fest, dass die Einhaltung harmonisierter Normen
+    oder gemeinsamen Spezifikationen die Konformität vermutet. Anbieter müssen die Erfüllung der Anforderungen
+    nachweisen, entweder durch ein internes Verfahren oder durch eine benannte Stelle; bei Strafverfolgungsbehörden
+    übernimmt die Marktüberwachungsbehörde diese Rolle. Notifizierte Stellen stellen Bescheinigungen aus,
+    melden Änderungen und können diese widerrufen. Der Anbieter erstellt eine EU-Konformitätserklärung,
+    versieht das System mit dem CE-Zeichen und registriert es in der EU-Datenbank.
+  source_sha: ae7f35bc6dbb516d0788f82d95e773e2362d03134094f447bb4bd4889bcf7f61
+  children:
+  - node: ai_act:art_40
+    summary: Wenn Hochrisiko-KI-Systeme oder KI-Modelle mit allgemeinem Verwendungszweck den harmonisierten
+      Normen entsprechen, die im Amtsblatt veröffentlicht wurden, wird ihre Konformität mit den geltenden
+      Anforderungen vermutet. Die Kommission erteilt Standardisierungsaufträge, berät das KI-Gremium und
+      das Beratungsforum und beauftragt europäische Normungsorganisationen, passende Normen zu entwickeln.
+      Bindet Anbieter, wenn die Systeme in der Union in Verkehr gebracht oder in Betrieb genommen werden.
+    source_sha: 978ded6cc9986e4f3126ba843f5b4cdab22c514afb3230ac4d3aea101c992e48
+    children: []
+  - node: ai_act:art_41
+    summary: Die Kommission kann Durchführungsakte erlassen, die einheitliche Vorgaben für die Anforderungen
+      und Pflichten von Hochrisiko-KI-Systemen und allgemeinen KI-Modellen festlegen, wenn die europäische
+      Normung keine geeigneten harmonisierten Normen liefert. Anbieter müssen diese Vorgaben einhalten;
+      bei Übereinstimmung wird die Konformität vermutet, andernfalls müssen sie gleichwertige technische
+      Lösungen nachweisen.
+    source_sha: 7442a46a01c83671b62d87c0f380988e000d92d3c7ce9c965853d289d86f2251
+    children: []
+  - node: ai_act:art_42
+    summary: Für Hochrisiko-KI-Systeme, die mit Daten trainiert und getestet wurden, die die spezifischen
+      geografischen, verhaltensbezogenen, kontextuellen oder funktionalen Rahmenbedingungen abbilden,
+      wird vermutet, dass sie die festgelegten Anforderungen an Transparenz, Genauigkeit und Risikomanagement
+      erfüllen. Für Hochrisiko-KI-Systeme, die nach einem EU-Zertifizierungsverfahren für Cybersicherheit
+      zertifiziert wurden oder für die eine Konformitätserklärung vorliegt, gilt die Vermutung, dass sie
+      die festgelegten Cybersicherheitsanforderungen einhalten, sofern die Zertifizierung diese abdeckt.
+      Fallen sie zudem unter die spezielle KI-Verordnung von 2024 und erfüllen die dort definierten Bedingungen,
+      gelten sie ebenfalls als konform mit den Cybersicherheitsanforderungen.
+    source_sha: 0b83f7d186a606a2fed40191f93c4de026744bcb5b4fb3596b1afbd453e052cb
+    children: []
+  - node: ai_act:art_43
+    summary: Der Anbieter eines Hochrisiko-KI-Systems muss nachweisen, dass das System die festgelegten
+      Anforderungen erfüllt. Er wählt entweder ein internes Kontrollverfahren oder ein Verfahren mit Beteiligung
+      einer benannten Stelle, je nach Anwendung harmonisierter Normen oder spezieller Spezifikationen.
+      Bei Einsatz durch Strafverfolgungsbehörden übernimmt die Marktüberwachungsbehörde die Rolle der
+      benannten Stelle.
+    source_sha: 0f28b6c546cbac3a19f24a68fa3bec751b6d6247eb606783841b6f6295c489e4
+    children: []
+  - node: ai_act:art_44
+    summary: Notifizierte Stellen stellen Bescheinigungen in einer verständlichen Sprache aus. Eine Bescheinigung
+      gilt höchstens fünf Jahre für KI-Systeme, die als Sicherheitsbestandteil regulierter Produkte gelten,
+      und höchstens vier Jahre für die übrigen Hochrisiko-KI-Systeme. Sie kann nach Neubewertung um jeweils
+      die gleiche Höchstfrist verlängert werden. Erfüllt das System die Anforderungen für Hochrisiko-KI
+      nicht mehr, kann die Stelle die Bescheinigung aussetzen, widerrufen oder einschränken. Ein Einspruchsverfahren
+      ist vorgesehen.
+    source_sha: 6adc80f52d28735b6c40f85acdb3a21244fa957353ee0968663eaf34792729de
+    children: []
+  - node: ai_act:art_45
+    summary: Die notifizierten Stellen melden der notifizierenden Behörde alle Unionsbescheinigungen und
+      Qualitätsmanagementsystem-Genehmigungen, Änderungen, Verweigerungen, Einschränkungen und relevante
+      Umstände. Sie informieren andere notifizierte Stellen über verweigerte, ausgesetzte oder zurückgenommene
+      Genehmigungen und Bescheinigungen sowie über negative und auf Anfrage positive Bewertungsergebnisse.
+      Die notifizierende Behörde wahrt die Vertraulichkeit.
+    source_sha: 965f9703f627b37aed13ada4f556988d1819e53d9356285bc4d7d6f3bf8eec29
+    children: []
+  - node: ai_act:art_46
+    summary: Eine Marktüberwachungsbehörde kann aus Gründen der öffentlichen Sicherheit oder des Gesundheitsschutzes
+      die Nutzung eines Hochrisiko-KI-Systems genehmigen, obwohl das reguläre Konformitätsbewertungsverfahren
+      noch nicht abgeschlossen ist. Die Genehmigung gilt nur, solange das System die Anforderungen erfüllt,
+      und muss bei Einsatz durch Strafverfolgungs- oder Katastrophenschutzbehörden beantragt werden.
+    source_sha: b2adf6380815e007a961b088eb2482126d0560cf174fd22f05f7e15605f352b8
+    children: []
+  - node: ai_act:art_47
+    summary: Der Anbieter stellt für jedes Hochrisiko-KI-System eine EU-Konformitätserklärung aus und
+      bewahrt sie zehn Jahre lang auf. Sie belegt die Erfüllung der Anforderungen für Hochrisiko-KI-Systeme
+      und enthält die vorgeschriebenen Angaben über das System und den Anbieter. Der Anbieter ist verantwortlich.
+      Die Kommission kann delegierte Rechtsakte erlassen, um die vorgeschriebenen Angaben anzupassen.
+    source_sha: 98902f65fb83a30f305165d8b653dda8d01bdbbe9e9b207c7dcf8620a2993131
+    children: []
+  - node: ai_act:art_48
+    summary: Der Text verlangt, dass Hochrisiko-KI-Systeme ein CE-Kennzeichen erhalten. Es muss am System
+      oder an Verpackung angebracht werden. Bei Systemen, die digital bereitgestellt werden, muss das
+      Kennzeichen über die Schnittstelle oder einen maschinenlesbaren Code zugänglich sein. Die Kennzeichnung
+      kann die Nummer der zuständigen notifizierten Stelle enthalten und dort genannt werden.
+    source_sha: d78cb17d5cec4a64b665706cb6f21ce02a1a7913261e8609ee04f2bfe799f310
+    children: []
+  - node: ai_act:art_49
+    summary: Bevor ein Hochrisiko-KI-System in Verkehr gebracht oder in Betrieb genommen wird, muss der
+      Anbieter oder sein Bevollmächtigter das System und sich selbst in der EU-Datenbank registrieren.
+      Behörden, die ein solches System betreiben, registrieren sich ebenfalls. Systeme für kritische Infrastruktur
+      werden auf nationaler Ebene registriert. Systeme in den Bereichen Strafverfolgung, Migration, Asyl
+      und Grenzkontrolle werden in einem gesicherten, nicht-öffentlichen Teil der Datenbank erfasst, zu
+      dem nur die Kommission und zuständige nationale Behörden Zugang haben.
+    source_sha: 53e20741b7bac2e370718b4fdc3ab6850c98d7abfa7ccd9a0db41595ad9d2793
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

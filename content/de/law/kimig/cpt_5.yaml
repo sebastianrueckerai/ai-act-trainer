@@ -1,0 +1,39 @@
+node: kimig:cpt_5
+summary: Der Teil regelt die Bußgeldvorschriften für Verstöße gegen die EU-KI-Verordnung. Er verpflichtet
+  alle, die geforderte Dokumentation, Zugänge, Grundrechte-Folgenabschätzungen, Aktualisierungen, Mitteilungen
+  oder behördliche Anfragen nicht korrekt, vollständig oder rechtzeitig erfüllen, insbesondere Betreiber
+  von Hochrisiko-KI-Systemen, zur Zahlung von Geldbußen bis zu fünfzigtausend Euro. Für die Durchsetzung
+  gelten die allgemeinen Regeln des Ordnungswidrigkeitengesetzes, ausgenommen Bestimmungen zu Bußgeldhöhe
+  und Vollstreckung, sowie das Strafprozess- und Gerichtsverfassungsgesetz. Die zuständigen Verwaltungsbehörden
+  fungieren als Markt- und Notifizierungsbehörden; gegen sie können nach dem Bundesdatenschutzgesetz keine
+  Bußgelder verhängt werden.
+source_sha: 6a1e9f8b51e13e314bc9ea80ff5feb13accde71e3acad9c0c8470a2a86e1d774
+children:
+- node: kimig:sec_15
+  summary: Die Vorschrift definiert Ordnungswidrigkeiten für Verstöße gegen die EU-KI-Verordnung. Sie
+    bindet alle, die Informationen, Dokumentationen, Zugänge, Grundrechte-Folgenabschätzungen, Aktualisierungen,
+    Mitteilungen oder behördliche Anfragen nicht korrekt, vollständig oder rechtzeitig erfüllen, insbesondere
+    Betreiber von Hochrisiko-KI-Systemen, die Betroffenen keine vorgeschriebene Erläuterung geben. Bei
+    Verstoß droht eine Geldbuße bis zu fünfzigtausend Euro.
+  source_sha: 95a9d11ffce06927468bdf8737fbe488d15d6d2070f78691189be2e2f118f307
+  children: []
+- node: kimig:sec_16
+  summary: Für Verstöße gegen die KI-Verordnung werden, sofern das Gesetz nichts anderes vorsieht, die
+    Regeln des Ordnungswidrigkeitengesetzes angewendet. Bestimmte Vorschriften, die die Höhe von Bußgeldern
+    und deren Vollstreckung regeln, finden keine Anwendung. Zusätzlich gelten die Strafprozess- und Gerichtsverfassungsvorschriften.
+    Die Staatsanwaltschaft darf das Verfahren nur mit Zustimmung der Behörde, die den Bußgeldbescheid
+    erlassen hat, einstellen.
+  source_sha: 08f8419e000d823b5cb41226510b71816ac42ea15f67f15ac2090ff5c5cc2cde
+  children: []
+- node: kimig:sec_17
+  summary: Die Vorschrift legt fest, dass Verwaltungsbehörden, die nach dem Gesetz über Ordnungswidrigkeiten
+    definiert sind, als Marktüberwachungsbehörden, notifizierende Behörden und weitere Stellen für ihren
+    jeweiligen Aufgabenbereich fungieren. In den genannten Fällen dürfen gegen Behörden und öffentliche
+    Stellen nach dem Bundesdatenschutzgesetz keine Geldbußen verhängt werden.
+  source_sha: 1a6dd14e34e593f9df1c1aa96fdf0fae6e33f83336cb6bd1521b8ff446a45132
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

@@ -1,0 +1,38 @@
+id: q-01-13
+chapter: 01-warum-es-dich-betrifft
+type: yes_no
+difficulty: 2
+question: >-
+  Fürs Firmenjubiläum erzeugt das Marketing ein Video, in dem unsere Geschäftsführerin
+  einen Satz sagt, den sie nie gesagt hat, und stellt es auf die Website. Muss
+  dabeistehen, dass das Video erzeugt ist?
+correct: "yes"
+rubric:
+  must:
+    - point: nennt, dass es dabeistehen muss
+    - point: nennt, dass unser Unternehmen das dazuschreibt
+      ask: >-
+        Das Marketing fragt, wer den Hinweis jetzt dazuschreiben muss. Was sagst du?
+  should:
+    - >-
+      begründet es damit, dass das Video eine wirkliche Person etwas sagen lässt,
+      was sie nie gesagt hat
+    - nennt, dass die Pflicht bei uns liegt, weil wir das Video einsetzen
+    - nennt, dass die Pflicht für ein Chatfenster dagegen den Anbieter trifft
+    - nennt Art. 50 Abs. 4 für die Offenlegung
+model_answer: >-
+  Ja, es muss dabeistehen, denn das Video zeigt eine wirkliche Person mit einer
+  Aussage, die sie nie gemacht hat. Offenlegen muss das unser Unternehmen, weil es
+  das Video einsetzt.
+explanation: >-
+  Art. 50 Abs. 4 verpflichtet Betreiber eines KI-Systems, das Bild-, Ton- oder
+  Videoinhalte erzeugt oder manipuliert, die ein Deepfake sind, offenzulegen, dass
+  die Inhalte künstlich erzeugt oder manipuliert wurden. Die Pflicht aus Art. 50
+  Abs. 1 für ein Chatfenster trifft dagegen den Anbieter und passt hier nicht,
+  denn beim Deepfake liegt sie bei uns, weil wir das Video einsetzen.
+citations: ["Art. 50(4)", "Art. 50(1)"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why

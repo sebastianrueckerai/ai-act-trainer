@@ -1,0 +1,67 @@
+node: gdpr:cpt_IX
+summary: Der Abschnitt legt Regeln für die Verarbeitung personenbezogener Daten fest. Er verlangt, dass
+  die Mitgliedstaaten das Recht auf Datenschutz mit der Meinungs- und Informationsfreiheit vereinbaren
+  und Ausnahmen für journalistische, wissenschaftliche, künstlerische oder literarische Tätigkeiten zulassen
+  können. Er regelt den Zugang zu amtlichen Dokumenten, die Nutzung nationaler Kennziffern, die Verarbeitung
+  von Beschäftigtendaten sowie Daten für Archiv-, Forschungs- und Statistikzwecke. Er erlaubt Ausnahmen
+  von Betroffenenrechten, definiert Geheimhaltungspflichten für bestimmte Berufsgruppen und berücksichtigt
+  kirchliche Datenschutzvorschriften. Die Mitgliedstaaten müssen die Regelungen und Änderungen der Kommission
+  melden. Die Bestimmungen gelten, sobald die genannte Verarbeitungstätigkeit stattfindet.
+source_sha: 6572bd6e27921532dd5b21b4cd54e3a56daab395bcaa5c68b5f15ba577c4ad4e
+children:
+- node: gdpr:art_85
+  summary: Die Mitgliedstaaten müssen das Recht auf Schutz personenbezogener Daten mit der Freiheit der
+    Meinungsäußerung und Informationsfreiheit vereinbaren. Sie dürfen für journalistische, wissenschaftliche,
+    künstlerische oder literarische Verarbeitung Ausnahmen von den allgemeinen Datenschutzvorschriften
+    zulassen, wenn nötig, und müssen diese Regelungen sowie Änderungen der Kommission melden.
+  source_sha: d347d96d8c57838851f81d9606d990501be140a064be168ed9179acb3c3e5eae
+  children: []
+- node: gdpr:art_86
+  summary: Die Vorschrift regelt die Verarbeitung und den Zugang zu amtlichen Dokumenten. Behörden oder
+    Einrichtungen dürfen personenbezogene Daten in diesen Dokumenten offenlegen, wenn das Unionsrecht
+    oder das nationale Recht es erlaubt, um den Zugang zu ermöglichen und den Datenschutz der Verordnung
+    zu wahren.
+  source_sha: d5217332230a22e3ede174a1228ea87e578e5a4b824799a836d19ca8800cf22a
+  children: []
+- node: gdpr:art_87
+  summary: Die Mitgliedstaaten dürfen festlegen, unter welchen Bedingungen eine nationale Kennziffer oder
+    ein sonstiges allgemein bedeutendes Kennzeichen verarbeitet werden darf. Die Verarbeitung ist nur
+    zulässig, wenn geeignete Garantien zum Schutz der Rechte und Freiheiten der betroffenen Personen nach
+    dieser Verordnung gewährleistet sind.
+  source_sha: 2d6d7b5e2e68574cb1a1932cec262fa0be99a52cb06cefdf222c3e444263fb50
+  children: []
+- node: gdpr:art_88
+  summary: Die Mitgliedstaaten dürfen durch Gesetze oder Kollektivvereinbarungen besondere Regeln für
+    die Verarbeitung von Beschäftigtendaten festlegen. Sie schützen Rechte, Würde und Grundrechte bei
+    Einstellung, Vertragsausführung, Management, Gleichheit, Sicherheit, Eigentum, Rechteausübung und
+    Beendigung. Sie müssen die Kommission über die Regelungen und Änderungen informieren.
+  source_sha: a40da7fde7f1c821f8419d9e6afa9cf1e704cc6d1f5976d551d78b40f431aa96
+  children: []
+- node: gdpr:art_89
+  summary: Die Vorschrift verlangt, dass bei Verarbeitung zu öffentlichen Archivzwecken, wissenschaftlichen,
+    historischen Forschungszwecken oder statistischen Zwecken geeignete Garantien für die Rechte der Betroffenen
+    bestehen. Sie fordert Datenminimierung, ermöglicht Pseudonymisierung und erlaubt Ausnahmen von Auskunft,
+    Berichtigung, Löschung, Einschränkung, Widerspruch und Datenübertragbarkeit, wenn diese Rechte Zielerreichung
+    unmöglich machen.
+  source_sha: 905f05c99e95ccd84e91735e96b846de089f65c997eda1c088becf540c811a60
+  children: []
+- node: gdpr:art_90
+  summary: Die Mitgliedstaaten dürfen die Befugnisse der Aufsichtsbehörden gegenüber Verantwortlichen
+    und Auftragsverarbeitern, die einer Berufs- oder vergleichbaren Geheimhaltungspflicht unterliegen,
+    nach Verhältnismäßigkeit regeln. Gilt nur für personenbezogene Daten, die im Rahmen einer geheimhaltungspflichtigen
+    Tätigkeit erhoben wurden. Jeder Mitgliedstaat muss die Vorschriften bis 25. Mai 2018 Kommission melden
+    und Änderungen mitteilen.
+  source_sha: 47aa1769df852ffffa0797ab2a1e60b33e82253afc2f5b1f3319a5e516feb8df
+  children: []
+- node: gdpr:art_91
+  summary: Kirchen, religiöse Vereinigungen oder Gemeinschaften, die zum Inkrafttreten der Verordnung
+    bereits umfassende Datenschutzregeln haben, dürfen diese weiter nutzen, wenn sie mit der Verordnung
+    vereinbar sind. Sie unterliegen einer unabhängigen Aufsichtsbehörde, die die Bedingungen erfüllt, die
+    die Verordnung an Aufsichtsbehörden stellt.
+  source_sha: 705237d9d68289b6008343631dcd67525832ca4c3d92b5a9729846280379d990
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

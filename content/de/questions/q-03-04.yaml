@@ -1,0 +1,32 @@
+id: q-03-04
+chapter: 03-was-dein-arbeitgeber-tun-muss
+type: multiple_choice
+difficulty: 2
+question: >-
+  Das Entwicklerteam bekommt eine zweitägige Schulung am System, das Büroteam
+  diesen Kurs. Was gilt für die unterschiedlichen Maßnahmen?
+options:
+  - key: A
+    text: Der Kollege hat recht, alle brauchen dieselbe Schulung.
+  - key: B
+    text: >-
+      Die Maßnahmen dürfen sich nach Vorkenntnissen, Ausbildung und Einsatz
+      richten und deshalb unterschiedlich tief ausfallen.
+  - key: C
+    text: Darüber entscheidet die Marktüberwachungsbehörde im Einzelfall.
+correct: B
+model_answer: >-
+  B. Verlangt sind Maßnahmen, die zu den Leuten und zu ihrem Einsatz passen, nicht
+  dieselbe Schulung für alle.
+explanation: >-
+  Art. 4 Abs. 1 nennt als Maßstab die technischen Kenntnisse, die Erfahrung, die
+  Aus- und Fortbildung des Personals und den Kontext, in dem die KI-Systeme
+  eingesetzt werden sollen, und macht die Maßnahmen damit von der Zielgruppe
+  abhängig. Das Q&A der Kommission zur KI-Kompetenz, Frage 17, bestätigt, dass
+  unterschiedliche Ausbildungsniveaus oder Lernansätze angemessen sein können.
+citations: ["Art. 4(1)", "Q&A 17"]
+last_change:
+  date: 2026-09-22
+  by: ai
+  trigger: chapter in shape B
+  summary: "Nachbarfall zu Schritt 4: zwei Teams, zwei Tiefen derselben Maßnahme"

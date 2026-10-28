@@ -1,0 +1,502 @@
+node: betrvg:cpt_2
+summary: Der zweite Teil des Betriebsverfassungsgesetzes regelt den Betriebsrat, die Betriebsversammlung,
+  den Gesamt- und den Konzernbetriebsrat. Er bestimmt, wer wahlberechtigt ist, wie groß der Rat sein muss
+  und wie die Wahl abläuft. Er legt die vierjährige Amtszeit, Übergangs- und Restmandate sowie Ausschluss-
+  und Auflösungsrechte fest. Er regelt die Wahl von Vorsitzenden, die Bildung von Ausschüssen, Sitzungen
+  und Kostenübernahme. Er schreibt regelmäßige Betriebsversammlungen, deren Ablauf und Beteiligung von
+  Arbeitgeber und Gewerkschaften vor. Er definiert die Bildung, Zusammensetzung, Stimmrechte und Aufgaben
+  von Gesamt- und Konzernbetriebsräten sowie deren Rechtsmittel bei Pflichtverletzungen.
+source_sha: 781e1c4d84b7e7462c32ac6cd05bd78986c354cef0f9800334a002390cbbc216
+children:
+- node: betrvg:cpt_2.sct_1
+  summary: Der Abschnitt legt fest, wer im Betrieb wählen und gewählt werden darf, wie groß der Betriebsrat
+    sein muss, wann und wie die Wahl durchzuführen ist und welche Schutz- und Kostenregeln gelten. Er
+    gilt für alle Betriebe mit mindestens fünf wahlberechtigten Beschäftigten und tritt bei jeder Betriebsratswahl
+    in Kraft.
+  source_sha: 16f16d34862f5e7566550332a2e622193db0e098b0f14dbbc4727df06dabf679
+  children:
+  - node: betrvg:sec_7
+    summary: Regelt, wer im Betrieb wählen darf. Wahlberechtigt sind alle Beschäftigten, die das 16. Lebensjahr
+      vollendet haben. Auch Leiharbeitnehmer dürfen wählen, wenn sie länger als drei Monate im Betrieb
+      tätig sind.
+    source_sha: eeaf3c4c05835a5e10e7ca1736ab0c10295cba9b81a6fa008f9a2dc7df606638
+    children: []
+  - node: betrvg:sec_8
+    summary: Wählbar sind alle Wahlberechtigten ab 18 Jahren, die mindestens sechs Monate im Betrieb beschäftigt
+      sind oder hauptsächlich im Home-Office für den Betrieb gearbeitet haben. Zeiten im selben Unternehmen
+      zählen. Wer durch strafrechtliche Verurteilung das Wahlrecht verloren hat, ist ausgeschlossen. Besteht
+      der Betrieb kürzer, dürfen bei Wahlbeginn Beschäftigte wählen, die die übrigen Voraussetzungen erfüllen.
+    source_sha: f27e08665bd7c449ae8ef9c920c036c622c91278c6968bb7e8c488668c8648c1
+    children: []
+  - node: betrvg:sec_9
+    summary: Der Text legt fest, wie viele Mitglieder ein Betriebsrat haben muss, abhängig von der Zahl
+      der wahlberechtigten Arbeitnehmer im Betrieb. Er gilt für alle Betriebe mit mindestens fünf wahlberechtigten
+      Beschäftigten und tritt bei Neuwahl des Betriebsrats in Kraft.
+    source_sha: 42ed7a52f2ecbea9353848a2633bcd60cc32fbbd45278bafd8de471ce0ba0496
+    children: []
+  - node: betrvg:sec_11
+    summary: Fehlt im Betrieb die erforderliche Anzahl wählbarer Arbeitnehmer, wird die Größe des Betriebsrats
+      nach der nächstniedrigeren Betriebsgröße bestimmt. Die Regel reduziert die Zahl der Betriebsratsmitglieder,
+      wenn die Schwelle für die aktuelle Größe nicht erreicht wird, und muss dann entsprechend angepasst
+      werden.
+    source_sha: 8311ae246e7cd8867b9561b1bae342381b86ec33c2c8e5022b035491c80342c1
+    children: []
+  - node: betrvg:sec_13
+    summary: Betriebsratswahlen finden alle vier Jahre zwischen 1. März und 31. Mai statt und laufen zusammen
+      mit den Wahlen des Sprecherausschusses. Außerhalb dieses Zeitraums wählt man, wenn die Beschäftigtenzahl
+      schwankt, die Mitgliederzahl unterschreitet, der Rat zurücktritt, die Wahl angefochten wird, ein
+      Gericht den Rat auflöst oder kein Rat besteht.
+    source_sha: c5e0f76ec7bdc272b21349748392b09889597998613e4f8f6ffa43b1656d6ef1
+    children: []
+  - node: betrvg:sec_14
+    summary: 'Die Wahl des Betriebsrats erfolgt geheim und unmittelbar. Sie folgt dem Prinzip der Verhältniswahl,
+      wechselt zur Mehrheitswahl bei nur einem Wahlvorschlag oder im vereinfachten Verfahren. Arbeitnehmer
+      und Gewerkschaften dürfen Wahlvorschläge einreichen. Unterschriftenpflicht richtet sich nach Betriebsgröße:
+      bis 20 keine, 21-100 mindestens zwei Arbeitnehmer, über 100 mindestens ein Zwanzigstel, stets mindestens
+      50 Arbeitnehmer. Gewerkschaftsvorschläge benötigen die Unterschrift von zwei Beauftragten.'
+    source_sha: e2493c86c6c929046a5260e7219f4e5d73cbcfd82ec3618c1b149e2d9d58af48
+    children: []
+  - node: betrvg:sec_14a
+    summary: Das vereinfachte Wahlverfahren bestimmt die Betriebsratswahl in Betrieben mit fünf bis hundert
+      wahlberechtigten Beschäftigten. Zuerst Wahlvorstand, dann Betriebsrat. Wird der Wahlvorstand vom
+      Arbeitsgericht bestellt, gibt es nur eine Versammlung. Für Betriebe bis zweihundert Beschäftigte
+      kann das Verfahren durch Vereinbarung zwischen Wahlvorstand und Arbeitgeber angewendet werden.
+    source_sha: 47a82038fef60497290aaae1b6be38c06811603c2b5f309b2f63fe546d48f0f7
+    children: []
+  - node: betrvg:sec_15
+    summary: Die Vorschrift verlangt, dass der Betriebsrat aus Beschäftigten aller Organisationsbereiche
+      und Beschäftigungsarten besteht. Das in der Belegschaft zahlenmäßig unterrepräsentierte Geschlecht
+      muss mindestens entsprechend seinem Anteil vertreten sein, sofern der Rat mindestens drei Mitglieder
+      hat. Gilt für neu gewählte Betriebsräte nach Inkrafttreten der Reform.
+    source_sha: 23298907d14567ecac236d19ed63b2d9ad64c013b4bf8a38d68c3a051b06e33a
+    children: []
+  - node: betrvg:sec_16
+    summary: Der Betriebsrat bestellt zehn Wochen vor Amtsende einen Wahlvorstand aus drei Wahlberechtigten
+      mit Vorsitzendem. Er kann weitere Mitglieder und ein nicht stimmberechtigtes Gewerkschaftsmitglied
+      bestimmen. Fehlt der Vorstand, kann das Arbeitsgericht, der Gesamt- oder Konzernbetriebsrat ihn
+      auf Antrag von Wahlberechtigten oder einer Gewerkschaft einsetzen.
+    source_sha: e656e7481e49a4444c2f98d134dc85f3b1d3d6e99382bfd06e8edc0253537bbc
+    children: []
+  - node: betrvg:sec_17
+    summary: In Betrieben, die die Voraussetzungen erfüllen und keinen Betriebsrat haben, bestellt der
+      Gesamt- oder Konzernbetriebsrat einen Wahlvorstand. Gibt es keinen solchen Gremium, wählen die anwesenden
+      Arbeitnehmer den Wahlvorstand. Findet keine Versammlung statt oder wird kein Wahlvorstand gewählt,
+      bestellt das Arbeitsgericht ihn auf Antrag von mindestens drei wahlberechtigten Arbeitnehmern oder
+      einer im Betrieb vertretenen Gewerkschaft.
+    source_sha: 33c185b57036ab4560864a956647fe2dedcade13315f89d26f90168d56d446d0
+    children: []
+  - node: betrvg:sec_17a
+    summary: Regelt die Bestellung des Wahlvorstands im vereinfachten Wahlverfahren. Fristen für Wahlvorschläge
+      und Bekanntmachung werden auf vier bzw. drei Wochen verkürzt. Schriftliche Zustimmung entfällt.
+      Der Vorstand wird von der Mehrheit der anwesenden Arbeitnehmer in einer Wahlversammlung gewählt;
+      die Einladung folgt den Regeln. Gilt im vereinfachten Verfahren.
+    source_sha: f247b1e1fa350d2073ca6b5290cc3a9523f38e857035f952ef2195e881487ca1
+    children: []
+  - node: betrvg:sec_18
+    summary: Der Wahlvorstand muss die Wahl sofort einleiten, durchführen und das Ergebnis feststellen.
+      Versagt er, ersetzt das Arbeitsgericht ihn auf Antrag des Betriebsrats, von mindestens drei wahlberechtigten
+      Arbeitnehmern oder einer im Betrieb vertretenen Gewerkschaft. Die Regel zum Ersatz gilt analog.
+      Bei Zweifel an einer betriebsratsfähigen Organisationseinheit können Arbeitgeber, beteiligte Betriebsräte,
+      Wahlvorstände oder Gewerkschaften das Arbeitsgericht um Entscheidung bitten. Nach der Wahl zählt
+      der Wahlvorstand die Stimmen öffentlich, protokolliert das Ergebnis, informiert die Arbeitnehmer
+      und schickt eine Abschrift an Arbeitgeber und Gewerkschaften.
+    source_sha: bb2517ff70ac32a13a86137a4b66ae85143d6182da743da20c3ac8c5b8ad8fc8
+    children: []
+  - node: betrvg:sec_18a
+    summary: Regelt die Zuordnung leitender Angestellter, wenn die Wahl des Betriebsrats und die Wahl
+      des Sprecherausschusses gleichzeitig eingeleitet werden. Wahlvorstände müssen sich unverzüglich
+      informieren, eine Einigung anstreben und bei Scheitern einen Vermittler aus den Beschäftigten einsetzen;
+      der Arbeitgeber muss den Vermittler unterstützen. Die Zuordnung schließt den Rechtsweg nicht aus,
+      Anfechtungen wegen fehlerhafter Zuordnung sind nur bei offensichtlichen Fehlern zulässig.
+    source_sha: d879f7869d98270191597c02c43d6e896789ba29045f9572946d9c74ff152276
+    children: []
+  - node: betrvg:sec_19
+    summary: Die Wahl kann beim Arbeitsgericht angefochten werden, wenn wesentliche Vorschriften zum Wahlrecht,
+      zur Wählbarkeit oder zum Wahlverfahren verletzt wurden und nicht korrigiert wurden, es sei denn,
+      die Verletzung konnte das Ergebnis nicht beeinflussen. Anfechten dürfen mindestens drei Wahlberechtigte,
+      eine im Betrieb vertretene Gewerkschaft oder der Arbeitgeber. Die Frist beträgt zwei Wochen ab Bekanntgabe
+      des Wahlergebnisses. Eine Anfechtung wegen falscher Wählerliste ist nur zulässig, wenn zuvor ordnungsgemäß
+      Einspruch eingelegt wurde, außer der Anfechtende war daran gehindert. Der Arbeitgeber kann nicht
+      wegen einer falschen Wählerliste anfechten, wenn die Unrichtigkeit auf seinen Angaben beruht.
+    source_sha: aeceb69ed2f801417db1fb02aa871695de2eff59c0dda5c429f95196c7daefbb
+    children: []
+  - node: betrvg:sec_20
+    summary: Der Wahlschutz und Wahlkosten verbietet, dass jemand die Wahl des Betriebsrats behindert
+      oder das aktive und passive Wahlrecht einschränkt. Er untersagt Einflussnahme durch Drohungen oder
+      Versprechen. Der Arbeitgeber trägt alle Wahlkosten und darf das Arbeitsentgelt für Wahlzeiten nicht
+      mindern.
+    source_sha: 4449434000cbbd8aad25912c0a38699d88d039ce09535a0ceafa9e4fe383ed36
+    children: []
+- node: betrvg:cpt_2.sct_2
+  summary: Der Abschnitt legt die Dauer und den Ablauf der Amtszeit von Betriebsräten fest. Er bestimmt,
+    dass ein Betriebsrat vier Jahre gewählt wird, wann die Amtszeit beginnt und endet. Er regelt Übergangs-
+    und Restmandate bei Betriebsspalten, -zusammenlegungen, -veräußerungen oder -umwandlungen, sodass
+    der bisherige Rat bis zur Wahl eines Nachfolgers weiterarbeitet. Er erlaubt die Fortführung der Geschäfte,
+    wenn das Mandat endet. Er gibt Beschäftigten, Arbeitgebern und Gewerkschaften das Recht, bei Pflichtverletzungen
+    Ausschluss oder Auflösung zu beantragen, und definiert die Beendigung der Mitgliedschaft sowie die
+    Nachbesetzung durch Ersatzmitglieder.
+  source_sha: b5058bd2075a46711517205396a9ff248304158ec1cbbca0cd28c37fb499d8c0
+  children:
+  - node: betrvg:sec_21
+    summary: Der Betriebsrat wird für vier Jahre gewählt. Die Amtszeit beginnt mit der Bekanntgabe des
+      Wahlergebnisses oder, falls ein Rat noch im Amt ist, nach dessen Ablauf. Sie endet spätestens am
+      31. Mai des Jahres, in dem reguläre Betriebsratswahlen stattfinden, oder bei vorgezogenen Wahlen
+      sofort nach Bekanntgabe des neuen Wahlergebnisses.
+    source_sha: b0ea7b9b44657a969eccec294fbae33ccc1f3f0734bfb1841110bb00a1389dee
+    children: []
+  - node: betrvg:sec_21a
+    summary: Bei einer Betriebsspalte bleibt der bisherige Betriebsrat im Amt und führt die Geschäfte
+      für die betroffenen Betriebsteile weiter, solange die Voraussetzungen erfüllt sind und kein anderer
+      Betriebsrat vorhanden ist. Er bestellt sofort Wahlvorstände. Das Übergangsmandat endet, sobald in
+      den Teilen ein neuer Betriebsrat gewählt ist, spätestens jedoch nach sechs Monaten; durch Tarifvertrag
+      oder Betriebsvereinbarung kann es um weitere sechs Monate verlängert werden. Bei einer Betriebszusammenlegung
+      übernimmt der Betriebsrat des größten Teils das Übergangsmandat. Die Regel gilt auch bei Betriebsveräußerungen
+      und Umwandlungen.
+    source_sha: ab897b608d5501d3007cb37a4075c457d613212d639682443e0ddd75f380c7e1
+    children: []
+  - node: betrvg:sec_21b
+    summary: Regelt das Restmandat des Betriebsrats. Bleibt ein Betrieb stillgelegt, gespalten oder zusammengelegt,
+      bleibt der Betriebsrat im Amt, solange er die mit dem Vorgang verbundenen Mitwirkungs- und Mitbestimmungsrechte
+      ausüben muss.
+    source_sha: bf57dbaeeceb1f24f6fe62b7b89728ce2df1e33530bf5860828c9436a0a34d7f
+    children: []
+  - node: betrvg:sec_22
+    summary: Wenn der Betriebsrat wegen der im Gesetz genannten Gründe, die das Ende seiner Amtszeit betreffen,
+      seine Tätigkeit verliert, führt er die Geschäfte weiter, bis ein neuer Betriebsrat gewählt und das
+      Wahlergebnis veröffentlicht ist.
+    source_sha: 9e43d71ce5c91865c54910d564bf328d9790fbbd0aeb372ae8b0e8380809bfb4
+    children: []
+  - node: betrvg:sec_23
+    summary: Ein Viertel der wahlberechtigten Beschäftigten, der Arbeitgeber oder eine im Betrieb vertretene
+      Gewerkschaft können beim Arbeitsgericht die Ausschließung eines Betriebsratsmitglieds oder die Auflösung
+      des Betriebsrats wegen Pflichtverletzung beantragen. Das Gericht kann bei Verstoß des Arbeitgebers
+      Ordnungsgeld oder Zwangsgeld bis zu 10 000 Euro verhängen.
+    source_sha: aa6beb330d93bde7b6d96227d7c89ed7d474c5e5cc8b5e9535243a035dd78c0e
+    children: []
+  - node: betrvg:sec_24
+    summary: Die Regel beendet die Mitgliedschaft im Betriebsrat, wenn die Amtszeit endet, das Amt niedergelegt
+      wird, das Arbeitsverhältnis endet, die Wahlberechtigung verloren geht, ein Ausschluss erfolgt oder
+      der Betriebsrat durch Gericht aufgelöst wird. Sie gilt für alle Mitglieder des Betriebsrats, sobald
+      einer dieser Fälle eintritt.
+    source_sha: 264e9e59d95c1f335fcf3870822bf2f4696a001d844e654508dd2e46193407fa
+    children: []
+  - node: betrvg:sec_25
+    summary: Verlässt ein Betriebsratsmitglied das Gremium oder ist vorübergehend verhindert, rückt ein
+      Ersatzmitglied nach. Das Ersatzmitglied wird aus den nichtgewählten Arbeitnehmern der gleichen Vorschlagsliste
+      gewählt, nach ihrer Reihenfolge. Ist die Liste leer, wird von der nächsten Liste nach dem Verhältniswahlprinzip
+      gewählt. Bei Mehrheitswahl bestimmt die Stimmenzahl die Reihenfolge.
+    source_sha: 2cb923c1b1759db48f9c81aa117c52235e5b17629a6c4e5d0aa7a13c7edbbbe0
+    children: []
+- node: betrvg:cpt_2.sct_3
+  summary: Der Abschnitt regelt die interne Geschäftsführung des Betriebsrats. Er bestimmt, dass der Betriebsrat
+    aus seiner Mitte einen Vorsitzenden und Stellvertreter wählt, die den Rat vertreten. Er erlaubt die
+    Bildung von Betriebsausschüssen und Arbeitsgruppen in Betrieben mit mehr als hundert Beschäftigten
+    und überträgt ihnen Aufgaben. Er legt fest, wie Sitzungen einberufen, geleitet und protokolliert werden,
+    wer beraten darf und wie Beschlüsse gefasst werden. Er regelt die Freistellung, Kostenübernahme durch
+    den Arbeitgeber und das Verbot von Beiträgen für den Betriebsrat. Die Regeln gelten für jeden Betrieb
+    mit einem Betriebsrat.
+  source_sha: fdfd956cf98cc9b86cf1471ccd9f98c9d53a44e1bc777ab2ceb4cf43b99ac003
+  children:
+  - node: betrvg:sec_26
+    summary: Der Betriebsrat wählt aus seiner Mitte einen Vorsitzenden und einen Stellvertreter. Der Vorsitzende
+      oder, bei seiner Verhinderung, der Stellvertreter vertritt den Betriebsrat nach dessen Beschlüssen
+      und nimmt Erklärungen entgegen, die an den Betriebsrat gerichtet sind. Diese Regel gilt bei jeder
+      Vertretung und Kommunikation des Betriebsrats.
+    source_sha: f7d967880048556735edeecad09cfa358a8b09acdcdfd0d0e92524d2ed1deda8
+    children: []
+  - node: betrvg:sec_27
+    summary: Der Betriebsausschuss wird gebildet, wenn der Betriebsrat mindestens neun Mitglieder hat.
+      Er besteht aus dem Vorsitzenden, dessen Stellvertreter und einer festgelegten Zahl weiterer Mitglieder,
+      die geheim und nach Verhältniswahl gewählt werden. Der Ausschuss führt die laufenden Geschäfte des
+      Betriebsrats und kann Aufgaben erhalten, jedoch nicht den Abschluss von Betriebsvereinbarungen.
+    source_sha: 098be38018336591cb61109497b61f44e103ed558951fe9e79324bfb03881c3e
+    children: []
+  - node: betrvg:sec_28
+    summary: Der Betriebsrat kann in Betrieben mit mehr als hundert Beschäftigten Ausschüsse einrichten
+      und ihnen Aufgaben übertragen. Die Wahl und Abberufung der Ausschussmitglieder erfolgt nach den
+      gleichen Regeln wie bei den Betriebsratsmitgliedern. Der Betriebsrat kann den Ausschüssen eigenständige
+      Aufgaben und Entscheidungsbefugnisse übertragen, wobei die Mitglieder vom Betriebsrat und vom Arbeitgeber
+      benannt werden.
+    source_sha: 38159511eab25281e58972cb2a011b37203d40ec29f99d9c98d465530f3a12fe
+    children: []
+  - node: betrvg:sec_28a
+    summary: In Betrieben mit über 100 Beschäftigten kann der Betriebsrat mit Mehrheit seiner Stimmen
+      Aufgaben an Arbeitsgruppen übertragen, wenn eine Rahmenvereinbarung besteht. Die Übertragung kann
+      widerrufen werden. Die Gruppe kann Vereinbarungen schließen, die einer Mehrheitsentscheidung der
+      Gruppenmitglieder bedürfen. Bei Uneinigkeit übernimmt der Betriebsrat das Beteiligungsrecht.
+    source_sha: 964ea217811e3c20093fc35c3938be99060d265ad3db341ef4e257d7ff639916
+    children: []
+  - node: betrvg:sec_29
+    summary: Der Wahlvorstand ruft die Betriebsratsmitglieder nach dem Wahltag zur Wahl ein; der Vorsitzende
+      leitet die erste Sitzung, bis der Betriebsrat einen Wahlleiter bestimmt. Danach beruft der Betriebsratsvorsitzende
+      die Sitzungen, legt die Tagesordnung fest, lädt alle Mitglieder, auch Vertreter von Schwerbehinderten,
+      Jugendlichen und Auszubildenden, ein und bestellt bei Abwesenheit ein Ersatzmitglied.
+    source_sha: fe5e8cf7a69fc258b68be9c4cef107decc4a39eaa5e79244fbb88068ca5a1d21
+    children: []
+  - node: betrvg:sec_30
+    summary: Der Paragraph regelt, dass Betriebsratssitzungen normalerweise während der Arbeitszeit stattfinden.
+      Der Arbeitgeber muss rechtzeitig informiert werden. Sitzungen sind nicht öffentlich und finden als
+      Präsenzsitzung statt, können aber per Video- oder Telefonkonferenz zugelassen werden, wenn die Geschäftsordnung
+      dies vorsieht, mindestens ein Viertel der Mitglieder nicht widerspricht und keine Dritten den Inhalt
+      erfahren. Aufzeichnungen sind verboten, und die persönliche Anwesenheit bleibt erforderlich.
+    source_sha: 5318e693750468ba5aa358a22ef486d09634fac8971ed021dca63f2c139eb065
+    children: []
+  - node: betrvg:sec_31
+    summary: Bei Antrag von mindestens einem Viertel der Betriebsratsmitglieder darf ein von einer im
+      Betriebsrat vertretenen Gewerkschaft bestellter Beauftragter die Sitzungen des Betriebsrats beratend
+      besuchen. Der Termin und die Tagesordnung müssen der Gewerkschaft rechtzeitig mitgeteilt werden.
+    source_sha: 06dbad86d176e5a01588075d4f75e03ae34cb0793caf348904e9d0de7b6a6772
+    children: []
+  - node: betrvg:sec_32
+    summary: Die Vertretung schwerbehinderter Beschäftigter darf bei jeder Sitzung des Betriebsrats als
+      Beraterin teilnehmen. Der Betriebsrat ist verpflichtet, ihr die Teilnahme zu ermöglichen. Sie kann
+      dabei Stellungnahmen abgeben und Fragen beantworten, jedoch kein Stimmrecht besitzen.
+    source_sha: 6c32ff8726befe4847f4d39a7c4e8506a007a523006e27b448cd83757b6fc66d
+    children: []
+  - node: betrvg:sec_33
+    summary: Regelt die Beschlussfassung des Betriebsrats. Beschlüsse werden mit der Mehrheit der Stimmen
+      der anwesenden Mitglieder gefasst; Teilnehmer per Video- oder Telefonkonferenz gelten als anwesend.
+      Bei Stimmengleichheit wird abgelehnt. Der Betriebsrat ist beschlussfähig, wenn mindestens die Hälfte
+      der Mitglieder teilnimmt; Ersatzmitglieder dürfen vertreten. Stimmen der Jugend- und Auszubildendenvertretung
+      werden bei der Mehrheitsfeststellung mitgezählt.
+    source_sha: 0499d64b4a806d21314654cd8a7b0142d66d4fab799af8e7ddc43405b14c3e4d
+    children: []
+  - node: betrvg:sec_34
+    summary: Für jede Verhandlung des Betriebsrats wird eine Niederschrift mit Wortlaut der Beschlüsse
+      und Stimmenmehrheit erstellt, vom Vorsitzenden und einem weiteren Mitglied unterschrieben und mit
+      einer Anwesenheitsliste versehen. Teilnahme per Video- oder Telefonkonferenz muss schriftlich bestätigt
+      werden. Arbeitgeber oder Gewerkschaftsbeauftragte erhalten den jeweiligen Teil. Einwendungen sind
+      unverzüglich schriftlich beizufügen. Betriebsratsmitglieder dürfen die Unterlagen jederzeit einsehen.
+    source_sha: 2aaeb463588a0ecbb2a947fb0b24e11943efc0c98342ed7d3cec12ba7504eb4e
+    children: []
+  - node: betrvg:sec_35
+    summary: Wenn die Mehrheit der Jugend- und Auszubildendenvertretung oder der Schwerbehindertenvertretung
+      einen Betriebsratsbeschluss als Beeinträchtigung von Interessen der Arbeitnehmer ansieht, können
+      sie den Beschluss für eine Woche aussetzen, um Verständigung zu erreichen. Nach Ablauf muss neu
+      beschlossen werden; eine erneute Aussetzung ist ausgeschlossen, selbst bei kleiner Änderung.
+    source_sha: 83ed73d367a8372a96e38dc004e7087f6602cb513b5333cb3042be890b56fa15
+    children: []
+  - node: betrvg:sec_36
+    summary: Der Betriebsrat muss für weitere Regelungen zur Geschäftsführung eine schriftliche Geschäftsordnung
+      erstellen. Diese wird von den Mitgliedern des Betriebsrats mit einfacher Mehrheit beschlossen. Die
+      Geschäftsordnung regelt die internen Abläufe und Zuständigkeiten der Unternehmensleitung und ist
+      verbindlich für alle Beteiligten.
+    source_sha: 523cabf149a58abee6e953d9670b3e6444f3e710275daf9ed1fea34ecdde1cb9
+    children: []
+  - node: betrvg:sec_37
+    summary: Betriebsratsmitglieder arbeiten ehrenamtlich. Der Arbeitgeber muss sie für ihre Aufgaben
+      freistellen, ohne Gehaltseinbußen. Tätigkeiten außerhalb der Arbeitszeit werden bezahlt oder als
+      Mehrarbeit vergütet. Das Gehalt bleibt bis ein Jahr nach dem Amt auf dem Niveau vergleichbarer Arbeitnehmer.
+      Mitglieder erhalten drei Wochen bezahlte Freistellung für anerkannte Schulungen, erstmals vier Wochen.
+    source_sha: d641f13ed6c889902fb042a869329521986f2ccda5e055df0264040e24a37f4d
+    children: []
+  - node: betrvg:sec_38
+    summary: Der Paragraph regelt, wie viele Betriebsratsmitglieder je nach Unternehmensgröße von ihrer
+      Arbeit freigestellt werden müssen. Er gilt für alle Betriebe mit mindestens 200 Beschäftigten. Freistellungen
+      können ganz oder teilweise sein und werden geheim gewählt. Der Arbeitgeber kann die Einigungsstelle
+      anrufen; bleibt er still, gilt seine Zustimmung nach zwei Wochen.
+    source_sha: 081c7dbb8328fdec2e1063ad11e0bc4bc15890b4f2d10f706bb82b9ccff84f00
+    children: []
+  - node: betrvg:sec_39
+    summary: Der Betriebsrat richtet während der Arbeitszeit Sprechstunden ein. Ort und Zeit werden mit
+      dem Arbeitgeber abgestimmt; fehlt die Einigung, entscheidet die Einigungsstelle und ersetzt die
+      Vereinbarung. Ein Mitglied der Jugend- und Auszubildendenvertretung kann teilnehmen, wenn diese
+      keine eigenen Sprechstunden hat. Die dafür aufgewendete Arbeitszeit darf nicht vom Lohn abgezogen
+      werden.
+    source_sha: fc8dcf346a980dfc24be0e4c3b34139ebd2d5c0d1b75969c61204348f50f6586
+    children: []
+  - node: betrvg:sec_40
+    summary: Der Arbeitgeber trägt alle Kosten, die durch die Tätigkeit des Betriebsrats entstehen. Er
+      muss für Sitzungen, Sprechstunden und die laufende Geschäftsführung geeignete Räume, sachliche Mittel,
+      Informations- und Kommunikationstechnik sowie Büropersonal bereitstellen.
+    source_sha: fbf2f201d3f90eddf77edd647297ff758164a9e39279d77e6fff8518fa59f299
+    children: []
+  - node: betrvg:sec_41
+    summary: Das Umlageverbot verbietet, dass Arbeitnehmer Beiträge für den Betriebsrat erheben oder leisten.
+      Es gilt für Arbeitgeber und Arbeitnehmer in allen Betrieben. Es tritt sofort in Kraft, sobald ein
+      Betriebsrat eingerichtet ist oder Beiträge verlangt werden könnten.
+    source_sha: 567277271811428b4db5388ef0c346f0beaa3c7744d6102ea5cb7bd6c884b4f9
+    children: []
+- node: betrvg:cpt_2.sct_4
+  summary: Der vierte Abschnitt regelt die Betriebsversammlung. Er bestimmt, dass alle Beschäftigten des
+    Betriebs teilnehmen und dass der Vorsitzende des Betriebsrats leitet. Er schreibt Quartalsversammlungen,
+    jährliche Abteilungsversammlungen und Zusatzversammlungen vor. Der Arbeitgeber muss einladen, berichten
+    und Kosten übernehmen. Versammlungen finden während der Arbeitszeit statt, wenn der Arbeitgeber einlädt;
+    andere Versammlungen können außerhalb der Arbeitszeit abgehalten werden. Themen dürfen den Betrieb
+    und die Beschäftigten direkt betreffen. Gewerkschafts- und Arbeitgebervertreter dürfen beratend teilnehmen.
+    Die Regelungen gelten für jeden Betrieb mit einem Betriebsrat.
+  source_sha: 9a56c28cc3472fbc865b4b083d2d781ecb31f5d95d4739d85531537740b4c721
+  children:
+  - node: betrvg:sec_42
+    summary: Die Betriebsversammlung setzt sich aus allen Beschäftigten des Betriebs zusammen und wird
+      vom Vorsitzenden des Betriebsrats geleitet. Sie ist nicht öffentlich. Kann nicht alle gleichzeitig
+      teilnehmen, ordnet der Betriebsrat Teilversammlungen an. Für räumlich getrennte Betriebsteile schafft
+      er Abteilungsversammlungen, die von einem Betriebsratsmitglied aus dem jeweiligen Teil geleitet
+      werden, um besondere Arbeitnehmerbelange zu erörtern.
+    source_sha: d04388fcee4fba586cc8e09bf2b7fa87784546e146a7cc5c0c2a0b1a78132881
+    children: []
+  - node: betrvg:sec_43
+    summary: Der Betriebsrat muss jedes Quartal eine Betriebsversammlung einberufen und dort einen Tätigkeitsbericht
+      vorlegen. Er muss, sofern die Voraussetzungen für Abteilungsversammlungen erfüllt sind, jährlich
+      zwei dieser Versammlungen als Abteilungsversammlungen abhalten, möglichst gleichzeitig. In jedem
+      Halbjahr kann er bei Bedarf eine zusätzliche Versammlung oder weitere Abteilungsversammlungen ansetzen.
+      Der Arbeitgeber lädt zu den Versammlungen ein, darf dort sprechen und muss jährlich über Personal,
+      Gleichstellung, ausländische Arbeitnehmer, Wirtschaftslage und Umweltschutz berichten, ohne Betriebsgeheimnisse
+      zu gefährden. Auf Wunsch des Arbeitgebers oder von mindestens einem Viertel der wahlberechtigten
+      Arbeitnehmer muss der Betriebsrat eine Versammlung einberufen und die geforderten Themen auf die
+      Tagesordnung setzen. Fordert eine im Betrieb vertretene Gewerkschaft eine Versammlung, muss der
+      Betriebsrat innerhalb von zwei Wochen einberufen, wenn im vorangegangenen Halbjahr keine Versammlung
+      stattfand.
+    source_sha: b2d49ebc634e2a72f99d10c3b88a70c20a89f092bad246eb5608b4fe2710c346
+    children: []
+  - node: betrvg:sec_44
+    summary: Versammlungen, die vom Arbeitgeber einberufen werden und in den genannten Regelungen stehen,
+      finden während der Arbeitszeit statt, sofern die Betriebsart nichts anderes zwingt. Teilnahme- und
+      Wegzeit werden wie Arbeitszeit bezahlt; Fahrtkosten erstattet. Andere Betriebs- oder Abteilungsversammlungen
+      finden außerhalb der Arbeitszeit, können einvernehmlich verlegt werden, ohne Lohnkürzung.
+    source_sha: 9ffe7b22a95130de6ebbfaa7707d438010fa82a7151053edf9588e3fdc84608f
+    children: []
+  - node: betrvg:sec_45
+    summary: Betriebs- und Abteilungsversammlungen dürfen Themen behandeln, die den Betrieb oder die Beschäftigten
+      direkt betreffen, darunter tarif-, sozial-, umwelt- und wirtschaftspolitische Fragen, Gleichstellung,
+      Vereinbarkeit von Familie und Beruf sowie Integration ausländischer Arbeitnehmer. Sie können dem
+      Betriebsrat Anträge stellen und zu dessen Beschlüssen Stellung nehmen. Die Grundsätze des Mitbestimmungsrechts
+      gelten.
+    source_sha: 0ad60275b24840415a94d69b4a2bc0230462b59e36325c1edf7104b3999dc33e
+    children: []
+  - node: betrvg:sec_46
+    summary: Gewerkschaftsbeauftragte dürfen an Betriebs- und Abteilungsversammlungen beratend teilnehmen.
+      Nimmt der Arbeitgeber teil, kann er einen Vertreter seiner Arbeitgebervereinigung hinzuziehen. Der
+      Arbeitgeber muss den vertretenen Gewerkschaften den Termin und die Tagesordnung rechtzeitig schriftlich
+      mitteilen.
+    source_sha: eff6ece2df389428245c8ebe34d02eb01dc5b05879327dc7e9f95c32ea7a9def
+    children: []
+- node: betrvg:cpt_2.sct_5
+  summary: Der fünfte Abschnitt regelt den Gesamtbetriebsrat. Er bestimmt, wann ein Gesamtbetriebsrat
+    zu bilden ist – nämlich wenn ein Unternehmen mehrere Betriebsräte hat. Er legt fest, wie viele Mitglieder
+    entsendet werden, wie das Stimmengewicht berechnet wird und wie die Geschäftsführung funktioniert.
+    Er gibt dem Arbeitgeber, den Betriebsräten, den Beschäftigten und den Gewerkschaften das Recht, bei
+    schwerwiegenden Pflichtverletzungen ein Mitglied gerichtlich entfernen zu lassen. Er bestimmt, dass
+    die Gesamtschwerbehindertenvertretung beratend teilnehmen darf und dass mindestens einmal jährlich
+    eine Betriebsräteversammlung einberufen werden muss. Er gilt ab der nächsten Wahl und für alle laufenden
+    Gesamtbetriebsräte.
+  source_sha: f63bc7b0d5aeffef81a8507fe0be5a5041e85cca9dc1a44a09c3c2aaf5d64561
+  children:
+  - node: betrvg:sec_47
+    summary: Hat ein Unternehmen mehrere Betriebsräte, wird ein Gesamtbetriebsrat gebildet. Jeder Betriebsrat
+      entsendet ein oder zwei Mitglieder. Stimmengewicht entspricht den wahlberechtigten Arbeitnehmern
+      im jeweiligen Betrieb. Mitgliederzahl kann per Tarif- oder Betriebsvereinbarung festgelegt werden;
+      fehlt eine Regelung, entscheidet eine Einigungsstelle. Für bestehende Betriebsräte gilt die Vorschrift
+      erst bei ihrer nächsten Wahl.
+    source_sha: 71dab5be3c0e50853b43952b0c5caf90e5861983064ef5a91bfd4d0b254e5484
+    children: []
+  - node: betrvg:sec_48
+    summary: Ein Viertel der wahlberechtigten Beschäftigten, der Arbeitgeber, der Gesamtbetriebsrat oder
+      eine im Betrieb vertretene Gewerkschaft können beim Arbeitsgericht die Entfernung eines Gesamtbetriebsratsmitglieds
+      wegen schwerer Pflichtverletzung verlangen. Sie müssen nachweisen, dass das Mitglied seine gesetzlichen
+      Pflichten grob verletzt hat. Der Antrag wird beim Arbeitsgericht gestellt.
+    source_sha: d4d3a66140c0312d5ee1102eb0fd8ed0ddd30e37861136075123628f23d5f6d3
+    children: []
+  - node: betrvg:sec_49
+    summary: Die Mitgliedschaft im Gesamtbetriebsrat erlischt, sobald die Mitgliedschaft im Betriebsrat
+      endet, wenn das Amt niedergelegt wird, wenn ein Gericht die Ausschließung anordnet oder wenn der
+      Betriebsrat die Abberufung vornimmt, und damit verliert die Person sämtliche Rechte und Pflichten
+      im Gesamtbetriebsrat.
+    source_sha: c0c652c95a1046e5fb1f99beacf516854c74c25677dbf351ef97a561b184c406
+    children: []
+  - node: betrvg:sec_50
+    summary: Der Gesamtbetriebsrat behandelt Themen, die das gesamte Unternehmen oder mehrere Betriebe
+      betreffen und nicht von den einzelnen Betriebsräten geregelt werden können, auch in Betrieben ohne
+      Betriebsrat. Er ist nicht übergeordnet. Der Betriebsrat kann ihn mit Mehrheit beauftragen und dabei
+      die Entscheidungsbefugnis vorbehalten; die Regelung zur Befugnisübertragung gilt entsprechend.
+    source_sha: 67170e921cf02945a3c396adc5f6d07194c5606d0a7d0ecd60214a985b367bc1
+    children: []
+  - node: betrvg:sec_51
+    summary: Regelt die Geschäftsführung des Gesamtbetriebsrats. Bestimmt, wie der Ausschuss zusammengesetzt
+      ist, wer Vorsitzender und Stellvertreter wählt, wie Sitzungen einberufen und geleitet werden, welche
+      Quorum- und Stimmenmehrheiten gelten und dass Video-Teilnahme als Anwesenheit zählt. Gilt für alle
+      Gesamtbetriebsräte bei deren Errichtung und laufender Tätigkeit.
+    source_sha: 03d41f65d8c26bd4da61b0b3c7f64d1ef7c6bc00d902c2736deaf335e00124b0
+    children: []
+  - node: betrvg:sec_52
+    summary: Die Gesamtschwerbehindertenvertretung darf bei jeder Sitzung des Gesamtbetriebsrats beratend
+      mitwirken. Sie ist verpflichtet, ihre Expertise einzubringen. Der Gesamtbetriebsrat muss die Beratung
+      zulassen. Gilt für alle regulären und außerordentlichen Sitzungen.
+    source_sha: 065558596fbe95a4a3b3449ed7d798779c5ea0c479a9f03ca43d6a7da2515767
+    children: []
+  - node: betrvg:sec_53
+    summary: Mindestens einmal im Jahr ruft der Gesamtbetriebsrat die Vorsitzenden, Stellvertreter und
+      Ausschussmitglieder zu einer Betriebsräteversammlung ein. Er kann weitere Mitglieder entsenden,
+      solange die zulässige Teilnehmerzahl nicht überschritten wird. Dort berichtet der Gesamtbetriebsrat
+      über seine Tätigkeit und der Unternehmer über Personal, Gleichstellung, Integration ausländischer
+      Arbeitnehmer, Wirtschaftslage und Umweltschutz, ohne Betriebsgeheimnisse zu gefährden. Teilversammlungen
+      sind zulässig.
+    source_sha: c20accd1b56962ee3b8a3780d1f112be6ec24a9efeec374363b45ccaa0d04eea
+    children: []
+- node: betrvg:cpt_2.sct_6
+  summary: Der sechste Abschnitt regelt den Konzernbetriebsrat in Unternehmensgruppen. Er erlaubt den
+    Gesamtbetriebsräten, einen Konzernbetriebsrat zu gründen, wenn die Mehrheit der Gesamtbetriebsräte
+    mehr als die Hälfte aller Konzernbeschäftigten vertritt. Er bestimmt, wie Mitglieder entsandt und
+    Ersatzmitglieder bestellt werden, und legt das Stimmengewicht fest. Er gibt Arbeitnehmern, dem Arbeitgeber,
+    dem Konzernbetriebsrat und Gewerkschaften das Recht, bei groben Pflichtverletzungen den Ausschluss
+    eines Mitglieds zu beantragen. Er definiert das Ende der Mitgliedschaft, die Zuständigkeit für gruppenweite
+    Themen, das Wahlverfahren für Vorsitzende und die Beteiligung der Konzernschwerbehindertenvertretung.
+  source_sha: be72552c3f7ed5a947c1e2030517a2b12f85897be7c3404870663b0faaa04ac9
+  children:
+  - node: betrvg:sec_54
+    summary: Für Unternehmen, die zu einem Konzern gehören, können die einzelnen Gesamtbetriebsräte einen
+      Konzernbetriebsrat gründen. Dafür muss die Mehrheit der Gesamtbetriebsräte zustimmen, die mehr als
+      die Hälfte aller Konzernbeschäftigten vertreten. Hat ein Konzernunternehmen nur einen Betriebsrat,
+      übernimmt er die Aufgaben eines Gesamtbetriebsrats nach den Regeln dieses Abschnitts.
+    source_sha: a600aade0aa059c7edf8536219f1d3e47e5e31433ea5016b1831671ecb1fa3a2
+    children: []
+  - node: betrvg:sec_55
+    summary: Jeder Gesamtbetriebsrat entsendet zwei Mitglieder in den Konzernbetriebsrat und berücksichtigt
+      dabei das Geschlechterverhältnis. Für jedes entsandte Mitglied muss mindestens ein Ersatzmitglied
+      bestellt und die Nachrückreihenfolge festgelegt werden. Das Stimmgewicht eines Konzernbetriebsratsmitglieds
+      entspricht der Hälfte der Stimmen der entsendenden Mitglieder. Durch Tarifvertrag oder Betriebsvereinbarung
+      kann die Mitgliederzahl abweichen, und die Regelungen zu Ersatzmitgliedern und Nachrückreihenfolge
+      gelten entsprechend.
+    source_sha: 3ffe043b4ed80f7017e94b6bc63117472d5ef6eb46dda1400bc92f4179b4d713
+    children: []
+  - node: betrvg:sec_56
+    summary: Mindestens ein Viertel der wahlberechtigten Arbeitnehmer der Konzernunternehmen, der Arbeitgeber,
+      der Konzernbetriebsrat oder eine im Konzern vertretene Gewerkschaft können beim Arbeitsgericht den
+      Ausschluss eines Mitglieds aus dem Konzernbetriebsrat wegen grober Verletzung seiner gesetzlichen
+      Pflichten beantragen.
+    source_sha: eaf897baafcbe080d9bd4e0546066dbdd4536b48ae40d3c5c0b943934df39aad
+    children: []
+  - node: betrvg:sec_57
+    summary: Die Mitgliedschaft im Konzernbetriebsrat endet, wenn die Mitgliedschaft im Gesamtbetriebsrat
+      erlischt, wenn das Mitglied sein Amt niederlegt, wenn ein Gericht den Ausschluss anordnet, oder
+      wenn der Gesamtbetriebsrat das Mitglied abberuft. Damit verliert das Mitglied sämtliche Rechte und
+      Pflichten im Konzernbetriebsrat.
+    source_sha: 76435a398a17aeb3134c8ceea3add8dc5655df71c1612003cdb9418ebb203cb9
+    children: []
+  - node: betrvg:sec_58
+    summary: Der Konzernbetriebsrat behandelt Themen, die den Konzern oder mehrere Konzernunternehmen
+      betreffen und die Gesamtbetriebsräte nicht regeln können. Seine Zuständigkeit gilt auch für Unternehmen
+      ohne Gesamt- oder Betriebsrat. Er ist den Gesamtbetriebsräten nicht übergeordnet. Der Gesamtbetriebsrat
+      kann mit Mehrheit die Behandlung einer Angelegenheit an den Konzernbetriebsrat übertragen, wobei
+      er Entscheidungsbefugnis behalten kann.
+    source_sha: e3525ef20de5f1ba9ecbd3fe3bfd8773ec1b0e0a5cbaedcfef457c8ce920dd17
+    children: []
+  - node: betrvg:sec_59
+    summary: Der Paragraph regelt, welche Bestimmungen des Betriebsverfassungsgesetzes für den Konzernbetriebsrat
+      gelten und legt das Verfahren zur Wahl von Vorsitzendem und stellvertretendem Vorsitzenden fest.
+      Der Gesamtbetriebsrat des herrschenden Unternehmens oder, fehlt dieser, der größten Tochter, lädt
+      zur Wahl ein und leitet die Sitzung, bis der Konzernbetriebsrat einen Wahlleiter bestimmt.
+    source_sha: 5adda4a24bb2a679f7081e8a4f0c18c8f6bdf178898246329cb5f42a6b060eae
+    children: []
+  - node: betrvg:sec_59a
+    summary: Erlaubt der Konzernschwerbehindertenvertretung, an allen Sitzungen des Konzernbetriebsrats
+      beratend teilzunehmen. Gilt für Unternehmen, die einen Konzernbetriebsrat und eine Konzernschwerbehindertenvertretung
+      haben, und wirkt bei jeder Sitzung des Konzernbetriebsrats. Sie darf Fragen stellen, Stellungnahmen
+      abgeben und die Interessen schwerbehinderter Beschäftigter vertreten.
+    source_sha: b666bd22b964f2ae311f98f5580f17538b1c0bba4881101447699802e7b1cdc2
+    children: []
+last_change:
+  date: '2026-09-17'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

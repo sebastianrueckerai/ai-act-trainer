@@ -1,0 +1,73 @@
+node: geschgehg:cpt_3
+summary: Der Abschnitt regelt das Verfahren in Streitigkeiten über Geschäftsgeheimnisse. Er bestimmt,
+  dass Landgerichte zuständig sind, meist am allgemeinen Gerichtsstand des Beklagten oder am Ort der Handlung.
+  Gerichte können vertrauliche Informationen schützen, Geheimhaltungspflichten anordnen und Verstöße mit
+  Ordnungsgeld oder Ordnungshaft ahnden. Nach Abschluss bleibt die Vertraulichkeit bestehen, außer das
+  Gericht stellt das Fehlen eines Geheimnisses fest. Gerichte können den Zugang zu Unterlagen auf zuverlässige
+  Personen beschränken. Sie können Maßnahmen zur Geheimhaltung anordnen, prüfen Anträge und erlassen Beschlüsse.
+  Eine obsiegende Partei darf das Urteil veröffentlichen, wenn ein berechtigtes Interesse nachgewiesen
+  wird. Bei drohender wirtschaftlicher Gefahr kann das Gericht die Kosten nach einem geringeren Teil des
+  Streitwerts bemessen.
+source_sha: 6b0c158519d4cf46cef81033c5dd201e49eb8ac8cd4f75af8009d0600d0b817e
+children:
+- node: geschgehg:sec_15
+  summary: Regelt die sachliche und örtliche Zuständigkeit für Klagen. Landgerichte sind ausschließlich
+    zuständig. Zuständig ist das Gericht am allgemeinen Gerichtsstand des Beklagten, sonst am Ort der
+    Handlung. Die Landesregierungen können per Verordnung die Zuständigkeit auf mehrere Landgerichte verteilen
+    und an Gerichte anderer Länder übertragen.
+  source_sha: a4e9786b844335c7e68959f5bd701d6cd9b3ea84d28f299cfd45373fa1a39b01
+  children: []
+- node: geschgehg:sec_16
+  summary: Das Gericht kann in Streitigkeiten, in denen Ansprüche geltend gemacht werden, Informationen
+    als geheimhaltungsbedürftig einstufen, wenn sie ein Geschäftsgeheimnis sein könnten. Alle Beteiligten
+    müssen diese behandeln und dürfen sie außerhalb des Verfahrens nicht nutzen oder offenlegen; Dritten
+    mit Akteneinsichtsrecht wird nur eine geschwärzte Version bereitgestellt.
+  source_sha: b2015ab7652d2014733ec3968b9c50ec931949d771fa3070da04523ed38a085c
+  children: []
+- node: geschgehg:sec_17
+  summary: Das Gericht kann auf Antrag einer Partei bei Verstößen gegen die vorherigen Verpflichtungen
+    ein Ordnungsgeld bis zu 100 000 Euro oder Ordnungshaft bis zu sechs Monaten anordnen und sofort vollstrecken.
+    Es legt fest, wann Ordnungshaft das nicht einbringbare Geld ersetzt. Eine Beschwerde stoppt die Vollziehung.
+  source_sha: 8db174db109d2341f61d47150f5a86b1e88ed486bbefd7e4925b2bab20c692ba
+  children: []
+- node: geschgehg:sec_18
+  summary: Die nach dem Verfahren geltenden Vertraulichkeitsverpflichtungen bleiben bestehen. Sie gelten
+    für alle, die im Verfahren zur Geheimhaltung verpflichtet wurden. Ausgenommen ist die Verpflichtung,
+    wenn das Gericht endgültig feststellt, dass kein Geschäftsgeheimnis vorliegt, oder wenn die Informationen
+    allgemein in den üblichen Fachkreisen bekannt werden.
+  source_sha: 9226f95078f28a6e5cd1cd1407cfc88bd56614bba8c571a2db8dbc1cca740906
+  children: []
+- node: geschgehg:sec_19
+  summary: Das Gericht kann auf Antrag einer Partei den Zugang zu Unterlagen oder mündlichen Verhandlungen,
+    die Geschäftsgeheimnisse enthalten, auf zuverlässige Personen beschränken. Mindestens je eine natürliche
+    Person der Parteien und ihrer Vertreter muss Zugang erhalten. Die Beschränkung gilt, wenn das Geheimhaltungsinteresse
+    das Recht auf Gehör überwiegt, auch im Vollstreckungsverfahren.
+  source_sha: fbcd7296703ab95589a30f9464776be4afcd7010b1d28bbafd45779d5ffd8e26
+  children: []
+- node: geschgehg:sec_20
+  summary: Das Gericht der Hauptsache kann eine Beschränkung von Informationen, die als Geschäftsgeheimnis
+    gelten, anordnen. Es hört die Gegenpartei, prüft den Antrag, kann die Maßnahme ändern/aufheben und
+    entscheidet mit Beschluss. Der Antragsteller muss das Geheimhaltungsbedürfnis glaubhaft machen und
+    eine redigierte Fassung vorlegen; eine Anfechtung ist nur im Hauptsacheverfahren zulässig.
+  source_sha: ce92d1eaca463379c31de09f4da9fc068a3802312d02a44687b67173062dd70a
+  children: []
+- node: geschgehg:sec_21
+  summary: Der obsiegende Partei eines Geschäftsgeheimnisstreits kann auf Antrag das Urteil oder Informationen
+    darüber öffentlich machen, wenn sie ein berechtigtes Interesse nachweist. Die Kosten trägt die unterliegende
+    Partei. Form und Umfang richten sich nach den Interessen der im Urteil genannten Personen und berücksichtigen
+    Wert, Verhalten, Folgen und Wiederholungsgefahr des Geheimnisses. Veröffentlichung erst nach Rechtskraft,
+    außer Gerichtsbeschluss.
+  source_sha: c260cbcb6cbfdbd51bb8a7381ed4c8f63095234395abbc9b5b5c604ee38b8ff0
+  children: []
+- node: geschgehg:sec_22
+  summary: Bei Geschäftsgeheimnisstreitigkeiten kann eine Partei, die nachweist, dass volle Prozesskosten
+    ihre Wirtschaft gefährden, beim Gericht beantragen, Kosten einem an Lage angepassten Teil des Streitwerts
+    zu bemessen. Antrag muss vor Hauptverhandlung gestellt werden; danach nur bei Erhöhung des Streitwerts,
+    wobei Gegner angehört wird.
+  source_sha: 0a300367a3967bd0e8ed3270df5628c2e739f92e424ff9df98a24b91e26bc5df
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

@@ -1,0 +1,31 @@
+node: bdsg:cpt_4
+summary: Der Teil regelt besondere Datenverarbeitungen, die nicht unter die Datenschutz-Grundverordnung
+  fallen. Er erlaubt Bundesbehörden, personenbezogene Daten an Drittstaaten zu übermitteln, wenn sie für
+  Verteidigungsaufgaben, Krisenbewältigung, Konfliktverhinderung oder humanitäre Maßnahmen nötig sind.
+  Der Empfänger muss den Zweck beachten. Informations- und Auskunftspflichten entfallen, wenn Geheimhaltungsinteressen
+  gefährdet sind; das Verteidigungsministerium kann die Übermittlung aus Sicherheitsgründen aussetzen.
+  Öffentliche und private Stellen dürfen für die Vorbereitung und Durchführung staatlicher Auszeichnungen
+  notwendige Daten, auch besonders schützenswerte, ohne Einwilligung verarbeiten; für andere Zwecke ist
+  Einwilligung nötig. Es gelten besondere Schutzmaßnahmen für besonders schützenswerte Daten.
+source_sha: a5215570e720f7bc34a37498618432f795806094c93965bba584d3ef75f506ab
+children:
+- node: bdsg:sec_85
+  summary: Die Übermittlung personenbezogener Daten an Drittstaaten oder internationale Stellen ist erlaubt,
+    wenn sie für zwingende Verteidigungsaufgaben, Krisenbewältigung, Konfliktverhinderung oder humanitäre
+    Maßnahmen einer Bundesbehörde nötig ist. Der Empfänger muss den Zweck beachten. Für solche Vorgänge
+    entfällt die Informationspflicht und das Auskunftsrecht, wenn die Offenlegung Geheimhaltungsinteressen
+    gefährdet. Das Verteidigungsministerium kann die Übermittlung aus Sicherheitsgründen aussetzen.
+  source_sha: 178b887b2f95d8ddecb32e4a3d2083b76bb95323708df902e744fee8d3b84890
+  children: []
+- node: bdsg:sec_86
+  summary: Zur Vorbereitung und Durchführung staatlicher Auszeichnungen dürfen öffentliche und private
+    Stellen notwendige personenbezogene Daten, auch besonders schützenswerte Daten, ohne Wissen der Betroffenen
+    verarbeiten. Für andere Zwecke ist Einwilligung nötig. Informationspflichten entfallen, wenn nur diese
+    Zwecke verfolgt werden. Der Verantwortliche muss spezielle Schutzmaßnahmen bei besonderen Daten ergreifen.
+  source_sha: 3bf407a9f8b3be6f77bc2e9094d3ba3a8157ed50616cbdffe25ec6650a209a90
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

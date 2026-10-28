@@ -1,0 +1,62 @@
+question: q-08-01
+cases:
+  - id: clean
+    answer: >-
+      Nein, das ist so nicht richtig. Unser Assistent ist trotzdem ein
+      KI-System, und wir bleiben dafür der Betreiber, ganz gleich, was
+      darunter für ein Modell steckt. Die zusätzlichen Pflichten, die den
+      Anbieter des Modells treffen, kommen oben drauf, unsere eigenen
+      Pflichten als Betreiber fallen dadurch nicht weg.
+    fair: correct
+    note: >-
+      trifft beide Muss-Punkte: der Assistent bleibt ein KI-System mit dem
+      eigenen Haus als Betreiber, und die Pflichten des Modellanbieters kommen
+      zusätzlich dazu, ohne die eigenen Betreiberpflichten zu ersetzen.
+  - id: bare-minimum
+    answer: >-
+      quatsch, wir bleiben der betreiber. die pflichten vom modellanbieter
+      kommen nur oben drauf
+    fair: correct
+    note: >-
+      beide Muss-Punkte knapp, aber getragen: "wir bleiben der betreiber"
+      trägt den ersten Punkt, "kommen nur oben drauf" trägt, dass die
+      Pflichten des Modellanbieters die eigenen nicht ersetzen. Die dünnste
+      Antwort im Satz, die noch zählt.
+  - id: meant-right
+    answer: >-
+      Nein, so einfach ist das nicht. An unserer Rolle ändert sich nichts, der
+      Assistent ist weiterhin das System, für das wir geradestehen. Was
+      dazukommt, sind zusätzliche Vorgaben für den, der das Modell dahinter
+      gebaut hat, unsere eigenen Aufgaben verschwinden dadurch nicht.
+    fair: correct
+    note: >-
+      beide Muss-Punkte getragen statt in Rubrikworten: "das System, für das
+      wir geradestehen" trägt den Betreiber-Status, und "zusätzliche Vorgaben
+      für den, der das Modell gebaut hat... unsere eigenen Aufgaben
+      verschwinden dadurch nicht" trägt, dass die Modellanbieter-Pflichten
+      hinzukommen statt zu ersetzen.
+  - id: plausible-miss
+    answer: >-
+      Ich würde das nicht einfach so stehen lassen, sondern nochmal mit
+      unserer Compliance-Abteilung klären, was für unseren Assistenten
+      wirklich gilt. Bei sowas Neuem wie einem eigenen Modell will ich lieber
+      auf Nummer sicher gehen, bevor wir uns da festlegen.
+    fair: wrong
+    note: >-
+      kein Muss-Punkt getroffen: die Rücksprache mit der
+      Compliance-Abteilung sagt nichts darüber, dass der Assistent ein
+      KI-System bleibt und das eigene Haus dafür Betreiber ist, und nichts
+      darüber, dass die Pflichten des Modellanbieters zusätzlich gelten statt
+      die eigenen zu ersetzen.
+  - id: confidently-wrong
+    answer: >-
+      Doch, genau so ist das. Sobald ein eigenes Modell mit allgemeinem
+      Verwendungszweck drinsteckt, ist unser Assistent kein normales
+      KI-System mehr, und sämtliche Betreiberpflichten fallen für uns weg, die
+      trägt dann komplett der Modellanbieter.
+    fair: wrong
+    note: >-
+      Gegenteil beider Muss-Punkte: behauptet, der Assistent sei wegen des
+      Modells kein KI-System mehr und die eigene Betreiberrolle falle weg, und
+      behauptet, die eigenen Pflichten würden komplett durch den
+      Modellanbieter ersetzt statt nur ergänzt.

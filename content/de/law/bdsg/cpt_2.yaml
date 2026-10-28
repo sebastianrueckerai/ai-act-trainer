@@ -1,0 +1,267 @@
+node: bdsg:cpt_2
+summary: Der Teil regelt die Durchführung von Datenverarbeitungen, die dem Schutz von Sozial- und Gesundheitsrechten,
+  der Gesundheitsvorsorge, dem öffentlichen Gesundheitsschutz und der Abwehr erheblicher Gefahren dienen.
+  Er gilt für öffentliche und nicht-öffentliche Stellen, die nur bei Vorliegen einer gesetzlichen Ausnahme
+  der Datenschutz-Verordnung handeln dürfen. Er definiert die Informations- und Auskunftspflichten gegenüber
+  betroffenen Personen, das Recht auf Löschung, Einschränkung, Widerspruch und den Schutz vor automatisierten
+  Entscheidungen. Er verpflichtet Verantwortliche und Auftragsverarbeiter, unter bestimmten Bedingungen
+  einen Datenschutzbeauftragten zu benennen, und legt Aufsicht, Sanktionen und Rechtsbehelfe fest.
+source_sha: b96c8fb147d849428b1bd88f2f7dde138c7ce688f7505eddf800636cc1e9d1fb
+children:
+- node: bdsg:cpt_2.sct_1
+  summary: Der Abschnitt erlaubt die Verarbeitung besonderer Kategorien personenbezogener Daten für Sozial-
+    und Gesundheitsrechte, Gesundheitsvorsorge, Schutz der öffentlichen Gesundheit und Abwehr erheblicher
+    Gefahren. Er bindet öffentliche und nicht-öffentliche Stellen, die nur bei Vorliegen einer gesetzlichen
+    Ausnahme der Datenschutz-Verordnung handeln dürfen.
+  source_sha: cadba1469f4b9761c681b5ec50b5fd44deb44b9cc6690565479fa30e01cbc43b
+  children:
+  - node: bdsg:cpt_2.sct_1.sct_1
+    summary: Der Abschnitt regelt die Verarbeitung besonderer Kategorien personenbezogener Daten. Er erlaubt
+      die Nutzung dieser Daten für die Ausübung von Sozial- und Gesundheitsrechten, für Gesundheitsvorsorge,
+      zum Schutz der öffentlichen Gesundheit und zur Abwehr erheblicher Gefahren für Sicherheit und Gemeinwohl.
+      Öffentliche Stellen dürfen Daten für andere Zwecke verarbeiten, wenn dies im Interesse der betroffenen
+      Person liegt, zur Richtigstellung nötig ist oder wichtige öffentliche Interessen schützt; bei besonderen
+      Kategorien muss ein Ausnahmetatbestand der Datenschutz-Verordnung vorliegen. Nicht-öffentliche Stellen
+      dürfen Daten zu anderen Zwecken verarbeiten, wenn sie zur Abwehr von Gefahren für Staat oder Öffentlichkeit,
+      zur Verfolgung von Straftaten oder zur Durchsetzung zivilrechtlicher Ansprüche erforderlich sind
+      und die Interessen der betroffenen Person nicht überwiegen; auch hier gilt die Ausnahme nach der
+      Datenschutz-Verordnung. Öffentliche Stellen dürfen Daten an andere öffentliche Stellen übermitteln,
+      wenn dies für die Aufgabenerfüllung nötig ist, und an nicht-öffentliche Stellen, wenn ein berechtigtes
+      Interesse besteht, kein Gegeninteresse der Betroffenen vorliegt oder zur Rechtsverteidigung. Besondere
+      Kategorien dürfen nur bei gesetzlicher Ausnahme übertragen werden.
+    source_sha: 82a7dd26c5cca5cc06a337a55b2f0776efe6c9faac91023fdceb0590ee37844c
+    children:
+    - node: bdsg:sec_22
+      summary: Erlaubt die Verarbeitung besonderer Kategorien personenbezogener Daten, wenn sie für die
+        Ausübung von Sozial- und Gesundheitsrechten, für die Gesundheitsvorsorge, für den Schutz der öffentlichen
+        Gesundheit oder für die Abwehr erheblicher Gefahren für Sicherheit und Gemeinwohl nötig ist. Gilt
+        für öffentliche und nicht-öffentliche Stellen, die entsprechende technische und organisatorische
+        Schutzmaßnahmen ergreifen.
+      source_sha: cbc2683a7337d87fe44cc3b328ae26e062362301058c6176f681d2850ec6805d
+      children: []
+    - node: bdsg:sec_23
+      summary: Öffentliche Stellen dürfen personenbezogene Daten für andere Zwecke verarbeiten, wenn es
+        im Interesse der betroffenen Person liegt, die Daten zur Richtigstellung geprüft werden müssen
+        oder zum Schutz wichtiger öffentlicher Interessen, für Aufsicht dient. Für besondere Kategorien
+        von Daten gilt dieselbe Regel, zusätzlich muss ein Ausnahmegrund nach der DSGVO bestehen.
+      source_sha: 0c1f2b4c00b7eedfa884122a9a0c2cad8ee65b3caed1f6e0f5fa4c6a7bc082ca
+      children: []
+    - node: bdsg:sec_24
+      summary: Nichtöffentliche Stellen dürfen personenbezogene Daten zu einem anderen Zweck verarbeiten,
+        wenn dies zur Abwehr von Gefahren für die staatliche oder öffentliche Sicherheit, zur Verfolgung
+        von Straftaten oder zur Durchsetzung zivilrechtlicher Ansprüche nötig ist und die Interessen der
+        betroffenen Person nicht überwiegen. Für besondere Kategorien von Daten gilt dieselbe Voraussetzung,
+        zusätzlich muss eine Ausnahme nach den besonderen Regeln der EU-Datenschutz-Grundverordnung oder
+        einer entsprechenden nationalen Vorschrift vorliegen.
+      source_sha: d86383b8f8e82d6b83c3f3877150e9053bca512187fa9b96ee2fbf461f596bea
+      children: []
+    - node: bdsg:sec_25
+      summary: Öffentliche Stellen dürfen personenbezogene Daten an andere öffentliche Stellen übermitteln,
+        wenn es für die Aufgabenerfüllung nötig ist. An nicht-öffentliche Stellen ist die Übermittlung
+        bei Erforderlichkeit, berechtigtem Interesse ohne Gegeninteresse der Betroffenen oder zur Rechtsverteidigung
+        zulässig. Besondere Kategorien dürfen nur bei gesetzlicher Ausnahme übertragen werden.
+      source_sha: 6f394119a13e1df0db1637dac24645dbb149fd01c525e57c6e6ca44e50d1438c
+      children: []
+  - node: bdsg:cpt_2.sct_1.sct_2
+    summary: Der Abschnitt regelt besondere Verarbeitungssituationen. Er erlaubt Arbeitgebern, personenbezogene
+      Daten von Beschäftigten für Einstellung, Durchführung, Beendigung und gesetzliche Pflichten zu verarbeiten.
+      Er gestattet die Nutzung besonderer Datenkategorien für wissenschaftliche, historische, statistische
+      und archivbezogene Zwecke, sofern Schutzmaßnahmen ergriffen werden. Er schafft Ausnahmen von Auskunfts-
+      und Benachrichtigungspflichten bei Geheimhaltungspflichten. Er verpflichtet Stellen, die Kreditwürdigkeit
+      prüfen, Auskunftsanfragen aus anderen EU-Staaten gleich zu behandeln und bei Ablehnung den Verbraucher
+      zu informieren. Er legt Bedingungen für Scoring- und Bonitätsauskünfte fest. Die Regeln binden Verantwortliche
+      und Auftragsverarbeiter, sobald sie Daten zu den genannten Zwecken verarbeiten.
+    source_sha: 95246f5f86cba64954cf95d53ce5c40b3ffc2d9e6900dff99605d5a573353890
+    children:
+    - node: bdsg:sec_26
+      summary: Erlaubt Arbeitgebern, personenbezogene Daten von Beschäftigten zu verarbeiten, wenn sie
+        für Einstellung, Durchführung, Beendigung oder zur Erfüllung gesetzlicher und tariflicher Pflichten
+        nötig sind. Sonderkategorien dürfen bei rechtlichen Pflichten verarbeitet werden. Einwilligung
+        muss freiwillig und dokumentiert sein. Gilt für alle Beschäftigtengruppen.
+      source_sha: 2c6ab1f667d7f3d3f3821b3fd39ba88aca5431847ee132118a396515cace1c6b
+      children: []
+    - node: bdsg:sec_27
+      summary: Erlaubt die Verarbeitung besonderer Kategorien personenbezogener Daten für wissenschaftliche,
+        historische oder statistische Zwecke ohne Einwilligung, wenn die Interessen des Verantwortlichen
+        die der betroffenen Person überwiegen. Der Verantwortliche muss geeignete Maßnahmen ergreifen,
+        Rechte einschränken, Daten anonymisieren und Veröffentlichungen nur mit Einwilligung oder bei
+        unabdingbarer historischer Forschung zulassen.
+      source_sha: 004744ed0927926313917df31505ed3b0f1ab0d69027516181c5e73b7a715a77
+      children: []
+    - node: bdsg:sec_28
+      summary: Erlaubt die Verarbeitung besonderer Kategorien personenbezogener Daten für im öffentlichen
+        Interesse liegende Archivzwecke, obwohl sie grundsätzlich verboten ist. Der Verantwortliche muss
+        spezifische Schutzmaßnahmen treffen. Rechte auf Auskunft, Berichtigung, Einschränkung, Widerspruch,
+        Datenübertragbarkeit und Löschung gelten nur, wenn sie die Archivzwecke nicht gefährden. Bei Zweifeln
+        an der Richtigkeit kann die betroffene Person eine Gegendarstellung einreichen, die das Archiv
+        dem Dokument hinzufügt.
+      source_sha: c17b0680230739edd6d91006b0d5992bc035ebf522ea4c240ce6d7526694c4f5
+      children: []
+    - node: bdsg:sec_29
+      summary: Der Paragraph regelt, dass Informations-, Auskunfts- und Benachrichtigungspflichten nach
+        der DSGVO ausgesetzt werden, wenn dadurch vertrauliche Daten Dritter preisgegeben würden. Er erlaubt
+        Ausnahmen für Berufsgeheimnisträger und schränkt die Befugnisse der Aufsichtsbehörden bei geheimpflichtigen
+        Personen ein und gilt für Datenverantwortliche, Auftragsverarbeiter und die Aufsichtsbehörden
+        während ihrer Ermittlungen.
+      source_sha: 8a107565bcfdebcbfad2aa99ad81ef706c40fe86268b9281c695290ef988f2f5
+      children: []
+    - node: bdsg:sec_30
+      summary: Eine Stelle, die Daten zur Bewertung der Kreditwürdigkeit von Verbrauchern erhebt oder
+        speichert, muss Auskunftsanfragen von Darlehensgebern aus anderen EU-Staaten wie inländische behandeln.
+        Lehnt sie wegen einer erhaltenen Auskunft einen Verbraucherdarlehensvertrag oder eine entgeltliche
+        Finanzierungshilfe ab, muss sie den Verbraucher sofort informieren, außer bei Gefährdung von Sicherheit
+        oder Ordnung.
+      source_sha: ed2472a655467acdba394b61c44cc30de132caf087d9c74ebf8330010494d4d3
+      children: []
+    - node: bdsg:sec_31
+      summary: Erlaubt die Nutzung von Scoring-Wahrscheinlichkeitswerten für Vertragsentscheidungen nur,
+        wenn Datenschutzregeln beachtet, ein anerkanntes statistisches Verfahren verwendet, nicht ausschließlich
+        Adressdaten genutzt und Betroffene über die Adressnutzung informiert und dokumentiert sind. Bonitätswerte
+        von Auskunfteien dürfen nur bei gerichtlich bestätigten, anerkannten oder nach festgelegten Mahn-
+        und Kündigungsregeln vorliegenden Forderungen verwendet werden.
+      source_sha: 5c24ec83217b04470d30f0dadac7ecb6716e2819ae674651305ab5f2106a8555
+      children: []
+- node: bdsg:cpt_2.sct_2
+  summary: Das Kapitel regelt die Rechte der betroffenen Person im Datenschutz. Es verpflichtet den Verantwortlichen,
+    die betroffene Person über die Erhebung und geplante Weiterverarbeitung personenbezogener Daten zu
+    informieren, auch wenn die Daten nicht direkt bei ihr erhoben wurden, außer bei Gefahren für öffentliche
+    Interessen. Es legt das Auskunftsrecht, das Recht auf Löschung oder Einschränkung der Verarbeitung,
+    das Widerspruchsrecht und die Bedingungen für automatisierte Entscheidungen und Profiling fest. Ausnahmen
+    gelten bei zwingendem öffentlichen Interesse oder gesetzlichen Verarbeitungspflichten.
+  source_sha: d62c9dd511f5327fb82b56b74e6a7196c1da35aa23c3bca0fd6f409138faf721
+  children:
+  - node: bdsg:sec_32
+    summary: Regelt, wann ein Verantwortlicher die betroffene Person über die Erhebung und geplante Weiterverarbeitung
+      personenbezogener Daten informieren muss und welche Ausnahmen gelten. Bei Verzicht muss er Schutzmaßnahmen
+      ergreifen, die Information öffentlich bereitstellen, den Verzicht schriftlich begründen und nach
+      Wegfall des Hindernisses innerhalb von zwei Wochen informieren.
+    source_sha: ee404b1491f00d720630551d31c0cd3b2e21097c61814b2451d5e32d6dea9645
+    children: []
+  - node: bdsg:sec_33
+    summary: Der Verantwortliche informiert die betroffene Person, wenn ihre Daten nicht von ihr erhoben
+      wurden, außer bei Gefahr für öffentliche Interessen. Unterlässt er die Information, schützt er die
+      Interessen der Person und veröffentlicht die Informationen. Bei Weitergabe an Sicherheitsbehörden
+      ist deren Zustimmung nötig.
+    source_sha: 7ac33c9181ca27899c5efaaee284239ab833026533ec19f0e8b9e23d1d373075
+    children: []
+  - node: bdsg:sec_34
+    summary: Das Auskunftsrecht nach Art 15 DSGVO gilt, außer wenn die Person nicht informiert werden
+      darf, Daten gesetzlich aufbewahrungspflichtig sind, nur zur Datensicherung dienen und der Aufwand
+      unverhältnismäßig wäre. Gründe der Verweigerung müssen dokumentiert und begründet werden; Verarbeitung
+      der dafür gespeicherten Daten ist auf Auskunft und Datenschutzkontrolle beschränkt.
+    source_sha: 43d903c8089f6dd0fd44d2330c39b61919990cb5d47b955055c29b52f3abc829
+    children: []
+  - node: bdsg:sec_35
+    summary: Wenn eine Löschung wegen aufwändiger Speicherung kaum möglich ist und das Interesse der betroffenen
+      Person gering ist, muss der Verantwortliche die Daten nicht löschen, sondern die Verarbeitung einschränken.
+      Er informiert die betroffene Person über die Einschränkung, außer dies ist unmöglich oder unverhältnismäßig.
+    source_sha: 7b2d411db699ad1ec8219a6d3d9de6a489c1c3227486c2cf6490382b4fe1499a
+    children: []
+  - node: bdsg:sec_36
+    summary: Das Recht auf Widerspruch nach der Datenschutz-Grundverordnung entfällt, wenn ein zwingendes
+      öffentliches Interesse die Interessen der betroffenen Person überwiegt oder eine gesetzliche Verpflichtung
+      zur Verarbeitung besteht. In diesen Fällen kann die betroffene Person keinen Widerspruch einlegen,
+      weil das öffentliche Interesse oder die gesetzliche Vorgabe Vorrang hat.
+    source_sha: 5cac0e829ed87256c9b0bc7fdda51ff63696bb6167729b2267b1d8c99a9a8c3a
+    children: []
+  - node: bdsg:sec_37
+    summary: Die Vorschrift regelt automatisierte Einzelentscheidungen, auch Profiling, bei Versicherungsverträgen.
+      Sie schränkt das Recht auf Ausschluss rein automatischer Entscheidungen ein, wenn die Entscheidung
+      dem Antragsteller entspricht oder auf verbindlichen Entgeltregeln für Heilbehandlungen beruht. Der
+      Verantwortliche muss bei teilweiser Ablehnung geeignete Schutzmaßnahmen ergreifen, darunter das
+      Recht auf menschliches Eingreifen, Stellungnahme und Anfechtung, und die betroffene Person rechtzeitig
+      informieren. Gesundheitsdaten dürfen hierfür verarbeitet werden.
+    source_sha: 14727b25783a38f587166abd94d7cd54ea708cea312dbe29e2edd25fed01fd27
+    children: []
+- node: bdsg:cpt_2.sct_3
+  summary: Das Kapitel regelt Pflichten von Verantwortlichen und Auftragsverarbeitern. Es verlangt, dass
+    ein Datenschutzbeauftragter benannt wird, wenn mindestens 20 Personen automatisiert verarbeitet werden
+    oder wenn die Verarbeitung eine Folgenabschätzung erfordert, kommerziell, anonymisiert oder für Marktforschung
+    erfolgt. Der Datenschutzbeauftragte übernimmt Aufgaben und Haftung nur bei zwingender Benennung. Weiterhin
+    legt das Kapitel fest, dass die zuständige Aufsichtsbehörde nur dann die Befugnis zur Zertifizierung
+    nach dem EU-Datenschutzrecht erteilen darf, wenn die Stelle von der Deutschen Akkreditierungsstelle
+    akkreditiert ist. Diese Regelung greift, sobald die entsprechenden Bestimmungen des Akkreditierungsstellengesetzes
+    für den Datenschutzbereich gelten.
+  source_sha: e3692096ce6840139b7c891efd78344ad6edac46eb0692e47be02cff55a49fab
+  children:
+  - node: bdsg:sec_38
+    summary: Der Verantwortliche und der Auftragsverarbeiter benennen einen Datenschutzbeauftragten, wenn
+      sie mindestens 20 Personen mit automatisierter Verarbeitung beschäftigen. Auch bei Verarbeitung,
+      die eine Folgenabschätzung erfordert, oder bei kommerzieller, anonymisierter oder Marktforschung,
+      ist die Benennung Pflicht. Aufgaben und Haftung des Datenschutzbeauftragten werden nur geregelt,
+      wenn die Benennung zwingend ist.
+    source_sha: a2c37dbc176c442713712c58c9a8915434dfbfae3a45e1df5d9bd975d5866c20
+    children: []
+  - node: bdsg:sec_39
+    summary: Die zuständige Datenschutz-Aufsichtsbehörde erteilt die Befugnis, als Zertifizierungsstelle
+      nach dem EU-Datenschutzrecht zu arbeiten, nur wenn die Deutsche Akkreditierungsstelle die Stelle
+      akkreditiert hat. Das gilt, sobald die einschlägigen Regelungen des Akkreditierungsstellengesetzes
+      für den Datenschutzbereich Anwendung finden.
+    source_sha: 6428891e3f6f7f6d4bd118fdd5a1e187d2fabd28174166c0188252ba4cb9cb88
+    children: []
+- node: bdsg:cpt_2.sct_4
+  summary: Die Landesaufsichtsbehörden kontrollieren nichtöffentliche Unternehmen auf Einhaltung des Datenschutzes.
+    Sie nutzen gesammelte Daten ausschließlich für Aufsichtstätigkeiten, dürfen sie an andere Aufsichtsbehörden
+    weiterleiten und für Gemeinwohl oder öffentliche Sicherheit einsetzen. Sie informieren Betroffene,
+    melden Verstöße und können einen ungeeigneten Datenschutzbeauftragten abberufen.
+  source_sha: 8517873ef6bad84b3d46788f662c09e2bdb3b971ce0b98a819a97362fb11c9b4
+  children:
+  - node: bdsg:sec_40
+    summary: Die Landesbehörden überwachen nichtöffentliche Stellen auf Datenschutzkonformität. Sie verarbeiten
+      Daten nur zur Aufsicht, dürfen sie an andere Aufsichtsbehörden weitergeben und für das Gemeinwohl
+      oder die öffentliche Sicherheit nutzen. Sie informieren Betroffene, melden Verstöße und können einen
+      nicht fachkundigen Datenschutzbeauftragten abberufen.
+    source_sha: e634eaecf17e1af33f612987a6325aa787d01078d75c9c33ff7735550d084f9f
+    children: []
+- node: bdsg:cpt_2.sct_5
+  summary: Das Kapitel regelt die Sanktionen für Verstöße gegen die Datenschutzbestimmungen. Es verpflichtet
+    alle Verantwortlichen und Auftragsverarbeiter, die Vorschriften des Ordnungswidrigkeitengesetzes anzuwenden,
+    wobei Geldbußen über einhunderttausend Euro vom Landgericht entschieden werden. Es stellt das unbefugte
+    Weitergeben nicht-öffentlicher personenbezogener Daten sowie die Erschleichung von Daten zum Zweck
+    der Bereicherung unter Strafe, mit bis zu drei Jahren Freiheitsstrafe oder Geldstrafe. Bei Verstößen
+    gegen Auskunfts- und Informationspflichten können Ordnungswidrigkeiten mit Geldbußen bis zu fünfzigtausend
+    Euro geahndet werden. Das Verfahren endet nur mit Zustimmung der Aufsichtsbehörde.
+  source_sha: 9b28535ffa6054eb366eb4d1c6f93ef1d62df2bf0fdeed7892033497d2ee978b
+  children:
+  - node: bdsg:sec_41
+    summary: Für Verstöße gegen die genannten Datenschutzbestimmungen gelten die Regeln des Gesetzes über
+      Ordnungswidrigkeiten analog, jedoch ohne die genannten Ausnahmen. Bei Geldbußen über einhunderttausend
+      Euro entscheidet das Landgericht. Zusätzlich finden die Strafprozessordnung und das Gerichtsverfassungsgesetz
+      Anwendung, wobei das Verfahren nur mit Zustimmung der Aufsichtsbehörde eingestellt werden kann.
+    source_sha: 3fe3c305eddaf4374489d32d33ed854a190ade101dce5d858a4c9875183151ff
+    children: []
+  - node: bdsg:sec_42
+    summary: Verboten ist das Weitergeben oder Zugänglich-machen von nicht-öffentlichen personenbezogenen
+      Daten vieler Personen. Auch Verarbeitung oder Erschleichung per falscher Angabe zum Zweck der Bereicherung
+      ist strafbar. Strafen bis zu drei Jahren Freiheitsstrafe oder Geldstrafe. Verfolgung nur auf Antrag
+      der betroffenen Person, des Verantwortlichen oder der Aufsichtsbehörde.
+    source_sha: 87b04b0a2c3644e4c993ffae190a6676c737d10480318a7891daaca24c8a7eba
+    children: []
+  - node: bdsg:sec_43
+    summary: Wer vorsätzlich oder fahrlässig ein Auskunftsverlangen nicht korrekt bearbeitet oder Verbraucher
+      nicht richtig, vollständig und rechtzeitig informiert, begeht eine Ordnungswidrigkeit. Die Geldbuße
+      kann bis zu fünfzigtausend Euro betragen, jedoch nicht gegen Behörden oder öffentliche Stellen.
+      Meldungen nach der Datenschutz-Verordnung dürfen in einem Ordnungswidrigkeitenverfahren nur mit
+      Zustimmung des Meldenden verwendet werden.
+    source_sha: 2b905c1fb2fe7909a19d8f575465c0f5d63d1fe960d54e8cdd2bd477f3430817
+    children: []
+- node: bdsg:cpt_2.sct_6
+  summary: Betroffene können den Verantwortlichen oder Auftragsverarbeiter wegen Verstößen gegen die Datenschutz-Grundverordnung
+    vor dem Gericht am Sitz des Unternehmens oder, alternativ, vor dem Gericht am Wohnort des Betroffenen
+    verklagen. Behörden, die hoheitlich handeln, sind ausgenommen. Benannte Vertreter dürfen Zustellungen
+    entgegennehmen; die zivilprozessualen Zustellungsregeln bleiben unverändert.
+  source_sha: 28c884c0a70e36dada1cceca4ae4d123849b875b9f59c76038e2416faadf8a0e
+  children:
+  - node: bdsg:sec_44
+    summary: Betroffene können den Verantwortlichen oder Auftragsverarbeiter wegen Verstößen gegen die
+      Datenschutz-Grundverordnung vor dem Gericht am Sitz des Unternehmens klagen; alternativ ist das
+      Gericht am Wohnort des Betroffenen zulässig. Behörden, die hoheitlich handeln, sind ausgenommen.
+      Benannte Vertreter können Zustellungen entgegennehmen. Die Regelungen der Zivilprozessordnung zur
+      Zustellung bleiben unverändert.
+    source_sha: 0b50996ace7ffb5ef8c16f991570ca89d059a0ea3c9a554376001c6a25f08e7c
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

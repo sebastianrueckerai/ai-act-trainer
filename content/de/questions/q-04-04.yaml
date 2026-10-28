@@ -1,0 +1,37 @@
+id: q-04-04
+chapter: 04-hochrisiko-am-arbeitsplatz
+type: yes_no
+difficulty: 3
+question: >-
+  Im März 2027 will unser Haus ein System einführen, das die Aufgaben im Team nach den
+  Leistungsdaten der Kollegen verteilt. Ein Kollege sagt, die Pflichten gelten erst
+  Ende des Jahres, also sei jetzt nichts zu tun. Hat er recht?
+correct: "no"
+rubric:
+  must:
+    - point: nennt, dass jetzt schon etwas zu tun ist
+    - point: nennt, dass der Betriebsrat bei so einem System mitbestimmt
+      ask: >-
+        Der Kollege fragt zurück, was ihr denn jetzt schon tun sollt, und mit
+        wem. Was sagst du ihm?
+  should:
+    - nennt, dass es dafür auf die Überwachung von Leistung oder Verhalten ankommt
+    - nennt, dass die Pflichten der Verordnung für solche Systeme erst am 2. Dezember 2027 greifen
+    - nennt § 87 Abs. 1 Nr. 6 BetrVG für die Mitbestimmung
+model_answer: >-
+  Nein. Die Pflichten der Verordnung greifen für solche Systeme erst am
+  2. Dezember 2027, der Betriebsrat bestimmt bei einer überwachenden technischen
+  Einrichtung aber schon jetzt mit.
+explanation: >-
+  Art. 113 lässt die Vorschriften für die nach Anhang III eingestuften
+  Hochrisiko-KI-Systeme erst ab dem 2. Dezember 2027 gelten und verbietet diese
+  Systeme bis dahin nicht. § 87 Abs. 1 Nr. 6 BetrVG gilt unabhängig davon und gibt
+  dem Betriebsrat bei der Einführung und Anwendung technischer Einrichtungen, die
+  das Verhalten oder die Leistung der Arbeitnehmer überwachen sollen, ein
+  Mitbestimmungsrecht.
+citations: ["Art. 113", "BetrVG § 87(1) Nr. 6"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why

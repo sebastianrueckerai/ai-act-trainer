@@ -1,0 +1,148 @@
+node: ai_act
+summary: Die Verordnung schafft ein einheitliches Regelwerk für künstliche Intelligenz in der EU. Sie
+  verpflichtet alle Anbieter, Betreiber, Importeure und Nutzer von KI-Systemen, auch aus Drittstaaten,
+  die in der Union tätig sind. Sie definiert zulässige, verbotene und hochriskante KI-Anwendungen, legt
+  Risikomanagement, Transparenz- und Dokumentationspflichten sowie Konformitätsbewertung fest. Sie richtet
+  ein EU-KI-Büro, ein Europäisches KI-Board und weitere Aufsichtsorgane ein. Die meisten Vorschriften
+  gelten ab dem 2. August 2026. Sie sieht Geldbußen bis zu sieben Prozent des weltweiten Jahresumsatzes
+  vor und unterstützt Innovationsreallabore sowie freiwillige Verhaltenskodizes.
+source_sha: 9c7360e7a5b88d75f2c6e4a8c9fa8846c4f65f94c8c8b9a68556f46188ef31f3
+children:
+- node: ai_act:anx_I
+  summary: Der Anhang führt alle EU-Rechtsakte auf, die im Rahmen des neuen Rechtsrahmens harmonisiert
+    sind. Er bindet Hersteller, Importeure und Anbieter von KI-Systemen, die in der Union in Verkehr gebracht
+    werden. Er gilt, sobald das KI-Gesetz auf die Konformitätsbewertung von KI-Systemen verweist und die
+    dort genannten Richtlinien und Verordnungen anzuwenden sind. Die Liste umfasst Vorschriften zu Spielzeug,
+    Sportbooten, Aufzügen, explosionsgefährdeten Bereichen, Funkanlagen, Druckgeräten, Seilbahnen, persönlicher
+    Schutzausrüstung, Medizinprodukten, Luftfahrt, Fahrzeugen und weiteren Bereichen.
+  source_sha: 229fd04c540031a9560a76c9ed9fb7d8f3aaeacb4eef75e2b16e4fcfc36381f8
+  children: []
+- node: ai_act:anx_II
+  summary: Der Anhang enthält eine Aufzählung besonders schwerer Straftaten, darunter Terrorismus, Menschenhandel,
+    Kinderpornografie, illegaler Drogen- und Waffenhandel, Mord, schwere Körperverletzung, Organhandel,
+    nukleare Substanzen, Entführung, Vergewaltigung, Umweltkriminalität, organisierter Raub, Sabotage,
+    Beteiligung an kriminellen Vereinigungen und weitere Verbrechen des Internationalen Strafgerichtshofs.
+    Er verpflichtet Anbieter und Nutzer von Hochrisiko-KI-Systemen in der EU, diese Systeme nicht für
+    die genannten Delikte einzusetzen oder zu unterstützen. Die Vorgaben gelten, sobald ein KI-System
+    für die Erfüllung einer dieser Straftaten eingesetzt wird.
+  source_sha: 2af7e61177a47ed9e1a72958e7a53151799b9616e851824f9619ba2cde25368c
+  children: []
+- node: ai_act:anx_III
+  summary: Der Anhang legt fest, welche KI-Systeme als Hochrisiko-KI-Systeme gelten. Er umfasst biometrische
+    Fernidentifizierung, Kategorisierung nach sensiblen Merkmalen und Emotionserkennung, Sicherheitsbauteile
+    kritischer digitaler Infrastruktur, Systeme für Zugang, Bewertung und Überwachung in Bildung, Beschäftigung
+    und öffentlichen Diensten, Kredit- und Versicherungsbewertung, Notruf- und Rettungsdienste, Strafverfolgung,
+    Migration, Asyl, Grenzkontrolle, Justizunterstützung sowie Wahl- und Referendumseinfluss. Er bindet
+    Anbieter, Betreiber und Nutzer dieser Systeme in der Union, sobald sie in den genannten Bereichen
+    eingesetzt oder auf dem EU-Markt bereitgestellt werden.
+  source_sha: 5fe1c4b9a1bb9433eab356be3f5a14219104249d7333ded712052a88ae249718
+  children: []
+- node: ai_act:anx_IV
+  summary: Der Anhang verlangt von Anbietern KI-Systeme, eine technische Dokumentation zu erstellen. Sie
+    muss eine allgemeine Systembeschreibung, Versions- und Schnittstellenangaben, Hardware-Informationen,
+    Entwicklungs- und Daten-Details, Test- und Validierungsverfahren, Risikomanagement, Cybersicherheits-
+    und Überwachungsmaßnahmen sowie die EU-Konformitätserklärung enthalten. Die Dokumentation bindet alle
+    Anbieter, deren KI-Systeme nach dem EU-AI-Act in Verkehr gebracht oder in Betrieb genommen werden,
+    und ist bereits beim Inverkehrbringen vorzulegen.
+  source_sha: e1e60df553e385de0eb02e99e6f6a86e0e1654607d5f57ca2a661bb60d6281ed
+  children: []
+- node: ai_act:anx_V
+  summary: Dieser Teil legt fest, welche Angaben in der EU-Konformitätserklärung eines KI-Systems enthalten
+    sein müssen. Er verpflichtet Anbieter und deren Bevollmächtigte, Name, Art, Identifikationsmerkmale,
+    Kontaktdaten, Verantwortungserklärung und Nachweis der Regelkonformität anzugeben. Bei Verarbeitung
+    personenbezogener Daten muss die Übereinstimmung mit den Datenschutzvorschriften der Union erklärt
+    werden. Außerdem sind Verweise auf harmonisierte Normen, Angaben zur notifizierten Stelle und zum
+    Konformitätsbewertungsverfahren sowie Ort, Datum und Unterschrift des Unterzeichners erforderlich.
+    Die Vorgaben gelten für jede Ausstellung einer EU-Konformitätserklärung.
+  source_sha: 9c3d628b6b3553e3f3ff20d51da2fa177d856b69a747dee7b29cbf183a5462c2
+  children: []
+- node: ai_act:anx_VI
+  summary: Der Anbieter führt das Konformitätsbewertungsverfahren auf Basis interner Kontrolle durch.
+    Er prüft, ob das vorhandene Qualitätsmanagementsystem die festgelegten Anforderungen erfüllt. Er bewertet
+    die technische Dokumentation, um die Einhaltung der grundlegenden Anforderungen zu bestätigen. Außerdem
+    vergleicht er den Entwurfs- und Entwicklungsprozess sowie die Beobachtung nach dem Inverkehrbringen
+    mit der Dokumentation.
+  source_sha: e50ef11e6c1076c4db039d8cbf9f8203f129b90b9ca01407bddb3ab5fd65f42b
+  children: []
+- node: ai_act:anx_VII
+  summary: Das Dokument legt das Konformitätsbewertungsverfahren für KI-Systeme fest, das auf der Bewertung
+    des Qualitätsmanagementsystems und der technischen Dokumentation beruht. Es verpflichtet Anbieter,
+    ihr Qualitätsmanagementsystem zu beantragen, nachzuweisen und von einer benannten Stelle prüfen zu
+    lassen. Die benannte Stelle prüft das System, die technische Dokumentation und führt Audits durch.
+    Bei erfolgreicher Prüfung wird eine Unionsbescheinigung ausgestellt. Das Verfahren gilt für alle Anbieter
+    von Hochrisiko-KI-Systemen, die ein Qualitätsmanagementsystem betreiben und das System in Verkehr
+    bringen oder in Betrieb nehmen wollen.
+  source_sha: 96fced3a4d4beaa0c17d148ab908d4762bb3551b347b4028c3f569841c09aa87
+  children: []
+- node: ai_act:anx_VIII
+  summary: Der Anhang legt fest, welche Angaben Anbieter und Betreiber bei der Registrierung von Hochrisiko-KI-Systemen
+    eintragen und aktuell halten müssen. Er verlangt Namen, Anschrift und Kontaktdaten des Anbieters,
+    ggf. einer vertretenden Person und eines Bevollmächtigten sowie des Betreibers. Weiter sind Handelsname,
+    eindeutige Identifikationsmerkmale, Zweckbestimmung, genutzte Daten und Logik, Markt- und Betriebsstatus,
+    Zertifikatsnummer und -ablauf, Kopie der Konformitätserklärung, elektronische Handbücher, betroffene
+    Mitgliedstaaten und eine optionale Informations-URL anzugeben. Für Systeme, die nicht als hochriskant
+    gelten, sind die Gründe der Einstufung und eine Zusammenfassung der Grundrechte- und Datenschutz-Folgenabschätzungen
+    zu liefern.
+  source_sha: d4247bf66ad69afbe4407b9ad95ac8bed4ce7500b0cf113a5f84011ebc1c068c
+  children: []
+- node: ai_act:anx_IX
+  summary: Der Anhang verlangt von Anbietern, künftigen Anbietern und Betreibern, die Real-welt-Tests
+    von Hochrisiko-KI-Systemen durchführen und registrieren, aktuelle Angaben zu liefern. Dazu gehören
+    eine EU-weite Test-ID, Kontaktdaten, eine Kurzbeschreibung des Systems, eine Übersicht des Testplans
+    sowie Informationen zu Aussetzung oder Abbruch.
+  source_sha: b56398182748548218db6237a425dcff65485f0f34152b4a7a172ddfd45a4dc6
+  children: []
+- node: ai_act:anx_X
+  summary: Der Anhang sammelt EU-Verordnungen, die große IT-Systeme für Freiheit, Sicherheit und Recht
+    einrichten und betreiben. Er nennt das Schengener Informationssystem für Grenz- und Polizeikooperation,
+    das Visa-Informationssystem, Eurodac für biometrische Daten, das Einreise- und Ausreisesystem, das
+    Europäische Reiseinformations- und Genehmigungssystem sowie das Strafregister-Informationssystem für
+    Drittstaatsangehörige. Außerdem schafft er Rahmen für die Interoperabilität zwischen diesen Systemen.
+    Die Bestimmungen binden alle Mitgliedstaaten, die EU-Agenturen und die zuständigen Behörden. Sie gelten
+    ab dem jeweiligen Inkrafttreten jeder Verordnung für den laufenden Betrieb und die gemeinsame Nutzung
+    der Systeme.
+  source_sha: 27b76042e7e556f077a6f75b45a486e4f47bf6484e76b002c9a3ec52afc33c75
+  children: []
+- node: ai_act:anx_XI
+  summary: Der Anhang legt fest, dass Anbieter von KI-Modellen mit allgemeinem Verwendungszweck eine technische
+    Dokumentation erstellen müssen. Die Dokumentation muss, angepasst an Größe und Risikoprofil, grundlegende
+    Angaben zum Modell, zu seiner Nutzung, zum Veröffentlichungsdatum, zur Architektur, zu Parametern,
+    zu Ein- und Ausgabemodalitäten und zur Lizenz enthalten. Bei Modellen mit systemischem Risiko sind
+    zusätzlich detaillierte Beschreibungen von Entwicklungsverfahren, Trainingsdaten, Rechenressourcen,
+    Energieverbrauch, Prüfstrategien, Angriffstests, Modellanpassungen und Systemarchitektur erforderlich.
+    Die Pflicht gilt, sobald das Modell auf dem Markt bereitgestellt oder in Betrieb genommen wird.
+  source_sha: efac877305f23cf3bd0604af50de77089836a3b3b4e54cf8813246b901081827
+  children: []
+- node: ai_act:anx_XII
+  summary: Der Anhang verlangt, dass Anbieter von KI-Modellen mit allgemeinem Verwendungszweck eine technische
+    Dokumentation für nachgelagerte Anbieter bereitstellen. Die Dokumentation beschreibt das Modell, seine
+    Aufgaben und die KI-Systeme, in die es integriert werden kann. Sie nennt zulässige Nutzungsregeln,
+    das Veröffentlichungsdatum, Vertriebswege und ggf. die Interaktion mit externer Hardware oder Software.
+    Sie enthält Angaben zu Software-Versionen, Architektur, Parameterzahl, Ein- und Ausgabe-Modalität
+    und -Format sowie zur Lizenz. Der Entwicklungsprozess, die erforderlichen technischen Mittel, maximale
+    Eingabe-größen und die für Training, Test und Validierung genutzten Daten inklusive Herkunft und Aufbereitung
+    werden erläutert.
+  source_sha: 4a4766e748ade014713bc6144986ed9f0436d809a8d321c724474127e11be837
+  children: []
+- node: ai_act:anx_XIII
+  summary: Die Kommission prüft, ob ein KI-Modell mit allgemeinem Verwendungszweck systemisches Risiko
+    birgt. Sie bewertet die Modellgröße, die Datenmenge, den Trainingsaufwand, die Ein- und Ausgabemodalitäten,
+    die Leistungsbenchmarks und die Skalierbarkeit. Außerdem wird die Marktweite berücksichtigt, etwa
+    wenn das Modell mindestens zehntausend registrierten gewerblichen Nutzern in der Union zur Verfügung
+    steht, sowie die Zahl der Endnutzer. Die Kriterien gelten für alle Anbieter, die ein solches Modell
+    in der EU anbieten oder bereitstellen.
+  source_sha: 20b6886f8442a21ebc7015d97d124f1127ab1adba73a7470eb9376899f15b6c4
+  children: []
+- node: ai_act:anx_XIV
+  summary: Der Anhang listet Codes, Kategorien und zugehörige KI-Systemarten für das Notifizierungsverfahren
+    von Konformitätsbewertungsstellen. Er legt fest, für welche KI-Systeme benannte Konformitätsbewertungsstellen
+    tätig werden dürfen. Er bindet die benannten Konformitätsbewertungsstellen, Anbieter von Hochrisiko-KI-Systemen
+    und Antragsteller auf eine Benennung als Stelle. Er tritt in Kraft, sobald eine Konformitätsbewertung
+    von Hochrisiko-KI-Systemen die Einbeziehung einer benannten Stelle erfordert.
+  source_sha: 0ca3c91184e9a53040163b1bbd7644999af4bd9474093b99ad4bc25906535f31
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

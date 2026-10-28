@@ -1,0 +1,42 @@
+id: q-02-03
+chapter: 02-was-du-hineingeben-darfst
+type: multiple_choice
+difficulty: 2
+question: >-
+  Unser Arbeitgeber will ein Werkzeug einführen, das aufzeichnet, welche Kollegin
+  wann und wie lange im System arbeitet. Was gilt?
+options:
+  - key: A
+    text: Das regelt allein das Datenschutzrecht, weiter niemand.
+  - key: B
+    text: >-
+      Der Betriebsrat hat bei technischen Einrichtungen, die Verhalten oder
+      Leistung überwachen sollen, ein Mitbestimmungsrecht.
+  - key: C
+    text: Das ist pauschal verboten.
+  - key: D
+    text: Dafür reicht die Zustimmung der Geschäftsleitung.
+correct: B
+model_answer: >-
+  B. Die Einführung und Anwendung technischer Einrichtungen, die dazu bestimmt
+  sind, das Verhalten oder die Leistung der Arbeitnehmer zu überwachen, steht
+  unter der Mitbestimmung des Betriebsrats. Das Werkzeug zeichnet auf, wer wann
+  und wie lange arbeitet, es überwacht also Verhalten und Leistung. Allein das
+  Datenschutzrecht oder die Geschäftsleitung entscheiden das nicht, und
+  pauschal verboten ist die Aufzeichnung auch nicht.
+explanation: >-
+  § 87 Abs. 1 Nr. 6 BetrVG nennt die Einführung und Anwendung von technischen
+  Einrichtungen, die dazu bestimmt sind, das Verhalten oder die Leistung der
+  Arbeitnehmer zu überwachen. In diesen Angelegenheiten hat der Betriebsrat
+  mitzubestimmen. Das Werkzeug zeichnet auf, welche Kollegin wann und wie lange
+  im System arbeitet, es ist also dazu bestimmt, Verhalten und Leistung zu
+  überwachen. A ist darum falsch, denn nicht das Datenschutzrecht regelt das
+  allein. D ist falsch, denn die Zustimmung der Geschäftsleitung reicht nicht.
+  C ist falsch, denn verboten ist die Aufzeichnung nicht pauschal, sie braucht
+  die Mitbestimmung des Betriebsrats.
+citations: ["BetrVG § 87(1) Nr. 6"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

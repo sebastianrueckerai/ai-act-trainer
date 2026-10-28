@@ -1,0 +1,30 @@
+node: ai_act:cpt_X
+summary: Das Büro für Künstliche Intelligenz und die Mitgliedstaaten unterstützen die Erstellung freiwilliger
+  Verhaltenskodizes. Sie gelten für Anbieter und Betreiber von KI-Systemen ohne hohes Risiko und für alle
+  KI-Systeme, die sich freiwillig an festgelegte Ziele und Indikatoren halten. Die Kommission erstellt
+  bis zum 1. August 2027 Leitlinien, die die Anwendung der Verordnung erklären. Sie behandeln Anforderungen,
+  verbotene Praktiken, wesentliche Änderungen, Transparenzpflichten, das Verhältnis zu anderem EU-Recht
+  und die Definition eines KI-Systems. Die Leitlinien richten sich an Anbieter, Nutzer, Aufsichtsbehörden
+  und Marktteilnehmer und berücksichtigen die Bedürfnisse von KMU, Start-Ups und lokalen Behörden.
+source_sha: bbde9cb0341f3af7edf5cca907a7a334e317bf86a24f54c10bfb5adec94f0b84
+children:
+- node: ai_act:art_95
+  summary: Das Büro für Künstliche Intelligenz und die Mitgliedstaaten unterstützen die Erstellung freiwilliger
+    Verhaltenskodizes. Sie gelten für Anbieter und Betreiber von KI-Systemen, die keine hohen Risiken
+    darstellen, sowie für alle KI-Systeme, wenn sie sich freiwillig an den festgelegten Zielen und Indikatoren
+    orientieren.
+  source_sha: dbc5a6e1db75be3e9ef8568bbee17781f1d49cd39fbe5740e43b281d03d27ebe
+  children: []
+- node: ai_act:art_96
+  summary: Die Kommission erstellt bis zum 1. August 2027 Leitlinien, die die praktische Anwendung der
+    Verordnung erklären. Sie behandeln Anforderungen, verbotene Praktiken, wesentliche Änderungen, Transparenzpflichten,
+    das Verhältnis zu anderen EU-Rechtsvorschriften und die Definition eines KI-Systems. Die Leitlinien
+    richten sich an Anbieter, Nutzer, Aufsichtsbehörden und andere Marktteilnehmer und berücksichtigen
+    die Bedürfnisse von KMU, Start-Ups, lokalen Behörden und betroffenen Sektoren.
+  source_sha: dec6938e0561bc32d77e823b5f1b2309a17bce07c2479d3f5140712a9f35cc0c
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

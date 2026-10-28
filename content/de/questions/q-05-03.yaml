@@ -1,0 +1,36 @@
+id: q-05-03
+chapter: 05-ki-gegenueber-kunden
+type: free_text
+difficulty: 2
+question: >-
+  Für die Karnevalspostkarte setzt das Marketing das Gesicht des Chefs auf einen
+  Ritter im Comicstil und verschickt sie an alle Kunden. Was ist zu tun?
+rubric:
+  must:
+    - point: nennt, dass wir dazuschreiben müssen, dass das Bild erzeugt ist
+      ask: Also, was muss mit der Postkarte passieren, bevor sie an die Kunden geht?
+    - point: nennt, dass bei einem erkennbar spaßigen Werk ein schlichter Hinweis genügt
+      ask: >-
+        Das Marketing fürchtet, dass jetzt ein dicker Balken mit Erklärung quer
+        über den Ritter muss. Wie viel Hinweis braucht es wirklich?
+  should:
+    - nennt, dass der Hinweis die Postkarte nicht kaputtmachen muss
+    - nennt Art. 50 Abs. 4 für die Offenlegung
+model_answer: >-
+  Offenlegen müssen wir es, aber bei einem offensichtlich satirischen Werk genügt
+  ein geeigneter Hinweis auf das Vorhandensein des erzeugten Inhalts, der die
+  Postkarte nicht zerstört.
+explanation: >-
+  Art. 50 Abs. 4 verpflichtet den Betreiber eines KI-Systems, das Bild-, Ton- oder
+  Videoinhalte erzeugt oder manipuliert, die ein Deepfake sind, offenzulegen, dass
+  die Inhalte künstlich erzeugt oder manipuliert wurden. Derselbe Absatz
+  beschränkt die Pflicht bei einem offensichtlich künstlerischen, kreativen,
+  satirischen oder fiktionalen Werk darauf, das Vorhandensein solcher Inhalte in
+  geeigneter Weise offenzulegen, ohne die Darstellung oder den Genuss des Werks zu
+  beeinträchtigen.
+citations: ["Art. 50(4)"]
+last_change:
+  date: 2026-09-29
+  by: ai
+  trigger: D119
+  summary: one fact per point

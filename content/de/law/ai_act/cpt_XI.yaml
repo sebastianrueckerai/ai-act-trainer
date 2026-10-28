@@ -1,0 +1,29 @@
+node: ai_act:cpt_XI
+summary: Dieses Kapitel regelt, wie die Europäische Kommission für bestimmte Bereiche delegierte Rechtsakte
+  erlassen darf. Die Befugnis gilt für fünf Jahre ab dem Inkrafttreten des KI-Gesetzes, kann verlängert
+  und jederzeit vom Europäischen Parlament oder vom Rat widerrufen werden. Ein delegierter Rechtsakt tritt
+  in Kraft, wenn innerhalb von drei Monaten keine Einwände eingehen. Außerdem wird ein spezieller Ausschuss
+  eingerichtet, der die Kommission bei der Anwendung des KI-Gesetzes unterstützt. Der Ausschuss arbeitet
+  nach den Regeln einer bestehenden Verordnung, deren Bestimmungen hier übernommen werden. Das Kapitel
+  bindet die Kommission, das Parlament, den Rat und die Mitglieder des Ausschusses und gilt ab dem Beginn
+  der Anwendung des KI-Gesetzes.
+source_sha: 3e0d8039c3b360349f0564f04d66b648df0a4e0bd8ff5915c323c0d50a0fca90
+children:
+- node: ai_act:art_97
+  summary: Die Kommission darf für bestimmte Bereiche delegierte Rechtsakte erlassen. Die Befugnis gilt
+    fünf Jahre ab 2024 bzw. 2026, verlängert sich, kann vom Parlament oder Rat jederzeit widerrufen werden
+    und tritt nur in Kraft, wenn innerhalb von drei Monaten keine Einwände erfolgen.
+  source_sha: 9eb2dfd19780bf0b1cb62b2bf9ba16968605af5d1d79660783227551f370ffe2
+  children: []
+- node: ai_act:art_98
+  summary: Der Artikel bestimmt, dass die Europäische Kommission bei der Anwendung des KI-Gesetzes von
+    einem Ausschuss unterstützt wird. Der Ausschuss ist ein Ausschuss im Sinne der Verordnung (EU) Nr.
+    182/2011. Wird auf den zweiten Absatz Bezug genommen, gilt das Prüfungsverfahren dieser Verordnung,
+    das dem Europäischen Parlament und dem Rat eine Prüfung der Entwürfe ermöglicht.
+  source_sha: e5b6f47dbc5c95ecc694bdcdbe310f0bc95ddef0acbf2c28ee894c383f6009c6
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

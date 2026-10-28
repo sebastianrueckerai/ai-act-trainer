@@ -1,0 +1,22 @@
+node: geschgehg:cpt_4
+summary: Der Abschnitt stellt das unbefugte Erlangen, Nutzen und Offenbaren von Geschäftsgeheimnissen
+  unter Strafe, wenn jemand zum Zweck des Wettbewerbs, aus Eigennutz, zugunsten eines Dritten oder zur
+  Schädigung des Inhabers handelt. Er bindet jede Person, die fremde Geschäftsgeheimnisse missbraucht,
+  insbesondere Beschäftigte. Wer gewerbsmäßig handelt oder das Geheimnis für das Ausland nutzt, erhält
+  eine höhere Strafe. Die Tat wird nur auf Antrag verfolgt, außer wenn ein erhebliches öffentliches Interesse
+  besteht.
+source_sha: 35bd2c11464cbdf10460684659bfeda7e62ff5c557efaa99e930350240c3a730
+children:
+- node: geschgehg:sec_23
+  summary: Das Gesetz bestraft das unbefugte Erlangen, Nutzen oder Offenlegen von Geschäftsgeheimnissen,
+    wenn dies zur Förderung des eigenen oder fremden Wettbewerbs, aus Eigennutz, zugunsten Dritter oder
+    zur Schädigung des Inhabers geschieht. Es gilt für jede Person, insbesondere Beschäftigte, und sieht
+    höhere Strafen bei gewerbsmäßigem Handeln oder Auslandsnutzung vor. Die Verfolgung erfolgt nur auf
+    Antrag, außer bei erheblichem öffentlichen Interesse.
+  source_sha: 369cd759e197626bb3219e0fb2fd4c1e23afc076f60000b266996f3bf3050c37
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

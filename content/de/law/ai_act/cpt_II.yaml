@@ -1,0 +1,26 @@
+node: ai_act:cpt_II
+summary: Das Verbot richtet sich an alle Anbieter, Betreiber und Nutzer von KI-Systemen in der EU. Es
+  verbietet das Inverkehrbringen, Inbetriebnehmen oder Verwenden von Systemen, die manipulative Unterbewusstseins-Einflüsse
+  ausüben, Schwächen ausnutzen, nicht einvernehmliche pornografische Deepfakes erzeugen, illegale Inhalte
+  verbreiten, soziale Bewertungen ermöglichen, profilorientierte Kriminalitätsprognosen erstellen, unzulässige
+  Gesichtserkennungs-Datenbanken betreiben, emotionale Analysen am Arbeitsplatz oder in Schulen durchführen,
+  biometrische Kategorisierung sensibler Merkmale vornehmen oder Echtzeit-Fernidentifizierung in öffentlichen
+  Räumen durchführen, außer in Strafverfolgungs-Ausnahmen. Das Verbot gilt, sobald das System auf dem
+  Markt ist, in Betrieb genommen oder genutzt wird.
+source_sha: 9e7449d50e3404d589de937a2991201ed8a2fa809ef7d1674ad3e11c555ba638
+children:
+- node: ai_act:art_5
+  summary: Das Verbot richtet sich an alle Anbieter, Betreiber und Nutzer von KI-Systemen in der EU. Es
+    untersagt das Inverkehrbringen, Inbetriebnehmen oder Verwenden von Systemen, die manipulative Unterbewusstseins-Einflüsse,
+    Ausnutzung von Schwächen, nicht einvernehmliche pornografische Deepfakes, illegale Inhalte, soziale
+    Bewertung, rein profilorientierte Kriminalitätsprognosen, unzulässige Gesichtserkennungs-Datenbanken,
+    emotionale Analyse am Arbeitsplatz oder in Schulen, sowie biometrische Kategorisierung sensibler Merkmale
+    und Echtzeit-Fernidentifizierung in öffentlichen Räumen, außer in eng definierten Strafverfolgungs-Ausnahmen.
+    Das Verbot gilt, sobald das System auf dem Markt ist, in Betrieb genommen oder genutzt wird.
+  source_sha: b2d83e0d88b45cff5252e3f4591545ea948c2ab74474cd62cdd8330e105dd434
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

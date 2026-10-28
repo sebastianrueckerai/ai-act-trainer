@@ -1,0 +1,29 @@
+id: q-02-01
+chapter: 02-was-du-hineingeben-darfst
+type: yes_no
+difficulty: 1
+question: >-
+  Du willst eine Tabelle mit Bestellzahlen in den Chatassistenten kopieren.
+  Namen und Adressen hast du entfernt. Darfst du das?
+correct: "yes"
+model_answer: >-
+  Ja. Namen und Adressen hast du entfernt, also sind keine personenbezogenen
+  Daten mehr in der Tabelle. Die Bestellzahlen sind kein Geschäftsgeheimnis, das
+  das Haus geheim hält, und eine Hausregel, die das Kopieren verbietet, gibt es
+  nicht.
+explanation: >-
+  Du gehst die drei Fragen aus dem Kapitel durch. Namen und Adressen hast du
+  entfernt, also enthält die Tabelle keine personenbezogenen Daten mehr. Ein
+  Geschäftsgeheimnis nach § 2 Nr. 1 GeschGehG ist die Tabelle auch nicht: Sie ist
+  eine gewöhnliche Auswertung, die das Haus nicht wie die Kundenliste oder die
+  Spannentabelle geheim hält. Eine Hausregel, die das Kopieren verbietet, gibt es
+  in der Aufgabe nicht. Darum darfst du hineinkopieren. Wäre noch ein
+  personenbezogenes Datum drin, käme es auf eine Rechtsgrundlage an, etwa ein
+  berechtigtes Interesse unseres Arbeitgebers, sofern keine Interessen der
+  betroffenen Person überwiegen (Art. 6 Abs. 1 Buchst. f DSGVO).
+citations: ["GDPR Art. 6(1)(f)", "GeschGehG § 2 Nr. 1"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

@@ -1,0 +1,236 @@
+node: bdsg:cpt_1
+summary: Der Teil legt einheitliche Regeln für die Verarbeitung personenbezogener Daten durch Bundes-
+  und Landesbehörden sowie nicht-öffentliche Stellen, die öffentliche Aufgaben wahrnehmen, fest. Er gilt,
+  wenn die Verarbeitung in Deutschland stattfindet oder die EU-Datenschutzgrundverordnung anwendbar ist,
+  außer bei unmittelbarem EU-Recht. Er definiert, welche Einrichtungen als öffentliche Stellen gelten.
+  Er bestimmt die Rechtsgrundlagen für die Datenverarbeitung, regelt Videoüberwachung, verpflichtet zur
+  Benennung eines Datenschutzbeauftragten, schafft den Bundesbeauftragten für Datenschutz und Informationsfreiheit,
+  regelt die Vertretung im Europäischen Datenschutzausschuss, die Zusammenarbeit von Aufsichtsbehörden
+  und den gerichtlichen Rechtsschutz. All diese Pflichten treffen auf alle betroffenen Stellen zu.
+source_sha: 29545e91c226834153a3c24064ea02f9940a43f773ff14d2d8069507f3a2156a
+children:
+- node: bdsg:cpt_1.sct_1
+  summary: 'Das Kapitel bestimmt, dass die Verarbeitung personenbezogener Daten durch Bundesbehörden,
+    Landesbehörden und nicht-öffentliche Stellen, die Daten verarbeiten, dem Gesetz unterliegt. Es gilt,
+    wenn die Verarbeitung in Deutschland erfolgt oder die EU-Datenschutzgrundverordnung anwendbar ist,
+    außer wenn unmittelbar EU-Recht greift. Außerdem definiert das Kapitel, welche Einrichtungen als öffentliche
+    Stellen gelten: Behörden, Gerichte, öffentlich-rechtliche Einrichtungen und private Vereine, die Verwaltungsaufgaben
+    übernehmen. Personen, die nicht öffentlich sind, werden nur bei hoheitlichen Aufgaben als solche behandelt;
+    sie gelten als nicht-öffentlich, wenn sie am Wettbewerb teilnehmen.'
+  source_sha: a36c1890d3c3df655cdab886494d76c5f0f9a4ba2090118db5b02c6733b9821b
+  children:
+  - node: bdsg:sec_1
+    summary: Das Gesetz regelt die Verarbeitung personenbezogener Daten durch Bundesbehörden, Landesbehörden
+      (wenn kein Landesdatenschutzgesetz greift) und nicht-öffentliche Stellen, die automatisiert oder
+      in Dateisystemen speichern. Es gilt, wenn die Verarbeitung im Inland erfolgt oder die EU-DSGVO anwendbar
+      ist, außer wenn EU-Recht unmittelbar gilt.
+    source_sha: 6bd8d58ab732c495b380460fe2404c438af71ced2286972f64f7b993fc1265d0
+    children: []
+  - node: bdsg:sec_2
+    summary: 'Der Paragraph definiert öffentliche Stellen des Bundes und der Länder: Behörden, Gerichte,
+      öffentlich-rechtliche Einrichtungen. Private Vereine, die Verwaltungsaufgaben übernehmen, gelten
+      als Bundes- oder Landesstelle. Nicht-öffentliche Personen werden nur bei hoheitlichen Aufgaben als
+      öffentliche Stellen behandelt. Öffentliche Stellen gelten als nicht-öffentlich, wenn sie als Unternehmen
+      am Wettbewerb teilnehmen.'
+    source_sha: b1ac302f34b067d9c65759488530f7f30ac46e6fb3a916f3dde88883f4581163
+    children: []
+- node: bdsg:cpt_1.sct_2
+  summary: Das Kapitel legt die Grundlagen für die Verarbeitung personenbezogener Daten durch öffentliche
+    Stellen. Es erlaubt Behörden, Daten zu verarbeiten, wenn dies zur Erfüllung ihrer Aufgaben oder zur
+    Ausübung übertragener öffentlicher Gewalt erforderlich ist. Außerdem regelt es die Videoüberwachung
+    öffentlich zugänglicher Räume. Diese ist nur zulässig, wenn sie zur Erfüllung öffentlicher Aufgaben,
+    zur Wahrnehmung des Hausrechts oder zum Schutz berechtigter Interessen dient, klar definierte Zwecke
+    hat, sichtbar gemacht wird, zweckgebunden gespeichert und nach Wegfall des Bedarfs gelöscht wird.
+  source_sha: 3ebd9f0885b1251b482a6d42eaa3a6cfbb6c67b97b5c54558dda56587345d8e6
+  children:
+  - node: bdsg:sec_3
+    summary: Erlaubt öffentlichen Stellen die Verarbeitung personenbezogener Daten, wenn sie zur Erfüllung
+      ihrer zuständigen Aufgaben oder zur Ausübung übertragener öffentlicher Gewalt nötig ist. Die Regel
+      gilt für jede Datenverarbeitung, die von einer Behörde im Rahmen ihrer Befugnisse durchgeführt wird.
+    source_sha: 6ae484a72a0ce4f024445733606e0f2df1b87629f3444476e754961529827368
+    children: []
+  - node: bdsg:sec_4
+    summary: Die Vorschrift regelt die Videoüberwachung öffentlich zugänglicher Räume. Sie erlaubt die
+      Beobachtung nur, wenn sie zur Erfüllung öffentlicher Aufgaben, zur Wahrnehmung des Hausrechts oder
+      zur Wahrung berechtigter Interessen für klar definierte Zwecke nötig ist und keine schutzwürdigen
+      Interessen der Betroffenen überwiegen. Betreiber müssen die Überwachung und den Verantwortlichen
+      sichtbar machen, Daten nur zweckgebunden speichern und bei Personenbezug informieren. Daten sind
+      zu löschen, sobald sie nicht mehr nötig sind oder schutzwürdige Interessen entgegenstehen.
+    source_sha: a6fcee621554ab9d20efabee59889d9524437772304558889ce38e2cae33d18d
+    children: []
+- node: bdsg:cpt_1.sct_3
+  summary: Das Kapitel regelt die Benennung, Stellung und Aufgaben von Datenschutzbeauftragten öffentlicher
+    Stellen. Öffentliche Stellen, auch im Wettbewerb, müssen eine fachlich geeignete Person als Datenschutzbeauftragten
+    ernennen, intern oder per Vertrag. Der Beauftragte erhält frühzeitige Einbindung in alle datenschutzrelevanten
+    Vorgänge, Ressourcen, Datenzugang und berichtet direkt an die oberste Leitung. Seine Unabhängigkeit
+    ist zu sichern; er darf nicht angeleitet, entlassen oder benachteiligt werden. Er berät, überwacht
+    die Einhaltung des Gesetzes, unterstützt Folgenabschätzungen und kooperiert mit der Aufsichtsbehörde.
+    Die Regel gilt, sobald die Stelle personenbezogene Daten verarbeitet.
+  source_sha: a52c37dcb0bd1867040e0cd3fc191f264a405665af739fe84c187fc675c868ce
+  children:
+  - node: bdsg:sec_5
+    summary: Öffentliche Stellen, auch im Wettbewerb, müssen eine Datenschutzbeauftragte oder einen Datenschutzbeauftragten
+      ernennen; mehrere Stellen können gemeinsam eine Person benennen. Die Benennung erfolgt nach fachlicher
+      Eignung und Fähigkeit, die festgelegten Aufgaben zu erfüllen. Der Beauftragte kann intern oder per
+      Dienstleistungsvertrag arbeiten. Kontaktdaten werden veröffentlicht und dem Bundesbeauftragten gemeldet.
+    source_sha: e0191710d30a67031649971b6e09d9416927d134e9208f4ac5144e482cb165f9
+    children: []
+  - node: bdsg:sec_6
+    summary: Die öffentliche Stelle muss den Datenschutzbeauftragten frühzeitig in alle datenschutzrelevanten
+      Fragen einbinden, ihm Ressourcen und Zugang zu Daten gewähren und seine Unabhängigkeit sichern.
+      Er berichtet direkt der obersten Leitung, darf nicht angeleitet, entlassen oder benachteiligt werden.
+      Betroffene können ihn zu ihren Rechten konsultieren. Die Regel gilt für alle öffentlichen Stellen,
+      sobald sie personenbezogene Daten verarbeiten.
+    source_sha: f5afc1c5500f8e52a56388645d5b3c1e6c9db47ae5407eba1553059edffc1302
+    children: []
+  - node: bdsg:sec_7
+    summary: Der Datenschutzbeauftragte berät die öffentliche Stelle zu Pflichten aus diesem Gesetz, überwacht
+      die Einhaltung, unterstützt Datenschutz-Folgenabschätzungen und kooperiert mit der Aufsichtsbehörde.
+      Bei einer gerichtlichen Bestellung gelten die Aufgaben nicht für die justizielle Tätigkeit. Sie
+      muss Interessenkonflikte verhindern; der Beauftragte berücksichtigt das Risiko der Verarbeitung.
+    source_sha: 7f57f855b8a4952a8091db99d18b95a135e2f2150756d3d3f684450fd6eb2582
+    children: []
+- node: bdsg:cpt_1.sct_4
+  summary: Das Kapitel richtet den Bundesbeauftragten für den Datenschutz und die Informationsfreiheit
+    als oberste Bundesbehörde in Bonn ein. Er überwacht Bundesstellen, öffentlich-rechtliche Unternehmen
+    und Telekommunikationsanbieter, die personenbezogene Daten verarbeiten, sowie mehrheitlich vom Bund
+    gehaltene Auftragsverarbeiter. Der Beauftragte arbeitet völlig unabhängig, wird vom Bundestag gewählt
+    und vom Bundespräsidenten ernannt, dient fünf Jahre und kann wiedergewählt werden. Er darf keine Nebentätigkeit
+    ausüben, erstattet jährlich Bericht an Parlament und EU, erteilt Anordnungen, kann Verwarnungen aussprechen
+    und hat umfassenden Datenzugriff.
+  source_sha: 4a72c42a7fac815789af230f59ad017eeeacf7aaf10fdabb016ae6395ff2a75f
+  children:
+  - node: bdsg:sec_8
+    summary: Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit wird als oberste Bundesbehörde
+      mit Sitz in Bonn eingerichtet. Seine Beamten sind Bundesbeamte. Er
+      darf Personalverwaltungsaufgaben an andere Bundesstellen übertragen, solange seine Unabhängigkeit
+      bleibt. Diese Stellen dürfen Beschäftigtendaten erhalten, wenn sie zur Aufgabenerfüllung nötig sind.
+    source_sha: 7a38ed96a7076f49130be618f25f1498115502191b06b5bcdff335817d0b7aa6
+    children: []
+  - node: bdsg:sec_9
+    summary: Der Bundesbeauftragte überwacht öffentliche Bundesstellen, auch öffentlich-rechtliche Unternehmen
+      im Wettbewerb, und Unternehmen, die Telekommunikationsdienste geschäftsmäßig anbieten und personenbezogene
+      Daten verarbeiten, sofern nicht bereits das Telekommunikations-Datenschutz-Gesetz greift. Die Aufsicht
+      erstreckt sich zudem auf Auftragsverarbeiter, bei denen der Bund die Mehrheit hält und die einen
+      öffentlichen Auftrag des Bundes erhalten. Bundesgerichte sind von dieser Aufsicht ausgenommen, wenn
+      sie Daten im Rahmen ihrer justiziellen Tätigkeit verarbeiten.
+    source_sha: d9d9eb9bb2266ffbcd20ae9de245d4b2d9aba8cbac5fa1ea14daa8707e3b886b
+    children: []
+  - node: bdsg:sec_10
+    summary: Der Bundesbeauftragte führt seine Aufgaben und Befugnisse völlig unabhängig aus. Er lässt
+      sich weder direkt noch indirekt von außen beeinflussen, verlangt keine Anweisungen und nimmt keine
+      entgegen. Seine Tätigkeit wird vom Bundesrechnungshof geprüft, solange die Unabhängigkeit nicht
+      beeinträchtigt wird.
+    source_sha: 6b1a5289d5512f7c0e05440e170fb51ef08f21783748190b8f0bfec1a8018807
+    children: []
+  - node: bdsg:sec_11
+    summary: Der Bundestag wählt auf Vorschlag der Bundesregierung die Bundesbeauftragte oder den Bundesbeauftragten
+      mit Mehrheit seiner Mitglieder. Der Bundespräsident ernennt die Person, die mindestens 35 Jahre
+      alt sein, über Fachkenntnisse im Datenschutzrecht verfügen und für das Richteramt oder den höheren
+      Verwaltungsdienst qualifiziert sein muss. Sie leistet einen Eid vor dem Bundespräsidenten. Die Amtszeit
+      beträgt fünf Jahre, eine Wiederwahl ist möglich.
+    source_sha: 7112c1df607c8d2217a93d22326f1771b29ff0def5e05a0e690a52d721d16f68
+    children: []
+  - node: bdsg:sec_12
+    summary: Der Bundesbeauftragte steht in einem öffentlich-rechtlichen Amtsverhältnis zum Bund. Das
+      Amt beginnt mit der Aushändigung der Ernennungsurkunde und endet mit Ablauf der Amtszeit, Rücktritt
+      oder Entlassung wegen schwerer Verfehlungen. Bei Amtsende führt er auf Bitte des Bundestagspräsidenten
+      die Geschäfte bis zur Nachfolgeregelung maximal sechs Monate weiter.
+    source_sha: f3a1df064467bd803b082347d931251ead80a4bbac5f42650cbe9ae2e1aed8ff
+    children: []
+  - node: bdsg:sec_13
+    summary: Der Bundesbeauftragte für Datenschutz darf während seiner Amtszeit keine andere bezahlte
+      Tätigkeit, kein Gewerbe, keinen Beruf und keine Aufsichtsratsmandate ausüben. Er muss Geschenke
+      melden, kann Verfahrensregeln erlassen, verweigert Zeugenaussagen, wahrt Amtspflichtgeheimnis und
+      meldet Datenschutzverstöße und entscheidet über Auskünfte vor Gericht.
+    source_sha: 5db2a13529ba35c99a7cedc95960eaae5c8eabc26d272fa91bcec6064e6636df
+    children: []
+  - node: bdsg:sec_14
+    summary: Der Bundesbeauftragte für den Datenschutz überwacht und setzt dieses Gesetz sowie weitere
+      Datenschutzvorschriften durch. Er informiert die Öffentlichkeit, berät Parlament und Regierung,
+      unterstützt Betroffene, prüft Beschwerden, kooperiert mit anderen Aufsichtsbehörden, führt Untersuchungen
+      durch und trägt zu EU-Datenschutzgremien bei.
+    source_sha: d7725b37c1cff4849e17f040b3fa1b99edca76daad4a0b0dedf78cc2ba2cf103
+    children: []
+  - node: bdsg:sec_15
+    summary: Der Bundesbeauftragte erstellt jedes Jahr einen Tätigkeitsbericht. Darin listet er gemeldete
+      Verstöße und ergriffene Maßnahmen, einschließlich Sanktionen und Datenschutz-Verordnungs-Maßnahmen.
+      Der Bericht wird an Bundestag, Bundesrat, Bundesregierung übermittelt und öffentlich sowie der EU-Kommission
+      und dem Europäischen Datenschutzausschuss zugänglich gemacht.
+    source_sha: 331b3e3d59c3692adabe0d041a4d052d67fdeef0f03263e80b36850aabbb536e
+    children: []
+  - node: bdsg:sec_16
+    summary: Der Bundesbeauftragte übt Datenschutz-Befugnisse aus, meldet Verstöße an die zuständige Aufsichtsbehörde,
+      gibt Betroffenen Gelegenheit zur Stellungnahme und kann diese Frist bei Gefahr im Verzug oder öffentlichem
+      Interesse aussetzen. Er kann Verwarnungen aussprechen, auf Daten aus Brief-, Post- und Fernmeldeverkehr
+      sowie besonders geschützte Steuerdaten zugreifen. Öffentliche Bundesstellen müssen ihm jederzeit
+      Zugang zu Räumen, Anlagen und allen relevanten personenbezogenen Daten gewähren.
+    source_sha: 4c0328101098e453d63afb83bfcc1be0c213e187b4f832c697e5ace2560514a6
+    children: []
+- node: bdsg:cpt_1.sct_5
+  summary: Das Kapitel regelt die Vertretung im Europäischen Datenschutzausschuss und die zentrale Anlaufstelle.
+    Es ernennt den Bundesbeauftragten zum gemeinsamen Vertreter und legt fest, dass der Bundesrat einen
+    Leiter einer Landesaufsichtsbehörde für fünf Jahre als Stellvertreter bestimmt. Der Vertreter kann
+    dem Stellvertreter Verhandlungsführung und Stimmrecht für rein landesrechtliche Aufgaben übertragen.
+    Außerdem definiert das Kapitel die Zusammenarbeit von Bundes- und Landesaufsichtsbehörden zur einheitlichen
+    Anwendung der EU-Datenschutz-Grundverordnung und der EU-Polizeidatenschutzrichtlinie. Es bestimmt,
+    welche Behörde bei grenzüberschreitenden Datenschutzfällen federführend ist, und regelt das Verfahren
+    zur Bestimmung dieser Behörde sowie die Weiterleitung von Beschwerden.
+  source_sha: 844a075cb3f24db15387b97dbf87e9a8f38dcb9587a39e88317cd02c3fb1c196
+  children:
+  - node: bdsg:sec_17
+    summary: Der Bundesbeauftragte wird zum gemeinsamen Vertreter im Europäischen Datenschutzausschuss
+      und zur zentralen Anlaufstelle ernannt. Der Bundesrat bestimmt einen Leiter einer Landesaufsichtsbehörde
+      als Stellvertreter für fünf Jahre. Der Vertreter kann dem Stellvertreter Verhandlungsführung und
+      Stimmrecht im Ausschuss übertragen, wenn es um rein landesrechtliche Aufgaben geht.
+    source_sha: 42f8af7ba4250dd19fef76be5a2a4a1374ec523d73009fe16052c5553e39676f
+    children: []
+  - node: bdsg:sec_18
+    summary: Die Bundesbeauftragte und die Aufsichtsbehörden der Länder arbeiten zusammen, um die EU-Datenschutz-Grundverordnung
+      und die EU-Polizeidatenschutzrichtlinie einheitlich anzuwenden. Sie tauschen zweckdienliche Informationen
+      aus, geben sich frühzeitig Gelegenheit zur Stellungnahme und bestimmen durch Abstimmung einen gemeinsamen
+      Standpunkt, wobei jede Behörde eine Stimme hat.
+    source_sha: 3a6299b93496abfaf5a2ff0050e1a84e0128fd95263393b109c64e582a205b1e
+    children: []
+  - node: bdsg:sec_19
+    summary: Die Vorschrift legt fest, welche Aufsichtsbehörde bei grenzüberschreitenden Datenschutzfällen
+      die federführende Rolle übernimmt. Sie ist die Behörde des Mitgliedstaats, in dem der Verantwortliche
+      oder Auftragsverarbeiter seine Haupt- bzw. einzige EU-Niederlassung hat. Im Zuständigkeitsbereich
+      des Bundesbeauftragten gelten entsprechende Regeln. Gibt es keine Einigung, wird ein Verfahren zur
+      Bestimmung der federführenden Behörde angewendet. Beschwerden werden an diese Behörde weitergeleitet;
+      fehlt eine solche Möglichkeit, geht die Beschwerde an die Behörde des Staates mit einer Niederlassung
+      oder an die Behörde am Wohnort des Beschwerdeführers. Im Zuständigkeitsbereich des Bundesbeauftragten
+      wird die Beschwerde an den Bundesbeauftragten weitergeleitet.
+    source_sha: afd5aba87eb8409ae162f6d48b38364e636d60f6a418f82cc549126a950866a7
+    children: []
+- node: bdsg:cpt_1.sct_6
+  summary: Das Kapitel regelt den gerichtlichen Rechtsschutz bei Streitigkeiten über Datenschutzrechte
+    zwischen natürlichen oder juristischen Personen und einer Aufsichtsbehörde des Bundes oder eines Landes.
+    Es bestimmt das Verwaltungsgericht am Sitz der Behörde als zuständig, erlaubt der Behörde, als Partei
+    aufzutreten, schließt Bußgeldverfahren aus, sieht keine Vorverfahren vor und verhindert, dass die
+    Behörde sofortige Vollziehung gegen andere Behörden anordnen darf. Außerdem kann die Aufsichtsbehörde
+    das Bundesverwaltungsgericht um Entscheidung bitten, wenn sie einen Beschluss der Europäischen Kommission
+    für rechtswidrig hält; das Gericht prüft die Gültigkeit und kann die Frage an den Europäischen Gerichtshof
+    weiterleiten.
+  source_sha: a27e9051c5df9f894a9e13bde95ecb434d0229c11c75614587ab34218eceb6af
+  children:
+  - node: bdsg:sec_20
+    summary: Der Abschnitt regelt den gerichtlichen Rechtsschutz für Streitigkeiten zwischen natürlichen
+      oder juristischen Personen und einer Aufsichtsbehörde des Bundes oder eines Landes, die sich auf
+      Datenschutzrechte beziehen. Er legt das Verwaltungsgericht am Sitz der Behörde als zuständig fest,
+      erlaubt der Behörde, als Partei aufzutreten, schließt Bußgeldverfahren aus, sieht keine Vorverfahren
+      vor und verhindert, dass die Behörde sofortige Vollziehung gegen andere Behörden anordnen darf.
+    source_sha: 66147221cd97df0058cef832b10d06e2221010136d529636d43fdc3a92a27820
+    children: []
+  - node: bdsg:sec_21
+    summary: Findet die Aufsichtsbehörde einen Angemessenheitsbeschluss, einen Beschluss über Standardschutzklauseln
+      oder über die Allgemeingültigkeit von Verhaltensregeln der Europäischen Kommission für rechtswidrig,
+      setzt sie das Verfahren aus, beantragt beim Bundesverwaltungsgericht eine gerichtliche Entscheidung,
+      die die Gültigkeit prüft und die Frage dem Europäischen Gerichtshof vorlegt.
+    source_sha: 74161a372bed0bfd5cc20cf1c780a5ab9e92baae34ccc2ad542b09edaa482b29
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

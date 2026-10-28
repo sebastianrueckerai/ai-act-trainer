@@ -1,0 +1,39 @@
+id: q-05-04
+chapter: 05-ki-gegenueber-kunden
+type: yes_no
+difficulty: 3
+question: >-
+  Unsere Pressestelle veröffentlicht eine KI-geschriebene Mitteilung über die Folgen
+  des neuen Gesetzes für die Region. Eine Redakteurin hat sie geprüft, geändert und
+  zeichnet dafür verantwortlich. Muss dabeistehen, dass KI den Text geschrieben hat?
+correct: "no"
+rubric:
+  must:
+    - point: nennt, dass es nicht dabeistehen muss
+    - point: >-
+        begründet es damit, dass ein Mensch den Text geprüft hat und dafür
+        verantwortlich zeichnet
+      ask: >-
+        Ein Kollege aus der Pressestelle fragt, warum der Hinweis hier fehlen
+        darf. Was sagst du ihm?
+  should:
+    - >-
+      nennt, dass die Pflicht sonst für veröffentlichte Texte über Angelegenheiten
+      von öffentlichem Interesse gilt
+    - nennt Art. 50 Abs. 4 für die Offenlegung
+model_answer: >-
+  Nein. Die Offenlegung entfällt, weil der Text einer menschlichen Überprüfung
+  unterlag und eine Person die redaktionelle Verantwortung dafür trägt.
+explanation: >-
+  Art. 50 Abs. 4 verlangt die Offenlegung von Betreibern, die KI-erzeugten Text
+  veröffentlichen, um die Öffentlichkeit über Angelegenheiten von öffentlichem
+  Interesse zu informieren. Derselbe Absatz nimmt den Fall aus, dass die Inhalte
+  einem Verfahren der menschlichen Überprüfung oder der redaktionellen Kontrolle
+  unterzogen wurden und eine natürliche oder juristische Person die redaktionelle
+  Verantwortung für die Veröffentlichung trägt.
+citations: ["Art. 50(4)"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why

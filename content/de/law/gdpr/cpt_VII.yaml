@@ -1,0 +1,180 @@
+node: gdpr:cpt_VII
+summary: Das Kapitel regelt die Zusammenarbeit zwischen der federführenden Aufsichtsbehörde und allen
+  anderen Aufsichtsbehörden. Es verpflichtet die Behörden zum Informationsaustausch, zur Amtshilfe und
+  zu gemeinsamen Maßnahmen, wenn ein Verantwortlicher oder Auftragsverarbeiter in mehreren Mitgliedstaaten
+  tätig ist oder die Verarbeitung viele Personen in verschiedenen Staaten betrifft. Die federführende
+  Behörde erstellt Entscheidungen, berücksichtigt Einwände und kann verbindliche Anordnungen für Verantwortliche,
+  Auftragsverarbeiter und Beschwerdeführer erlassen. Anfragen müssen innerhalb eines Monats kostenfrei
+  beantwortet werden. Gleichzeitig legt das Kohärenzverfahren fest, dass alle Aufsichtsbehörden gemeinsam,
+  ggf. mit der Kommission, eine einheitliche Auslegung der Verordnung sicherstellen, widersprüchliche
+  Entscheidungen verhindern und Durchsetzungsmaßnahmen koordinieren. Der Europäische Datenschutzausschuss
+  gibt Stellungnahmen ab, löst Streitigkeiten, kann verbindliche Beschlüsse fassen und in dringenden Fällen
+  sofortige Maßnahmen anordnen.
+source_sha: 5350a064f2bca2269927d915a8c281e8fa4360ea9c5b34cbfa842cd42a106edc
+children:
+- node: gdpr:cpt_VII.sct_1
+  summary: Die Regelung regelt die Zusammenarbeit zwischen der federführenden Aufsichtsbehörde und allen
+    anderen betroffenen Aufsichtsbehörden. Sie verpflichtet die Behörden, Informationen auszutauschen,
+    Amtshilfe zu leisten und gemeinsame Maßnahmen zu planen, wenn ein Verantwortlicher oder Auftragsverarbeiter
+    in mehreren Mitgliedstaaten tätig ist oder die Verarbeitung viele Personen in verschiedenen Staaten
+    betrifft. Die federführende Behörde entwirft Beschlüsse, berücksichtigt Einwände und kann verbindliche
+    Entscheidungen für Verantwortliche, Auftragsverarbeiter und Beschwerdeführer treffen. Anfragen müssen
+    innerhalb eines Monats ohne Gebühr beantwortet werden.
+  source_sha: efaae4f188d7cd6568334e54b0fa9d51326e99a7ffcc63b2bce34256acac4606
+  children:
+  - node: gdpr:art_60
+    summary: Die federführende Aufsichtsbehörde kooperiert mit allen betroffenen Aufsichtsbehörden, tauscht
+      Informationen aus, kann Amtshilfe anfordern und gemeinsame Maßnahmen durchführen, entwirft Beschlüsse,
+      berücksichtigt Einwände, leitet bei Bedarf ein Kohärenzverfahren ein und erlässt verbindliche Entscheidungen,
+      die dem Verantwortlichen, Auftragsverarbeiter und Beschwerdeführer mitgeteilt werden.
+    source_sha: bf9d289166f5cb250873ad38486f952e395adc38c9d3c2ee2e253ad3a5908d98
+    children: []
+  - node: gdpr:art_61
+    summary: Die Aufsichtsbehörden tauschen wesentliche Informationen aus und leisten einander Amtshilfe,
+      um die Verordnung einheitlich anzuwenden. Sie müssen Anfragen innerhalb eines Monats ohne Gebühr
+      beantworten, dürfen ablehnen nur bei fehlender Zuständigkeit oder Rechtsverstoß, und können bei
+      Nichtbeantwortung dringende Maßnahmen ergreifen. Die Kommission legt Form und Verfahren der Amtshilfe
+      per Durchführungsrechtsakten fest.
+    source_sha: 4e0cc7be5236f2d366c6557212b2b84a3a20d5e249b15a2c61040a62315e8d94
+    children: []
+  - node: gdpr:art_62
+    summary: Gemeinsame Maßnahmen ermöglichen Aufsichtsbehörden, zusammen zu untersuchen und durchzusetzen.
+      Sie gelten, wenn ein Verantwortlicher oder Auftragsverarbeiter in mehreren Mitgliedstaaten tätig
+      ist oder die Verarbeitung viele Personen in verschiedenen Staaten betrifft. Die einladende Behörde
+      ruft andere Behörden zur Teilnahme auf, delegiert Untersuchungsbefugnisse nach nationalem Recht
+      und trägt die Haftung für Schäden, die von ihren Mitarbeitern im Einsatz verursacht werden. Bei
+      fehlender Rückmeldung innerhalb eines Monats können andere Behörden einstweilige Maßnahmen ergreifen.
+    source_sha: f38fd7a19681ec5627af959068f1c27647c0587a8e698a38b03b826abd57eae2
+    children: []
+- node: gdpr:cpt_VII.sct_2
+  summary: Das Kohärenzverfahren verpflichtet alle Aufsichtsbehörden, gemeinsam und ggf. mit der Kommission
+    zu arbeiten, um die Verordnung in allen Mitgliedstaaten einheitlich auszulegen und anzuwenden. Es
+    greift, sobald eine einheitliche Interpretation nötig ist, um widersprüchliche Entscheidungen zu verhindern
+    und Durchsetzungsmaßnahmen zu koordinieren. Der Europäische Datenschutzausschuss gibt Stellungnahmen
+    zu Entwürfen, löst Streitigkeiten zwischen Behörden und kann verbindliche Beschlüsse fassen. In dringenden
+    Fällen kann eine Behörde sofort einstweilige Maßnahmen erlassen, die der Ausschuss prüfen kann. Die
+    Kommission legt ein standardisiertes Format für den elektronischen Informationsaustausch fest.
+  source_sha: c78f9e1422b8a7eeb88cb09308a2cec96f476fa5fc0d80af39cbee004f95fdb1
+  children:
+  - node: gdpr:art_63
+    summary: Das Kohärenzverfahren verpflichtet die Aufsichtsbehörden, miteinander und ggf. mit der Kommission
+      zusammenzuarbeiten, um die Verordnung in allen Mitgliedstaaten einheitlich anzuwenden. Es gilt für
+      alle Aufsichtsbehörden, sobald eine einheitliche Auslegung erforderlich ist und um widersprüchliche
+      Entscheidungen zu vermeiden, sowie die Koordination von Durchsetzungsmaßnahmen.
+    source_sha: ac914e6a22eb24c39745c17b273253238796b7c97683e45d3cb862d8626868b9
+    children: []
+  - node: gdpr:art_64
+    summary: Der Ausschuss gibt eine Stellungnahme ab, wenn eine Aufsichtsbehörde einen Beschluss zu bestimmten
+      Datenschutzmaßnahmen (wie Listen für Folgenabschätzungen, Verhaltensregeln, Akkreditierung, Zertifizierung,
+      Standard-Klauseln oder interne verbindliche Vorschriften) erlassen will. Die Aufsichtsbehörde muss
+      den Entwurf an den Ausschuss senden, der innerhalb von acht Wochen (verlängerbar) mit einfacher
+      Mehrheit eine Stellungnahme erstellt. Die Behörde muss die Stellungnahme berücksichtigen und innerhalb
+      von zwei Wochen Rückmeldung geben, ob sie den Entwurf beibehält oder ändert.
+    source_sha: f73b20ade576f82fa4e8cf7f7be086524ee372356de8373d8ebaec33004751d2
+    children: []
+  - node: gdpr:art_65
+    summary: Der Ausschuss erlässt bei einem begründeten Einspruch einer Aufsichtsbehörde gegen den Entwurf
+      der federführenden Behörde, bei widersprüchlichen Zuständigkeitsansprüchen oder bei Nichtbefolgung
+      seiner Stellungnahme einen verbindlichen Beschluss. Er gilt für alle betroffenen Aufsichtsbehörden
+      und wird innerhalb von ein bis zwei Monaten beschlossen.
+    source_sha: 2e5645028034cc025c2ec3b42b7a269447d30cb1cb54c79a0dab7af512fd8022
+    children: []
+  - node: gdpr:art_66
+    summary: Bei außergewöhnlichen Umständen kann eine Aufsichtsbehörde sofort einstweilige Maßnahmen
+      von höchstens drei Monaten erlassen, die in ihrem Hoheitsgebiet gelten, um Rechte und Freiheiten
+      zu schützen. Sie informiert Aufsichtsbehörden, Ausschuss und Kommission und kann vom Ausschuss innerhalb
+      von zwei Wochen eine Stellungnahme oder einen verbindlichen Beschluss mit einfacher Mehrheit verlangen.
+    source_sha: 48ae05992418f0809ea5ed5445a6c6391b5519c112573607ac588f1225383b71
+    children: []
+  - node: gdpr:art_67
+    summary: Die Kommission erlässt Durchführungsrechtsakte von allgemeiner Tragweite, um den elektronischen
+      Informationsaustausch zwischen den Aufsichtsbehörden und zwischen ihnen und dem Ausschuss zu regeln.
+      Dabei legt sie ein standardisiertes Format fest. Die Rechtsakte werden nach dem im Gesetz vorgesehenen
+      Prüfverfahren für Durchführungsrechtsakte beschlossen.
+    source_sha: c2bac3584b2319d1ac9f20fa57df6c3e17c41846019453de04cea9e806bd1968
+    children: []
+- node: gdpr:cpt_VII.sct_3
+  summary: Der Europäische Datenschutzausschuss wird als eigenständige Einrichtung der Union mit Rechtspersönlichkeit
+    eingerichtet. Er besteht aus den Leitern aller nationalen Aufsichtsbehörden und dem Europäischen Datenschutzbeauftragten;
+    die Kommission kann ohne Stimmrecht teilnehmen. Der Ausschuss muss unabhängig handeln und darf keine
+    Weisungen von der Kommission erhalten. Er sorgt für die einheitliche Anwendung der Verordnung, überwacht
+    die Umsetzung, berät die Kommission, erstellt Leitlinien, genehmigt Zertifizierungskriterien und führt
+    öffentliche Register. Jährlich erstattet er Bericht über den Datenschutz in der Union und in Drittländern,
+    veröffentlicht ihn und übermittelt ihn an Parlament, Rat und Kommission. Entscheidungen trifft er
+    mit einfacher Mehrheit, die Geschäftsordnung mit Zweidrittelmehrheit; er bestimmt eigenständig seine
+    Arbeitsweise. Der Ausschuss wählt einen Vorsitzenden und zwei Stellvertreter für fünf Jahre, einmal
+    wiederwählbar. Der Vorsitzende ruft Sitzungen ein, legt die Tagesordnung fest und leitet die Beschlüsse
+    weiter. Ein vom Europäischen Datenschutzbeauftragten bereitgestelltes Sekretariat unterstützt den
+    Ausschuss nach Anweisung des Vorsitzenden. Der Ausschuss hält seine Beratungen vertraulich, wenn nötig,
+    und regelt den Dokumentenzugang nach der EU-Verordnung über den öffentlichen Zugang zu Dokumenten.
+  source_sha: 79cf2dee1f47c7593d0a0a68fee1c7f704513b50a546a82578c9866190076b3a
+  children:
+  - node: gdpr:art_68
+    summary: Der Europäische Datenschutzausschuss wird als eigenständige Einrichtung der Union mit Rechtspersönlichkeit
+      eingerichtet. Er wird vom Vorsitz vertreten und besteht aus den Leitern aller nationalen Aufsichtsbehörden
+      sowie dem Europäischen Datenschutzbeauftragten. Die Kommission darf ohne Stimmrecht teilnehmen und
+      wird vom Vorsitz informiert.
+    source_sha: 2799e99dfacf39ef9fe09d692ec89ba8a73c4b124ee92e33055971f16df2f0c8
+    children: []
+  - node: gdpr:art_69
+    summary: Der Ausschuss muss bei Erfüllung seiner Aufgaben und Ausübung seiner Befugnisse unabhängig
+      handeln. Er darf keine Weisungen von der Kommission einholen oder entgegennehmen, selbst wenn die
+      Kommission danach verlangt. Dies gilt bei allen Tätigkeiten, die durch die Artikel über die Aufgaben
+      und Befugnisse des Ausschusses geregelt sind.
+    source_sha: 08f668dfee759c22304067c99ccef3e19913a1e1a54ad1094656ebffbd0903ef
+    children: []
+  - node: gdpr:art_70
+    summary: Der Ausschuss sorgt für die einheitliche Anwendung der Verordnung. Er überwacht die Umsetzung,
+      berät die Kommission zu Datenschutzfragen, erstellt Leitlinien, genehmigt Zertifizierungskriterien
+      und führt öffentliche Register. Die Aufgaben gelten, sobald der Ausschuss tätig wird, insbesondere
+      in den in der Verordnung genannten Fällen.
+    source_sha: 891fb3034b60ff033e88f0d64b6db09364044f64d94569f9cd931432c9ad3420
+    children: []
+  - node: gdpr:art_71
+    summary: Der Ausschuss erstellt jedes Jahr einen Bericht über den Schutz natürlicher Personen bei
+      der Datenverarbeitung in der Union und ggf. in Drittländern oder internationalen Organisationen.
+      Der Bericht wird veröffentlicht und an das Europäische Parlament, den Rat und die Kommission übermittelt.
+      Er prüft, wie Leitlinien, Empfehlungen, bewährte Verfahren und verbindliche Entscheidungen praktisch
+      angewendet werden.
+    source_sha: bf32a090c9377ba7fda47d314d4215189567c35eb3b2560456c342d862dc2bc7
+    children: []
+  - node: gdpr:art_72
+    summary: Der Ausschuss fasst Beschlüsse mit einfacher Mehrheit, wenn die Verordnung nichts anderes
+      bestimmt. Für die Festlegung seiner Geschäftsordnung verlangt er eine Zweidrittelmehrheit. Außerdem
+      bestimmt er eigenständig seine Arbeitsweise. Damit regelt er die internen Abläufe und Entscheidungsprozesse
+      des Gremiums.
+    source_sha: 1c7eac77cf3292c1399db7adb777f613e57bd1a8bbd18a8d8ce77a41ddd7ef90
+    children: []
+  - node: gdpr:art_73
+    summary: Der Ausschuss wählt aus seinen Mitgliedern einen Vorsitzenden und zwei stellvertretende Vorsitzende
+      per einfacher Mehrheit. Die Amtszeit beträgt fünf Jahre; eine einmalige Wiederwahl ist zulässig.
+      Die Regel gilt für alle Ausschussmitglieder bei der Besetzung der Leitungspositionen.
+    source_sha: 517629dcf39d0d475c849bf31f608b76a242a17c40b462825c77e820a7b400e8
+    children: []
+  - node: gdpr:art_74
+    summary: Der Vorsitzende ruft die Sitzungen des Ausschusses ein, erstellt die Tagesordnung und leitet
+      die Beschlüsse an die federführende Aufsichtsbehörde sowie an die beteiligten Aufsichtsbehörden
+      weiter. Er sorgt für die rechtzeitige Erfüllung aller Ausschussaufgaben, besonders im Kohärenzverfahren,
+      und bestimmt in der Geschäftsordnung die Aufgabenverteilung zwischen sich und seinen Stellvertretern
+      fest.
+    source_sha: b1523b2ca39f203348bca9af5c79077335d506e7bb385c7eea42438efbf9d147
+    children: []
+  - node: gdpr:art_75
+    summary: Ein vom Europäischen Datenschutzbeauftragten bereitgestelltes Sekretariat unterstützt den
+      Ausschuss. Es arbeitet ausschließlich nach Anweisung des Ausschussvorsitzes. Das Personal führt
+      analytische, administrative und logistische Aufgaben aus, kümmert sich um Kommunikation, Übersetzungen,
+      Sitzungsorganisation und die Erstellung von Stellungnahmen und Beschlüssen. Die Zusammenarbeit wird
+      vertraglich geregelt.
+    source_sha: 8299fb3953706b889bcb0c800caff53bfdaca1eb1e81b83860f1868c7fcfcb33
+    children: []
+  - node: gdpr:art_76
+    summary: 'Vertraulichkeit: Der Ausschuss hält seine Beratungen geheim, wenn er das für nötig hält.
+      Das gilt für Ausschussmitglieder, Sachverständige und Vertreter Dritter. Der Zugang zu den vorgelegten
+      Dokumenten richtet sich nach der EU-Verordnung über den öffentlichen Zugang zu Dokumenten.'
+    source_sha: 037d10f39bcda9a1081f602eb5aeb8c417b235c1aaf5b322c5b129be47952fdb
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

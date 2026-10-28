@@ -1,0 +1,386 @@
+node: bdsg:cpt_3
+summary: Der Teil regelt die Verarbeitung personenbezogener Daten durch öffentliche Stellen, die Straftaten
+  und Ordnungswidrigkeiten verhindern, aufklären, verfolgen oder ahnden. Er definiert zentrale Begriffe,
+  legt Grundprinzipien für rechtmäßige, zweckgebundene und sichere Verarbeitung fest und verlangt Schutzmaßnahmen
+  wie Pseudonymisierung. Er verpflichtet Verantwortliche und Auftragsverarbeiter, Daten nur bei zwingender
+  Notwendigkeit zu nutzen, Einwilligungen einzuholen, Betroffenenrechte zu gewähren und Datenübermittlungen
+  in Drittländer nur bei geeigneten Garantien zu erlauben. Er gilt für jede Verarbeitung im genannten
+  Aufgabenbereich.
+source_sha: 11efe7bc2a19745a2074f54e5e2775ac23c2d8c2b9c340ed2fff25876ca73ae0
+children:
+- node: bdsg:cpt_3.sct_1
+  summary: Dieses Kapitel regelt die Verarbeitung personenbezogener Daten durch öffentliche Stellen, die
+    für Verhütung, Ermittlung, Aufdeckung, Verfolgung oder Ahndung von Straftaten und Ordnungswidrigkeiten
+    zuständig sind. Es definiert zentrale Begriffe wie personenbezogene Daten, Verarbeitung, Profiling,
+    Pseudonymisierung, Verantwortlicher, Auftragsverarbeiter und Empfänger. Es verpflichtet alle Verantwortlichen
+    und Auftragsverarbeiter, Daten rechtmäßig, nach Treu und Glauben und nur für festgelegte, legitime
+    Zwecke zu verarbeiten. Sie müssen die Daten korrekt, zweckgebunden, zeitlich begrenzt und sicher speichern
+    und vor unbefugtem Zugriff schützen.
+  source_sha: 115b35a47762158e4c5acc9fd998c4fc60375a3e0fe6e02445a1ec8be9418e3c
+  children:
+  - node: bdsg:sec_45
+    summary: Der Teil regelt die Verarbeitung personenbezogener Daten durch öffentliche Stellen, die für
+      Verhütung, Ermittlung, Aufdeckung, Verfolgung oder Ahndung von Straftaten und Ordnungswidrigkeiten
+      zuständig sind. Sie gelten als Verantwortliche. Er gilt auch für Behörden, die Strafen, Maßnahmen,
+      erzieherische oder disziplinarische Anordnungen und Geldbußen vollziehen. Vorgaben für Auftragsverarbeiter
+      gelten ebenfalls.
+    source_sha: 5edffec1dcc75d6dc49a5d9ef671e2b04e4cbaef013ec91f3f4eed1e2447be47
+    children: []
+  - node: bdsg:sec_46
+    summary: Die Vorschrift legt die wichtigsten Begriffe des Datenschutzrechts fest, darunter personenbezogene
+      Daten, Verarbeitung, Profiling, Pseudonymisierung, Verantwortlicher, Auftragsverarbeiter, Empfänger,
+      besondere Kategorien usw. Sie gilt für alle Verantwortlichen, Auftragsverarbeiter und sonstige Stellen,
+      sobald das Gesetz Anwendung findet.
+    source_sha: cc8954eb14501b5109bb93431138e8ef127051c9a08010da61dd93149a3b8287
+    children: []
+  - node: bdsg:sec_47
+    summary: Die Vorschrift verpflichtet alle Verantwortlichen und Auftragsverarbeiter, personenbezogene
+      Daten rechtmäßig und nach Treu und Glauben zu verarbeiten. Sie dürfen Daten nur für festgelegte,
+      legitime Zwecke erheben, müssen sie korrekt, zweckgebunden, zeitlich begrenzt und sicher speichern
+      und vor unbefugtem Zugriff schützen sowie die Sicherheit gewährleisten.
+    source_sha: 7cbea42fa9772305677d96afdfe4e2aab631eeb9faeb3cfb1d4d99ba4f6f1d4c
+    children: []
+- node: bdsg:cpt_3.sct_2
+  summary: Das Kapitel legt die Grundregeln für die Verarbeitung personenbezogener Daten fest. Es erlaubt
+    die Verarbeitung besonderer Kategorien nur, wenn sie für die Aufgabenerfüllung zwingend nötig ist
+    und geeignete Schutzmaßnahmen wie Pseudonymisierung oder Verschlüsselung bestehen. Weiterverwendung
+    ist zulässig, wenn der Zweck gesetzlich erlaubt ist, ebenso für archivierende, wissenschaftliche und
+    statistische Zwecke bei öffentlichem Interesse und mit entsprechenden Garantien. Es verlangt nachweisbare,
+    freiwillige Einwilligung, Verarbeitung ausschließlich nach Weisung des Verantwortlichen, Einhaltung
+    des Datengeheimnisses und verbietet automatisierte Einzelentscheidungen mit nachteiligen Rechtsfolgen,
+    sofern kein Gesetz dies erlaubt. Das Kapitel bindet Verantwortliche und Auftragsverarbeiter bei jeder
+    Datenverarbeitung.
+  source_sha: 26aae5e3ba19459cb23e57869ed1cb62ae3913a60f6db1006afb9a3ab6c24395
+  children:
+  - node: bdsg:sec_48
+    summary: Die Verarbeitung besonderer Kategorien personenbezogener Daten ist nur erlaubt, wenn sie
+      für die Aufgabenerfüllung zwingend nötig ist. Dann müssen geeignete Garantien zum Schutz der Rechte
+      der Betroffenen geschaffen werden, etwa Sicherheitsanforderungen, Löschfristen, Schulungen, Zugangsbeschränkungen,
+      Trennung von anderen Daten, Pseudonymisierung, Verschlüsselung oder spezielle Verfahrensregeln.
+    source_sha: 41cb3d1f79b3f16c1d86685270bf1e8442de1e969ccd7784b3ad1f8558e897aa
+    children: []
+  - node: bdsg:sec_49
+    summary: Erlaubt die Weiterverwendung personenbezogener Daten für einen anderen Zweck, wenn dieser
+      Zweck zu den in einer anderen Vorschrift genannten zulässigen Zwecken gehört, der Verantwortliche
+      befugt ist und die Verarbeitung notwendig und verhältnismäßig ist. Auch zulässig, wenn ein Gesetz
+      die Nutzung für einen nicht genannten Zweck ausdrücklich erlaubt.
+    source_sha: 9e6981e3befbaa4df1a6d01feb9b672dc44274b95a7062d7d935637170a59cd4
+    children: []
+  - node: bdsg:sec_50
+    summary: Die Verarbeitung zu archivarischen, wissenschaftlichen und statistischen Zwecken erlaubt
+      die Nutzung personenbezogener Daten, wenn ein öffentliches Interesse besteht. Sie ist nur zulässig,
+      wenn geeignete Garantien wie zeitnahe Anonymisierung, Schutz vor unbefugtem Zugriff und räumliche
+      Trennung von anderen Aufgaben gewährleistet sind.
+    source_sha: 39847bb54f1bf3c748c708286166a7b0a8fddefebc6421f74fd2b0a640cd8eb7
+    children: []
+  - node: bdsg:sec_51
+    summary: Der Verantwortliche muss die Einwilligung der betroffenen Person nachweisen können. Die Einwilligung
+      muss in klarer, leicht verständlicher Sprache separat von anderen Erklärungen gestellt werden. Sie
+      ist freiwillig, kann jederzeit widerrufen werden und muss vorab über Zweck, mögliche Folgen einer
+      Verweigerung und bei besonderen Datenkategorien ausdrücklich informiert werden.
+    source_sha: 51672f589bfe5e5e0c0bcde30b7382b6f5258f7fcb8c2c564c72a565bc43de55
+    children: []
+  - node: bdsg:sec_52
+    summary: Die Regel verlangt, dass jede Person, die einem Verantwortlichen oder Auftragsverarbeiter
+      untersteht und Zugang zu personenbezogenen Daten hat, Daten nur nach Anweisung des Verantwortlichen
+      verarbeitet. Eine Ausnahme besteht, wenn ein Gesetz die Verarbeitung vorschreibt.
+    source_sha: c9520498cd4e837bc53273ae0b9b6324dcf17ed8bb76b88f5aa78459aded6038
+    children: []
+  - node: bdsg:sec_53
+    summary: Personen, die personenbezogene Daten verarbeiten, dürfen diese nicht unbefugt nutzen. Sie
+      müssen zu Beginn ihrer Tätigkeit das Datengeheimnis verpflichtend akzeptieren. Die Verpflichtung
+      bleibt auch nach Ende ihrer Tätigkeit bestehen. Verstöße können strafrechtlich verfolgt werden und
+      zu Geld- oder Freiheitsstrafen führen.
+    source_sha: 06f4262966944fae93f9d064aabb138f3e168a15bb2b085c2ae4e25bfa098075
+    children: []
+  - node: bdsg:sec_54
+    summary: Eine Entscheidung, die ausschließlich automatisiert getroffen wird und eine nachteilige Rechtsfolge
+      für die betroffene Person hat, ist nur erlaubt, wenn ein Gesetz sie ausdrücklich erlaubt. Sie darf
+      nicht auf besonderen Kategorien personenbezogener Daten beruhen, außer es gibt geeignete Schutzmaßnahmen.
+      Profiling, das Diskriminierung aufgrund solcher Daten bewirkt, ist verboten.
+    source_sha: 0c0f38a1824b352cff4e71eccead49d6481c3ff4685bf9b8a647f3972c189023
+    children: []
+- node: bdsg:cpt_3.sct_3
+  summary: Das Kapitel regelt die Rechte von Personen, deren personenbezogene Daten verarbeitet werden.
+    Es verpflichtet den Verantwortlichen, verständliche Informationen über Zweck, Rechtsgrundlage und
+    Rechte bereitzustellen und betroffene Personen bei bestimmten Rechtsvorschriften zu informieren. Auf
+    Antrag muss der Verantwortliche Auskunft geben, Daten berichtigen, löschen oder die Verarbeitung einschränken.
+    Er muss das Verfahren klar darstellen, kann bei Anträgen Gebühren erheben und die Identität prüfen.
+    Betroffene können Beschwerden bei der Bundesbeauftragten einlegen; diese leitet sie weiter und informiert
+    über den Stand. Gegen Entscheidungen oder Untätigkeit der Beauftragten können Betroffene Klage erheben.
+  source_sha: 72b5fa2d6d7acd38bbdb0ec5391e6e8c4cb66da73a89d9a73c051ced3245047f
+  children:
+  - node: bdsg:sec_55
+    summary: Der Verantwortliche stellt öffentlich allgemein verständliche Informationen bereit. Er erklärt
+      die Verarbeitungszwecke, die Rechte auf Auskunft, Berichtigung, Löschung und Einschränkung, seinen
+      Namen und Kontaktdaten sowie die des Datenschutzbeauftragten. Außerdem weist er auf das Recht hin,
+      die Bundesbeauftragte zu kontaktieren, und nennt deren Erreichbarkeit.
+    source_sha: d056050260a67f92394e4d85b2ce394b39da7414ffcd285f431d549bd9eca7cd
+    children: []
+  - node: bdsg:sec_56
+    summary: Der Verantwortliche muss betroffene Personen über die Verarbeitung ihrer personenbezogenen
+      Daten informieren, wenn spezielle Rechtsvorschriften, insbesondere verdeckte Maßnahmen, dies vorsehen.
+      Die Mitteilung muss Angaben zum Verantwortlichen, Zweck, Rechtsgrundlage, Speicherfrist, Empfängerkategorien
+      und ggf. weitere Informationen enthalten. Der Verantwortliche darf die Information verzögern, einschränken
+      oder unterlassen, wenn dadurch die Erfüllung seiner Aufgaben, die öffentliche Sicherheit oder Rechte
+      Dritter gefährdet würden und das Interesse an der Gefahrenabwehr das Informationsinteresse überwiegt.
+      Bei Übermittlung an Sicherheitsbehörden ist die Mitteilung nur mit deren Zustimmung zulässig.
+    source_sha: ba2a76505f7d5a5b3385557d03d9db3afc6dd641865a968fd879a83f15652935
+    children: []
+  - node: bdsg:sec_57
+    summary: Der Verantwortliche muss auf Antrag einer betroffenen Person Auskunft geben, ob ihre Daten
+      verarbeitet werden und welche Daten, Herkunft, Zweck, Rechtsgrundlage, Empfänger, Speicherdauer
+      und Rechte auf Berichtigung, Löschung oder Einschränkung bestehen. Ausnahmen gelten bei gesetzlicher
+      Aufbewahrungspflicht, Datensicherung oder unverhältnismäßigem Aufwand sowie bei Gefährdung der Bundes-
+      oder Staatssicherheit.
+    source_sha: bb6b3439174b1e9d77c6a6a8a537e76663f604e161583a1f62f19d3b96343c99
+    children: []
+  - node: bdsg:sec_58
+    summary: Die betroffene Person kann vom Verantwortlichen unverzüglich die Berichtigung falscher Daten,
+      die Vervollständigung unvollständiger Daten, die Löschung unzulässiger Daten oder die Einschränkung
+      der Verarbeitung verlangen. Der Verantwortliche muss die Person und alle Empfänger informieren und
+      technische Maßnahmen zur eindeutigen Kennzeichnung der Einschränkung treffen.
+    source_sha: 27118140e6109283eef593ecd5b3d1b3cf658ffb6722f52b20f9fe73bca41ecc
+    children: []
+  - node: bdsg:sec_59
+    summary: Der Verantwortliche muss mit betroffenen Personen in klarer, einfacher Sprache und in der
+      vom Antragsteller gewählten Form kommunizieren. Er informiert über das Verfahren, stellt Informationen
+      und Benachrichtigungen bereit und kann bei unbegründeten oder exzessiven Anträgen eine Gebühr verlangen
+      oder ablehnen. Bei Zweifel an der Identität darf er Nachweise verlangen.
+    source_sha: 0c20102d0c02f5fb4dbf49fbc30518e19da43d59627966e1caa24892cb6e6eea
+    children: []
+  - node: bdsg:sec_60
+    summary: Betroffene Personen können sich bei vermuteten Verstößen gegen ihre Rechte bei der Verarbeitung
+      personenbezogener Daten durch öffentliche Stellen mit einer Beschwerde an die Bundesbeauftragte
+      bzw. den Bundesbeauftragten wenden, ausgenommen Gerichte in justizieller Tätigkeit. Die Beauftragte
+      informiert über Stand und Ergebnis, weist auf gerichtlichen Rechtsschutz hin und leitet Beschwerden,
+      die in die Zuständigkeit einer Aufsichtsbehörde eines anderen EU-Mitgliedstaates fallen, unverzüglich
+      weiter, wobei sie die Beschwerdeführenden über die Weiterleitung und mögliche weitere Unterstützung
+      informiert.
+    source_sha: c3c9a6dffd6cf6c47e80ffb3c71be646feb467212b71b9b2953d70893988842d
+    children: []
+  - node: bdsg:sec_61
+    summary: Natürliche und juristische Personen können gerichtliche Klage gegen verbindliche Entscheidungen
+      des Bundesbeauftragten erheben. Gleiches gilt, wenn der Bundesbeauftragte eine Beschwerde nicht
+      bearbeitet oder die betroffene Person nicht innerhalb von drei Monaten über den Stand oder das Ergebnis
+      informiert.
+    source_sha: 1c1b4bbde777d835dbc2de29750f0e8fe71a380892f3315aa5e9c0d186eee0da
+    children: []
+- node: bdsg:cpt_3.sct_4
+  summary: Das Kapitel legt die Pflichten von Verantwortlichen und Auftragsverarbeitern fest. Es verlangt,
+    dass Verantwortliche datenschutzkonforme Auftragsverhältnisse schließen, Sicherheitsmaßnahmen nach
+    aktuellem Stand der Technik ergreifen und bei Datenpannen Meldungen an die Aufsichtsbehörde sowie
+    Benachrichtigungen an Betroffene vornehmen. Weiterhin müssen sie Verzeichnisse von Verarbeitungstätigkeiten
+    führen, Datenschutz-Folgenabschätzungen durchführen, technische und datenschutzfreundliche Voreinstellungen
+    treffen und mit der Aufsichtsbehörde zusammenarbeiten. Die Regelungen gelten für alle, die im Anwendungsbereich
+    des Gesetzes personenbezogene Daten verarbeiten. Sie haften für Verstöße ihrer Auftragsverarbeiter
+    und müssen deren Pflichten vertraglich festlegen.
+  source_sha: c6d80f5f9c1b966e3ec2c91cb51d28bea01aa20de1a801d02643dac6c97b560c
+  children:
+  - node: bdsg:sec_62
+    summary: Der Verantwortliche muss bei Auftragsverarbeitung die Einhaltung datenschutzrechtlicher Vorgaben
+      sicherstellen, einen Vertrag mit dem Auftragsverarbeiter schließen und dessen Pflichten festlegen.
+      Der Auftragsverarbeiter darf nur nach Genehmigung weitere Prozessoren einsetzen. Er muss die Rechte
+      der betroffenen Personen wahren und haftet, wenn der Auftragsverarbeiter Pflichten verletzt.
+    source_sha: a72acc3740c404a527f1aaebac79b3a065314d37d787ddc77fe9523a1858b931
+    children: []
+  - node: bdsg:sec_63
+    summary: Wenn zwei Verantwortliche gemeinsam Zweck und Mittel der Verarbeitung festlegen, gelten sie
+      als gemeinsam Verantwortliche. Sie müssen ihre Aufgaben und datenschutzrechtlichen Pflichten in
+      einer transparenten Vereinbarung festhalten, insbesondere Informationspflichten und Wege, wie Betroffene
+      ihre Rechte ausüben können. Betroffene können ihre Rechte gegenüber jedem gemeinsam Verantwortlichen
+      geltend machen.
+    source_sha: 2c30e48243faf9ad512dc42f0204c9fe2a9d2e815658ff56689b91244b4c109a
+    children: []
+  - node: bdsg:sec_64
+    summary: Der Verantwortliche und der Auftragsverarbeiter müssen Maßnahmen nach Stand der Technik ergreifen,
+      um ein angemessenes Schutzniveau für personenbezogene Daten zu gewährleisten. Sie berücksichtigen
+      BSI-Richtlinien, setzen Pseudonymisierung oder Verschlüsselung ein und sichern Vertraulichkeit,
+      Integrität, Verfügbarkeit sowie Wiederherstellung bei Vorfällen, bei automatisierter Verarbeitung.
+    source_sha: 429fb7e8e807df4a83c0ee029db71d0b895d34cc46a9b3e95ef2bd89a650dd1e
+    children: []
+  - node: bdsg:sec_65
+    summary: Der Verantwortliche meldet jede Datenverletzung binnen 72 Stunden dem Bundesbeauftragten.
+      Der Auftragsverarbeiter informiert den Verantwortlichen. Der Bericht enthält Art, betroffene Personen,
+      Folgen und Maßnahmen und dokumentiert den Vorfall. Bei Übermittlung in einen anderen EU-Staat werden
+      die gleichen Informationen dem dortigen Verantwortlichen übermittelt.
+    source_sha: ffcb44e421659ca6e8ece996964ba8244480768ae99ce524854bf777d19503d6
+    children: []
+  - node: bdsg:sec_66
+    summary: Bei einer Datenpanne, die voraussichtlich eine erhebliche Gefahr für die Rechte der betroffenen
+      Personen darstellt, muss der Verantwortliche die Betroffenen unverzüglich informieren. Die Mitteilung
+      muss klar und einfach die Art der Panne sowie wesentliche Informationen und Maßnahmen enthalten.
+      Eine Benachrichtigung entfällt, wenn wirksame technische oder organisatorische Schutzmaßnahmen wie
+      Verschlüsselung angewendet wurden, wenn nachträgliche Maßnahmen das Risiko beseitigt haben oder
+      wenn die Benachrichtigung unverhältnismäßig wäre; dann ist eine öffentliche Bekanntmachung zulässig.
+      Die Aufsichtsbehörde kann prüfen, ob die Ausnahmen gerechtfertigt sind, und die Benachrichtigung
+      bei überwiegenden Interessen der Betroffenen anpassen.
+    source_sha: a9df11ed1faaec5f738d1cede0c5e641affb591c81c5dd07709dc90204085c28
+    children: []
+  - node: bdsg:sec_67
+    summary: Der Verantwortliche muss vor einer Verarbeitung, die mit neuen Technologien erhebliche Risiken
+      für die Rechte Betroffener birgt, eine Datenschutz-Folgenabschätzung durchführen. Er muss den Datenschutzbeauftragten
+      einbinden, die Verarbeitung beschreiben, Notwendigkeit prüfen, Risiken bewerten und Schutzmaßnahmen
+      festlegen.
+    source_sha: baead23933ec57dd5755a12ef02c7af6b696c0667db70293371c706e06657b73
+    children: []
+  - node: bdsg:sec_68
+    summary: Der Verantwortliche muss mit dem Bundesbeauftragten zusammenarbeiten, wenn er seine Aufgaben
+      erfüllt. Die Pflicht gilt für alle Verantwortlichen, die im Anwendungsbereich des Gesetzes tätig
+      sind, und tritt bei jeder Ausübung ihrer Pflichten in Kraft und erfordert den Austausch von Informationen.
+    source_sha: 90fb2ecece75c99d50fcc2e68acd2cff571db393d1f9d474a2007546648dae79
+    children: []
+  - node: bdsg:sec_69
+    summary: Der Verantwortliche muss die Bundesbeauftragte vor Inbetriebnahme neuer Dateisysteme anhören,
+      wenn eine Datenschutz-Folgenabschätzung erhebliche Risiken für die Rechte Betroffener zeigt oder
+      die eingesetzte Technologie erhebliche Risiken birgt. Die Bundesbeauftragte prüft Unterlagen, gibt
+      bei Bedarf Empfehlungen und kann Fristen verlängern.
+    source_sha: 01613bff9a865eeb856ea25604fd7d5cf98f82894de2b2b8a9719ba79eeb2c44
+    children: []
+  - node: bdsg:sec_70
+    summary: Der Verantwortliche muss ein Verzeichnis aller Verarbeitungstätigkeiten führen, das Name,
+      Kontaktdaten, Verarbeitungszwecke, Empfänger, betroffene Personen, Datenarten, Profiling, Drittlandübermittlungen,
+      Rechtsgrundlagen, Löschfristen und technische sowie organisatorische Maßnahmen enthält. Auch Auftragsverarbeiter
+      führen ein entsprechendes Verzeichnis. Das Verzeichnis ist schriftlich oder elektronisch zu führen
+      und muss auf Anfrage der Aufsichtsbehörde vorgelegt werden.
+    source_sha: efda0afa7756ee268087dc42095190fe197f6cabd1b7c012999404d9d00f72a5
+    children: []
+  - node: bdsg:sec_71
+    summary: Der Verantwortliche muss bei Auswahl und Gestaltung von Systemen Vorkehrungen treffen, die
+      Stand der Technik, Kosten und Verarbeitungszweck berücksichtigen. Ziel ist, Daten zu minimieren,
+      früh zu anonymisieren oder pseudonymisieren und durch Voreinstellungen nur notwendige Daten zu erheben,
+      zu verarbeiten, zu speichern und zugänglich zu machen.
+    source_sha: 82d5636c36b8712f8741db54c7cfae4893473f3164e8ee456ea502be4ffd3448
+    children: []
+  - node: bdsg:sec_72
+    summary: Der Verantwortliche muss bei jeder Verarbeitung personenbezogener Daten die betroffenen Personen
+      nach Kategorien unterscheiden. Er unterscheidet Verdächtige, potenzielle Täter, Verurteilte, Opfer
+      und weitere Personen wie Zeugen, Hinweisgeber oder Kontakte zu diesen Gruppen.
+    source_sha: 83bdcd81d54541a1a288b5313fa8eb8cb86e01db861988eef60963f54a039e1c
+    children: []
+  - node: bdsg:sec_73
+    summary: Der Verantwortliche muss bei der Verarbeitung personenbezogener Daten zwischen Fakten und
+      persönlichen Einschätzungen unterscheiden. Persönliche Einschätzungen sind, soweit möglich, als
+      solche zu kennzeichnen. Außerdem muss die Stelle, die die zugrunde liegenden Unterlagen führt, erkennbar
+      sein. Dies gilt für jede Datenverarbeitung, bei der persönliche Einschätzungen verwendet werden.
+    source_sha: 6e260bb4e74c6f216b5d8b7c9f06327761a3c98dad56e449f0f81abbc691d8a6
+    children: []
+  - node: bdsg:sec_74
+    summary: Der Verantwortliche verhindert die Übermittlung falscher oder veralteter personenbezogener
+      Daten, prüft die Datenqualität und fügt, wenn möglich, Angaben zur Richtigkeit und Aktualität bei.
+      Besondere Verarbeitungsbedingungen werden dem Empfänger, etwa durch Markierung, mitgeteilt. Für
+      Empfänger in anderen EU-Staaten und für Einrichtungen nach den EU-Vertragskapiteln 4 und 5 gelten
+      dieselben Bedingungen wie bei Übermittlungen.
+    source_sha: 37844f1692c8f7196367a0db0cfca02274061731ce2689449240079dab0b39d8
+    children: []
+  - node: bdsg:sec_75
+    summary: Im Rahmen der Berichtigung und Löschung personenbezogener Daten sowie Einschränkung der Verarbeitung
+      muss der Verantwortliche falsche Daten berichtigen und unzulässige Daten unverzüglich löschen. Er
+      muss die Löschung vertraglich festlegen, regelmäßig prüfen, ob die Speicherung noch nötig ist, und
+      die Einhaltung der Fristen sicherstellen. Bei falscher oder unrechtmäßiger Übermittlung muss auch
+      der Empfänger informiert werden.
+    source_sha: eb4dc3971ad18a1d648b47a8bc0cd68528b2fd6faed0825b16995b4c4c82be8f
+    children: []
+  - node: bdsg:sec_76
+    summary: Verantwortliche und Auftragsverarbeiter müssen Systeme zur Erhebung, Veränderung, Abfrage,
+      Offenlegung, Kombination und Löschung protokollieren. Protokolle müssen Zeitpunkt und Beteiligte
+      bei Abfragen und Offenlegungen zeigen. Nutzung ist nur für Rechtsprüfung und Strafverfahren erlaubt.
+      Daten werden danach gelöscht. Bei Anforderung stellen sie die Protokolle dem Bundesbeauftragten
+      zur Verfügung.
+    source_sha: b204529a3488f95848632b4b2f344e14e16e1f3128fd9fa5b72aab972775b603
+    children: []
+  - node: bdsg:sec_77
+    summary: Der Verantwortliche muss ein Verfahren einrichten, das vertrauliche Meldungen über Datenschutzverstöße
+      im eigenen Verantwortungsbereich entgegennimmt. So können Betroffene oder Hinweisgeber Verstöße
+      melden, ohne dass ihre Identität preisgegeben wird. Der Verantwortliche muss sicherstellen, dass
+      das System sicher ist und nur befugte Personen Zugriff haben.
+    source_sha: d756f140f0dc7e953d1ec321a5b3fa9f70dc1dcabab86ea3ffe85b5a923ab9f9
+    children: []
+- node: bdsg:cpt_3.sct_5
+  summary: Das Kapitel regelt die Übermittlung personenbezogener Daten in Drittländer und an internationale
+    Organisationen. Es bindet Verantwortliche und Auftragsverarbeiter. Es gilt, sobald eine Datenübermittlung
+    außerhalb der EU geplant ist. Es erlaubt die Übermittlung, wenn die Europäische Kommission einen Angemessenheitsbeschluss
+    erlassen hat oder geeignete Garantien vorliegen, etwa vertragliche oder verbindliche Unternehmensregeln.
+    Ohne Garantien ist die Übermittlung nur in eng begrenzten Ausnahmefällen zulässig, etwa zum Schutz
+    lebenswichtiger Interessen, zur Wahrung berechtigter Interessen oder zur öffentlichen Sicherheit.
+    Der Verantwortliche muss die Maßnahme dokumentieren und die Aufsichtsbehörde informieren.
+  source_sha: 93857779fc8f4f87002e3b63f832755d8574dc6ff7111b385bec09c90dff69b5
+  children:
+  - node: bdsg:sec_78
+    summary: Die Übermittlung personenbezogener Daten in Drittländer oder an internationale Organisationen
+      ist erlaubt, wenn die Empfänger für die festgelegten Zwecke zuständig sind und die Europäische Kommission
+      einen Angemessenheitsbeschluss erlassen hat. Sie darf jedoch ausgesetzt werden, wenn der Schutz
+      der Daten beim Empfänger nicht ausreichend ist oder überwiegende Interessen der betroffenen Person
+      entgegenstehen.
+    source_sha: 2edbc34c8f4a6d132273eb38ad012e9b67d1fe84f1753643d49c8b5e68772e6e
+    children: []
+  - node: bdsg:sec_79
+    summary: Erlaubt Datenübermittlung ohne Beschluss der EU-Datenschutzrichtlinie, wenn die übrigen Voraussetzungen
+      erfüllt sind und entweder ein verbindliches Instrument geeignete Garantien vorsieht oder der Verantwortliche
+      nach Gesamtbewertung solche Garantien annimmt. Der Verantwortliche dokumentiert die Übermittlung
+      und berichtet jährlich dem Bundesbeauftragten.
+    source_sha: 28791d8282026862eb79f524e9e0e1b3d61707020289759d058f4a462cfd6aed
+    children: []
+  - node: bdsg:sec_80
+    summary: Erlaubt die Übermittlung personenbezogener Daten ohne geeignete Garantien, wenn kein Beschluss
+      nach der EU-Datenschutzrichtlinie vorliegt und die übrigen Voraussetzungen für eine Datenübermittlung
+      erfüllt sind. Zulässig ist sie zum Schutz lebenswichtiger Interessen, zur Wahrung berechtigter Interessen,
+      zur Abwehr erheblicher Gefahren für die öffentliche Sicherheit, für bestimmte im Gesetz genannte
+      Zwecke oder zur Durchsetzung von Rechtsansprüchen. Der Verantwortliche muss von der Übermittlung
+      absehen, wenn die Grundrechte der betroffenen Person das öffentliche Interesse überwiegen.
+    source_sha: a38840757efb7bdf28f750a8a54bea32a8312b3fc49fa7ba4b2466daaeb8ca5c
+    children: []
+  - node: bdsg:sec_81
+    summary: Verantwortliche dürfen personenbezogene Daten an Empfänger in Drittstaaten übermitteln, die
+      nicht zu den üblichen Stellen zählen, wenn sie für die Aufgabenerfüllung nötig ist, Grundrechte
+      das öffentliche Interesse nicht überwiegen. Sie teilen dem Empfänger den Zweck mit, verpflichten
+      ihn zur Zweckbindung und melden die Übermittlung den üblichen Stellen.
+    source_sha: c7b70a6da5c93550d00b05c7d6e11ce98949188792e61ebd27697b87ed0909bc
+    children: []
+- node: bdsg:cpt_3.sct_6
+  summary: Der Bundesbeauftragte übermittelt den Datenschutzbehörden anderer EU-Staaten Informationen,
+    die für die Anwendung der Datenschutzrichtlinie 2016/680 nötig sind. Er muss innerhalb eines Monats
+    reagieren, darf nur bei fehlender Zuständigkeit oder Rechtsverstoß ablehnen, informiert über Ergebnis
+    und Gründe, nutzt elektronische Standardformate und erledigt Anfragen kostenfrei, sofern keine Kostenvereinbarung
+    besteht.
+  source_sha: 687f00ce930a7e9811c93088852e17a69d03cf5439700e19c103d6ed4b308861
+  children:
+  - node: bdsg:sec_82
+    summary: Der Bundesbeauftragte übermittelt den Datenschutzbehörden anderer EU-Staaten Informationen,
+      wenn dies für die Anwendung der Datenschutzrichtlinie 2016/680 nötig ist. Er reagiert binnen einem
+      Monat, darf nur bei fehlender Zuständigkeit oder Rechtsverstoß ablehnen, informiert über Ergebnis
+      und Gründe, nutzt elektronische Standardformate und erledigt Anfragen kostenfrei, sofern keine Kostenvereinbarung
+      besteht.
+    source_sha: 43dc65c502ac0e2d2918e8f2ff92413e63cf97794b6d8e90e896667c7051a550
+    children: []
+- node: bdsg:cpt_3.sct_7
+  summary: Das Kapitel regelt Haftung und Sanktionen bei rechtswidriger Datenverarbeitung. Es verpflichtet
+    jede verantwortliche Stelle, Schadenersatz zu leisten, wenn durch ihre Verarbeitung Personen Schaden
+    entsteht, außer bei nicht-automatischer Verarbeitung ohne eigenes Verschulden. Auch immaterielle Schäden
+    können in Geld entschädigt werden. Bei mehreren Verantwortlichen haftet jeder, solange die Ursache
+    nicht eindeutig zugeordnet werden kann. Mitverschulden der betroffenen Person wird nach den allgemeinen
+    zivilrechtlichen Regeln behandelt. Zusätzlich gelten die Strafvorschriften für den Schutz personenbezogener
+    Daten auch für öffentliche Stellen, die Daten bei hoheitlichen Aufgaben verarbeiten, und können Bußgelder
+    nach sich ziehen.
+  source_sha: ef4de6ca77ed0396d906ef74a669241813c8d6c5194e8f16625427c7ec7ff490
+  children:
+  - node: bdsg:sec_83
+    summary: Verursacht ein Verantwortlicher einer Person durch rechtswidrige Datenverarbeitung Schaden,
+      muss er Schadenersatz zahlen; bei nicht-automatischer Verarbeitung ohne eigenes Verschulden entfällt
+      die Pflicht. Für immaterielle Schäden ist angemessene Geldentschädigung zulässig. Bei mehreren Verantwortlichen
+      und unklarer Ursache haftet jeder. Mitverschulden der betroffenen Person wird nach den zivilrechtlichen
+      Regeln für unerlaubte Handlungen und deren Verjährungsfristen behandelt.
+    source_sha: 36fe7e9daedebc6bf0fcc75d3a074e94b6229981dc1d679a99f54962fbdd74dc
+    children: []
+  - node: bdsg:sec_84
+    summary: Die Strafvorschriften für Verstöße gegen den Schutz personenbezogener Daten gelten auch für
+      öffentliche Stellen, wenn sie im Rahmen ihrer hoheitlichen Aufgaben personenbezogene Daten verarbeiten.
+      Sie sind verpflichtet, die gleichen Pflichten und Sanktionen zu beachten und müssen bei Verstößen
+      mit Bußgeldern rechnen.
+    source_sha: e20a06eb2b216ce56ae9be3ef986b44bc608b1782b794a3228e981c8196e73d0
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

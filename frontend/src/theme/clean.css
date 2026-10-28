@@ -1,0 +1,58 @@
+/* No pixel type, the same composition (D65): the type itself is set in
+   theme/base.css, where the clean look and the readable setting share it. */
+[data-look="clean"] .ui-icon {
+  display: none;
+}
+
+/* A button that has nothing but its icon keeps it, or it is an empty circle: the
+   jump arrow, the sign-out tool, and every tool once its label is gone below 1440px. */
+[data-look="clean"] .chat-jump .ui-icon,
+[data-look="clean"] .ui-button--ghost:not(:has(.app-tool-label)) .ui-icon {
+  display: inline;
+}
+
+@media (width < 1440px) {
+  [data-look="clean"] .ui-button--ghost .ui-icon {
+    display: inline;
+  }
+}
+
+[data-look="clean"] :focus-visible {
+  outline: var(--px) solid var(--c-focus);
+  outline-offset: 0;
+}
+
+/* The same place behind the chat as the pixel look, without the pixels: a
+   background image cannot be blurred, so the scene is its own fixed layer
+   under the opaque bar, bubbles and foot (D65).  */
+[data-look="clean"] body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: var(--scene-image, url("../ui/art/scene.png")) center / cover no-repeat;
+  filter: blur(16px) saturate(0.8);
+  opacity: 0.35;
+}
+
+[data-mode="light"][data-look="clean"] body::before {
+  background-image: var(--scene-image-light, url("../ui/art/scene-light.png"));
+  filter: blur(16px);
+  opacity: 0.5;
+}
+
+/* The clean look tracks the pixel look's light-mode outline (D65), softened
+   the way everything here is: a page-colour halo, not a hard edge. Dark mode's
+   scrim over the scene keeps its text readable without one. */
+[data-mode="light"][data-look="clean"] .pick-title,
+[data-mode="light"][data-look="clean"] .pick-subtitle,
+[data-mode="light"][data-look="clean"] .pick-lead,
+[data-mode="light"][data-look="clean"] .pick-note,
+[data-mode="light"][data-look="clean"] .pick-error,
+[data-mode="light"][data-look="clean"] .course-status,
+[data-mode="light"][data-look="clean"] .citations-line {
+  text-shadow:
+    0 1px 2px var(--c-bg),
+    0 0 8px var(--c-bg);
+}

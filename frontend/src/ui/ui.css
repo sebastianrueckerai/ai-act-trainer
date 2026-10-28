@@ -1,0 +1,1181 @@
+.ui-frame {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.ui-bubble {
+  padding: 8px 12px;
+  border-radius: 12px;
+  line-height: var(--line-prose);
+  /* 68ch follows the face: about 1088px in Tiny5 at 32px, about 640px in the
+     reading font, as before, quantised so both sprite borders sit on one grid. */
+  max-width: round(down, 68ch, var(--px));
+  /* A single newline inside a paragraph is the tutor's own line break. */
+  white-space: pre-wrap;
+}
+
+/* Narrower than the 16px between two speakers, so a paragraph break never reads
+   as a new message. */
+.ui-bubble p + p {
+  margin-top: 12px;
+}
+
+.ui-bubble--assistant {
+  background: var(--c-surface-2);
+  color: var(--c-text);
+  border-bottom-left-radius: 2px;
+}
+
+.ui-bubble--user {
+  background: var(--c-surface);
+  color: var(--c-text);
+  border: 1px solid var(--c-primary);
+  border-bottom-right-radius: 2px;
+}
+
+/* A turn that ends on a question the student is meant to answer (D86): Tiny5
+   has no bold, so the pixel text marks it by colour instead (theme/pixel.css);
+   the readable setting and the clean look use this weight. */
+.ui-bubble--question {
+  font-weight: var(--weight-strong);
+}
+
+/* Deliberately its own class, not .ui-bubble: e2e and unit tests count and read
+   .ui-bubble as "an actual message", and this placeholder must never be one. */
+.chat-wait-bubble {
+  padding: 8px 12px;
+  border-radius: 12px;
+  border-bottom-left-radius: 2px;
+  background: var(--c-surface-2);
+  color: var(--c-text);
+  line-height: 26px;
+  /* One glyph wide, not a full-width panel waiting for text it does not have. */
+  width: fit-content;
+  align-self: flex-start;
+}
+
+/* One, two, then three 8x8 squares, each held flat before the jump, so a frozen
+   screenshot still shows a real step and the loop seam never passes through a
+   gap. The box stays three squares wide throughout and only the painted part
+   grows, so whatever stands beside the dots keeps its place. */
+.chat-wait {
+  display: inline-block;
+  width: 40px;
+  height: 8px;
+  vertical-align: middle;
+  background-image: repeating-linear-gradient(
+    to right,
+    currentColor 0 8px,
+    transparent 8px 16px
+  );
+  background-repeat: no-repeat;
+  background-size: 40px 8px;
+  animation: chat-wait-grow 1.2s steps(3, jump-none) infinite;
+}
+
+/* The step that runs now, in the character's words, beside the dots. */
+.chat-working {
+  margin-left: 12px;
+  font-size: 0.85em;
+  opacity: 0.75;
+  vertical-align: middle;
+}
+
+.chat-working-bare {
+  margin: 0;
+  padding: 0 12px;
+  align-self: flex-start;
+}
+
+@keyframes chat-wait-grow {
+  0%,
+  33% {
+    background-size: 8px 8px;
+  }
+  34%,
+  66% {
+    background-size: 24px 8px;
+  }
+  67%,
+  100% {
+    background-size: 40px 8px;
+  }
+}
+
+.ui-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font: inherit;
+  cursor: pointer;
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid var(--c-border);
+  background: var(--c-surface);
+  color: var(--c-text);
+  transition: transform 60ms steps(2, end);
+}
+
+.ui-button:hover:not(:disabled),
+.ui-chip:hover:not(:disabled) {
+  transform: translateY(calc(-1 * var(--px)));
+}
+
+.ui-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.ui-button--primary {
+  background: var(--c-primary);
+  color: var(--c-on-primary);
+  border-color: var(--c-primary);
+}
+
+.ui-button--ghost {
+  background: transparent;
+  border-color: transparent;
+}
+
+/* The bubble's own corner, not a pill: a pill's arc on a two-line chip runs
+   through the key, and the verdict ring drawn inside it covers the key. The
+   single row is centred in the 56px the pixel chip sets below. */
+.ui-chip {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: baseline;
+  align-content: center;
+  gap: 8px;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  padding: 4px 8px;
+  border-radius: 12px;
+  border: 1px solid var(--c-primary);
+  background: var(--c-primary-soft);
+  color: var(--c-text);
+  transition: transform 60ms steps(2, end);
+}
+
+.ui-chip[data-selected="true"] {
+  background: var(--c-primary);
+  color: var(--c-on-primary);
+  border-color: var(--c-primary);
+}
+
+/* The verdict on an answer, picked or typed, colours its frame (D104): green
+   when the try met a required point, orange when it met none but is on the
+   right track, red when it met none. The fill stays. A ring drawn over the
+   frame pulses twice, then stays. Reduced motion shows the ring without the
+   pulsing. */
+:is(.chip-flash--ok, .chip-verdict--ok, .own-flash--ok, .own-verdict--ok) {
+  --verdict: var(--c-success);
+}
+:is(.chip-flash--partial, .chip-verdict--partial, .own-flash--partial, .own-verdict--partial) {
+  --verdict: var(--c-warning);
+}
+:is(.chip-flash--miss, .chip-verdict--miss, .own-flash--miss, .own-verdict--miss) {
+  --verdict: var(--c-danger);
+}
+:is(.chip-flash--ok, .chip-flash--partial, .chip-flash--miss),
+:is(.chip-verdict--ok, .chip-verdict--partial, .chip-verdict--miss),
+:is(.own-flash--ok, .own-flash--partial, .own-flash--miss),
+:is(.own-verdict--ok, .own-verdict--partial, .own-verdict--miss) {
+  outline: calc(2 * var(--px)) solid var(--verdict);
+  outline-offset: calc(-2 * var(--px));
+}
+:is(.chip-flash--ok, .chip-flash--partial, .chip-flash--miss),
+:is(.own-flash--ok, .own-flash--partial, .own-flash--miss) {
+  animation: verdict-flash 0.9s steps(1, end) 2;
+}
+@keyframes verdict-flash {
+  50% {
+    outline-color: transparent;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  :is(.chip-flash--ok, .chip-flash--partial, .chip-flash--miss),
+  :is(.own-flash--ok, .own-flash--partial, .own-flash--miss) {
+    animation: none;
+  }
+}
+
+/* Settled, the options the student did not pick recede: the answer belongs to
+   its question now. */
+.message-choices--settled .ui-chip:not(.chip-verdict--ok, .chip-verdict--partial, .chip-verdict--miss) {
+  opacity: 0.45;
+}
+
+/* The key is the first word of the option's sentence, so it follows the text
+   setting the way the sentence does (D79): no row carries two sizes. */
+.chip-key {
+  font-family: var(--font-prose);
+  font-size: var(--size-prose);
+  line-height: var(--line-prose);
+}
+
+.chip-text {
+  font-family: var(--font-prose);
+  font-weight: 400;
+  font-size: var(--size-prose);
+  line-height: var(--line-prose);
+}
+
+.ui-input,
+.ui-select,
+.ui-textarea {
+  font: inherit;
+  color: var(--c-text);
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: 6px;
+  padding: 8px 10px;
+  width: 100%;
+}
+
+/* The browser's own dimmed placeholder default falls under 4.5:1 on
+   --c-surface; state it explicitly at full opacity instead. */
+.ui-input::placeholder,
+.ui-textarea::placeholder {
+  color: var(--c-text-dim);
+  opacity: 1;
+}
+
+.ui-select {
+  width: auto;
+}
+
+.ui-card {
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: 8px;
+  padding: 12px;
+  margin-top: 8px;
+}
+
+.ui-card-title {
+  margin: 0 0 6px;
+  font-family: var(--font-prose);
+  font-weight: var(--weight-strong);
+  font-size: var(--size-prose);
+  line-height: 1.2;
+}
+
+/* A state the student waits out, never a fault: no danger colour anywhere. */
+.ui-notice {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-left: 4px solid var(--c-accent);
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.ui-notice-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  min-width: 0;
+}
+
+.ui-notice-title,
+.ui-notice-body p {
+  margin: 0;
+}
+
+.ui-notice-meta {
+  font-size: var(--size-small);
+  line-height: var(--line-small);
+  color: var(--c-text-dim);
+  font-variant-numeric: tabular-nums;
+}
+
+.ui-notice-body .ui-button {
+  margin-top: 8px;
+}
+
+.file-card-note {
+  margin: 8px 0 0;
+  font-size: var(--size-small);
+  line-height: var(--line-small);
+  color: var(--c-text-dim);
+}
+
+.answer-block {
+  margin-top: 8px;
+}
+
+.answer-label {
+  display: block;
+}
+
+.answer-body {
+  margin: 4px 0 0;
+  line-height: var(--line-prose);
+}
+
+.answer-verdict {
+  margin-top: 8px;
+}
+
+.ui-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+}
+
+.ui-badge--success {
+  background: var(--c-success);
+  color: var(--c-on-primary);
+}
+
+.ui-badge--danger {
+  background: var(--c-danger);
+  color: var(--c-on-primary);
+}
+
+.ui-badge--neutral {
+  background: var(--c-surface-2);
+  color: var(--c-text);
+}
+
+/* 8 art pixels square at the screen's own pixel size. Tiny5's content area is
+   nine art pixels tall, so a label centred beside the icon draws half an art
+   pixel high; the icon follows it instead of standing on its own grid (D66). */
+.ui-icon {
+  fill: currentColor;
+  flex-shrink: 0;
+  width: calc(8 * var(--px));
+  height: calc(8 * var(--px));
+  position: relative;
+  top: calc(var(--px) / -2);
+}
+
+/* One cell per chapter step or test question. The chapter bar knows only blue,
+   the way and not the score; green and red belong to the test. The just-done
+   cell blinks twice in step with the verdict on the chip. */
+.ui-cells {
+  display: inline-flex;
+  flex-shrink: 0;
+  align-items: center;
+  gap: 3px;
+}
+
+.ui-cell {
+  width: 14px;
+  height: 10px;
+  border-radius: 3px;
+  background: var(--c-ahead);
+}
+
+.ui-cell[data-state="done"] {
+  background: var(--c-primary);
+}
+
+.ui-cell[data-state="now"] {
+  background: transparent;
+  box-shadow: inset 0 0 0 2px var(--c-primary);
+}
+
+.ui-cell[data-state="ok"] {
+  background: var(--c-success);
+}
+
+.ui-cell[data-state="wrong"] {
+  background: var(--c-danger);
+}
+
+.ui-cell[data-flash] {
+  animation: cell-flash 0.9s steps(1, end) 2;
+}
+
+@keyframes cell-flash {
+  0% {
+    background: var(--c-primary);
+  }
+  50% {
+    background: var(--c-primary-soft);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ui-cell[data-flash] {
+    animation: none;
+  }
+}
+
+.ui-flag {
+  width: 10px;
+  height: 14px;
+  margin-left: 2px;
+  fill: var(--c-ahead);
+}
+
+.ui-flag rect {
+  rx: 1;
+}
+
+.ui-flag[data-state="up"] {
+  fill: var(--c-primary);
+}
+
+/* The flag rests at the foot of the pole; a filled chapter hoists it in three steps
+   of a tenth of a second each, the frames of the design page (M5.65). */
+.ui-flag--hoist rect + rect {
+  animation: flag-hoist 0.3s steps(1, end);
+}
+
+@keyframes flag-hoist {
+  0% {
+    transform: translateY(3px);
+  }
+  33.333% {
+    transform: translateY(1px);
+  }
+  66.667%,
+  100% {
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ui-flag--hoist rect + rect {
+    animation: none;
+  }
+}
+
+.ui-avatar {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.ui-avatar img {
+  width: 100%;
+  height: 100%;
+  image-rendering: pixelated;
+}
+
+/* An unstyled button that holds its own content: the persona cards sit on it. */
+.ui-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.ui-tile:disabled {
+  cursor: not-allowed;
+}
+
+.ui-avatar-fallback {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--c-surface-2);
+  color: var(--c-text);
+  border: 1px solid var(--c-border);
+  border-radius: 8px;
+}
+
+/* One wide centred conversation, full height: bar, scrolling thread, pinned composer. */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+}
+
+/* The tools sit at the window's own edge, so an odd window width would draw them
+   on another grid than the title: the remainder goes into the padding beside them. */
+.app-bar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px calc(16px + 100vw - round(down, 100vw, var(--px))) 8px 16px;
+  background: var(--c-bg);
+  border-bottom: 1px solid var(--c-border);
+}
+
+.app-title {
+  margin-right: auto;
+  min-width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.app-tools {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* The chat page portals its own restart tool in here, between the look
+   menu and sign-out: display: contents keeps the app-bar's own flex gap
+   between it and its siblings instead of adding an empty box. */
+.app-tools-slot {
+  display: contents;
+}
+
+.app-signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  flex: 1;
+  padding: 16px;
+}
+
+.app-signin-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+}
+
+/* The scroll area and what floats over it: the jump arrow lives outside the
+   scroller, so it stays put while the thread moves under it. */
+.chat-pane {
+  position: relative;
+  display: flex;
+  flex: 1;
+  min-height: 0;
+}
+
+.chat-jump {
+  position: absolute;
+  right: 24px;
+  bottom: 24px;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  border: 1px solid var(--c-primary);
+  border-radius: 999px;
+  background: var(--c-surface);
+  color: var(--c-text);
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 0.35);
+  z-index: 5;
+  transition: transform 60ms steps(2, end);
+}
+
+.chat-jump:hover {
+  transform: translateY(calc(-1 * var(--px)));
+}
+
+.chat-jump .ui-icon {
+  width: 24px;
+  height: 24px;
+}
+
+/* The last rows fade in two hard steps, so a reply (or, on the picker, a card)
+   that runs past the box's edge ends on a dimmed row instead of on half a
+   glyph. */
+.pick {
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    #000 calc(100% - 32px),
+    rgb(0 0 0 / 0.5) calc(100% - 32px),
+    rgb(0 0 0 / 0.5) calc(100% - 16px),
+    transparent calc(100% - 16px)
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    #000 calc(100% - 32px),
+    rgb(0 0 0 / 0.5) calc(100% - 32px),
+    rgb(0 0 0 / 0.5) calc(100% - 16px),
+    transparent calc(100% - 16px)
+  );
+}
+
+/* Same two hard steps at the top: a bubble scrolling under the opaque app
+   bar dims in steps instead of ending on a cut glyph. */
+.chat-scroll {
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 16px,
+    rgb(0 0 0 / 0.5) 16px,
+    rgb(0 0 0 / 0.5) 32px,
+    #000 32px,
+    #000 calc(100% - 32px),
+    rgb(0 0 0 / 0.5) calc(100% - 32px),
+    rgb(0 0 0 / 0.5) calc(100% - 16px),
+    transparent calc(100% - 16px)
+  );
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 16px,
+    rgb(0 0 0 / 0.5) 16px,
+    rgb(0 0 0 / 0.5) 32px,
+    #000 32px,
+    #000 calc(100% - 32px),
+    rgb(0 0 0 / 0.5) calc(100% - 32px),
+    rgb(0 0 0 / 0.5) calc(100% - 16px),
+    transparent calc(100% - 16px)
+  );
+}
+
+.chat-scroll {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  padding: 24px 16px;
+}
+
+/* Centred in whole art pixels, never on a half one: the scene quantises its own
+   position the same way, and a box between two scene pixels shows a sliver of the
+   room at one edge (D66). */
+.chat-thread {
+  width: 100%;
+  max-width: 1680px;
+  margin-inline: max(0px, round(down, calc((100% - 1680px) / 2), var(--px))) auto;
+}
+
+/* The portrait lane (304px frame + 16px clearance) is only real in the
+   scroll area: .chat-foot-row is a .chat-thread too, and must stay
+   unindented so the portrait keeps its own position: absolute left: 0. */
+.chat-scroll > .chat-thread {
+  padding-left: 320px;
+}
+
+/* scrollIntoView(block:"end") aligns this sentinel's own box, never the
+   scroll container's padding. The indented thread clears the portrait on its
+   own, so this only has to clear the scroll box's own mask. */
+.chat-thread-end {
+  height: 24px;
+}
+
+.chat-foot {
+  position: relative;
+  background: var(--c-bg);
+  border-top: 1px solid var(--c-border);
+  padding: 0 16px calc(16px + var(--px-rest));
+}
+
+.chat-foot-row {
+  position: relative;
+  padding-top: 12px;
+}
+
+/* The row's own explicit height (D91): with no name plate to set it, the
+   pixel look's Tiny5 line and the clean look's thinner one would otherwise
+   sit at different heights and move the divider between the two looks. */
+.course-status {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  min-height: 48px;
+  color: var(--c-text-dim);
+}
+
+.course-status-confirm {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: auto;
+}
+
+/* Never wraps internally: a squeezed flex row shrinks text with
+   white-space: normal below its own content width, breaking mid-word. The
+   badge after it (not marked nowrap) is left free to wrap onto its own line
+   instead. */
+.stage-name {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  align-items: baseline;
+  gap: calc(3 * var(--px));
+  white-space: nowrap;
+}
+
+.stage-name-dim {
+  color: var(--c-text-dim);
+}
+
+/* One dim reading-font line, no pills, no sprite (D74): "Fundstellen: Art. 3
+   Abs. 56 · Art. 4 Abs. 1". */
+.citations-line {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 8px;
+  font-family: var(--font-prose);
+  font-size: var(--size-small);
+  line-height: var(--line-small);
+  color: var(--c-text-dim);
+}
+
+.citations-label::after {
+  content: ":";
+}
+
+.citations-ref {
+  color: var(--c-text-dim);
+  text-decoration: none;
+}
+
+.citations-ref:not(:first-of-type)::before {
+  content: "· ";
+}
+
+.citations-ref:hover {
+  color: var(--c-accent-ink);
+}
+
+/* Flush with .chat-foot-row's own bottom edge, which is .chat-foot-main's:
+   the same floor the status row, composer and footnote already stand on, 16px
+   above the foot's true edge via its own padding-bottom, not a second offset
+   stacked on top of it. The frame's 304px height rises freely above the
+   foot's top into the thread behind it. */
+.chat-portrait {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* The lane is 304px in both looks, so the name plate starts on the same edge
+   whether the frame is a 12px sprite border or the clean look's 1px rule. As a
+   flex item the avatar is block-level, so no baseline leading grows the box. */
+.chat-portrait .ui-frame {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 304px;
+  height: 304px;
+}
+
+.chat-foot-main {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 0;
+  /* 304px portrait lane + the 16px clearance, so the status row, the composer
+     and the name plate all start on one edge. */
+  margin-left: 320px;
+}
+
+.composer {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+/* The turn's own column: a percentage of the thread lands on a fraction of an
+   art pixel, and the bubble inside it carries the sprite border that shows it. */
+.message {
+  max-width: round(down, 85%, var(--px));
+}
+
+/* A chapter mark spans the column, however wide the bubbles beside it are. */
+.message:has(.chapter-divider, .level-card-title) {
+  align-self: stretch;
+}
+
+/* The chapter end: a frameless line through the course's route, the chapters done
+   lit in the accent and the ones ahead hollow (M5.65). */
+.chapter-divider {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  gap: calc(3.5 * var(--px));
+  margin: var(--px) 0;
+}
+
+.chapter-divider-line {
+  flex: 1 1 0;
+  min-width: calc(2 * var(--px));
+  height: var(--px);
+  border-radius: var(--px);
+  background: var(--c-border);
+}
+
+/* One line wherever it fits; a phone too narrow for it breaks the words, never the route. */
+.chapter-divider-what {
+  flex: 0 1 auto;
+  text-align: center;
+}
+
+.chapter-route {
+  display: inline-flex;
+  flex: none;
+  align-items: center;
+}
+
+.chapter-route i,
+.chapter-route s {
+  display: block;
+  flex: none;
+}
+
+.chapter-route i {
+  width: calc(4 * var(--px));
+  height: calc(4 * var(--px));
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 var(--px) var(--c-ahead);
+}
+
+.chapter-route i[data-lit] {
+  background: var(--c-accent);
+  box-shadow: none;
+}
+
+.chapter-route s {
+  width: calc(2.5 * var(--px));
+  height: var(--px);
+  background: var(--c-border);
+}
+
+/* The next chapter opens on its title between two short lines. */
+.level-card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: stretch;
+  gap: calc(3.5 * var(--px));
+  margin: var(--px) 0;
+  text-align: center;
+}
+
+.level-card-title::before,
+.level-card-title::after {
+  content: "";
+  flex: none;
+  width: calc(10 * var(--px));
+  height: var(--px);
+  border-radius: var(--px);
+  background: var(--c-border);
+}
+
+/* A turn whose rendering is still on its way keeps its size: each block stays in
+   place with its text turned invisible, and the typing indicator sits in it. */
+.message--translating > :not(.sr-only, .message-choices) {
+  position: relative;
+  color: transparent;
+  transition: color 0.2s;
+}
+
+.message--translating > :not(.sr-only, .message-choices) * {
+  color: transparent;
+}
+
+.message--translating > :not(.sr-only, .message-choices)::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  margin: auto;
+  width: 40px;
+  height: 8px;
+  color: var(--c-text);
+  background-image: repeating-linear-gradient(to right, currentColor 0 8px, transparent 8px 16px);
+  animation: chat-wait-grow 1.2s steps(3, jump-none) infinite;
+}
+
+/* The choices hint's own grid, under the bubble that ends on the question:
+   the last block of the latest assistant message, not the foot (wave 7 -
+   a four-option grid in the foot halved the reading pane). */
+.message-choices {
+  display: grid;
+  grid-template-columns: repeat(2, round(down, calc((100% - 8px) / 2), var(--px)));
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* The pixel look's own chip (Tiny5 32px key + its padding and border) sets
+   the natural row height; the same number keeps the clean look's shorter
+   chip from shrinking the row and moving the divider between the two looks. */
+.message-choices > * {
+  min-height: 56px;
+}
+
+/* The composer's own send button, in the pixel look's own border and
+   padding, already sets this row's natural height; explicit here too so a
+   yes/no or confirm state (a plainer button, no border art) can't shrink it,
+   and so the clean look's thinner button matches it exactly. */
+.composer-row {
+  display: flex;
+  gap: 8px;
+  align-items: stretch;
+  min-height: calc(var(--line-prose) + 40px);
+}
+
+.composer-text {
+  flex: 1;
+  /* one line of --line-prose + 8px×2 padding + 12px×2 pixel border =
+     var(--line-prose) + 40px outer, three lines at the cap */
+  min-height: calc(var(--line-prose) + 40px);
+  max-height: calc(3 * var(--line-prose) + 40px);
+  line-height: var(--line-prose);
+  resize: none;
+  overflow-y: auto;
+}
+
+.composer-send {
+  padding-block: 4px;
+}
+
+/* Icon only: the label stays as the button's aria-label, spoken by a screen
+   reader same as before, just not drawn below 1440px (the Tiny5 labels wrap
+   at 1280px). */
+@media (width < 1440px) {
+  .app-tool-label {
+    display: none;
+  }
+}
+
+/* Below 720px the whole screen runs at 2 device px per art pixel (D66): the
+   portrait halves to 128px and moves above the composer. */
+@media (max-width: 720px) {
+  .app-bar {
+    gap: 6px;
+    padding: 8px 12px;
+  }
+
+  .app-tools {
+    gap: 0;
+  }
+
+  .chat-foot-row {
+    padding-top: 0;
+  }
+
+  /* The portrait lane's 320px clearance (ui.css above) is a desktop-only
+     reservation for the absolutely-positioned avatar; the narrow layout
+     below puts the portrait back in normal flow, so the scrolling thread
+     needs its full width back too, or messages are squeezed into a sliver
+     that word-wrap can't fit and that overflows the viewport. */
+  .chat-scroll > .chat-thread {
+    padding-left: 0;
+  }
+
+  .chat-portrait {
+    position: static;
+    margin: 0 0 4px;
+  }
+
+  /* 128px portrait + 4px padding + the 6px sprite border on each side. */
+  .chat-portrait .ui-frame {
+    padding: 4px;
+    width: 148px;
+    height: 148px;
+  }
+
+  /* 128px is the 64px source art at the phone's own scale, 2 device px per
+     art pixel, the same size everything else on the screen runs at. */
+  .chat-portrait .ui-avatar,
+  .chat-portrait .ui-avatar img {
+    width: 128px !important;
+    height: 128px !important;
+  }
+
+  .chat-foot-main {
+    margin-left: 0;
+    gap: 4px;
+  }
+
+  /* The phone's own smaller Tiny5 size and thinner sprite border produce a
+     shorter natural row than the desktop numbers above. */
+  .course-status {
+    min-height: 28px;
+  }
+
+  .composer {
+    gap: 4px;
+  }
+
+  /* One option per row on a phone; the grid lives in the scrolling thread now,
+     so a long list just grows the page instead of needing its own cap. */
+  .message-choices {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+
+  .message-choices > * {
+    min-height: 48px;
+  }
+
+  .composer-row {
+    min-height: calc(var(--line-prose) + 20px);
+  }
+
+  /* Vertical padding is whitespace, not the pixel border's art, so it can
+     give up height a phone's budget can't spare; the 6px border and the
+     text's own line-height stay untouched. One line of --line-prose + 4px×2
+     padding + 6px×2 pixel border = var(--line-prose) + 20px outer. */
+  .composer-text {
+    padding-block: 4px;
+    min-height: calc(var(--line-prose) + 20px);
+  }
+
+  .composer-row .ui-button {
+    padding-block: 2px;
+  }
+
+  /* Bottom breathing room shrinks with everything else in the budget; the
+     side padding stays (it never counted against the height). */
+  .chat-foot {
+    padding-bottom: calc(8px + var(--px-rest));
+  }
+
+}
+
+/* The first screen: pick who teaches you, then the course starts. */
+.pick {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: safe center;
+  gap: 12px;
+  padding: 16px;
+}
+
+.pick-hero {
+  text-align: center;
+}
+
+.pick-title {
+  margin: 0;
+}
+
+.pick-subtitle {
+  margin: 4px 0 0;
+  font-size: var(--size-small);
+  line-height: var(--line-small);
+  color: var(--c-text-dim);
+}
+
+.pick-lead {
+  margin: 0;
+  text-align: center;
+}
+
+/* A centred wrap of fixed cards: four and one at 1280, five in a row once the
+   window can hold 1464px of them, centred in whole art pixels like the thread. */
+.pick-grid {
+  list-style: none;
+  margin-block: 0;
+  margin-inline: max(0px, round(down, calc((100% - 1464px) / 2), var(--px))) auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+  max-width: 1464px;
+}
+
+/* The 256px portrait plus the card's own 12px border each side. */
+.pick-grid > li {
+  width: 280px;
+}
+
+.pick-card {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  background: var(--c-surface);
+  border: 1px solid var(--c-border);
+  border-radius: 12px;
+  transition: transform 100ms steps(1, end), border-color 100ms steps(1, end);
+}
+
+.pick-card:hover:not(:disabled) {
+  transform: translateY(calc(-1 * var(--px)));
+  border-color: var(--c-primary);
+}
+
+.pick-card:disabled {
+  opacity: 0.6;
+  cursor: progress;
+}
+
+.pick-name {
+  /* Reserves two label lines so a long persona name never shifts the card's
+     height against its neighbours, and both looks build the same card. */
+  min-height: 68px;
+  text-align: center;
+  padding: 0 8px;
+}
+
+.pick-tagline {
+  font-size: var(--size-small);
+  line-height: var(--line-small);
+  color: var(--c-text-dim);
+  text-align: center;
+  padding: 0 8px 8px;
+}
+
+/* Small print, and a whole sentence: it wraps and it reads (D66). Shown once,
+   on the choice a student makes before the chat opens (D90). */
+.pick-note {
+  font-size: var(--size-small);
+  line-height: var(--line-small);
+  color: var(--c-text-dim);
+  text-align: center;
+  white-space: normal;
+  max-width: 60ch;
+  margin: 16px auto 0;
+}
+
+/* The picker runs at the phone's pixel size too: 128px portraits in cards that
+   are the portrait plus the card's own border. */
+@media (max-width: 720px) {
+  .pick-grid > li {
+    width: 140px;
+  }
+
+  .pick-card .ui-avatar,
+  .pick-card .ui-avatar img {
+    width: 128px !important;
+    height: 128px !important;
+  }
+
+  .pick-name {
+    min-height: 36px;
+  }
+}
+
+.ui-confetti {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 50;
+}
+

@@ -1,0 +1,40 @@
+id: q-01-10
+chapter: 01-warum-es-dich-betrifft
+type: multiple_choice
+difficulty: 2
+question: >-
+  Unsere Kollegin will wissen, welches von vier Werkzeugen auf ihrem Rechner ein
+  KI-System im Sinne der Verordnung ist. Welches ist es?
+options:
+  - key: A
+    text: >-
+      Ein E-Mail-Programm, das jede Mail mit dem Betreff „Rechnung“ in einen
+      festen Ordner sortiert.
+  - key: B
+    text: Eine Tabellenkalkulation, die mit einer festen Formel die Summe einer Spalte bildet.
+  - key: C
+    text: >-
+      Ein Assistent, der aus einer stichwortartigen Notiz einen fertigen Brief an
+      die Kundin formuliert.
+  - key: D
+    text: Ein Fristenkalender, der 30 Tage nach dem Eingangsdatum automatisch eine Erinnerung anlegt.
+correct: C
+model_answer: >-
+  C. Ein KI-System leitet aus den Eingaben ab, wie es seine Ausgaben erstellt:
+  Der Assistent erzeugt aus der Notiz neuen Text. Die drei anderen Werkzeuge
+  folgen festen Regeln und leiten nichts ab.
+explanation: >-
+  Art. 3 Nr. 1 definiert das KI-System als maschinengestütztes System, das für
+  einen in unterschiedlichem Grade autonomen Betrieb ausgelegt ist und aus den
+  erhaltenen Eingaben ableitet, wie es Ausgaben wie etwa Vorhersagen, Inhalte,
+  Empfehlungen oder Entscheidungen erstellt. Der Briefassistent erzeugt als
+  Inhalt neuen Text und leitet aus der Notiz ab, wie er das tut. Das Sortieren
+  nach einem festen Betreff, eine feste Summenformel und eine feste
+  Fristberechnung folgen dagegen einer vorher festgelegten Vorschrift; sie
+  leiten nichts ab und sind keine KI-Systeme.
+citations: ["Art. 3(1)"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

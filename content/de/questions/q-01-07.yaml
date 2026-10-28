@@ -1,0 +1,43 @@
+id: q-01-07
+chapter: 01-warum-es-dich-betrifft
+type: free_text
+difficulty: 2
+question: >-
+  Unser Team will ein KI-Chatfenster auf die Website des Unternehmens stellen.
+  Was verlangt die Verordnung dafür?
+rubric:
+  must:
+    - point: >-
+        nennt, dass die Person erkennen können muss, dass sie mit einem KI-System
+        spricht, oder dass niemand denken darf, es antworte ein Mensch
+      ask: >-
+        Also, was verlangt die Verordnung, bevor das Chatfenster auf die Website
+        darf?
+  should:
+    - nennt, dass das Chatfenster selbst erlaubt ist
+    - >-
+      nennt, dass der Hinweis entfallen kann, wenn es aus den Umständen
+      offensichtlich ist
+model_answer: >-
+  Das Chatfenster ist erlaubt. Verlangt ist, dass die Person erkennt, dass sie
+  mit einem KI-System spricht, und diese Pflicht trifft den Anbieter, der das
+  System entsprechend gestaltet. Ist das aus Sicht einer angemessen
+  informierten, aufmerksamen und verständigen natürlichen Person aufgrund der
+  Umstände und des Kontexts der Nutzung offensichtlich, braucht es keinen
+  zusätzlichen Hinweis.
+explanation: >-
+  Art. 50 Abs. 1 verlangt von Anbietern, dass KI-Systeme für die direkte
+  Interaktion mit natürlichen Personen so konzipiert und entwickelt werden, dass
+  die Person informiert wird, dass sie mit einem KI-System interagiert. Die
+  Pflicht entfällt, wenn das aus Sicht einer angemessen informierten,
+  aufmerksamen und verständigen natürlichen Person aufgrund der Umstände und des
+  Kontexts der Nutzung offensichtlich ist.
+  Als Betreiber setzen wir das um, indem wir den Hinweis sichtbar lassen und auf
+  Nachfrage ehrlich antworten. Ein Verbot des Chatfensters enthält die
+  Verordnung nicht.
+citations: ["Art. 50(1)"]
+last_change:
+  date: 2026-09-29
+  by: ai
+  trigger: D118
+  summary: every must point carries its ask

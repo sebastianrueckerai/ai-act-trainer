@@ -1,0 +1,39 @@
+id: q-01-08
+chapter: 01-warum-es-dich-betrifft
+type: yes_no
+difficulty: 2
+question: >-
+  Die Personalabteilung schlägt ein Werkzeug vor, das im Bewerbungsgespräch die
+  Gesichtsausdrücke ausliest und daraus die Begeisterung der Bewerber
+  bewertet. Darf sie das?
+correct: "no"
+rubric:
+  must:
+    - point: >-
+        nennt, dass das Ableiten von Emotionen am Arbeitsplatz eine verbotene Praxis
+        ist
+  should:
+    - nennt die Ausnahme für medizinische Gründe oder Sicherheitsgründe
+    - nennt, dass damit nicht jedes KI-Werkzeug im Personalbereich verboten ist
+model_answer: >-
+  Nein, das geht nicht. Ein KI-System, das die Emotionen einer Person am
+  Arbeitsplatz ableitet, ist eine verbotene Praxis, und die einzige Ausnahme
+  sind medizinische Gründe oder Sicherheitsgründe. Andere KI-Werkzeuge im
+  Personalbereich, etwa für Übersetzungen oder Textentwürfe, bleiben davon
+  unberührt.
+explanation: >-
+  Art. 5 Abs. 1 Buchst. f verbietet das Inverkehrbringen, die Inbetriebnahme für
+  diesen Zweck und die Verwendung von KI-Systemen zur Ableitung von Emotionen
+  einer natürlichen Person am Arbeitsplatz und in Bildungseinrichtungen.
+  Ausgenommen ist nur der Einsatz aus medizinischen Gründen oder
+  Sicherheitsgründen, und die Bewertung von Begeisterung im Bewerbungsgespräch
+  ist keiner dieser Gründe. Erwägungsgrund 44 erfasst Situationen, die mit dem
+  Arbeitsplatz in Zusammenhang stehen, und nennt als Grund das
+  Machtungleichgewicht zwischen den Beteiligten. Das Verbot trifft die
+  Emotionserkennung, nicht jedes KI-Werkzeug im Personalbereich.
+citations: ["Art. 5(1)(f)", "Rec. 44"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why

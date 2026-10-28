@@ -1,0 +1,32 @@
+id: q-05-02
+chapter: 05-ki-gegenueber-kunden
+type: multiple_choice
+difficulty: 2
+question: >-
+  Der Assistent schreibt den Text für unseren Newsletter. Wer sorgt dafür, dass die
+  Ausgabe maschinenlesbar als künstlich erzeugt erkennbar ist?
+options:
+  - key: A
+    text: Unser Haus, das den Assistenten einsetzt.
+  - key: B
+    text: Der Anbieter des KI-Systems, das den Text erzeugt.
+  - key: C
+    text: Niemand, für Text gilt die Kennzeichnung nicht.
+correct: B
+model_answer: >-
+  B. Die maschinenlesbare Kennzeichnung erzeugter Inhalte schuldet der Anbieter
+  des Systems, nicht der Betrieb, der damit arbeitet.
+explanation: >-
+  Art. 50 Abs. 2 verpflichtet Anbieter von KI-Systemen, die synthetische Audio-,
+  Bild-, Video- oder Textinhalte erzeugen, dafür zu sorgen, dass die Ausgaben in
+  einem maschinenlesbaren Format gekennzeichnet und als künstlich erzeugt oder
+  manipuliert erkennbar sind, und nennt Text dort ausdrücklich. Die Pflichten des
+  Betreibers stehen in Art. 50 Abs. 4 und betreffen Deepfakes und veröffentlichte
+  Texte über Angelegenheiten von öffentlichem Interesse, nicht die technische
+  Kennzeichnung.
+citations: ["Art. 50(2)", "Art. 50(4)"]
+last_change:
+  date: 2026-09-24
+  by: ai
+  trigger: "review: Antworten aus der Sicht der Lernenden"
+  summary: "Perspektive: euer zu unser"

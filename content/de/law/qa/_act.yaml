@@ -1,0 +1,273 @@
+node: qa
+summary: Die Fragen und Antworten erklären, dass Anbieter und Betreiber von KI-Systemen die KI-Kompetenz
+  ihrer Mitarbeiter und aller Personen, die im Auftrag handeln, fördern müssen. Die Kommission und die
+  Mitgliedstaaten unterstützen mit Praxisbeispielen auf einer zentralen Informationsplattform, und der
+  KI-Ausschuss gibt Empfehlungen. Die Pflicht gilt seit dem 2. Februar 2025, die Durchsetzung beginnt im
+  August 2026.
+source_sha: e0a2dec5d5b430610b1c55f5ee9907d76413ac0e430903d7a61af825129c7a7d
+children:
+- node: qa:item_1
+  summary: Sie verpflichtet Anbieter und Betreiber von KI-Systemen, die KI-Kompetenz ihres Personals und
+    anderer beteiligter Personen zu fördern. Sie verlangt von Kommission und Mitgliedstaaten, diese Unternehmen,
+    besonders KMU, mit Beispielen auf einer Informationsplattform zu unterstützen. Der KI-Ausschuss gibt
+    Empfehlungen zur Förderung der KI-Kompetenz.
+  source_sha: 35a2d69a28d9550c4f206661e43740bc040ee180a3c3786d0b67e432bb7be122
+  children: []
+- node: qa:item_2
+  summary: Die Vorschrift zur KI-Kompetenz bleibt für Anbieter und Betreiber verpflichtend, verlangt jedoch
+    kein festes Niveau. Die Kommission und die Mitgliedstaaten unterstützen die Umsetzung, veröffentlichen
+    Praxisbeispiele auf einer zentralen Plattform und fordern den KI-Ausschuss auf, Empfehlungen zu erarbeiten.
+    Anbieter von Hochrisiko-KI müssen ihr Personal schulen, damit menschliche Aufsicht gewährleistet bleibt.
+  source_sha: f20fcd3a7977344c9e0a09bcfa1e141786b442cc192244509ff022d890a72067
+  children: []
+- node: qa:item_3
+  summary: Die Vorschrift verpflichtet Anbieter und Betreiber von KI-Systemen sowie Personen, die in deren
+    Auftrag das System betreiben oder nutzen, etwa Auftragnehmer, Dienstleister oder Kunden, ihre Mitarbeiter
+    mit den nötigen Fähigkeiten und Kenntnissen auszustatten. Sie gilt für Organisationen, die KI-Systeme
+    bereitstellen oder einsetzen.
+  source_sha: a558959053041a095038da832d76748023f6cd00efc2e21a329c1251f6bbde7c
+  children: []
+- node: qa:item_4
+  summary: Kunden gelten als betroffene Personen. Sie benötigen KI-Kompetenz, um zu verstehen, wie KI-Entscheidungen
+    sie beeinflussen, und um fundierte Entscheidungen zu treffen. Die Verordnung verlangt, dass allen
+    relevanten Akteuren, einschließlich Kunden, das nötige Wissen vermittelt wird, und damit die Einhaltung
+    gesetzlicher Vorgaben sichergestellt wird.
+  source_sha: 6f0422d7c67b6042c06b31a3f4fe52fc9234bc235a1603984da87455727932ee
+  children: []
+- node: qa:item_5
+  summary: Das KI-Gesetz verlangt nicht, den Kenntnisstand der Mitarbeiter zu messen. Es verpflichtet
+    Anbieter und Betreiber, die KI-Kompetenz ihrer Beschäftigten zu fördern, basierend auf technischem
+    Wissen, Erfahrung und Weiterbildung. Ein festes Wissensniveau ist nicht vorgeschrieben.
+  source_sha: 5a04cf9140c07cc42d2d5236a71ca1fd31a194e62b42479ee73eef350356d30b
+  children: []
+- node: qa:item_6
+  summary: Das KI-Gesetz unterscheidet KI-Modelle (GPAI-Modelle), KI-Systeme, einschließlich GPAI-Systeme,
+    und verbotene Hochrisiko-Systeme. Die Europäische Kommission hat unverbindliche Leitlinien veröffentlicht,
+    die Anbietern helfen, zu prüfen, ob ein Softwaresystem ein KI-System ist. Die Leitlinien gelten für
+    alle Anbieter und werden fortlaufend aktualisiert.
+  source_sha: f442dab6e25e4d3026ea0d1271c3323f2a4165de5079e14803067ed43e1a9244
+  children: []
+- node: qa:item_7
+  summary: Die Kommission stellt weitere Dokumente und Videos zur KI-Kompetenz auf einer speziellen Website
+    bereit. Dort finden sich Fragen und Antworten sowie ein Link zu einem lebenden Repository. Das Repository
+    zeigt Praxisbeispiele, fördert den Austausch zwischen Anbietern und Betreibern und dient der Veröffentlichung
+    von Konformitätsbeispielen auf der zentralen Informationsplattform.
+  source_sha: 0976457cac3bf647721fe2afe9bb9876b511c0ff4f31469c2077a05fe3f23f3e
+  children: []
+- node: qa:item_8
+  summary: Die Vorgabe des KI-Gesetzes verlangt von Anbietern und Betreibern von KI-Systemen, ein KI-Kompetenzprogramm
+    zu erstellen. Das Programm muss Grundwissen über KI, die jeweilige Rolle, Risikobewusstsein, maßgeschneiderte
+    Schulungen und recht-ethische Aspekte umfassen. Es gilt, sobald KI-Systeme bereitgestellt oder eingesetzt
+    werden.
+  source_sha: 2110ca8fad95da15d880a363fcc077f5cc58dc1441e1726354ca0935b21cc1ff
+  children: []
+- node: qa:item_9
+  summary: Der Text erklärt, dass Organisationen ihre Rolle als Anbieter oder Betreiber von KI-Systemen
+    prüfen und die Risiken der eingesetzten Systeme bewerten müssen. Sie passen ihren KI-Kompetenzansatz
+    an. Bei Hochrisiko-Systemen sind zusätzliche Maßnahmen nötig, damit Mitarbeiter Risiken erkennen
+    und mindern können.
+  source_sha: cd6e0e3e6dc564a78ee023ae07f9ded2fa15fdd426eddf8f23be8b11c4c81b68
+  children: []
+- node: qa:item_10
+  summary: Das KI-Gesetz verlangt, dass Betreiber von KI-Systemen geeignete Schulungen und Leitlinien
+    zur KI-Kompetenz bereitstellen. Die Maßnahmen müssen an das technische Wissen, die Erfahrung und die
+    Ausbildung der jeweiligen Zielgruppe sowie an Kontext und Zweck der KI angepasst sein. Sie gelten
+    für jede Organisation, die KI einsetzt, und ergänzen die Pflicht der Betreiber hochriskanter Systeme,
+    ihr Personal praktisch zu schulen, um das System sicher zu handhaben und menschliche Aufsicht zu gewährleisten.
+  source_sha: 572e9ae7d8fdfcb28d63bfc66889fbc6b3cfccd67498ece0b342d2185920183a
+  children: []
+- node: qa:item_11
+  summary: Das Dokument gibt keine verbindliche Vorgabe für verpflichtende KI-Schulungen. Unternehmen
+    sollen die Schulungsinhalte nach ihrem konkreten Anwendungsfall ausrichten, basierend auf den Erwägungen
+    aus Frage 2.1 und den Empfehlungen des KI-Ausschusses. Das KI-Büro stellt ein lebendiges Repository
+    mit Praxisbeispielen bereit, das den Austausch fördert. Die Nutzung der Beispiele beweist jedoch nicht
+    automatisch die Einhaltung der Vorgaben. Das Repository wird von der Kommission für veröffentlichte
+    Konformitätsbeispiele verwendet.
+  source_sha: 85f3c28cc6822a67dd43273d65bb8b2859eaf31fa31525498ca04ce4808f6e88
+  children: []
+- node: qa:item_12
+  summary: Das KI-Gesetz schreibt keine besonderen Pflichten für einzelne Branchen wie Finanz- oder Gesundheitswesen
+    vor. Alle Anbieter müssen jedoch den Einsatzkontext, also den Sektor, den Zweck und das Risikoniveau
+    des KI-Systems berücksichtigen, wenn sie das System entwickeln und KI-Kompetenz fördern.
+  source_sha: eb36ebc0056f1e8cc8997262d92b7b0235adc1e3cf434b5f50da18caefb46063
+  children: []
+- node: qa:item_13
+  summary: Die Regel verlangt, dass Personen, die im Namen eines Diensteanbieters KI einsetzen, die nötigen
+    KI-Kenntnisse besitzen. Das gilt insbesondere bei Hochrisiko-KI-Systemen. Der Anbieter und seine Mitarbeiter
+    müssen die Kompetenz nachweisen, wenn sie die jeweilige Aufgabe ausführen.
+  source_sha: 64f938e76aefebe40629a663620d69d600d1b76f396af6a4fc3655b37761031f
+  children: []
+- node: qa:item_14
+  summary: Unternehmen müssen sicherstellen, dass Mitarbeiter, die generative KI für Werbetexte oder
+    Übersetzungen nutzen, über die erforderlichen KI-Kenntnisse verfügen. Sie sind verpflichtet, die Mitarbeiter
+    über Risiken wie Halluzinationen zu informieren. Gilt bei jeder Nutzung solcher KI-Systeme im Unternehmen.
+  source_sha: 1438e813d909f5ed4df2cbcd508cecb1deb63bde4cc6885c5fdc40d00e0530f1
+  children: []
+- node: qa:item_15
+  summary: Das Unternehmen muss sicherstellen, dass seine Mitarbeiter die für das genutzte KI-Tool
+    erforderlichen Fähigkeiten besitzen. Der Human-in-the-Loop-Ansatz verlangt zusätzlich kompetente Kontrolle.
+    Interne Schulungsressourcen reichen, wenn sie diese spezifischen Kenntnisse vermitteln. Sie müssen
+    praxisnah und regelmäßig aktualisiert sein. Damit erfüllt das Unternehmen die Vorgaben zur KI-Schulung.
+  source_sha: ac51091eb88b319cda6ef58c3f262a9708c23171d2d27907b34cd1e46925aae0
+  children: []
+- node: qa:item_16
+  summary: Personen mit Abschluss oder Erfahrung in der KI-Entwicklung können als KI-kundig gelten, wenn
+    sie die für das jeweilige KI-Tool erforderlichen Qualifikationen besitzen. Die Organisation muss sicherstellen,
+    dass diese Mitarbeiter über notwendige Informationen, Risiken, deren Vermeidung und rechtliche
+    sowie ethische Aspekte Bescheid wissen.
+  source_sha: f2a0cabe7c47efcbb54c3b5c3ebe256f21782be4e42572ea55455ed97b8b81b2
+  children: []
+- node: qa:item_17
+  summary: Der KI-Gesetz-Abschnitt fordert Anbieter und Betreiber, das Wissen, die Erfahrung und die Aus-
+    und Weiterbildung von Mitarbeitern zu berücksichtigen, um Maßnahmen zur Förderung der KI-Kompetenz
+    zu ergreifen. Unterschiedliche Ausbildungsniveaus oder Lernansätze sind zulässig, weil KI-Systeme
+    und die jeweiligen Bildungsstände variieren.
+  source_sha: 73133ca4f8165a6dfdbe6c84371909c50dcb4cd70bf6165d652c3b333c93a5a8
+  children: []
+- node: qa:item_18
+  summary: Organisationen dokumentieren ihre Maßnahmen zur KI-Kompetenz durch interne Aufzeichnungen.
+    Sie erfassen Schulungen und weitere Initiativen. Ein spezielles Zertifikat ist nicht nötig. Interne
+    Nachweise genügen.
+  source_sha: bf862049bcf190b784e739043f479c498587379c1b83a593f63b53f817c65582
+  children: []
+- node: qa:item_19
+  summary: Der KI-Act verlangt keine festgelegte Governance-Struktur. Organisationen, die dem KI-Act unterliegen,
+    müssen keinen speziellen KI-Beauftragten oder einen KI-Governance-Vorstand einrichten. Ein Datenschutzbeauftragter
+    kann dieselbe Person sein, wenn die internen Aufgaben dies zulassen.
+  source_sha: d9204f14de62bede3f25ce7a19c26fecf54c6c14c725bfb10353a096f2653c59
+  children: []
+- node: qa:item_20
+  summary: Die Kommission will die Pflicht zur Förderung von KI-Kompetenz von den Mitgliedstaaten und
+    der Kommission auf Organisationen verlagern, die Hochrisiko-KI einsetzen. Diese Organisationen müssen
+    ihr Personal schulen, damit menschliche Aufsicht gewährleistet bleibt. Die Regelung gilt, sobald Hochrisiko-KI-Systeme
+    verwendet werden.
+  source_sha: a936674066941b28f752fc745dcd1465d99171b0a5c33c4f22ef2915c76f114c
+  children: []
+- node: qa:item_21
+  summary: Die Pflicht, das Personal in KI-Kompetenz zu schulen, gilt seit dem 2. Februar 2025. Die Überwachungs-
+    und Durchsetzungsvorschriften treten am 3. August 2026 in Kraft. Änderungen, die die digitale Omnibus-Verordnung
+    für KI betreffen, traten Mitte Juli 2026 in Kraft. Unternehmen müssen bis zu diesem Datum geeignete
+    Maßnahmen ergreifen, sonst gelten sie als verspätet.
+  source_sha: 47d0f850b145e136b0250cda3dfeb3cf5b7e0db917ea50f83869f0e7fa347e01
+  children: []
+- node: qa:item_22
+  summary: Die Durchsetzung der entsprechenden Vorschriften obliegt den nationalen Marktüberwachungsbehörden,
+    die ab dem 2. August 2026 aktiv werden. Sie arbeiten eng mit dem Amt für künstliche Intelligenz und
+    dem KI-Ausschuss zusammen, welcher Empfehlungen zur Unterstützung von Kommission und Mitgliedstaaten
+    erarbeitet.
+  source_sha: 74098584db84784250919afa752bd07179520491c2b32aa594bd26b4df4dbe4a
+  children: []
+- node: qa:item_23
+  summary: Marktüberwachungsbehörden dürfen ab dem 2. Februar 2025 Sanktionen für Verstöße verhängen.
+    Die Regel gilt für alle KI-Systeme, die unter das Verbot fallen. Der KI-Rat koordiniert die Anwendung
+    mit nationalen Behörden. Sie prüfen jede Verletzung individuell und können Geldbußen oder andere Maßnahmen
+    anordnen.
+  source_sha: 4c0e319f937598620c57edb7f0e76af80271b955ab24e3005594533b1ee86524
+  children: []
+- node: qa:item_24
+  summary: National market surveillance authorities may impose sanctions and other enforcement measures
+    if an organization violates article 4. Measures must be proportionate, considering seriousness, intent,
+    negligence, and evidence of inadequate training, and are based on national law to be adopted by 2
+    August 2025.
+  source_sha: 5aac3f0215c3c7a5acacc1208b38911783de0b9636ebefbd6fda3a32645775de
+  children: []
+- node: qa:item_25
+  summary: Der KI-Gesetz-Rahmen gilt für öffentliche und private Akteure innerhalb und außerhalb der EU,
+    wenn ein KI-System auf dem Unionsmarkt bereitgestellt, in der Union genutzt oder dessen Nutzung Auswirkungen
+    auf Personen in der EU hat. Die Bestimmungen zum Anwendungsbereich decken damit auch Anbieter aus
+    Drittstaaten ab, die Dienste für EU-Ansässige erbringen.
+  source_sha: 22abc7eed9d745829dc3a7ca369dbce28aa36b0e729f62c5dbc10b7b42c9f065
+  children: []
+- node: qa:item_26
+  summary: Das Gesetz legt fest, dass die Mitgliedstaaten Behörden benennen, die die Einhaltung überwachen
+    und durchsetzen (öffentliche Durchsetzung). Gleichzeitig können Privatpersonen bei Schadenersatzansprüchen
+    gegen Organisationen vorgehen, die ihren Pflichten nicht nachkommen (private Durchsetzung).
+  source_sha: 500db0604fcd673750a8c7a62debc5d833c073aa554694899a7e8367217ed1bf
+  children: []
+- node: qa:item_27
+  summary: Das KI-Gesetz schafft keine eigenen Straftaten und keinen gesetzlichen Entschädigungsanspruch.
+    Bei Schäden können Betroffene den Anbieter eines KI-Systems nach nationalem Recht verklagen. Arbeitnehmer
+    dürfen ihren Arbeitgeber wegen unzureichender KI-Schulung klagen; die Polizei ist nicht zuständig,
+    eine Anwaltskanzlei kann rechtlich beraten und Klage unterstützen.
+  source_sha: 1896a2b61007bc12011d291d31e56d32aec096efb92d2eab14574cae7359ec0c
+  children: []
+- node: qa:item_28
+  summary: Der Text erklärt, dass das Amt für künstliche Intelligenz Leitlinien zur Pflicht zur KI-Kompetenz
+    veröffentlicht. Die Leitlinien enthalten Beispiele zur Einhaltung, werden im lebenden KI-Wissens-Repository
+    bereitgestellt und begründen keine automatische Konformitätsvermutung. Das Amt arbeitet eng mit dem
+    KI-Ausschuss zusammen, um Empfehlungen für die Förderung der geforderten KI-Kompetenz zu erarbeiten.
+    Nationale Marktüberwachungsbehörden können ergänzende Durchsetzungs-Leitlinien herausgeben. Die Regelungen
+    gelten für Anbieter, Nutzer und Aufsichtsbehörden ab Inkrafttreten der Änderung des KI-Gesetzes.
+  source_sha: 5e226c81681d776aa3d6efbd9ce7a3e1185e945c26dc2d6020edd913fa51b9a2
+  children: []
+- node: qa:item_29
+  summary: Die Kommission veröffentlicht Leitlinien, die Anbietern von Hochrisiko-KI-Systemen helfen,
+    die im KI-Gesetz festgelegten Anforderungen und Pflichten umzusetzen. Die Leitlinien behandeln Themen
+    wie menschliche Aufsicht, Risikomanagement und KI-Alphabetisierung. Sie gelten für alle Anbieter,
+    die Hochrisiko-KI-Systeme entwickeln, bereitstellen oder in Verkehr bringen.
+  source_sha: 1cbe38fdbe3149720000d6f7c5f29b624d11ebb0957d06fae947d1d8b0091249
+  children: []
+- node: qa:item_30
+  summary: Die Kommission führt für ihre Beschäftigten die Vorgaben des Artikels 4 des KI-Gesetzes aus.
+    Sie erstellt eine KI-Kompetenzstrategie, einen internen Rahmen, ein Webportal, Lernpakete, Schulungen,
+    Praxisgemeinschaft, Newsletter und ein Champions-Netzwerk. Alle Mitarbeiter müssen die grundlegenden
+    Module nutzen. Die Maßnahmen gelten sofort und werden fortlaufend angepasst.
+  source_sha: 4338827e558923f8b97c74a81aaacca044082b4e89afdb99c914020f2de3041f
+  children: []
+- node: qa:item_31
+  summary: Das Amt für künstliche Intelligenz unterstützt EU-Agenturen beim Aufbau von KI-Kompetenzprogrammen,
+    indem es ihnen Zugang zur Lernplattform EU-Learn, zu KI-Lernpaketen und weiteren Schulungen der Kommission
+    gewährt. Die Unterstützung gilt sofort für alle betroffenen Agenturen.
+  source_sha: 931cfe84af45d4a181e24663c83cae04c88bb6318d9f0c3bc95a3817ec5e9ee4
+  children: []
+- node: qa:item_32
+  summary: Das AI Office veröffentlicht in Kürze zusätzliche Leitlinien und Praxis-Ressourcen, um Anbieter
+    und Betreiber von KI-Systemen bei der Erfüllung der KI-Kompetenzpflicht zu unterstützen. Es richtet
+    eine Rubrik ein, in der die Einhaltung der Kompetenz durch Tests nachgewiesen werden kann. Die Materialien
+    gelten für alle Marktteilnehmer, die KI-Systeme bereitstellen oder betreiben, und treten mit ihrer
+    Veröffentlichung in Kraft.
+  source_sha: 86097d30c78df58855c3a094b8dd4e906b9d3d3564116b8b9f7668e9f548cb56
+  children: []
+- node: qa:item_33
+  summary: Branchenorganisationen unterstützen die KI-Kompetenz, indem sie bewährte Verfahren und interne
+    Richtlinien im lebenden Repository einreichen. Das AI Office prüft die Beiträge auf Transparenz und
+    Zuverlässigkeit, kann die Umfrage vorübergehend schließen und nutzt die Beispiele für die Veröffentlichung
+    von Konformitätsnachweisen.
+  source_sha: 4e36d93143cdd7debae61f53b65093368e676e9cdf72635b237c41464ccba990
+  children: []
+- node: qa:item_34
+  summary: Das lebende Repository zu KI-Kompetenz ist auf der Website der Kommission frei einsehbar. Es
+    enthält über 40 Praxisbeispiele aus Unternehmen und öffentlichem Sektor, die in zwei Befragungsrunden
+    gesammelt wurden. Es dient dem Austausch und der Lernförderung, begründet jedoch keine automatische
+    Annahme der Einhaltung von Vorgaben.
+  source_sha: d2bf89a73bbfa5da9fe0bbdb1e538ce7f5fe1ab144a0c6d7dd2b2e2438277466
+  children: []
+- node: qa:item_35
+  summary: Der Text informiert kleine und mittlere Unternehmen sowie öffentliche Organisationen über EU-Unterstützungsangebote
+    zur KI-Kompetenz. Er weist auf das Netzwerk der Europäischen Zentren für digitale Innovation als erste
+    Anlaufstelle für Schulungen, Workshops und Help-Desk-Unterstützung hin. Außerdem stellt er die seit
+    dem 1. Mai 2026 aktive KI-Kompetenzakademie vor, die Aus- und Weiterbildungsprogramme, Bootcamps und
+    Förderungen für Fachkräfte anbietet. Die Informationen gelten ab dem Start der Akademie und gelten
+    fortlaufend.
+  source_sha: ee50a8cdc491d2bf61bd64435100be2f728558b21f808947c3084bfe9b61067d
+  children: []
+- node: qa:item_36
+  summary: Das KI-Büro bietet Grundkurse zur Künstlichen Intelligenz für Bürger an. Es
+    organisiert Veranstaltungen und Webinare, stellt Aufzeichnungen bereit und kündigt neue Termine an.
+    Über die Plattform für digitale Kompetenzen können kostenlose Schulungsangebote, Lernpfade und Lerninhalte
+    abgerufen werden. Die KI-Kompetenzakademie sammelt sektorspezifische KI-Schulungen. Zielgruppe sind
+    alle Interessierten, insbesondere die breite Öffentlichkeit, und das Angebot gilt fortlaufend.
+  source_sha: 352990c9c862ae722da9598701be53414077c8ecac134f08ae1eb37f7b239520
+  children: []
+- node: qa:item_37
+  summary: Es gibt keinen einheitlichen EU-Rahmen für KI-Kompetenz von Eltern, Kindern, Lehrenden und
+    Lernenden. Stattdessen können Kommission und Mitgliedstaaten Modelle wie DigComp und den KI-Kompetenzrahmen
+    für Schulen nutzen. Der Europäische KI-Ausschuss soll Empfehlungen geben und den Austausch regelmäßig
+    fördern weiter.
+  source_sha: 8a540b83bb3e3c1bb3042e6d3ae70f684181ebd21fe34fc7875a19ce6eb8fdb3
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

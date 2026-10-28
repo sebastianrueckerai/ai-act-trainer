@@ -1,0 +1,23 @@
+node: ai_act:cpt_IV
+summary: Anbieter bestimmter KI-Systeme müssen klar machen, dass Nutzer mit einer KI interagieren, und
+  maschinenlesbare Kennzeichnung für synthetische Audio-, Bild-, Video- und Textausgaben anbringen. Betreiber
+  von Emotionserkennungs- oder biometrischen Systemen informieren Betroffene und verarbeiten Daten nach
+  den Datenschutzvorschriften. Deep-Fake-Inhalte sind als künstlich zu kennzeichnen, Ausnahmen gelten
+  für Strafverfolgung, künstlerische oder redaktionell geprüfte Werke. Die Information muss beim ersten
+  Kontakt klar, eindeutig und barrierefrei erfolgen.
+source_sha: 6befd5fcfe6386acba75af92513501f56799e407af9b00679b6f8e7218a820b3
+children:
+- node: ai_act:art_50
+  summary: Anbieter müssen sicherstellen, dass Personen wissen, dass sie mit einem KI-System interagieren,
+    es sei denn, das ersichtlich ist. Sie kennzeichnen synthetische Audio-, Bild-, Video- und Textausgaben
+    maschinenlesbar als künstlich. Betreiber von Emotionserkennungs- oder biometrischen Systemen informieren
+    Betroffene und verarbeiten Daten nach den Datenschutzvorschriften. Deep-Fake-Inhalte müssen als künstlich
+    gekennzeichnet werden, Ausnahmen gelten für Strafverfolgung, künstlerische oder redaktionell geprüfte
+    Werke. Die Information erfolgt klar, eindeutig und barrierefrei beim ersten Kontakt.
+  source_sha: c1b37c46f559c9913cf4da31c6c1cf9dc3a0cdfb236808fa32ac66c2b0ffab5a
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

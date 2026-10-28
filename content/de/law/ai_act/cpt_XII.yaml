@@ -1,0 +1,40 @@
+node: ai_act:cpt_XII
+summary: Die Sanktionen regeln, wann und wie Geldbußen für Verstöße gegen die KI-Verordnung verhängt werden.
+  Die Mitgliedstaaten legen Strafen fest, die bis zu 35 Millionen Euro oder bis zu sieben Prozent des
+  weltweiten Jahresumsatzes betragen können, wobei sie kleine und mittlere Unternehmen berücksichtigen
+  und die Regelungen der Kommission melden. Der Europäische Datenschutzbeauftragte kann Geldbußen gegen
+  EU-Organe und -Einrichtungen verhängen, bis zu 1,5 Millionen Euro für verbotene KI-Praktiken und bis
+  zu 750 tausend Euro für andere Verstöße, nach Anhörung. Die Kommission kann Anbieter von allgemeinen
+  KI-Modellen mit bis zu drei Prozent des weltweiten Jahresumsatzes oder 15 Millionen Euro bestrafen,
+  wenn sie vorsätzlich oder fahrlässig gegen die Verordnung verstoßen, nach Vorabinformation, Möglichkeit
+  zur Stellungnahme und gerichtlicher Überprüfung.
+source_sha: e3051a9ada7f0426bfb8ba7a3bb18d002fd3149aa3bfc470bb7d73fe7deb00bc
+children:
+- node: ai_act:art_99
+  summary: Die Mitgliedstaaten setzen Sanktionen und Durchsetzungsmaßnahmen für Verstöße gegen die Verordnung
+    fest, darunter Geldbußen bis zu 35 Millionen Euro oder bis zu 7 % des weltweiten Jahresumsatzes. Sie
+    berücksichtigen KMU, Start-ups und Midcaps und melden die Regelungen der Kommission.
+  source_sha: 05f69f5add65ec02661e83d20477d7227325ad2c6d0db43ce9fd331287ea3ee4
+  children: []
+- node: ai_act:art_100
+  summary: Der Europäische Datenschutzbeauftragte kann Geldbußen gegen Organe, Einrichtungen und sonstige
+    Stellen der Union verhängen, wenn sie gegen die KI-Verordnung verstoßen. Er berücksichtigt Schwere,
+    Dauer, Verantwortung, Schadensminderung und Zusammenarbeit. Bußgelder bis zu 1,5 Mio EUR für verbotene
+    KI-Praktiken, bis zu 750 Tsd EUR für andere Verstöße, werden nach Anhörung der betroffenen Stelle
+    festgesetzt und fließen in den EU-Haushalt.
+  source_sha: fa0e59f01cb88e6f486dfa7aa0f175c92647b472384c5338ffe5613627b38db6
+  children: []
+- node: ai_act:art_101
+  summary: Die Kommission kann Anbieter von KI-Modellen mit allgemeinem Verwendungszweck hohe Geldbußen
+    auferlegen, wenn sie vorsätzlich oder fahrlässig gegen die Verordnung verstoßen, Dokumente nicht bereitstellen,
+    falsche Angaben machen, geforderte Maßnahmen nicht umsetzen oder keinen Zugang für eine Risikobewertung
+    gewähren. Die Strafe beträgt bis zu 3 % des weltweiten Jahresumsatzes oder 15 Mio. €, je nach höherem
+    Betrag, und wird nach Schwere, Dauer und Verhältnismäßigkeit bemessen. Der Anbieter erhält Vorabinformation
+    und Gelegenheit zur Stellungnahme; das EU-Gericht kann die Entscheidung prüfen.
+  source_sha: d1f8390147ea4d85f20d6d30604456339fa2f8fe7bd06def9d99c7fd38618880
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

@@ -1,0 +1,72 @@
+name: ai-act-trainer
+
+services:
+  trainer:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    image: ghcr.io/sebastianrueckerai/ai-act-trainer:dev
+    container_name: ai-act-trainer
+    env_file:
+      - ../.env
+    environment:
+      DATABASE_URL: postgresql+psycopg://trainer:${POSTGRES_PASSWORD}@postgres:5432/trainer
+      LLM_BASE_URL: ${LLM_BASE_URL:-http://litellm:4000/v1}
+    ports:
+      - "8000:8000"
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: unless-stopped
+    networks: [trainer-net]
+
+  postgres:
+    image: postgres:16
+    container_name: ai-act-trainer-postgres
+    environment:
+      POSTGRES_USER: trainer
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: trainer
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U trainer -d trainer"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    restart: unless-stopped
+    networks: [trainer-net]
+
+  litellm:
+    profiles: [dev]
+    image: ghcr.io/berriai/litellm:main-stable
+    container_name: ai-act-trainer-litellm
+    command: ["--config", "/config/litellm.yaml", "--port", "4000"]
+    volumes:
+      - ./litellm/config.yaml:/config/litellm.yaml:ro
+    # Interpolated from `--env-file .env`. The whole app env must not reach LiteLLM:
+    # it opens any DATABASE_URL with Prisma. Its own litellm database, not the app's,
+    # is what budgets are tracked in; without a database every budget fails open.
+    environment:
+      LITELLM_MASTER_KEY: ${LITELLM_MASTER_KEY}
+      GROQ_API_KEY: ${GROQ_API_KEY}
+      DATABASE_URL: postgresql://trainer:${POSTGRES_PASSWORD}@postgres:5432/litellm
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:4000:4000"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:4000/health/liveliness')"]
+      interval: 10s
+      timeout: 5s
+      retries: 12
+    restart: unless-stopped
+    networks: [trainer-net]
+
+volumes:
+  pgdata: {}
+
+networks:
+  trainer-net:
+    name: ai-act-trainer-net

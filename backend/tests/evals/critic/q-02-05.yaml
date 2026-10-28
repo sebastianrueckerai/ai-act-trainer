@@ -1,0 +1,60 @@
+- name: confirms the purpose point and asks towards the works council
+  history:
+    - [tutor, "Warum sind Daten über Kollegen der besondere Fall?"]
+  message: "Weil man die nur fürs Arbeitsverhältnis nutzen darf."
+  outcome: partial
+  tries: 1
+  met: [1]
+  draft: |
+    Richtig, der Zweck ist enger als bei Kundendaten. Jetzt soll ein Werkzeug dazukommen, das auswertet, wie schnell jeder Kollege seine Tickets schließt. Wer redet da mit?
+  expect: ship
+- name: names the works council in the question
+  history:
+    - [tutor, "Warum sind Daten über Kollegen der besondere Fall?"]
+  message: "Weil man die nur fürs Arbeitsverhältnis nutzen darf."
+  outcome: partial
+  tries: 1
+  met: [1]
+  draft: |
+    Richtig. Und weißt du, dass bei einem Werkzeug, das Verhalten oder Leistung überwacht, der Betriebsrat mitbestimmt?
+  expect: retry
+  faults: [leak, question]
+- name: repeats the last question after a pushback
+  history:
+    - [tutor, "Warum sind Daten über Kollegen der besondere Fall?"]
+    - [student, "Weil man die nur fürs Arbeitsverhältnis nutzen darf."]
+    - [tutor, "Richtig, der Zweck ist enger als bei Kundendaten. Jetzt soll ein Werkzeug dazukommen, das auswertet, wie schnell jeder Kollege seine Tickets schließt. Wer redet da mit?"]
+  message: "Das habe ich doch gerade gesagt."
+  outcome: partial
+  tries: 2
+  met: [1]
+  draft: |
+    Richtig, der Zweck ist enger als bei Kundendaten. Jetzt soll ein Werkzeug dazukommen, das auswertet, wie schnell jeder Kollege seine Tickets schließt. Wer redet da mit?
+  expect: retry
+  faults: [repeat, unhelpful]
+- name: opens by denying a partial
+  history:
+    - [tutor, "Warum sind Daten über Kollegen der besondere Fall?"]
+  message: "Weil man die nur fürs Arbeitsverhältnis nutzen darf."
+  outcome: partial
+  tries: 1
+  met: [1]
+  draft: |
+    Nicht ganz. Jetzt soll ein Werkzeug dazukommen, das auswertet, wie schnell jeder Kollege seine Tickets schließt. Wer redet da mit?
+  expect: retry
+  faults: [verdict]
+- name: names the concept on the fourth try
+  history:
+    - [tutor, "Warum sind Daten über Kollegen der besondere Fall?"]
+    - [student, "Weil man die nur fürs Arbeitsverhältnis nutzen darf."]
+    - [tutor, "Richtig, der Zweck ist enger als bei Kundendaten. Jetzt soll ein Werkzeug dazukommen, das auswertet, wie schnell jeder Kollege seine Tickets schließt. Wer redet da mit?"]
+    - [student, "keine Ahnung"]
+    - [tutor, "Schau in den Schritt, auf die Vertretung der Kollegen. Jetzt soll ein Werkzeug dazukommen, das auswertet, wie schnell jeder Kollege seine Tickets schließt. Wer redet da mit?"]
+    - [student, "weiß nicht"]
+  message: "echt keine Ahnung"
+  outcome: partial
+  tries: 4
+  met: [1]
+  draft: |
+    Kein Problem. Es gibt eine gewählte Vertretung der Belegschaft, die bei Technik im Betrieb ein Wort mitzureden hat. Jetzt soll ein Werkzeug dazukommen, das auswertet, wie schnell jeder Kollege seine Tickets schließt. Wer redet da mit?
+  expect: ship

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <title>{{ title }}</title>
+  <style>
+  {% include "pdf.css" %}
+  </style>
+</head>
+<body>
+  <h1>{{ title }}</h1>
+  {% for chapter in chapters %}
+  <section>
+    {% if chapters | length > 1 %}
+    <h2>{{ chapter.title }}{% if chapter.stub %} {{ stub_marker }}{% endif %}</h2>
+    {% endif %}
+    <ul class="summary">
+      {% for sentence in chapter.summary_sentences %}
+      <li>{{ sentence }}</li>
+      {% endfor %}
+    </ul>
+    {% if chapter.citations %}
+    <p class="meta">{{ chapter.citations | join(' · ') }}</p>
+    {% endif %}
+  </section>
+  {% endfor %}
+  {% if meta_line %}
+  <p class="meta">{{ meta_line }}</p>
+  {% endif %}
+  {% if attribution %}
+  <p class="footer">{{ attribution }}</p>
+  {% endif %}
+</body>
+</html>

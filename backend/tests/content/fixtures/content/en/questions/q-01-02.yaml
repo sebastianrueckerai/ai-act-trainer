@@ -1,0 +1,17 @@
+id: q-01-02
+chapter: 01-test
+type: multiple_choice
+difficulty: 2
+question: Which term is defined in Art. 3?
+options:
+  - key: A
+    text: Member State
+  - key: B
+    text: AI system
+  - key: C
+    text: Contracting party
+correct: B
+model_answer: AI system, defined in Art. 3.
+explanation: Art. 3 contains the definitions of the Regulation, including AI system.
+citations: ["Art. 3"]
+last_change: {date: 2026-09-15, by: human, trigger: initial, summary: fixture}

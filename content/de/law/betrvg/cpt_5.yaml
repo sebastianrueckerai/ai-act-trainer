@@ -1,0 +1,81 @@
+node: betrvg:cpt_5
+summary: Der fünfte Teil enthält besondere Vorschriften für einzelne Betriebsarten. Er regelt die Vertretungsrechte
+  in der Seeschifffahrt, legt Wahl, Rechte, Pflichten und Bezahlung einer Bordvertretung sowie eines Seebetriebsrats
+  für Schiffe mit deutscher Handelsflagge fest. Im Luftfahrtbereich bestimmt er Vertretungsrechte für
+  Bodenbetriebe, sofern kein Tarifvertrag bereits Regelungen enthält, und erlaubt abweichende tarifliche
+  Bestimmungen. Für Unternehmen und Einrichtungen, die überwiegend politische, konfessionelle, karitative,
+  erzieherische, wissenschaftliche, künstlerische oder berichtende Zwecke verfolgen, sowie für Religionsgemeinschaften,
+  findet das Teil keine Anwendung, wobei bestimmte Ausgleichsvorschriften nur eingeschränkt gelten.
+source_sha: a285d0b61a4608a10950a8553dc1ee683ba72747bdd3225f615bc71b59a47318
+children:
+- node: betrvg:cpt_5.sct_1
+  summary: Der Abschnitt legt die Grundregeln für Seeschifffahrtsunternehmen und deren Betriebe fest.
+    Er gilt für Unternehmen, die Handelsschifffahrt betreiben, sowie für Korrespondenten, Vertragspartner
+    und Ausrüster, die Kapitäne und Besatzungen beschäftigen. Der Geltungsbereich umfasst alle Schiffe
+    mit deutscher Handelsflagge und solche, die innerhalb von 24 Stunden zum Landbetrieb zurückkehren.
+    Der Abschnitt regelt die Wahl einer Bordvertretung auf Schiffen mit mindestens fünf wahlberechtigten
+    Besatzungsmitgliedern, deren Rechte und Pflichten. Außerdem wird die Bildung eines Seebetriebsrats
+    für die Besatzungsmitglieder vorgesehen, inklusive Wahlmodalitäten, Amtsdauer, Zutrittsrecht zu den
+    Schiffen und Bezahlung.
+  source_sha: f229082714d16ed977d560e2094ade6eb677f2ca07ec36720c4f83dc400a452d
+  children:
+  - node: betrvg:sec_114
+    summary: Das Gesetz gilt für Seeschifffahrtsunternehmen und deren Betriebe, sofern dieser Abschnitt
+      nichts anderes bestimmt. Ein Unternehmen, das Handelsschifffahrt betreibt und im Geltungsbereich
+      sitzt, sowie Korrespondenz-, Vertrags- und Ausrüster, die Kapitäne und Besatzung beschäftigen, fallen
+      darunter. Der Seebetrieb umfasst alle Schiffe des Unternehmens, die deutsche Handelsflagge führen,
+      sowie Schiffe, die innerhalb von 24 Stunden zum Sitz des Landbetriebs zurückkehren. Jugend- und
+      Auszubildendenvertretungen werden nur für die Landbetriebe gebildet. Besatzungsmitglieder sind Personen
+      in einem Heuer- oder Berufsausbildungsverhältnis, ausgenommen Kapitäne, die als leitende Angestellte
+      gelten.
+    source_sha: ec86920f796a2f4414030e8f9ad0050bd003b7cab8cb88d1722d2be595496533
+    children: []
+  - node: betrvg:sec_115
+    summary: Regelt die Wahl und Tätigkeit einer Bordvertretung auf Schiffen mit mindestens fünf wahlberechtigten
+      Besatzungsmitgliedern. Sie unterliegt den Rechte- und Pflichten des Betriebsrats, hat festgelegte
+      Wahlbedingungen, Amtsdauer von einem Jahr und Mitbestimmungs- sowie Informationsrechte gegenüber
+      dem Kapitän und kann bei Streitigkeiten den Seebetriebsrat einschalten.
+    source_sha: ac33063e14157a8ec87bd989d3c150a289c249ca4b44e91c8603591c9a4c2eb1
+    children: []
+  - node: betrvg:sec_116
+    summary: In Seebetrieben wählen die Besatzungsmitglieder einen Seebetriebsrat. Er unterliegt den Betriebsratsrechten,
+      wobei Wahl, Größe und Amtszeit nach der Zahl der wahlberechtigten Besatzungsmitglieder gestaffelt
+      sind. Der Rat darf Schiffe betreten, an Bord Sprechstunden und Versammlungen abhalten und bleibt
+      voll bezahlt.
+    source_sha: d24fa61d37d2ee8c3bfef53f8e753ade9dfca989b8bcccf9227b9f19b6613027
+    children: []
+- node: betrvg:cpt_5.sct_2
+  summary: Der Abschnitt regelt die Vertretungsrechte in der Luftfahrt. Es gilt für Bodenbetriebe von
+    Luftfahrtunternehmen und für im Flugbetrieb beschäftigte Arbeitnehmer, wenn kein Tarifvertrag bereits
+    eine Vertretung vorsieht. Tarifverträge können eigene Vertretungs- und Kooperationsregeln festlegen
+    und dürfen vom Gesetz abweichen.
+  source_sha: caf5e93782ba914f1f0b004548bc8f02fd5434586a383a241f991555b745a3f2
+  children:
+  - node: betrvg:sec_117
+    summary: Das Gesetz gilt für die Bodenbetriebe von Luftfahrtunternehmen und für im Flugbetrieb beschäftigte
+      Arbeitnehmer, sofern kein Tarifvertrag bereits eine Vertretung vorsieht. Ein Tarifvertrag kann für
+      Flugbetriebs-Arbeitnehmer eine Vertretung schaffen und abweichende Kooperationsregeln mit den Vertretungen
+      der Boden-Arbeitnehmer festlegen. Auf solche Tarifverträge findet die Vorschrift des Tarifvertragsgesetzes
+      Anwendung, die abweichende Regelungen vom Gesetz erlaubt.
+    source_sha: cc88ef440e9243cebf222b32523ee72b3da299284c2b22aa6815babb04a5628e
+    children: []
+- node: betrvg:cpt_5.sct_3
+  summary: Der Abschnitt nimmt Unternehmen und Einrichtungen aus, die überwiegend politische, konfessionelle,
+    karitative, erzieherische, wissenschaftliche, künstlerische oder berichtende Zwecke verfolgen, ebenso
+    Religionsgemeinschaften und deren karitative oder erzieherische Einrichtungen. Bestimmte Vorschriften
+    zum Arbeitnehmerausgleich bei Betriebsänderungen finden nur eingeschränkt Anwendung.
+  source_sha: 95a93a765340f4e3d88159a0ccc997dd7cc9845ef29473e52cf0f74471061671
+  children:
+  - node: betrvg:sec_118
+    summary: Das Gesetz gilt nicht für Unternehmen, die überwiegend politische, konfessionelle, karitative,
+      erzieherische, wissenschaftliche, künstlerische oder berichtende Zwecke verfolgen, wie im Grundgesetz
+      vorgesehen. Es findet auch nicht auf Religionsgemeinschaften und deren karitative oder erzieherische
+      Einrichtungen Anwendung. Bestimmte Regelungen zu Arbeitnehmerausgleich bei Betriebsänderungen gelten
+      nur eingeschränkt.
+    source_sha: d82a6c70af9dfb422e20ee880985796433064c78c84335aff843b4eccd0b6f9a
+    children: []
+last_change:
+  date: '2026-09-17'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

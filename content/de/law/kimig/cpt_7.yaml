@@ -1,0 +1,19 @@
+node: kimig:cpt_7
+summary: Die Bundesregierung bewertet die Wirkung der durch das Gesetz geschaffenen Aufsichts- und Behördenstruktur
+  sowie der Kooperationsvorschriften. Sie führt die erste Bewertung innerhalb von 18 Monaten nach Inkrafttreten
+  und die zweite nach drei Jahren durch, bezieht Behörden, Unternehmen, Verbraucherschützer und weitere
+  Akteure ein und berichtet dem Bundestag.
+source_sha: 1a9d9e78e6d33dcf10038f76ada4991b523084560b4d3e15b923e568a1d1b503
+children:
+- node: kimig:sec_19
+  summary: Die Bundesregierung prüft die Wirkung der durch das Gesetz geschaffenen Aufsichts- und Behördenstruktur
+    samt Kooperationsvorschriften. Sie führt die erste Prüfung spätestens 18 Monate nach Inkrafttreten
+    durch und eine zweite Prüfung nach drei Jahren. Dabei bezieht sie Behörden, Unternehmen, Verbraucherschützer
+    und weitere Akteure ein und berichtet dem Bundestag.
+  source_sha: a4367d5c24252c3dd9d0ec868072c67bc42385c8d121103a1545ac31abfbfb36
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

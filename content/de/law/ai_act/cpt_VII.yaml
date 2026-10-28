@@ -1,0 +1,85 @@
+node: ai_act:cpt_VII
+summary: Die Verordnung richtet auf Unionsebene ein KI-Büro, ein Europäisches KI-Board, ein Beratungsforum
+  und ein wissenschaftliches Gremium unabhängiger Sachverständiger ein. Das KI-Büro erhält Mittel für
+  die Durchsetzung. Das Board koordiniert Marktüberwachung, Notifizierungsstellen und berät EU-Behörden.
+  Das Forum liefert technisches Fachwissen und erstellt Jahresberichte. Das wissenschaftliche Gremium
+  bewertet Risiken, unterstützt die Marktüberwachung und berät das KI-Büro. Mitgliedstaaten können die
+  Experten des Gremiums hinzuziehen. Alle Strukturen binden die Europäische Kommission, die Mitgliedstaaten
+  und die benannten Gremien, sobald die Verordnung anwendbar ist. Die Mitgliedstaaten müssen mindestens
+  eine unabhängige Benachrichtigungsbehörde und eine unabhängige Marktüberwachungsbehörde benennen, diese
+  mit technischen, finanziellen und personellen Mitteln ausstatten, bis zum 2. August 2025 elektronische
+  Kontaktdaten veröffentlichen und alle zwei Jahre über die Angemessenheit der Ressourcen berichten.
+source_sha: 07a0362e9c6ae87aa528715bd9f19cd1adf4b9ca7f5d012b2bc802bcc6a2c897
+children:
+- node: ai_act:cpt_VII.sct_1
+  summary: Die Verordnung schafft auf Unionsebene ein KI-Büro, ein Europäisches KI-Board, ein Beratungsforum
+    und ein wissenschaftliches Gremium unabhängiger Sachverständiger. Das KI-Büro erhält ausreichende
+    Mittel, um die Durchsetzung zu sichern. Das Board koordiniert Marktüberwachung, Notifizierungsstellen
+    und berät EU-Behörden. Das Forum liefert technisches Fachwissen und erstellt Jahresberichte. Das wissenschaftliche
+    Gremium bewertet Risiken, unterstützt die Marktüberwachung und berät das KI-Büro. Mitgliedstaaten
+    können die Experten des Gremiums hinzuziehen. Alle Strukturen binden Kommission, Mitgliedstaaten und
+    die benannten Gremien, sobald die Verordnung anwendbar ist.
+  source_sha: 1d6a0ff288342405484dd3ab1a0d3dd3dd4d4dd292c293b3e02cdac3b5f1fde9
+  children:
+  - node: ai_act:art_64
+    summary: Die Kommission stärkt die KI-Kompetenz der Union durch das Büro für Künstliche Intelligenz.
+      Die Mitgliedstaaten unterstützen das Büro bei den ihr nach der Verordnung übertragenen Aufgaben.
+      Unabhängig vom Haushaltsverfahren erhält das Büro ausreichende Mittel, um die Durchsetzung der Verordnung
+      wirksam zu gewährleisten.
+    source_sha: bb46e22012ca9184db3db509a09780d0789bd38e35051cf5b3bb6311d1c517ff
+    children: []
+  - node: ai_act:art_65
+    summary: Der Europäische AI-Board wird eingerichtet. Er besteht aus je einem Vertreter jedes Mitgliedstaates,
+      dem Europäischen Datenschutzbeauftragten als Beobachter und dem Büro für Künstliche Intelligenz.
+      Vertreter werden für drei Jahre ernannt, einmal verlängerbar. Der Board koordiniert Marktüberwachung,
+      Notifizierungsstellen und berät EU-Behörden.
+    source_sha: 71ad760973509c483f13ddf2bd23a3d578dc9725f41be2349df044cf1b718bac
+    children: []
+  - node: ai_act:art_66
+    summary: Das KI-Gremium berät die Europäische Kommission und die Mitgliedstaaten, unterstützt sie
+      bei der einheitlichen Anwendung der Verordnung und koordiniert nationale Behörden. Es sammelt Fachwissen,
+      gibt Empfehlungen, fördert Harmonisierung, öffentliche Aufklärung und internationale Zusammenarbeit,
+      solange die Verordnung gilt.
+    source_sha: 659aafab064c2809f4ba95ea93285af6d5509b95843ab065f6a00b294a8bae62
+    children: []
+  - node: ai_act:art_67
+    summary: Ein Beratungsforum wird eingerichtet, das technisches Fachwissen bereitstellt und das KI-Gremium
+      sowie die Europäische Kommission berät. Die Kommission ernennt ausgewogene Vertreter aus Industrie,
+      Start-ups, KMU, Zivilgesellschaft und Wissenschaft für zweijährige Amtszeiten, verlängerbar. Das
+      Forum trifft sich mindestens zweimal jährlich, erstellt Jahresberichte und kann Untergruppen bilden,
+      Stellungnahmen und Empfehlungen erarbeiten. Es gilt ab Inkrafttreten der Verordnung.
+    source_sha: 73ea8c94b8f69e40ed0abbc1ba08a2d5b884bf8788af740c19fc85811f893d25
+    children: []
+  - node: ai_act:art_68
+    summary: Die Kommission richtet ein wissenschaftliches Gremium unabhängiger Sachverständiger ein,
+      das die Durchsetzung der Verordnung unterstützt. Es besteht aus unabhängigen KI-Experten, die
+      objektiv Risiken bewerten, Marktüberwachung beraten und das KI-Büro bei systemischen Gefahren unterstützen.
+      Das Gremium wirkt, sobald die Verordnung in Kraft ist.
+    source_sha: da67b5778527698e9fe46e178e896136a4b72eba6f0f451962acec8b977ded9b
+    children: []
+  - node: ai_act:art_69
+    summary: Die Mitgliedstaaten dürfen Experten des wissenschaftlichen Gremiums für die Durchsetzung
+      dieser Verordnung hinzuziehen. Sie können verpflichtet werden, die Beratungsgebühren nach den Vergütungsregeln
+      der Kommission zu zahlen. Die Kommission sorgt für schnellen Zugang und koordiniert die Unterstützung
+      mit den Union-Aktivitäten zur KI-Prüfung.
+    source_sha: e043eb16dd39746fb7a3595e86b317b918e1591fe28a1877befb7f7031ecc340
+    children: []
+- node: ai_act:cpt_VII.sct_2
+  summary: Die Mitgliedstaaten müssen mindestens eine Benachrichtigungsbehörde und eine Marktüberwachungsbehörde
+    benennen, die unabhängig und unparteiisch handeln. Sie stellen technische, finanzielle und personelle
+    Mittel bereit, veröffentlichen bis zum 2. August 2025 elektronische Kontaktdaten und berichten alle
+    zwei Jahre über die Angemessenheit dieser Ressourcen.
+  source_sha: 1b2b011863d7b1c16f2e8591306f6d4e13d53f37c5e4b21484992634ff2f0f59
+  children:
+  - node: ai_act:art_70
+    summary: Die Mitgliedstaaten müssen mindestens eine Benachrichtigungsbehörde und eine Marktüberwachungsbehörde
+      benennen, die unabhängig und unparteiisch handeln. Sie stellen technische, finanzielle und personelle
+      Mittel bereit, veröffentlichen bis 2. August 2025 elektronische Kontaktdaten und berichten alle
+      zwei Jahre über deren Angemessenheit.
+    source_sha: 4b1eac26fa9af30c2dc465667adb09ef2818666ffa7844e3f5b6dcf6b2042fe5
+    children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

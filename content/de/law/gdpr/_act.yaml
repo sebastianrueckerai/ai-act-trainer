@@ -1,0 +1,15 @@
+node: gdpr
+summary: Die Verordnung (EU) 2016/679 schützt personenbezogene Daten natürlicher Personen und regelt deren
+  freien Verkehr im Binnenmarkt. Sie verpflichtet alle Verantwortlichen und Auftragsverarbeiter, die Daten
+  in der Union verarbeiten, zu rechtmäßiger, transparenter und zweckgebundener Verarbeitung, zu Datenminimierung,
+  Richtigkeit, Speicherbegrenzung und Sicherheit. Sie gilt für jede automatisierte oder nicht-automatisierte
+  Verarbeitung in einem Dateisystem, außer rein privaten Tätigkeiten, Strafverfolgung und bestimmten EU-Organen.
+  Sie erstreckt sich auf Unternehmen mit Niederlassungen in der EU und auf ausländische Akteure, die Waren,
+  Dienstleistungen oder Beobachtungen für Personen in der EU anbieten. Sie gilt seit dem 25. Mai 2018.
+source_sha: 4538aae00941349df521ce31a6e7708d9a187dabb557782bd90644e7936edf22
+children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

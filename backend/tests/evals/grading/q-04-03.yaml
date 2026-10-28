@@ -1,0 +1,57 @@
+question: q-04-03
+cases:
+  - id: clean
+    answer: >-
+      Ich kann von meinem Arbeitgeber eine Erklärung verlangen, weil er das
+      System einsetzt und für die Entscheidung verantwortlich ist. Die muss
+      sagen, welche Rolle das System bei der Auswahl gespielt hat und worauf
+      die Entscheidung im Kern beruht, nicht nur, dass ein System beteiligt
+      war. Das gilt, weil die Beförderung für mich eine spürbare Folge hat.
+    fair: correct
+    note: >-
+      trifft beide Muss-Punkte: die Erklärung vom Arbeitgeber verlangen, und
+      dass sie die Rolle des Systems und die Grundlage der Entscheidung
+      nennen muss. Dazu das Soll, dass es dafür auf eine Entscheidung mit
+      spürbaren Folgen ankommt.
+  - id: bare-minimum
+    answer: >-
+      ich kann von der firma verlangen, dass sie mir sagt was das system bei
+      der auswahl gemacht hat
+    fair: correct
+    note: >-
+      beide Muss-Punkte knapp, aber getragen: "von der firma verlangen" ist
+      die Erklärung vom Arbeitgeber, "was das system bei der auswahl gemacht
+      hat" die Rolle des Systems. Die dünnste Antwort im Satz, die noch zählt.
+  - id: meant-right
+    answer: >-
+      Ich frage einfach bei der Firma nach, warum es nicht ich geworden bin.
+      Die müssen mir dann genau sagen, wie das System bei der Auswahl
+      mitgemischt hat und was am Ende den Ausschlag gegeben hat.
+    fair: correct
+    note: >-
+      beide Muss-Punkte getragen statt benannt: "bei der Firma nachfragen"
+      trägt das Verlangen einer Erklärung vom Arbeitgeber, "wie das System
+      mitgemischt hat" und "was den Ausschlag gegeben hat" tragen Rolle und
+      Grundlage der Entscheidung.
+  - id: plausible-miss
+    answer: >-
+      Ich sollte um ein Feedbackgespräch bitten und fragen, woran es gelegen
+      hat, vielleicht kann ich beim nächsten Mal gezielter an mir arbeiten.
+    fair: wrong
+    note: >-
+      kein Muss-Punkt getroffen: ein Feedbackgespräch ist kein Verlangen
+      einer förmlichen Erklärung vom Arbeitgeber, und die Antwort sagt nichts
+      dazu, dass diese Erklärung die Rolle des Systems und die Grundlage der
+      Entscheidung benennen muss.
+  - id: confidently-wrong
+    answer: >-
+      Verlangen kann ich da gar nichts, das System trifft die Entscheidung
+      ja automatisch und dazu muss mir niemand Rede und Antwort stehen.
+      Wenn überhaupt, müsste ich mich an den Hersteller der Software wenden,
+      nicht an meinen Arbeitgeber.
+    fair: wrong
+    note: >-
+      Gegenteil beider Muss-Punkte: behauptet, dass es keinen Anspruch auf
+      eine Erklärung gibt, und nennt mit dem Hersteller der Software die
+      falsche Adresse statt des Arbeitgebers, der die Rolle des Systems und
+      die Entscheidungsgrundlage erklären muss.

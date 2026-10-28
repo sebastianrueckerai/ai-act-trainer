@@ -1,0 +1,73 @@
+node: gdpr:cpt_VIII
+summary: Dieses Kapitel regelt die Durchsetzung der Verordnung. Betroffene können Beschwerden bei einer
+  Aufsichtsbehörde einreichen und erhalten Auskunft über den Stand und das Ergebnis. Sie haben das Recht,
+  gerichtliche Verfahren gegen Aufsichtsbehörden, Verantwortliche oder Auftragsverarbeiter zu führen.
+  Gemeinnützige Organisationen dürfen im Namen Betroffener handeln, wenn das nationale Recht das erlaubt.
+  Gerichte können parallel laufende Verfahren aussetzen. Verantwortliche haften für Schäden, Auftragsverarbeiter
+  nur bei Pflichtverletzung. Aufsichtsbehörden können Geldbußen verhängen, und die Mitgliedstaaten dürfen
+  weitere Sanktionen festlegen. Die Regelungen gelten bei jeder Verarbeitung personenbezogener Daten,
+  die gegen die Verordnung verstößt.
+source_sha: 357df632adce0698d2755be243a9680e46fc8e68411470e29f7f40b6a19a7fd7
+children:
+- node: gdpr:art_77
+  summary: Betroffene Personen können sich bei einer Aufsichtsbehörde beschweren, wenn sie glauben, dass
+    die Verarbeitung ihrer personenbezogenen Daten gegen die Verordnung verstößt. Die Behörde informiert
+    den Beschwerdeführer über den Stand, das Ergebnis und über die Möglichkeit eines gerichtlichen Rechtsbehelfs.
+  source_sha: 40bdb73cb5db59dc1455b70eeb77cde8bca56c9791315018ca5598bbe120f5bb
+  children: []
+- node: gdpr:art_78
+  summary: Natürliche und juristische Personen können gegen jeden Beschluss einer Aufsichtsbehörde vorgehen,
+    auch wenn die Behörde eine Beschwerde nicht bearbeitet oder innerhalb von drei Monaten nicht informiert.
+    Zuständig sind die Gerichte des Mitgliedstaats, in dem die Behörde sitzt; liegt zuvor ein Stellungnahme-
+    oder Beschluss des Ausschusses vor, leitet die Behörde ihn an das Gericht weiter.
+  source_sha: a23e62d753e7f966fef14df91ef86165827ebbfa90d030aac747a0e3e4f11ef4
+  children: []
+- node: gdpr:art_79
+  summary: Das gibt betroffenen Personen das Recht, vor Gericht gegen Verantwortliche oder Auftragsverarbeiter
+    vorzugehen, wenn ihre Rechte aus der Verordnung verletzt wurden. Zuständig sind Gerichte des Staates,
+    in dem die Einrichtung sitzt, oder, wahlweise, des Staates des gewöhnlichen Aufenthalts der betroffenen
+    Person, außer bei hoheitlichen Behörden.
+  source_sha: e8061ffc11a2187c9328e3ed0ab993ae4c6fc322021c30d544373ac180037545
+  children: []
+- node: gdpr:art_80
+  summary: Betroffene Personen können eine gemeinnützige Organisation, die nach nationalem Recht gegründet
+    ist und öffentliche Interessen verfolgt, beauftragen, in ihrem Namen Beschwerden bei der Aufsichtsbehörde
+    einzureichen, Auskunft, Berichtigung, Löschung, Einschränkung, Datenübertragbarkeit und Widerspruch
+    geltend zu machen und Schadensersatz zu fordern, sofern das nationale Recht dies vorsieht. Mitgliedstaaten
+    können zudem festlegen, dass solche Organisationen von sich aus handeln dürfen, wenn sie eine Rechtsverletzung
+    vermuten.
+  source_sha: f5eff3fdcf3bc01632899e06f99c1ce0a951f737d2bed41b234c822daf3c5f64
+  children: []
+- node: gdpr:art_81
+  summary: 'Aussetzung des Verfahrens: Ein Gericht, das von einem parallel laufenden Verfahren in einem
+    anderen Mitgliedstaat über dieselbe Datenverarbeitung erfährt, kann das eigene Verfahren aussetzen.
+    Auf Antrag kann es zudem seine Zuständigkeit ablehnen, wenn das erste Gericht zuständig ist und die
+    Verbindung der Klagen zulässig ist.'
+  source_sha: 52781b3f1ad3bc080735881cf781883305541cb61ff818482315847e50e5ef72
+  children: []
+- node: gdpr:art_82
+  summary: Betroffene können Schadenersatz von dem Verantwortlichen oder Auftragsverarbeiter fordern,
+    wenn ihnen durch nicht DSGVO-konforme Verarbeitung ein materieller oder immaterieller Schaden entsteht.
+    Der Verantwortliche haftet immer; der Auftragsverarbeiter nur bei Pflichtverletzung. Mehrere Verantwortliche
+    haften gesamtschuldnerisch. Gerichte des Mitgliedstaates entscheiden.
+  source_sha: 65fff35418dc78e8f96efe1eb45b4f324412a027674f688853f1953466246347
+  children: []
+- node: gdpr:art_83
+  summary: Die Vorschrift legt fest, wie Aufsichtsbehörden Geldbußen für Verstöße gegen die Verordnung
+    bestimmen. Sie verpflichtet sie, die Strafen wirksam, verhältnismäßig und abschreckend zu gestalten.
+    Sie gilt für Verantwortliche und Auftragsverarbeiter bei jedem Verstoß und berücksichtigt dabei Art,
+    Schwere und Dauer des Verstoßes.
+  source_sha: c4fce2ee3f2909395a2207f036ab5e4db704e42d9d3d18fd292060ca26faa455
+  children: []
+- node: gdpr:art_84
+  summary: Die Mitgliedstaaten legen Regeln für zusätzliche Sanktionen bei Verstößen fest, die nicht durch
+    Geldbußen abgedeckt sind, und ergreifen alle notwendigen Maßnahmen. Die Sanktionen müssen wirksam,
+    verhältnismäßig und abschreckend sein. Die Mitgliedstaaten melden der Kommission die entsprechenden
+    Rechtsvorschriften und Änderungen.
+  source_sha: 20f4fbfcb4dda0b1d2cd3a8f91acfefc26afb53c272ff95751f2fd9a95c4cef3
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

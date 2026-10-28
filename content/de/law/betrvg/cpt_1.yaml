@@ -1,0 +1,55 @@
+node: betrvg:cpt_1
+summary: Der erste Teil regelt die allgemeinen Bestimmungen des Betriebsverfassungsgesetzes. Er verpflichtet
+  Unternehmen mit mindestens fünf ständigen Beschäftigten, von denen mindestens drei wählbar sind, einen
+  Betriebsrat zu wählen. Arbeitgeber und Betriebsrat müssen vertrauensvoll mit den im Betrieb vertretenen
+  Gewerkschaften und Arbeitgeberverbänden zusammenarbeiten, Tarifverträge beachten und Gewerkschaftsvertretern
+  Zugang zum Betrieb gewähren, sofern keine Sicherheits- oder Geheimhaltungspflichten entgegenstehen.
+  Tarifverträge können abweichende Regelungen für Betriebsräte und andere Arbeitnehmervertretungen festlegen;
+  fehlt ein Tarifvertrag, bestimmen Betriebsvereinbarungen oder Arbeitnehmerwahlen die Regelungen. Der
+  Teil definiert, wann Betriebsteile eigenständige Betriebe sind, regelt die Teilnahme von Beschäftigten
+  ohne eigenen Betriebsrat an der Wahl des Hauptbetriebsrats und legt fest, wer als Arbeitnehmer gilt.
+source_sha: 3c2f7071172d331f487fb642cc797e94ec2d3c9efe563ca77af11352fc8172b6
+children:
+- node: betrvg:sec_1
+  summary: Der Text verlangt die Wahl eines Betriebsrats in Betrieben mit mindestens fünf ständigen Arbeitnehmern,
+    von denen mindestens drei wählbar sind. Er gilt auch für gemeinsame Betriebe mehrerer Unternehmen,
+    die durch gemeinsame Nutzung von Betriebsmitteln und Personal oder durch Teilspaltung ohne wesentliche
+    Umstrukturierung angenommen werden.
+  source_sha: 117afb5b1b09e3d38df8cb16bdc4e3762749a5c1afbf3fa610580f1bd7163ebd
+  children: []
+- node: betrvg:sec_2
+  summary: Arbeitgeber und Betriebsrat müssen vertrauensvoll und im Sinne der Arbeitnehmer und des Betriebs
+    mit den im Betrieb vertretenen Gewerkschaften und Arbeitgeberverbänden zusammenarbeiten, die geltenden
+    Tarifverträge beachten und den Gewerkschaftsvertretern nach Information des Arbeitgebers Zugang zum
+    Betrieb gewähren, sofern betriebliche Notwendigkeiten, Sicherheitsvorschriften oder Betriebsgeheimnisse
+    dem nicht entgegenstehen.
+  source_sha: 9c96275f3219ed8022de2fea9445790e2376b574e668b05fddff6366fba36091
+  children: []
+- node: betrvg:sec_3
+  summary: Tarifverträge können abweichende Regelungen für die Bildung von einheitlichen Betriebsräten,
+    Spartenbetriebsräten, anderen Arbeitnehmervertretungen und zusätzlichen Gremien festlegen, wenn dies
+    die Interessenvertretung erleichtert. Fehlt ein Tarifvertrag, kann eine Betriebsvereinbarung oder
+    eine Arbeitnehmerwahl diese Regelungen bestimmen. Sie gelten für Unternehmen mit mehreren Betrieben
+    oder Konzernstrukturen und treten bei der nächsten regulären Betriebsratswahl in Kraft, sofern nichts
+    anderes vereinbart ist.
+  source_sha: 9577d57a6ab5808e8f9a5fa3cc245174ea2d7edb52241f17749ccd9bd71ef4b3
+  children: []
+- node: betrvg:sec_4
+  summary: Der Text definiert, dass Betriebsteile eigenständige Betriebe sind, wenn sie räumlich vom Hauptbetrieb
+    getrennt oder organisatorisch eigenständig sind und die Voraussetzungen erfüllen. Arbeitnehmer ohne
+    eigenen Betriebsrat können mit Mehrheit beschließen, an der Wahl des Hauptbetriebsrats teilzunehmen;
+    Fristen und Rücktrittsregeln gelten. Nicht eigenständige Teile werden dem Hauptbetrieb zugeordnet.
+  source_sha: 818fef9c10e1c10a6f795423c2da5e3a978fe8033dbfe7ddd8994314653bc295
+  children: []
+- node: betrvg:sec_5
+  summary: 'Das Gesetz legt fest, wer als Arbeitnehmer gilt: Arbeiter, Angestellte, Auszubildende, Telearbeiter,
+    Heimarbeiter, Beamte, Soldaten und Beschäftigte des öffentlichen Dienstes, unabhängig vom Einsatzort.
+    Ausgeschlossen sind Organmitglieder juristischer Personen, Gesellschafter, karitative oder erzieherische
+    Kräfte, Familienangehörige im Haushalt und leitende Angestellte, sofern nicht ausdrücklich eingeschlossen.'
+  source_sha: d52e8decdb6328283b9a2b14f255152e11f5858a0586241ec4cbea9270e541be
+  children: []
+last_change:
+  date: '2026-09-17'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

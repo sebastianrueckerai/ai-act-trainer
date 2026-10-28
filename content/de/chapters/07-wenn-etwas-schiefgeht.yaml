@@ -1,0 +1,94 @@
+id: 07-wenn-etwas-schiefgeht
+title: Wenn etwas schiefgeht
+intro: >-
+  Irgendwann ist eine KI-Ausgabe falsch oder schädlich. Dieses Kapitel sagt dir,
+  welcher Weg zuerst dran ist und wohin der zweite führt.
+duration_minutes: 4
+steps:
+  - id: s1
+    text: >-
+      Ein erfundener Satz in einem Entwurf ist kein Fall für eine Behörde. Du
+      korrigierst ihn und sagst der Stelle Bescheid, die das Werkzeug betreut.
+
+
+      Für ein gewöhnliches Werkzeug schreibt die Verordnung keine Meldung vor. Sie
+      verlangt die KI-Kompetenz aus Kapitel 1, also dass du den Fehler überhaupt
+      bemerkst.
+    citations: ["Art. 3(56)", "Art. 4(1)"]
+    question: q-07-01
+  - id: s2
+    text: >-
+      Bei einem Hochrisiko-KI-System wird aus der Hausregel eine Pflicht. Der
+      Betreiber überwacht den Betrieb anhand der Betriebsanleitung und informiert
+      den Anbieter.
+
+
+      Hat er Grund zu der Annahme, dass die Verwendung ein Risiko für Gesundheit,
+      Sicherheit oder Grundrechte birgt, informiert er unverzüglich den Anbieter
+      oder Händler und die zuständige Marktüberwachungsbehörde und setzt die
+      Verwendung aus.
+    example: >-
+      Meldet ihr, dass das Personalsystem seit dem Update willkürlich aussortiert,
+      hält der Betreiber es an.
+    citations: ["Art. 26(5)", "Art. 79(1)"]
+    question: q-07-02
+  - id: s3
+    text: >-
+      Bleibt es im Haus liegen, hast du einen zweiten Weg. Wer Grund zu der
+      Annahme hat, dass gegen die Verordnung verstoßen wurde, kann bei der
+      Marktüberwachungsbehörde Beschwerde einreichen.
+
+
+      In Deutschland ist das die Bundesnetzagentur. Sie ist zugleich die zentrale
+      Beschwerdestelle und leitet eine Beschwerde an die zuständige Stelle weiter,
+      wenn sie selbst nicht zuständig ist.
+    example: >-
+      Für die Beschwerden betreibt die Bundesnetzagentur ein System, das leicht
+      zugänglich und barrierefrei sein muss.
+    citations: ["Art. 85", "KI-MIG § 2(1)", "KI-MIG § 8"]
+    question: q-07-03
+  - id: s4
+    text: >-
+      Verstöße gegen die Pflichten der Betreiber und gegen die
+      Transparenzpflichten sind mit Geldbußen von bis zu 15 Millionen Euro oder,
+      bei Unternehmen, bis zu 3 Prozent des weltweiten Jahresumsatzes bedroht.
+
+
+      Über die Höhe entscheiden Art, Schwere und Dauer des Verstoßes und auch, wie
+      der Betrieb mitgearbeitet und ob er den Verstoß selbst gemeldet hat. Der
+      Satz zum Weitersagen: erst im Haus, dann die Behörde.
+    example: >-
+      Ein Haus, das einen Verstoß selbst anzeigt und abstellt, steht besser da als
+      eines, das ihn aussitzt.
+    citations: ["Art. 99(4)", "Art. 99(7)"]
+    question: q-07-04
+summary: >-
+  Bei einem gewöhnlichen KI-Werkzeug knüpft die Verordnung an einen Fehler keine
+  Meldung an eine Behörde. Sie verlangt KI-Kompetenz, also die Fähigkeiten, die
+  Kenntnisse und das Verständnis, um KI-Systeme sachkundig einzusetzen und sich
+  ihrer Risiken und möglicher Schäden bewusst zu sein (Art. 3 Nr. 56), und
+  Maßnahmen des Arbeitgebers dafür (Art. 4 Abs. 1). Also korrigierst du den
+  Fehler und meldest ihn im Haus. Bei einem Hochrisiko-KI-System überwacht der
+  Betreiber den Betrieb anhand der Betriebsanleitung, informiert den Anbieter und
+  setzt bei Grund zur Annahme eines Risikos unverzüglich den Anbieter oder Händler
+  und die zuständige Marktüberwachungsbehörde in Kenntnis und die Verwendung aus
+  (Art. 26 Abs. 5). Gemeint sind Risiken für die Gesundheit, die Sicherheit oder
+  die Grundrechte von Personen (Art. 79 Abs. 1). Wer Grund zu der Annahme hat,
+  dass gegen die Verordnung verstoßen wurde, kann bei der Marktüberwachungsbehörde
+  Beschwerde einreichen (Art. 85). In Deutschland ist das die Bundesnetzagentur
+  (§ 2 Abs. 1 KI-MIG), die zugleich zentrale Beschwerdestelle ist und eine
+  Beschwerde weiterleitet, für die sie nicht zuständig ist (§ 8 KI-MIG). Verstöße
+  gegen die Pflichten der Betreiber und die Transparenzpflichten kosten bis zu
+  15 000 000 Euro oder, bei Unternehmen, bis zu 3 Prozent des gesamten weltweiten
+  Jahresumsatzes, je nachdem, welcher Betrag höher ist (Art. 99 Abs. 4). Bei der
+  Höhe zählen Art, Schwere und Dauer des Verstoßes, die Zusammenarbeit mit den
+  Behörden und die Frage, wie der Verstoß bekannt wurde (Art. 99 Abs. 7).
+may: >-
+  Das weißt du jetzt: Bei einem Fehler mit einem gewöhnlichen KI-Werkzeug
+  verlangt die Verordnung keine Meldung an eine Behörde, sondern KI-Kompetenz
+  (Art. 4 Abs. 1). Du korrigierst den Fehler und meldest ihn im Haus.
+last_change:
+  date: 2026-10-11
+  by: ai
+  trigger: M5.65, das Kapitelende
+  summary: "Die Zeile, was du jetzt darfst oder weißt, aus der Zusammenfassung"

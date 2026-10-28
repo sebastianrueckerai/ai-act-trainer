@@ -1,0 +1,26 @@
+node: gdpr:cpt_X
+summary: Die Vorschrift überträgt der Europäischen Kommission die Befugnis, delegierte Rechtsakte zu erlassen.
+  Sie gilt seit dem 24. Mai 2016 ohne festes Enddatum. Das Europäische Parlament und der Rat können die
+  Übertragung jederzeit zurückziehen; der Rückzug wird wirksam, sobald er im Amtsblatt veröffentlicht
+  wird. Außerdem wird die Kommission von einem nach einer früheren Verordnung eingerichteten Ausschuss
+  unterstützt. Verweist ein Rechtsakt auf diese Bestimmung, gelten die dort festgelegten Regeln für die
+  Einrichtung und das Verfahren des Ausschusses.
+source_sha: ae5d4e44120b00ae22589920802c6f33c819ec5448287457757664a31e66169f
+children:
+- node: gdpr:art_92
+  summary: Die Regel überträgt der Kommission die Befugnis, delegierte Rechtsakte zu erlassen. Die Übertragung
+    gilt ab dem 24. Mai 2016 auf unbestimmte Zeit. Das Europäische Parlament oder der Rat können sie jederzeit
+    widerrufen; der Widerruf wird mit Veröffentlichung im Amtsblatt wirksam.
+  source_sha: 5563ea4e4f6f7ac58f0bf1ad303909c577f329c516b4fa9440bcdf4717250997
+  children: []
+- node: gdpr:art_93
+  summary: Der Absatz legt fest, dass die Kommission von einem nach der Verordnung 182/2011 eingerichteten
+    Ausschuss unterstützt wird. Verweist ein Rechtsakt auf diesen Absatz, gelten die dort festgelegten
+    Regeln für die Einrichtung und das Verfahren des Ausschusses.
+  source_sha: 9f48ee13472a5407104afe39ca51d8fbb97c4eafcda4c45b3e92ad0b1377ecc6
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

@@ -1,0 +1,19 @@
+node: kimig:cpt_1
+summary: Der Teil bestimmt den Anwendungsbereich des Gesetzes. Es dient der Durchführung der EU-Verordnung
+  über künstliche Intelligenz und ergänzt sie um nationale Regeln. Es gilt für alle KI-Systeme im Sinne
+  der Verordnung, die in Deutschland in den Markt kommen. Es benennt die zuständigen Behörden, die Innovationsförderung
+  und die Bußgelder für Verstöße gegen die Verordnung. Das Gesetz tritt in Kraft, sobald die EU-Verordnung
+  anwendbar wird.
+source_sha: 84f923470f2e8362aae0dd5d628f53cc84b67b23e956d4bd97373f5f8a27a739
+children:
+- node: kimig:sec_1
+  summary: Das Gesetz führt die EU-Verordnung zur KI durch. Es gilt für alle KI-Systeme, bestimmt die
+    zuständigen Behörden, fördert Innovationen und sieht Geldbußen bei Verstößen vor. Es tritt in Kraft,
+    sobald die Verordnung anwendbar ist.
+  source_sha: 1d4acce42911ef2b2495fa0858fdab9d0be274cfbdac180f1676daea064a578c
+  children: []
+last_change:
+  date: '2026-09-16'
+  by: ai
+  trigger: initial generation
+  summary: Aus dem Gesetzestext erzeugt, nicht geprüft

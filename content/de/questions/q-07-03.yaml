@@ -1,0 +1,37 @@
+id: q-07-03
+chapter: 07-wenn-etwas-schiefgeht
+type: free_text
+difficulty: 2
+question: >-
+  Ein KI-Werkzeug im Haus sortiert Rechnungen falsch. Du hast das dreimal gemeldet,
+  und es passiert nichts. Welchen Weg hast du noch?
+rubric:
+  must:
+    - point: nennt, dass man sich bei der Aufsichtsbehörde beschweren kann
+      ask: Also, an wen kannst du dich noch wenden, wenn im Haus nichts passiert?
+    - point: nennt, dass das in Deutschland die Bundesnetzagentur ist
+      ask: >-
+        Du willst die Beschwerde morgen abschicken. An welche Stelle in
+        Deutschland geht sie konkret?
+  should:
+    - >-
+      nennt, dass die Bundesnetzagentur eine Beschwerde weiterleitet, für die sie
+      nicht zuständig ist
+    - nennt Art. 85 für das Beschwerderecht
+model_answer: >-
+  Du kannst dich bei der Marktüberwachungsbehörde beschweren, und das ist in
+  Deutschland die Bundesnetzagentur, die zugleich die zentrale Beschwerdestelle
+  ist.
+explanation: >-
+  Art. 85 gibt jeder Person, die Grund zu der Annahme hat, dass gegen die
+  Verordnung verstoßen wurde, das Recht, bei der betreffenden
+  Marktüberwachungsbehörde Beschwerde einzureichen. Nach § 2 Abs. 1 KI-MIG ist das
+  in Deutschland die Bundesnetzagentur, die nach § 8 KI-MIG als zentrale
+  Beschwerdestelle auch eine Beschwerde weiterleitet, für die sie selbst nicht
+  zuständig ist.
+citations: ["Art. 85", "KI-MIG § 2(1)", "KI-MIG § 8"]
+last_change:
+  date: 2026-09-29
+  by: ai
+  trigger: D119
+  summary: one fact per point

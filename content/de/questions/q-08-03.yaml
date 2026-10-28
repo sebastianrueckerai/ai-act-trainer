@@ -1,0 +1,39 @@
+id: q-08-03
+chapter: 08-die-werkzeuge-die-du-nutzt
+type: free_text
+difficulty: 2
+question: >-
+  In der Dokumentation des Modells hinter unserem Assistenten steht, es tauge nicht
+  für Rechtsfragen. Ein Kollege prüft damit trotzdem Verträge und sagt, dafür hafte
+  der Anbieter. Was sagst du ihm?
+rubric:
+  must:
+    - point: nennt, dass der Kollege die Grenze aus der Dokumentation kennt
+      ask: Also, was weiß der Kollege über das Werkzeug, bevor er damit Verträge prüft?
+    - point: >-
+        nennt, dass die Verantwortung für das Ergebnis bei dem bleibt, der das
+        Werkzeug einsetzt
+      ask: >-
+        Der Kollege bleibt dabei, bei einem falsch geprüften Vertrag zahle eben
+        der Anbieter. Was sagst du ihm?
+  should:
+    - nennt, dass niemand eine richtige Ausgabe garantiert
+    - nennt Art. 4 Abs. 1 oder Art. 3 Nr. 56 für die KI-Kompetenz
+model_answer: >-
+  Die Grenzen stehen in der Dokumentation, und wer sie kennt und trotzdem
+  überschreitet, kann das Ergebnis nicht dem Anbieter zuschieben. Verlangt ist
+  KI-Kompetenz, also die Risiken des Werkzeugs zu kennen und seine Ausgabe zu
+  prüfen.
+explanation: >-
+  Art. 53 Abs. 1 Buchst. b verlangt vom Anbieter Informationen und Dokumentation,
+  die die Fähigkeiten und Grenzen des Modells verständlich machen, und mehr als
+  das schuldet er nicht. KI-Kompetenz sind nach Art. 3 Nr. 56 die Fähigkeiten, die
+  Kenntnisse und das Verständnis, um KI-Systeme sachkundig einzusetzen und sich
+  ihrer Risiken und möglicher Schäden bewusst zu werden, und Art. 4 Abs. 1 macht
+  daraus die Pflicht unseres Arbeitgebers, das mit Maßnahmen zu unterstützen.
+citations: ["Art. 3(56)", "Art. 4(1)", "Art. 53(1)"]
+last_change:
+  date: 2026-09-29
+  by: ai
+  trigger: D119
+  summary: one fact per point

@@ -1,0 +1,33 @@
+id: q-02-06
+chapter: 02-was-du-hineingeben-darfst
+type: yes_no
+difficulty: 2
+question: >-
+  Du willst auswerten lassen, welche Branchen wir beliefern, und kopierst dafür die
+  Kundenliste mit allen Namen in den Assistenten. Die Namen braucht die Auswertung
+  nicht. Ist das gedeckt?
+correct: "no"
+rubric:
+  must:
+    - point: nennt, dass es so nicht gedeckt ist
+    - point: begründet es damit, dass die Namen für die Auswertung nicht nötig sind
+      ask: >-
+        Ein Kollege meint, die Branchenauswertung sei doch ein guter Zweck.
+        Woran scheitert es trotzdem?
+  should:
+    - nennt, dass ein berechtigtes Interesse nur trägt, was für den Zweck erforderlich ist
+    - nennt Art. 6 Abs. 1 Buchst. f DSGVO
+model_answer: >-
+  Nein, so nicht. Ein berechtigtes Interesse trägt nur, was für den Zweck
+  erforderlich ist, und die Branchenauswertung kommt ohne die Namen aus.
+explanation: >-
+  Art. 6 Abs. 1 Buchst. f DSGVO erlaubt eine Verarbeitung nur, soweit sie zur
+  Wahrung der berechtigten Interessen erforderlich ist, und erforderlich ist
+  nichts, was der Zweck nicht braucht. Die Branchen stehen in der Liste auch ohne
+  die Namen, also fällt der Teil weg, den die Auswertung nicht benötigt.
+citations: ["GDPR Art. 6(1)(f)"]
+last_change:
+  date: 2026-10-02
+  by: ai
+  trigger: D127
+  summary: closed pick with typed why
